@@ -1,0 +1,53 @@
+header {
+	margin-bottom:3em;
+	a {
+		color:#fff;		
+		@include transition-property(color);
+		@include transition-duration(0.5s);
+		@include transition-timing-function(linear);
+	}
+	a:hover {
+		color:$pink;
+	}
+	nav {
+		margin-top:7.2%;
+		position:relative;
+		div {
+			ul {
+				li {
+					display:inline-block;
+					margin-right:50px;
+						a {
+							font-size:1.35em;
+							font-family: "MuseoSlab-500", Helvetica, Arial, sans-serif;
+							text-shadow: 1px 1px 0 rgba(240, 240, 240, 1); 
+							color:$darkgray;
+						}
+				}
+				.current_page_item {
+					a {
+						border-bottom:3px solid $pink;
+						padding-bottom:1px;
+					}
+				}
+				li:last-child {
+							margin-right:0px !important;
+				}
+			}
+		}
+	}
+	.post_highlight .page-item-8 {
+		a {
+			border-bottom:3px solid $pink;
+			padding-bottom:1px;
+		}
+	}
+}
+.secondary_nav {
+	height:50px;
+	z-index:2001;
+	width:100%;
+	background-color:#ccc;
+	position:fixed;
+	display:none;
+}
