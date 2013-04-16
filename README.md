@@ -1,4 +1,4 @@
-==Ruckus Media
+Ruckus Media
 ============
 
 Official Ruckus Media portfolio &amp; blog.
