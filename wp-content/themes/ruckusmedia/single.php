@@ -25,6 +25,13 @@
                 <?php next_post_link('%link', '<i class="icon-chevron-right"></i><div>Next post</div><span>%title</span>', FALSE, '3'); ?>
             </div>
         </div>
+        <div class="row">
+            <div class="twocol">
+            </div>
+            <div class="eightcol">
+                <?php comments_template(); ?>
+            </div>
+        </div>
 
     <?php endwhile; // end of the loop. ?>
 

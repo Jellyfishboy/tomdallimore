@@ -4,6 +4,7 @@ $pink: #cc0066;
 $blue: #abd6db;
 $darkgray: #1a1a1a;
 $gray: #333333;
+$lightgray: #808080;
 @font-face {
   font-family: "MuseoSans-300";
   src: url("../fonts/MuseoSans-300.otf");
@@ -56,8 +57,10 @@ body {
 @import "_header.scss";
 @import "_footer.scss";
 @import "_styling.scss";
+@import "_about.scss";
 @import "_work.scss";
 @import "_blog.scss";
+@import "_comments.scss";
 .icon-laptop, .icon-wrench, .icon-edit, .icon-comments, .icon-tablet, .icon-group {
 	font-size:6em;
 }
@@ -73,12 +76,19 @@ body {
 /* ! Layout for tablet  */
 /* ============================= */
 @media only screen and (max-width: 1023px) {
-	nav {
-		margin-top:6.8% !important;
-	}
-	.btn-info {
-		margin-right:2.4%;
-	}
+  body {
+  	nav {
+  		margin-top:6.8% !important;
+  	}
+    .secondary_nav {
+      nav {
+        margin-top:0.8% !important;
+      }
+    	.btn-info {
+    		margin-right:2.4%;
+    	}
+    }
+  }
 }
 /* ============================= */
 /* ! Layout for mobile version   */
@@ -89,42 +99,56 @@ body {
   	#tweeting {
   		top:10px !important;
   	}
-  	nav {
-  		margin:0 !important;
-  		padding-top:15px;
-  		border-bottom:1px solid #dddddd;
-  		border-top:1px solid #dddddd;
-	  		ul {
-	  			margin:0 0 10px 0;
-			  	li {
-			  		margin-right:7% !important;
-				  		a {
-				  			font-size:1.25em !important;
-				  		}
-			  	}
-			}
-  	}
-    .tags {
-      a {
-        margin:0 5px 5px 0;
+    	nav {
+    		margin:0 !important;
+    		padding-top:15px;
+    		border-bottom:1px solid #dddddd;
+    		border-top:1px solid #dddddd;
+  	  		ul {
+  	  			margin:0 0 10px 0;
+  			  	li {
+  			  		margin-right:7% !important;
+  				  		a {
+  				  			font-size:1.25em !important;
+  				  		}
+  			  	}
+  			}
+    	}
+      .secondary_nav {
+        nav {
+          padding:0px;
+          border:0;
+        }
       }
-    }
-    .pre_nex {
-          a[rel="prev"] {
-            padding-left:5px;
-          }
-          a[rel="next"] {
-            padding-right:5px;
-          }
-    }
-    h2 {
-      font-size:1.25em;
-    }
-    .social {
-      margin:10px 15px 0 0;
-    }
+      .tags {
+        margin-top:0px !important;
+        a {
+          margin:0 5px 5px 0;
+        }
+      }
+      .pre_nex {
+            a[rel="prev"] {
+              padding-left:5px;
+            }
+            a[rel="next"] {
+              padding-right:5px;
+            }
+      }
+      h2 {
+        font-size:1.25em;
+      }
+      .social {
+        margin:10px 15px 0 0;
+      }
+      .small-logo {
+        display:none !important;
+      }
+      #reply-title {
+        font-size:1.25em;
+      }
   }
 }
+
 
 /* ========================================== */
 /* ! Provide higher res assets for iPhone 4   */

@@ -55,15 +55,21 @@
     	<div class="container">
     		<div class="row">
     			<div class="twocol last">
-
+    				<img class="small-logo" src="<?php echo bloginfo('template_directory'); ?>/assets/images/small-logo.png" alt="Tom Dallimore"/> 
     			</div>
     			<div class="tencol last">
-
+			    	<nav role="navigation" class="<?php
+    if(in_category('12')) echo 'post_highlight';
+    if(in_category('13')) echo 'post_highlight';
+    if(in_category('14')) echo 'post-highlight';
+ ?>">
+			            <?php $args = array( 'menu' => 'mainnav', 'container' => false, 'menu_id' => false, 'menu_class' => false); wp_nav_menu($args); ?>
+			        </nav>
     			</div>
     		</div>
     	</div>
     </div>
-    <header role="banner">
+    <header class="<?php if(is_front_page()) echo 'hero'; ?>" role="banner">
     	<div class="container">
     		<div class="row">
     			<div class="twocol last">
@@ -80,12 +86,14 @@
 			        </nav>
 			    </div>
 			</div>
-<!-- 			<div class="row">
-				<div class="sevencol last">
-				    <h1><?php bloginfo( 'description' ); ?></h1>
-			        <h2>I have a passion for the details. I strive to make the design of everyday user experiences come to life.</h2>
+			<?php if(is_front_page()) echo'<div class="row">
+				<div class="sixcol last">
+				    <h1>Front-end Developer & Web Designer</h1>
+			        <h2>I love what I do. I strive to produce bespoke web design and user experience solutions; to make your web idea a reality.</h2>
+			        <a href="/work"><div class="btn btn-large btn-info">Find out more</div></a>
 			    </div>
-			</div> -->
+			</div>'; ?>
+			
 		</div>
     </header>
     <section class="content">

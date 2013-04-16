@@ -4,8 +4,8 @@ Template Name: AboutTemp
 */ 
 ?>
 <?php get_header(); ?>
-	<div class="row">
-		<div class="sixcol">
+	<div class="row about">
+		<div class="fivecol">
 			<h2>Over the course of 5 years, I have refined my skills within front-end development and web design.</h2>
 			<p>Working closely with clients, I play a primary role in delivering bespoke web design solutions that employ hand-coded HTML5 and CSS3 along with intuitive, standards-based implementations and functional content management.</p>
 			<p>On a regular basis I aim to bring modern technologies, techniques and tools to design optimised user experiences and interfaces for both web and mobile applications.</p>

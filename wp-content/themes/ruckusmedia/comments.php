@@ -20,7 +20,7 @@
 
 <?php if ( have_comments() ) : ?>
             <h2><?php
-			printf( _n( 'One Response to %2$s', '%1$s Responses to %2$s', get_comments_number() ),
+			printf( _n( '1 response', '%1$s responses', get_comments_number() ),
 			number_format_i18n( get_comments_number() ), get_the_title() );
 			?></h2>
 
@@ -62,6 +62,8 @@
 
 <?php endif; // end have_comments() ?>
 
-<?php comment_form(); ?>
+<?php 
+$comment_args = array('title_reply' => 'Any thoughts?');
+my_comment_form($comment_args); ?>
 
 </div><!-- #comments -->

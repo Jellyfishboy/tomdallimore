@@ -1,53 +1,74 @@
 header {
 	margin-bottom:3em;
+		h1 {
+			line-height:60px;	
+			margin:90px 0 10px;
+		}
+		h2 {
+			color:#fff;
+			text-shadow: 1px 1px 0 #000;
+			text-indent:0;
+			line-height:30px;
+		}
+}
+.hero {
+	background-image:url(../images/hero.png);
+	height:670px;
 	a {
-		color:#fff;		
-		@include transition-property(color);
-		@include transition-duration(0.5s);
-		@include transition-timing-function(linear);
+		color:#fff;
+		text-shadow: 1px 1px 0 #000;
 	}
-	a:hover {
-		color:$pink;
+}
+.post_highlight .page-item-8 {
+	a {
+		border-bottom:3px solid $pink;
+		padding-bottom:1px;
 	}
-	nav {
-		margin-top:7.2%;
-		position:relative;
-		div {
-			ul {
-				li {
-					display:inline-block;
-					margin-right:50px;
-						a {
-							font-size:1.35em;
-							font-family: "MuseoSlab-500", Helvetica, Arial, sans-serif;
-							text-shadow: 1px 1px 0 rgba(240, 240, 240, 1); 
-							color:$darkgray;
-						}
-				}
-				.current_page_item {
+}
+nav {
+	margin-top:7.2%;
+	position:relative;
+	div {
+		ul {
+			li {
+				display:inline-block;
+				margin-right:50px;
 					a {
-						border-bottom:3px solid $pink;
-						padding-bottom:1px;
+						font-size:1.35em;
+						font-family: "MuseoSlab-500", Helvetica, Arial, sans-serif;
+						text-shadow: 1px 1px 0 rgba(240, 240, 240, 1); 
+						color:$darkgray;
+						@include transition-property(color);
+						@include transition-duration(0.5s);
+						@include transition-timing-function(linear);
 					}
-				}
-				li:last-child {
-							margin-right:0px !important;
+					a:hover {
+						color:$pink;
+					}
+			}
+			.current_page_item {
+				a {
+					border-bottom:3px solid $pink;
+					padding-bottom:1px;
 				}
 			}
-		}
-	}
-	.post_highlight .page-item-8 {
-		a {
-			border-bottom:3px solid $pink;
-			padding-bottom:1px;
+			li:last-child {
+						margin-right:0px !important;
+			}
 		}
 	}
 }
 .secondary_nav {
-	height:50px;
 	z-index:2001;
 	width:100%;
-	background-color:#ccc;
+	background-image:url(../images/wallpaper.png);
 	position:fixed;
 	display:none;
+	@include box-shadow(1.5px 1.5px 4px rgba(0, 0, 0, 0.25));
+		nav {
+			margin-top:1.4% !important;
+		}
+		img {
+			display:block;
+		}
 }

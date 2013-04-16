@@ -15,7 +15,7 @@ p {
 	font-size:0.9em;
 }
 h1 {
-	font-size:2em;
+	font-size:3em;
 	color:#fff;
 	font-family: "MuseoSlab-700", Helvetica, Arial, sans-serif;
 	text-shadow: 0px 1px 0 #000;
@@ -66,8 +66,13 @@ textarea {
 	width:95% !important;
 }
 .btn-info {
+	margin-top:16px;
 	float:right;
 	margin-right:3%;
+	font-family: "MuseoSlab-500", Helvetica, Arial, sans-serif;
+}
+.btn-large {
+	float:left;
 }
 .fourcol {
 	position:relative;

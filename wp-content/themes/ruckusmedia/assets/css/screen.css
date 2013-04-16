@@ -96,13 +96,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* ============================== */
 /* ! Layout for desktop version   */
 /* ============================== */
-/* line 40, ../sass/screen.scss */
+/* line 41, ../sass/screen.scss */
 html {
   font-size: 100%;
   /* Set a 16px base size */
 }
 
-/* line 43, ../sass/screen.scss */
+/* line 44, ../sass/screen.scss */
 body {
   margin: 0 auto;
   font-size: 16px;
@@ -114,7 +114,7 @@ body {
   color: #333333;
 }
 
-/* line 53, ../sass/screen.scss */
+/* line 54, ../sass/screen.scss */
 .content {
   padding-bottom: 3em;
 }
@@ -124,8 +124,51 @@ header {
   margin-bottom: 3em;
 }
 /* line 3, ../sass/_header.scss */
-header a {
+header h1 {
+  line-height: 60px;
+  margin: 90px 0 10px;
+}
+/* line 7, ../sass/_header.scss */
+header h2 {
   color: #fff;
+  text-shadow: 1px 1px 0 #000;
+  text-indent: 0;
+  line-height: 30px;
+}
+
+/* line 14, ../sass/_header.scss */
+.hero {
+  background-image: url(../images/hero.png);
+  height: 670px;
+}
+/* line 17, ../sass/_header.scss */
+.hero a {
+  color: #fff;
+  text-shadow: 1px 1px 0 #000;
+}
+
+/* line 23, ../sass/_header.scss */
+.post_highlight .page-item-8 a {
+  border-bottom: 3px solid #cc0066;
+  padding-bottom: 1px;
+}
+
+/* line 28, ../sass/_header.scss */
+nav {
+  margin-top: 7.2%;
+  position: relative;
+}
+/* line 33, ../sass/_header.scss */
+nav div ul li {
+  display: inline-block;
+  margin-right: 50px;
+}
+/* line 36, ../sass/_header.scss */
+nav div ul li a {
+  font-size: 1.35em;
+  font-family: "MuseoSlab-500", Helvetica, Arial, sans-serif;
+  text-shadow: 1px 1px 0 #f0f0f0;
+  color: #1a1a1a;
   -webkit-transition-property: color;
   -moz-transition-property: color;
   -o-transition-property: color;
@@ -139,50 +182,38 @@ header a {
   -o-transition-timing-function: linear;
   transition-timing-function: linear;
 }
-/* line 9, ../sass/_header.scss */
-header a:hover {
+/* line 45, ../sass/_header.scss */
+nav div ul li a:hover {
   color: #cc0066;
 }
-/* line 12, ../sass/_header.scss */
-header nav {
-  margin-top: 7.2%;
-  position: relative;
-}
-/* line 17, ../sass/_header.scss */
-header nav div ul li {
-  display: inline-block;
-  margin-right: 50px;
-}
-/* line 20, ../sass/_header.scss */
-header nav div ul li a {
-  font-size: 1.35em;
-  font-family: "MuseoSlab-500", Helvetica, Arial, sans-serif;
-  text-shadow: 1px 1px 0 #f0f0f0;
-  color: #1a1a1a;
-}
-/* line 28, ../sass/_header.scss */
-header nav div ul .current_page_item a {
+/* line 50, ../sass/_header.scss */
+nav div ul .current_page_item a {
   border-bottom: 3px solid #cc0066;
   padding-bottom: 1px;
 }
-/* line 33, ../sass/_header.scss */
-header nav div ul li:last-child {
+/* line 55, ../sass/_header.scss */
+nav div ul li:last-child {
   margin-right: 0px !important;
 }
-/* line 40, ../sass/_header.scss */
-header .post_highlight .page-item-8 a {
-  border-bottom: 3px solid #cc0066;
-  padding-bottom: 1px;
-}
 
-/* line 46, ../sass/_header.scss */
+/* line 61, ../sass/_header.scss */
 .secondary_nav {
-  height: 50px;
   z-index: 2001;
   width: 100%;
-  background-color: #ccc;
+  background-image: url(../images/wallpaper.png);
   position: fixed;
   display: none;
+  -webkit-box-shadow: 1.5px 1.5px 4px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 1.5px 1.5px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 1.5px 1.5px 4px rgba(0, 0, 0, 0.25);
+}
+/* line 68, ../sass/_header.scss */
+.secondary_nav nav {
+  margin-top: 1.4% !important;
+}
+/* line 71, ../sass/_header.scss */
+.secondary_nav img {
+  display: block;
 }
 
 /* line 1, ../sass/_footer.scss */
@@ -318,7 +349,7 @@ p {
 
 /* line 17, ../sass/_styling.scss */
 h1 {
-  font-size: 2em;
+  font-size: 3em;
   color: #fff;
   font-family: "MuseoSlab-700", Helvetica, Arial, sans-serif;
   text-shadow: 0px 1px 0 #000;
@@ -393,31 +424,52 @@ textarea {
 
 /* line 68, ../sass/_styling.scss */
 .btn-info {
+  margin-top: 16px;
   float: right;
   margin-right: 3%;
+  font-family: "MuseoSlab-500", Helvetica, Arial, sans-serif;
 }
 
-/* line 72, ../sass/_styling.scss */
+/* line 74, ../sass/_styling.scss */
+.btn-large {
+  float: left;
+}
+
+/* line 77, ../sass/_styling.scss */
 .fourcol {
   position: relative;
 }
 
-/* line 75, ../sass/_styling.scss */
+/* line 80, ../sass/_styling.scss */
 #main_header {
   line-height: 0px;
   margin: 0;
   text-indent: -9999px;
 }
 
-/* line 80, ../sass/_styling.scss */
+/* line 85, ../sass/_styling.scss */
 .header2 {
   position: relative;
 }
-/* line 82, ../sass/_styling.scss */
+/* line 87, ../sass/_styling.scss */
 .header2 .star {
   position: absolute;
   top: 12px;
   left: 0px;
+}
+
+/* line 1, ../sass/_about.scss */
+.about {
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 23px;
+  margin: 0 auto 20px !important;
+}
+/* line 5, ../sass/_about.scss */
+.about h2 {
+  text-indent: 0;
+  line-height: 30px;
+  margin: 0 0 10px;
+  font-family: "MuseoSlab-500Italic", Helvetica, Arial, sans-serif;
 }
 
 /* line 1, ../sass/_work.scss */
@@ -627,18 +679,75 @@ textarea {
   filter: alpha(opacity=100);
 }
 
-/* line 61, ../sass/screen.scss */
+/* line 2, ../sass/_comments.scss */
+.comments h2 {
+  text-indent: 0;
+}
+/* line 5, ../sass/_comments.scss */
+.comments .comment {
+  padding: 20px 0 5px;
+  border-bottom: 1px solid #dddddd;
+}
+/* line 8, ../sass/_comments.scss */
+.comments .comment:first-child {
+  border-top: 1px solid #dddddd;
+}
+/* line 11, ../sass/_comments.scss */
+.comments .comment .comment-author {
+  overflow: hidden;
+}
+/* line 13, ../sass/_comments.scss */
+.comments .comment .comment-author img {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+/* line 17, ../sass/_comments.scss */
+.comments .comment .comment-author .comment-meta {
+  font-family: "MuseoSlab-500", Helvetica, Arial, sans-serif;
+  float: left;
+}
+/* line 20, ../sass/_comments.scss */
+.comments .comment .comment-author .comment-meta .url {
+  font-family: "MuseoSlab-500", Helvetica, Arial, sans-serif;
+  display: block;
+  color: #1a1a1a;
+}
+/* line 24, ../sass/_comments.scss */
+.comments .comment .comment-author .comment-meta .url:hover {
+  color: #cc0066;
+}
+/* line 28, ../sass/_comments.scss */
+.comments .comment .comment-author .comment-meta .comment-date {
+  color: gray;
+  font-family: "MuseoSans-300", Helvetica, Arial, sans-serif;
+  float: left;
+}
+/* line 32, ../sass/_comments.scss */
+.comments .comment .comment-author .comment-meta .comment-date:hover {
+  color: #cc0066;
+}
+
+/* line 40, ../sass/_comments.scss */
+#commentform {
+  margin: 0;
+}
+/* line 42, ../sass/_comments.scss */
+#commentform .required {
+  margin-left: 5px;
+}
+
+/* line 64, ../sass/screen.scss */
 .icon-laptop, .icon-wrench, .icon-edit, .icon-comments, .icon-tablet, .icon-group {
   font-size: 6em;
 }
 
-/* line 64, ../sass/screen.scss */
+/* line 67, ../sass/screen.scss */
 .icon-mobile-phone {
   font-size: 4.5em;
   margin-left: 15px;
 }
 
-/* line 68, ../sass/screen.scss */
+/* line 71, ../sass/screen.scss */
 .skill_icon {
   margin: 30px 0 10px;
   text-align: center;
@@ -648,13 +757,16 @@ textarea {
 /* ! Layout for tablet  */
 /* ============================= */
 @media only screen and (max-width: 1023px) {
-  /* line 76, ../sass/screen.scss */
-  nav {
+  /* line 80, ../sass/screen.scss */
+  body nav {
     margin-top: 6.8% !important;
   }
-
-  /* line 79, ../sass/screen.scss */
-  .btn-info {
+  /* line 84, ../sass/screen.scss */
+  body .secondary_nav nav {
+    margin-top: 0.8% !important;
+  }
+  /* line 87, ../sass/screen.scss */
+  body .secondary_nav .btn-info {
     margin-right: 2.4%;
   }
 }
@@ -662,48 +774,65 @@ textarea {
 /* ! Layout for mobile version   */
 /* ============================= */
 @media handheld, only screen and (max-width: 767px) {
-  /* line 89, ../sass/screen.scss */
+  /* line 99, ../sass/screen.scss */
   body #tweeting {
     top: 10px !important;
   }
-  /* line 92, ../sass/screen.scss */
+  /* line 102, ../sass/screen.scss */
   body nav {
     margin: 0 !important;
     padding-top: 15px;
     border-bottom: 1px solid #dddddd;
     border-top: 1px solid #dddddd;
   }
-  /* line 97, ../sass/screen.scss */
+  /* line 107, ../sass/screen.scss */
   body nav ul {
     margin: 0 0 10px 0;
   }
-  /* line 99, ../sass/screen.scss */
+  /* line 109, ../sass/screen.scss */
   body nav ul li {
     margin-right: 7% !important;
   }
-  /* line 101, ../sass/screen.scss */
+  /* line 111, ../sass/screen.scss */
   body nav ul li a {
     font-size: 1.25em !important;
   }
-  /* line 108, ../sass/screen.scss */
+  /* line 118, ../sass/screen.scss */
+  body .secondary_nav nav {
+    padding: 0px;
+    border: 0;
+  }
+  /* line 123, ../sass/screen.scss */
+  body .tags {
+    margin-top: 0px !important;
+  }
+  /* line 125, ../sass/screen.scss */
   body .tags a {
     margin: 0 5px 5px 0;
   }
-  /* line 113, ../sass/screen.scss */
+  /* line 130, ../sass/screen.scss */
   body .pre_nex a[rel="prev"] {
     padding-left: 5px;
   }
-  /* line 116, ../sass/screen.scss */
+  /* line 133, ../sass/screen.scss */
   body .pre_nex a[rel="next"] {
     padding-right: 5px;
   }
-  /* line 120, ../sass/screen.scss */
+  /* line 137, ../sass/screen.scss */
   body h2 {
     font-size: 1.25em;
   }
-  /* line 123, ../sass/screen.scss */
+  /* line 140, ../sass/screen.scss */
   body .social {
     margin: 10px 15px 0 0;
+  }
+  /* line 143, ../sass/screen.scss */
+  body .small-logo {
+    display: none !important;
+  }
+  /* line 146, ../sass/screen.scss */
+  body #reply-title {
+    font-size: 1.25em;
   }
 }
 /* ========================================== */
