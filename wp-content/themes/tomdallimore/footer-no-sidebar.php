@@ -3,28 +3,30 @@
 <footer role="contentinfo">
 	<div class="container">
 		<div class="row">
-			<div class="sixcol">
-				<h3>Get in touch</h3>
-				<p>You can <a href="/contact/">contact</a> or follow me on the networking sites below.</p>
-				<a class="social" href="http://www.twitter.com/billy_dallimore" target="_blank" alt="Twitter">
-					<div id="twitter" ></div>
-				</a>
-				<a class="social" href="http://www.facebook.com/ruckusmedia" target="_blank" alt="Facebook">
-					<div id="facebook"></div>
-				</a>
-				<a class="social" href="https://plus.google.com/114286922039852423816" target="_blank" alt="Google+">
-					<div id="googleplus"></div>
-				</a>
-			</div>
-			<div class="sixcol last tweeters">
-				<h3>Latest tweets</h3>
-				<div id="twitter_div"><ul id="twitter_update_list"><li>&nbsp;</li></ul></div>
-				<img id="tweeting" src="<?php echo bloginfo('template_directory'); ?>/assets/images/tweeting.png"/>
-			</div>
+			<span>
+				<a href="http://www.twitter.com/billy_dallimore" alt="Twitter" target="_blank"></a>
+				<a href="http://www.facebook.com/ruckusmedia" alt="Facebook" target="_blank"></a>
+				<a href="http://www.github.com/jellyfishboy" alt="Github" target="_blank"></a>
+				<a href="http://uk.linkedin.com/in/ruckusmedia" alt="LinkedIn" target="_blank"></a>
+			</span>	
 		</div>
 		<div class="row">
-			<div class="fourcol last">
-				<p>Copyright © 2013, Tom Dallimore</p>
+			<div class="twelvecol">
+				<p>Time spent designing and developing since 2006: </p>
+				<script language="JavaScript">
+				    // TargetDate = "01/01/2006 6:00 AM GMT+0100";
+				    // BackColor = "";
+				    // ForeColor = "#B3B3B3";
+				    // CountActive = true;
+				    // CountStepper = +1;
+				    // LeadingZero = true;
+				    // DisplayFormat = "%%H%% Hours, %%M%% Minutes, %%S%% Seconds.";
+				    // FinishMessage = "It is finally here!";
+				    // // use server time
+				    // var dnow = new Date("<?php echo date('D M d G:i:s Y'); ?>");
+				</script>
+				<script type="text/javascript" src="<?php echo bloginfo('template_directory'); ?>/assets/js/countup.js"></script>
+				<p>Copyright © 2013, Tom Dallimore. All rights reserved.</p>
 			</div>
 		</div>
 	</div>

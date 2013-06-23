@@ -1,6 +1,6 @@
 /* Sprite settings */
 /* line 322, icono/*.png */
-.icono-sprite, .sp-facebook-on, .sp-facebook-off, .sp-twitter-on, .sp-twitter-off, .sp-google-on, .sp-google-off, .sp-linked-on, .sp-linked-off, .sp-github-on, .sp-github-off, .sp-ai-on, .sp-ai-off, .sp-css3-on, .sp-css3-off, .sp-html5-on, .sp-html5-off, .sp-jquery-on, .sp-jquery-off, .sp-ps-on, .sp-ps-off, .sp-ruby-on, .sp-ruby-off, .sp-wp-on, .sp-wp-off, .sp-coffee-on, .sp-coffee-off, .sp-briefcase, .sp-diary, .sp-schematic, .sp-clipboard, .sp-blog-link, .sp-blog-pencil, .sp-profile, .sp-what-i-do, .sp-what-i-love, .sp-where-i-reside {
+.icono-sprite, .sp-facebook-on, footer span a:nth-child(2):hover, .sp-facebook-off, footer span a:nth-child(2), .sp-twitter-on, footer span a:first-child:hover, .sp-twitter-off, footer span a:first-child, .sp-google-on, .sp-google-off, .sp-linked-on, footer span a:last-child:hover, .sp-linked-off, footer span a:last-child, .sp-github-on, footer span a:nth-child(3):hover, .sp-github-off, footer span a:nth-child(3), .sp-ai-on, .sp-ai-off, .sp-css3-on, .sp-css3-off, .sp-html5-on, .sp-html5-off, .sp-jquery-on, .sp-jquery-off, .sp-ps-on, .sp-ps-off, .sp-ruby-on, .sp-ruby-off, .sp-wp-on, .sp-wp-off, .sp-coffee-on, .sp-coffee-off, .sp-briefcase, .sp-diary, .sp-schematic, .sp-clipboard, .sp-blog-link, .sp-blog-pencil, .sp-profile, .sp-what-i-do, .sp-what-i-love, .sp-where-i-reside {
   background: url('../img/icono-sf960973257.png') no-repeat;
 }
 
@@ -50,7 +50,7 @@ body {
   font-size: 16px;
   font-size: 1em;
   line-height: 1.8;
-  background-image: url(../images/wallpaper.png);
+  background: #28292e;
   font-family: "MuseoSans-300", Helvetica, Arial, sans-serif;
   text-shadow: 0.5px 0.5px 0 #f0f0f0;
   color: #333333;
@@ -66,22 +66,22 @@ body {
 /* ============================= */
 /* Social */
 /* line 66, ../src/sass/application.scss */
-.sp-facebook-on {
+.sp-facebook-on, footer span a:nth-child(2):hover {
   background-position: -642px 0;
 }
 
 /* line 67, ../src/sass/application.scss */
-.sp-facebook-off {
+.sp-facebook-off, footer span a:nth-child(2) {
   background-position: -607px 0;
 }
 
 /* line 68, ../src/sass/application.scss */
-.sp-twitter-on {
+.sp-twitter-on, footer span a:first-child:hover {
   background-position: -1467px 0;
 }
 
 /* line 69, ../src/sass/application.scss */
-.sp-twitter-off {
+.sp-twitter-off, footer span a:first-child {
   background-position: -1432px 0;
 }
 
@@ -96,22 +96,22 @@ body {
 }
 
 /* line 72, ../src/sass/application.scss */
-.sp-linked-on {
+.sp-linked-on, footer span a:last-child:hover {
   background-position: -1064px 0;
 }
 
 /* line 73, ../src/sass/application.scss */
-.sp-linked-off {
+.sp-linked-off, footer span a:last-child {
   background-position: -1029px 0;
 }
 
 /* line 74, ../src/sass/application.scss */
-.sp-github-on {
+.sp-github-on, footer span a:nth-child(3):hover {
   background-position: -712px 0;
 }
 
 /* line 75, ../src/sass/application.scss */
-.sp-github-off {
+.sp-github-off, footer span a:nth-child(3) {
   background-position: -677px 0;
 }
 
@@ -356,109 +356,39 @@ nav div ul li:last-child {
 
 /* line 1, ../src/sass/_footer.scss */
 footer {
-  background-image: url(../images/bg_footer.png);
+  background: rgba(0, 0, 0, 0.15);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  -webkit-box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.25);
+  padding: 20px 0 5px;
+  color: #B3B3B3;
+  overflow: hidden;
 }
-/* line 3, ../src/sass/_footer.scss */
-footer p {
-  color: #808080 !important;
-  text-shadow: 0px 0.5px 0 #000;
-  width: 85%;
+/* line 8, ../src/sass/_footer.scss */
+footer p:last-child {
+  float: right;
 }
-/* line 7, ../src/sass/_footer.scss */
-footer p span {
-  display: block;
-  color: #ccc;
+/* line 11, ../src/sass/_footer.scss */
+footer p:first-child {
+  float: left;
 }
-/* line 12, ../src/sass/_footer.scss */
-footer li {
-  color: #808080 !important;
-  text-shadow: 0px 0.5px 0 #000;
-  width: 85%;
-  margin-bottom: 20px;
-  font-size: 0.9em;
-}
-/* line 19, ../src/sass/_footer.scss */
-footer li span {
+/* line 14, ../src/sass/_footer.scss */
+footer span {
+  margin: 0 0 5px;
+  padding: 0;
   display: block;
 }
-/* line 21, ../src/sass/_footer.scss */
-footer li span a {
-  color: #cc0066;
-}
-/* line 25, ../src/sass/_footer.scss */
-footer li a {
-  color: #ccc;
-  font-family: "MuseoSans-300", Helvetica, Arial, sans-serif !important;
-}
-/* line 30, ../src/sass/_footer.scss */
-footer .social {
-  margin: 10px 15px 35px 0;
-  height: 140px;
-  width: 90px;
+/* line 18, ../src/sass/_footer.scss */
+footer span a {
+  height: 35px;
+  width: 35px;
+  margin-right: 14px;
   display: inline-block;
 }
-/* line 35, ../src/sass/_footer.scss */
-footer .social div {
-  height: 140px;
-  width: 90px;
-  -webkit-transition-property: background;
-  -moz-transition-property: background;
-  -o-transition-property: background;
-  transition-property: background;
-  -webkit-transition-duration: 0.5s;
-  -moz-transition-duration: 0.5s;
-  -o-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-  -webkit-transition-timing-function: linear;
-  -moz-transition-timing-function: linear;
-  -o-transition-timing-function: linear;
-  transition-timing-function: linear;
-  background-size: contain;
-}
-/* line 43, ../src/sass/_footer.scss */
-footer .social #twitter {
-  background-image: url(../images/twitter.png);
-}
-/* line 45, ../src/sass/_footer.scss */
-footer .social #twitter:hover {
-  background-image: url(../images/twitter_on.png);
-}
 /* line 49, ../src/sass/_footer.scss */
-footer .social #facebook {
-  background-image: url(../images/facebook.png);
-}
-/* line 51, ../src/sass/_footer.scss */
-footer .social #facebook:hover {
-  background-image: url(../images/facebook_on.png);
-}
-/* line 55, ../src/sass/_footer.scss */
-footer .social #googleplus {
-  background-image: url(../images/googleplus.png);
-}
-/* line 57, ../src/sass/_footer.scss */
-footer .social #googleplus:hover {
-  background-image: url(../images/googleplus_on.png);
-}
-/* line 62, ../src/sass/_footer.scss */
-footer .tweeters {
-  position: relative;
-  margin-bottom: 18px;
-}
-/* line 65, ../src/sass/_footer.scss */
-footer .tweeters #tweeting {
-  margin: 0 !important;
-  position: absolute;
-  top: 30px;
-  right: 30px;
-}
-/* line 72, ../src/sass/_footer.scss */
-footer .row:first-child {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-/* line 76, ../src/sass/_footer.scss */
-footer .fourcol p {
-  line-height: 40px;
-  margin: 0;
+footer #cntdwn {
+  float: left;
 }
 
 /* line 1, ../src/sass/_styling.scss */
@@ -732,8 +662,8 @@ img {
 }
 @font-face {
   font-family: 'FontAwesome';
-  src: url("../font/fontawesome-webfont.eot?v=3.0.1");
-  src: url("../font/fontawesome-webfont.eot?#iefix&v=3.0.1") format("embedded-opentype"), url("../font/fontawesome-webfont.woff?v=3.0.1") format("woff"), url("../font/fontawesome-webfont.ttf?v=3.0.1") format("truetype");
+  src: url("../fonts/fontawesome-webfont.eot?v=3.0.1");
+  src: url("../fonts/fontawesome-webfont.eot?#iefix&v=3.0.1") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff?v=3.0.1") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=3.0.1") format("truetype");
   font-weight: normal;
   font-style: normal;
 }

@@ -38,36 +38,16 @@
 	<link rel="stylesheet" href="<?php echo bloginfo('template_directory'); ?>/assets/css/animations.css" />
 	<link rel="stylesheet" href="<?php echo bloginfo('template_directory'); ?>/assets/css/bootstrap.css" />
 <!-- Stylesheets -->
-
 <!-- Load scripts quick smart -->
-	<script src="<?php echo bloginfo('template_directory'); ?>/assets/scripts/modernizr-2.6.2.js"></script>     
+	<script src="<?php echo bloginfo('template_directory'); ?>/assets/js/modernizr-2.6.2.js"></script>     
     <!--[if (lt IE 9) & (!IEMobile)]>
 		<script src="<?php echo bloginfo('template_directory'); ?>/assets/scripts/selectivizr-min.js"></script>
 	<![endif]-->
 <!-- Load scripts quick smart -->
-
 	<?php wp_deregister_script('jquery');wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?> id="top">
-    <div class="secondary_nav animated">
-    	<div class="container">
-    		<div class="row">
-    			<div class="twocol last">
-    				<img class="small-logo" src="<?php echo bloginfo('template_directory'); ?>/assets/images/small-logo.png" alt="Tom Dallimore"/> 
-    			</div>
-    			<div class="tencol last">
-			    	<nav role="navigation" class="<?php
-    if(in_category('12')) echo 'post_highlight';
-    if(in_category('13')) echo 'post_highlight';
-    if(in_category('14')) echo 'post-highlight';
- ?>">
-			            <?php $args = array( 'menu' => 'mainnav', 'container' => false, 'menu_id' => false, 'menu_class' => false); wp_nav_menu($args); ?>
-			        </nav>
-    			</div>
-    		</div>
-    	</div>
-    </div>
     <header class="<?php if(is_front_page()) echo 'hero'; ?>" role="banner">
     	<div class="container">
     		<div class="row">
@@ -84,15 +64,7 @@
 			            <?php $args = array( 'menu' => 'mainnav', 'container' => false, 'menu_id' => false, 'menu_class' => false); wp_nav_menu($args); ?>
 			        </nav>
 			    </div>
-			</div>
-			<?php if(is_front_page()) echo'<div class="row">
-				<div class="sixcol last">
-				    <h1>Front-end Developer & Web Designer</h1>
-			        <h2>I love what I do. I strive to produce bespoke web design and user experience solutions; to make your web idea a reality.</h2>
-			        <a href="/work"><div class="btn btn-large btn-info">Find out more</div></a>
-			    </div>
-			</div>'; ?>
-			
+			</div>			
 		</div>
     </header>
     <section class="content">
