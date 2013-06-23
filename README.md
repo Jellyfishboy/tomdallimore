@@ -1,4 +1,4 @@
-Ruckus Media
+Tom Dallimore
 ============
 
-Official Ruckus Media portfolio &amp; blog.
+Official portfolio &amp; blog for Tom Dallimore, with mobile support.
