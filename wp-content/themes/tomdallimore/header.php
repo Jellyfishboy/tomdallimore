@@ -47,7 +47,7 @@
 	<?php wp_deregister_script('jquery');wp_head(); ?>
 </head>
 
-<body class="<? if (is_page( array( 7, 72, 6 ))) { echo 'dark'; } else if (is_page( array( 8 ))) { echo 'light'; } ?> " id="top">
+<body class="<? if (is_page( array( 7, 72, 6 ))) { echo 'dark'; } else { echo 'light'; } ?>" id="top">
     <header class="<?php if(is_front_page()) echo 'hero'; ?>" role="banner">
     	<div class="container">
     		<div class="row">

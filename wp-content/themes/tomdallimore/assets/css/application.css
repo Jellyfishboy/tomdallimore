@@ -327,6 +327,15 @@ header nav ul li:first-child {
   margin: 0;
 }
 
+/* line 55, ../src/sass/_header.scss */
+.blog {
+  margin-top: 70px;
+  border-top: 6px solid rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.3), inset 0px 1px 0px rgba(0, 0, 0, 0.2), inset 0px 2px 0px rgba(255, 255, 255, 0.8);
+  -moz-box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.3), inset 0px 1px 0px rgba(0, 0, 0, 0.2), inset 0px 2px 0px rgba(255, 255, 255, 0.8);
+  box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.3), inset 0px 1px 0px rgba(0, 0, 0, 0.2), inset 0px 2px 0px rgba(255, 255, 255, 0.8);
+}
+
 /* line 1, ../src/sass/_footer.scss */
 footer {
   background: rgba(0, 0, 0, 0.15);
