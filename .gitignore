@@ -1,1 +1,9 @@
-.DS_Store
+wp-content/themes/.DS_Store
+wp-content/themes/tomdallimore/.DS_Store
+wp-content/themes/tomdallimore/assets/.DS_Store
+wp-content/themes/tomdallimore/assets/.sass-cache
+wp-content/themes/tomdallimore/assets/css/.DS_Store
+wp-content/themes/tomdallimore/assets/img/.DS_Store
+wp-content/themes/tomdallimore/assets/js/.DS_Store
+wp-content/themes/tomdallimore/assets/src/coffee/.DS_Store
+wp-content/themes/tomdallimore/assets/src/sass/.DS_Store
