@@ -259,99 +259,64 @@ body {
 /* ========================================== */
 /* line 1, ../src/sass/_header.scss */
 header {
-  margin-bottom: 3em;
-}
-/* line 3, ../src/sass/_header.scss */
-header h1 {
-  line-height: 60px;
-  margin: 90px 0 10px;
-}
-/* line 7, ../src/sass/_header.scss */
-header h2 {
-  color: #fff;
-  text-shadow: 1px 1px 0 #000;
-  text-indent: 0;
-  line-height: 30px;
-}
-
-/* line 14, ../src/sass/_header.scss */
-.hero {
-  background-image: url(../images/hero.png);
-  height: 670px;
-}
-/* line 17, ../src/sass/_header.scss */
-.hero a {
-  color: #fff;
-  text-shadow: 1px 1px 0 #000;
-}
-
-/* line 23, ../src/sass/_header.scss */
-.post_highlight .page-item-8 a {
-  border-bottom: 3px solid #cc0066;
-  padding-bottom: 1px;
-}
-
-/* line 28, ../src/sass/_header.scss */
-nav {
-  margin-top: 7.2%;
-  position: relative;
-}
-/* line 33, ../src/sass/_header.scss */
-nav div ul li {
-  display: inline-block;
-  margin-right: 50px;
-}
-/* line 36, ../src/sass/_header.scss */
-nav div ul li a {
-  font-size: 1.35em;
-  font-family: "MuseoSlab-500", Helvetica, Arial, sans-serif;
-  text-shadow: 1px 1px 0 #f0f0f0;
-  color: #1a1a1a;
-  -webkit-transition-property: color;
-  -moz-transition-property: color;
-  -o-transition-property: color;
-  transition-property: color;
-  -webkit-transition-duration: 0.5s;
-  -moz-transition-duration: 0.5s;
-  -o-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-  -webkit-transition-timing-function: linear;
-  -moz-transition-timing-function: linear;
-  -o-transition-timing-function: linear;
-  transition-timing-function: linear;
-}
-/* line 45, ../src/sass/_header.scss */
-nav div ul li a:hover {
-  color: #cc0066;
-}
-/* line 50, ../src/sass/_header.scss */
-nav div ul .current_page_item a {
-  border-bottom: 3px solid #cc0066;
-  padding-bottom: 1px;
-}
-/* line 55, ../src/sass/_header.scss */
-nav div ul li:last-child {
-  margin-right: 0px !important;
-}
-
-/* line 61, ../src/sass/_header.scss */
-.secondary_nav {
-  z-index: 2001;
+  background: #2f2f2f;
+  background: -moz-linear-gradient(top, #434343 0%, #2f2f2f 70%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #434343), color-stop(70%, #2f2f2f));
+  background: -webkit-linear-gradient(top, #434343 0%, #2f2f2f 70%);
+  background: -o-linear-gradient(top, #434343 0%, #2f2f2f 70%);
+  background: -ms-linear-gradient(top, #434343 0%, #2f2f2f 70%);
+  background: linear-gradient(top, #434343 0%, #2f2f2f 70%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#434343', endColorstr='#2d2e34',GradientType=0 );
+  height: 70px;
   width: 100%;
-  background-image: url(../images/wallpaper.png);
   position: fixed;
-  display: none;
-  -webkit-box-shadow: 1.5px 1.5px 4px rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: 1.5px 1.5px 4px rgba(0, 0, 0, 0.25);
-  box-shadow: 1.5px 1.5px 4px rgba(0, 0, 0, 0.25);
-}
-/* line 68, ../src/sass/_header.scss */
-.secondary_nav nav {
-  margin-top: 1.4% !important;
-}
-/* line 71, ../src/sass/_header.scss */
-.secondary_nav img {
+  top: 0px;
+  left: 0px;
+  right: 0px;
   display: block;
+  z-index: 997;
+  box-shadow: inset 0 -3px 2px rgba(0, 0, 0, 0.28), inset 0 -1px 0 #222222, 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+/* line 19, ../src/sass/_header.scss */
+header:before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../img/white-noise.png");
+}
+/* line 28, ../src/sass/_header.scss */
+header:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 3px;
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.4), 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+/* line 37, ../src/sass/_header.scss */
+header nav {
+  margin-top: 9.5%;
+}
+/* line 39, ../src/sass/_header.scss */
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 43, ../src/sass/_header.scss */
+header nav ul li {
+  display: inline-block;
+  margin-left: 50px;
+  font-size: 18px;
+  font-family: "MuseoSlab-700", Helvetica, Arial, sans-serif !important;
+}
+/* line 48, ../src/sass/_header.scss */
+header nav ul li:first-child {
+  margin: 0;
 }
 
 /* line 1, ../src/sass/_footer.scss */
@@ -405,7 +370,7 @@ footer #cntdwn {
 
 /* line 9, ../src/sass/_styling.scss */
 a {
-  color: #cc0066;
+  color: #abd6db;
   font-family: "MuseoSans-300Italic", Helvetica, Arial, sans-serif;
   text-decoration: none;
 }
@@ -448,19 +413,13 @@ i {
 }
 
 /* line 41, ../src/sass/_styling.scss */
-form {
-  overflow: hidden;
-  margin: 33px 0 0;
-}
-
-/* line 45, ../src/sass/_styling.scss */
 .inputError {
   border-color: #b94a48 !important;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) !important;
   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) !important;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) !important;
 }
-/* line 48, ../src/sass/_styling.scss */
+/* line 44, ../src/sass/_styling.scss */
 .inputError:focus {
   border-color: #953b39 !important;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392 !important;
@@ -468,62 +427,22 @@ form {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392 !important;
 }
 
-/* line 53, ../src/sass/_styling.scss */
+/* line 49, ../src/sass/_styling.scss */
 .error {
   font-size: 0.8em;
   color: #b94a48;
 }
 
-/* line 57, ../src/sass/_styling.scss */
-.formcol {
-  width: 47.058823529412%;
-  float: left;
-  margin-right: 5.882352941176%;
-}
-/* line 61, ../src/sass/_styling.scss */
-.formcol input[type="text"] {
-  width: 90%;
-}
-
-/* line 65, ../src/sass/_styling.scss */
-textarea {
-  width: 95% !important;
-}
-
-/* line 68, ../src/sass/_styling.scss */
-.btn-info {
-  margin-top: 16px;
-  float: right;
-  margin-right: 3%;
-  font-family: "MuseoSlab-500", Helvetica, Arial, sans-serif;
-}
-
-/* line 74, ../src/sass/_styling.scss */
-.btn-large {
-  float: left;
-}
-
-/* line 77, ../src/sass/_styling.scss */
+/* line 53, ../src/sass/_styling.scss */
 .fourcol {
   position: relative;
 }
 
-/* line 80, ../src/sass/_styling.scss */
+/* line 56, ../src/sass/_styling.scss */
 #main_header {
   line-height: 0px;
   margin: 0;
   text-indent: -9999px;
-}
-
-/* line 85, ../src/sass/_styling.scss */
-.header2 {
-  position: relative;
-}
-/* line 87, ../src/sass/_styling.scss */
-.header2 .star {
-  position: absolute;
-  top: 12px;
-  left: 0px;
 }
 
 /* line 1, ../src/sass/_1140.scss */

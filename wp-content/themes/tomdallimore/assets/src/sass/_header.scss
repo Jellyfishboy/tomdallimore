@@ -1,74 +1,54 @@
 header {
-	margin-bottom:3em;
-		h1 {
-			line-height:60px;	
-			margin:90px 0 10px;
+	background: #2f2f2f;
+	background: -moz-linear-gradient(top, #434343 0%, #2f2f2f 70%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#434343), color-stop(70%,#2f2f2f));
+	background: -webkit-linear-gradient(top, #434343 0%,#2f2f2f 70%);
+	background: -o-linear-gradient(top, #434343 0%,#2f2f2f 70%);
+	background: -ms-linear-gradient(top, #434343 0%,#2f2f2f 70%);
+	background: linear-gradient(top, #434343 0%,#2f2f2f 70%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#434343', endColorstr='#2d2e34',GradientType=0 );
+	height: 70px;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	display: block;
+	z-index: 997;
+	box-shadow: inset 0 -3px 2px rgba( 0,0,0,0.28 ), inset 0 -1px 0 #222, 0 1px 3px rgba( 0,0,0,0.5 );
+		&:before {
+			content: "";
+			position: absolute;
+			z-index: 1;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			background: url('../img/white-noise.png');
 		}
-		h2 {
-			color:#fff;
-			text-shadow: 1px 1px 0 #000;
-			text-indent:0;
-			line-height:30px;
+		&:after {
+			content: "";
+			position: absolute;
+			top: 0;
+			width: 100%;
+			height: 3px;
+			background: rgba( 0,0,0,0.3 );
+			box-shadow: inset 0 -1px 0 rgba( 0,0,0,0.4 ), 0 1px 0 rgba( 255,255,255,0.05);
 		}
-}
-.hero {
-	background-image:url(../images/hero.png);
-	height:670px;
-	a {
-		color:#fff;
-		text-shadow: 1px 1px 0 #000;
-	}
-}
-.post_highlight .page-item-8 {
-	a {
-		border-bottom:3px solid $pink;
-		padding-bottom:1px;
-	}
-}
-nav {
-	margin-top:7.2%;
-	position:relative;
-	div {
-		ul {
-			li {
-				display:inline-block;
-				margin-right:50px;
-					a {
-						font-size:1.35em;
-						font-family: "MuseoSlab-500", Helvetica, Arial, sans-serif;
-						text-shadow: 1px 1px 0 rgba(240, 240, 240, 1); 
-						color:$darkgray;
-						@include transition-property(color);
-						@include transition-duration(0.5s);
-						@include transition-timing-function(linear);
-					}
-					a:hover {
-						color:$pink;
-					}
-			}
-			.current_page_item {
-				a {
-					border-bottom:3px solid $pink;
-					padding-bottom:1px;
-				}
-			}
-			li:last-child {
-						margin-right:0px !important;
-			}
-		}
-	}
-}
-.secondary_nav {
-	z-index:2001;
-	width:100%;
-	background-image:url(../images/wallpaper.png);
-	position:fixed;
-	display:none;
-	@include box-shadow(1.5px 1.5px 4px rgba(0, 0, 0, 0.25));
 		nav {
-			margin-top:1.4% !important;
-		}
-		img {
-			display:block;
+			margin-top: 9.5%;
+				ul {
+					list-style-type: none;
+					padding:0;
+					margin: 0;
+					li {
+						display:inline-block;
+						margin-left:50px;
+						font-size: 18px;
+						font-family: "MuseoSlab-700", Helvetica, Arial, sans-serif !important;
+							&:first-child {
+								margin:0;
+							}
+					}
+				}
 		}
 }

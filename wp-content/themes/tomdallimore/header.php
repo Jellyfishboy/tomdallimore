@@ -51,11 +51,11 @@
     <header class="<?php if(is_front_page()) echo 'hero'; ?>" role="banner">
     	<div class="container">
     		<div class="row">
-    			<div class="twocol last">
-    				<h1 id="main_header">Tom Dallimore - Ruckus Media - Bristol based Front-end developer and web designer</h1>
-			        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home" class="logo"><img src="<?php echo bloginfo('template_directory'); ?>/assets/images/logo.png" alt="Tom Dallimore"/></a>
-			    </div>
-			    <div class="tencol last">
+    			<div class="fourcol">
+    			</div>
+    			<div class="fourcol">
+    			</div>
+			    <div class="fourcol last">
 			    	<nav role="navigation" class="<?php
     if(in_category('12')) echo 'post_highlight';
     if(in_category('13')) echo 'post_highlight';
