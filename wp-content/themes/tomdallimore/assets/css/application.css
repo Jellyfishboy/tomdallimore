@@ -38,25 +38,33 @@
 /* ============================== */
 /* ! Layout for desktop version   */
 /* ============================== */
-/* line 46, ../src/sass/application.scss */
+/* line 47, ../src/sass/application.scss */
 html {
   font-size: 100%;
   /* Set a 16px base size */
 }
 
-/* line 49, ../src/sass/application.scss */
+/* line 50, ../src/sass/application.scss */
 body {
   margin: 0 auto;
   font-size: 16px;
   font-size: 1em;
   line-height: 1.8;
-  background: #28292e;
   font-family: "MuseoSans-300", Helvetica, Arial, sans-serif;
   text-shadow: 0.5px 0.5px 0 #f0f0f0;
+}
+/* line 57, ../src/sass/application.scss */
+body.dark {
+  background: #28292e;
+  color: #e6e6e6;
+}
+/* line 61, ../src/sass/application.scss */
+body.light {
+  background: #f3f4f8;
   color: #333333;
 }
 
-/* line 59, ../src/sass/application.scss */
+/* line 66, ../src/sass/application.scss */
 .content {
   padding-bottom: 3em;
 }
@@ -65,185 +73,185 @@ body {
 /* ! Sprite declarations  */
 /* ============================= */
 /* Social */
-/* line 66, ../src/sass/application.scss */
+/* line 73, ../src/sass/application.scss */
 .sp-facebook-on, footer span a:nth-child(2):hover {
   background-position: -642px 0;
 }
 
-/* line 67, ../src/sass/application.scss */
+/* line 74, ../src/sass/application.scss */
 .sp-facebook-off, footer span a:nth-child(2) {
   background-position: -607px 0;
 }
 
-/* line 68, ../src/sass/application.scss */
+/* line 75, ../src/sass/application.scss */
 .sp-twitter-on, footer span a:first-child:hover {
   background-position: -1467px 0;
 }
 
-/* line 69, ../src/sass/application.scss */
+/* line 76, ../src/sass/application.scss */
 .sp-twitter-off, footer span a:first-child {
   background-position: -1432px 0;
 }
 
-/* line 70, ../src/sass/application.scss */
+/* line 77, ../src/sass/application.scss */
 .sp-google-on {
   background-position: -782px 0;
 }
 
-/* line 71, ../src/sass/application.scss */
+/* line 78, ../src/sass/application.scss */
 .sp-google-off {
   background-position: -747px 0;
 }
 
-/* line 72, ../src/sass/application.scss */
+/* line 79, ../src/sass/application.scss */
 .sp-linked-on, footer span a:last-child:hover {
   background-position: -1064px 0;
 }
 
-/* line 73, ../src/sass/application.scss */
+/* line 80, ../src/sass/application.scss */
 .sp-linked-off, footer span a:last-child {
   background-position: -1029px 0;
 }
 
-/* line 74, ../src/sass/application.scss */
+/* line 81, ../src/sass/application.scss */
 .sp-github-on, footer span a:nth-child(3):hover {
   background-position: -712px 0;
 }
 
-/* line 75, ../src/sass/application.scss */
+/* line 82, ../src/sass/application.scss */
 .sp-github-off, footer span a:nth-child(3) {
   background-position: -677px 0;
 }
 
 /* Web tools */
-/* line 77, ../src/sass/application.scss */
+/* line 84, ../src/sass/application.scss */
 .sp-ai-on {
   background-position: -53px 0;
 }
 
-/* line 78, ../src/sass/application.scss */
+/* line 85, ../src/sass/application.scss */
 .sp-ai-off {
   background-position: 0 0;
 }
 
-/* line 79, ../src/sass/application.scss */
+/* line 86, ../src/sass/application.scss */
 .sp-css3-on {
   background-position: -514px 0;
 }
 
-/* line 80, ../src/sass/application.scss */
+/* line 87, ../src/sass/application.scss */
 .sp-css3-off {
   background-position: -461px 0;
 }
 
-/* line 81, ../src/sass/application.scss */
+/* line 88, ../src/sass/application.scss */
 .sp-html5-on {
   background-position: -870px 0;
 }
 
-/* line 82, ../src/sass/application.scss */
+/* line 89, ../src/sass/application.scss */
 .sp-html5-off {
   background-position: -817px 0;
 }
 
-/* line 83, ../src/sass/application.scss */
+/* line 90, ../src/sass/application.scss */
 .sp-jquery-on {
   background-position: -976px 0;
 }
 
-/* line 84, ../src/sass/application.scss */
+/* line 91, ../src/sass/application.scss */
 .sp-jquery-off {
   background-position: -923px 0;
 }
 
-/* line 85, ../src/sass/application.scss */
+/* line 92, ../src/sass/application.scss */
 .sp-ps-on {
   background-position: -1231px 0;
 }
 
-/* line 86, ../src/sass/application.scss */
+/* line 93, ../src/sass/application.scss */
 .sp-ps-off {
   background-position: -1178px 0;
 }
 
-/* line 87, ../src/sass/application.scss */
+/* line 94, ../src/sass/application.scss */
 .sp-ruby-on {
   background-position: -1337px 0;
 }
 
-/* line 88, ../src/sass/application.scss */
+/* line 95, ../src/sass/application.scss */
 .sp-ruby-off {
   background-position: -1284px 0;
 }
 
-/* line 89, ../src/sass/application.scss */
+/* line 96, ../src/sass/application.scss */
 .sp-wp-on {
   background-position: -1975px 0;
 }
 
-/* line 90, ../src/sass/application.scss */
+/* line 97, ../src/sass/application.scss */
 .sp-wp-off {
   background-position: -1922px 0;
 }
 
-/* line 91, ../src/sass/application.scss */
+/* line 98, ../src/sass/application.scss */
 .sp-coffee-on {
   background-position: -408px 0;
 }
 
-/* line 92, ../src/sass/application.scss */
+/* line 99, ../src/sass/application.scss */
 .sp-coffee-off {
   background-position: -355px 0;
 }
 
 /* Small icons */
-/* line 94, ../src/sass/application.scss */
+/* line 101, ../src/sass/application.scss */
 .sp-briefcase {
   background-position: -266px 0;
 }
 
-/* line 95, ../src/sass/application.scss */
+/* line 102, ../src/sass/application.scss */
 .sp-diary {
   background-position: -567px 0;
 }
 
-/* line 96, ../src/sass/application.scss */
+/* line 103, ../src/sass/application.scss */
 .sp-schematic {
   background-position: -1390px 0;
 }
 
-/* line 97, ../src/sass/application.scss */
+/* line 104, ../src/sass/application.scss */
 .sp-clipboard {
   background-position: -313px 0;
 }
 
 /* Other images */
-/* line 99, ../src/sass/application.scss */
+/* line 106, ../src/sass/application.scss */
 .sp-blog-link {
   background-position: -106px 0;
 }
 
-/* line 100, ../src/sass/application.scss */
+/* line 107, ../src/sass/application.scss */
 .sp-blog-pencil {
   background-position: -186px 0;
 }
 
-/* line 101, ../src/sass/application.scss */
+/* line 108, ../src/sass/application.scss */
 .sp-profile {
   background-position: -1099px 0;
 }
 
-/* line 102, ../src/sass/application.scss */
+/* line 109, ../src/sass/application.scss */
 .sp-what-i-do {
   background-position: -1502px 0;
 }
 
-/* line 103, ../src/sass/application.scss */
+/* line 110, ../src/sass/application.scss */
 .sp-what-i-love {
   background-position: -1642px 0;
 }
 
-/* line 104, ../src/sass/application.scss */
+/* line 111, ../src/sass/application.scss */
 .sp-where-i-reside {
   background-position: -1782px 0;
 }
@@ -457,8 +465,6 @@ i {
   height: 8px;
   background: #1c1d21;
   -webkit-box-shadow: 0px -1px 0px rgba(255, 255, 255, 0.08), inset 0px 1px 0px rgba(0, 0, 0, 0.41), 0px 1px 0px rgba(255, 255, 255, 0.03), inset 0px -1px 0px rgba(0, 0, 0, 0.3);
-  -ms-box-shadow: 0px -1px 0px rgba(255, 255, 255, 0.08), inset 0px 1px 0px rgba(0, 0, 0, 0.41), 0px 1px 0px rgba(255, 255, 255, 0.03), inset 0px -1px 0px rgba(0, 0, 0, 0.3);
-  -o-box-shadow: 0px -1px 0px rgba(255, 255, 255, 0.08), inset 0px 1px 0px rgba(0, 0, 0, 0.41), 0px 1px 0px rgba(255, 255, 255, 0.03), inset 0px -1px 0px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px -1px 0px rgba(255, 255, 255, 0.08), inset 0px 1px 0px rgba(0, 0, 0, 0.41), 0px 1px 0px rgba(255, 255, 255, 0.03), inset 0px -1px 0px rgba(0, 0, 0, 0.3);
   box-shadow: 0px -1px 0px rgba(255, 255, 255, 0.08), inset 0px 1px 0px rgba(0, 0, 0, 0.41), 0px 1px 0px rgba(255, 255, 255, 0.03), inset 0px -1px 0px rgba(0, 0, 0, 0.3);
 }

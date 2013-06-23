@@ -10,6 +10,7 @@ $blue: #abd6db;
 $darkgray: #1a1a1a;
 $gray: #333333;
 $lightgray: #808080;
+$white:#E6E6E6;
 @font-face {
   font-family: "MuseoSans-300";
   src: url("../fonts/MuseoSans-300.otf");
@@ -50,11 +51,17 @@ body {
 	margin: 0 auto;
 	font-size: 16px;
 	font-size: 1em;
-	line-height: 1.8;
-	background:#28292e;
+	line-height: 1.8;	
 	font-family: "MuseoSans-300", Helvetica, Arial, sans-serif;
 	text-shadow: 0.5px 0.5px 0 rgba(240, 240, 240, 1); 
-  color:$gray;
+    &.dark {
+      background:#28292e;
+      color:$white;
+    }
+    &.light {
+      background:#f3f4f8;
+      color:$gray;
+    }
 }
 .content {
 	padding-bottom:3em;
