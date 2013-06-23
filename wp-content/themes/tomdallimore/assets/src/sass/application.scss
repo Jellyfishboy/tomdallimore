@@ -1,0 +1,137 @@
+@import "compass/css3";
+
+/* Sprite settings */
+$icono-layout:horizontal;
+@import "icono/*.png";
+
+/* Global variables */
+$pink: #cc0066;
+$blue: #abd6db;
+$darkgray: #1a1a1a;
+$gray: #333333;
+$lightgray: #808080;
+@font-face {
+  font-family: "MuseoSans-300";
+  src: url("../fonts/MuseoSans-300.otf");
+  src: local("?"),
+    url("../fonts/MuseoSans-300.otf") format("opentype");
+}
+@font-face {
+  font-family: "MuseoSans-300Italic";
+  src: url("../fonts/MuseoSans-300Italic.otf");
+  src: local("?"),
+    url("../fonts/MuseoSans-300Italic.otf") format("opentype");
+}
+@font-face {
+  font-family: "MuseoSlab-500";
+  src: url("../fonts/Museo_Slab_500.otf");
+  src: local("?"),
+    url("../fonts/Museo_Slab_500.otf") format("opentype");
+}
+@font-face {
+  font-family: "MuseoSlab-500Italic";
+  src: url("../fonts/Museo_Slab_500italic.otf");
+  src: local("?"),
+    url("../fonts/MuseoSans_700.otf") format("opentype");
+}
+@font-face {
+  font-family: "MuseoSlab-700";
+  src: url("../fonts/Museo_Slab_700.otf");
+  src: local("?"),
+    url("../fonts/Museo_Slab_700.otf") format("opentype");
+}
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+html {
+	font-size: 100%; /* Set a 16px base size */
+}
+body {
+	margin: 0 auto;
+	font-size: 16px;
+	font-size: 1em;
+	line-height: 1.8;
+	background-image:url(../images/wallpaper.png);
+	font-family: "MuseoSans-300", Helvetica, Arial, sans-serif;
+	text-shadow: 0.5px 0.5px 0 rgba(240, 240, 240, 1); 
+  color:$gray;
+}
+.content {
+	padding-bottom:3em;
+}
+/* ============================= */
+/* ! Sprite declarations  */
+/* ============================= */
+/* Social */
+.sp-facebook-on { @include icono-sprite(facebook_on); }
+.sp-facebook-off { @include icono-sprite(facebook_off); }
+.sp-twitter-on { @include icono-sprite(twitter_on); }
+.sp-twitter-off { @include icono-sprite(twitter_off); }
+.sp-google-on { @include icono-sprite(google_on); }
+.sp-google-off { @include icono-sprite(google_off); }
+.sp-linked-on { @include icono-sprite(linked_on); }
+.sp-linked-off { @include icono-sprite(linked_off); }
+.sp-github-on { @include icono-sprite(github_on); }
+.sp-github-off { @include icono-sprite(github_off); }
+/* Web tools */
+.sp-ai-on { @include icono-sprite(ai_on); }
+.sp-ai-off { @include icono-sprite(ai_off); }
+.sp-css3-on { @include icono-sprite(css3_on); }
+.sp-css3-off { @include icono-sprite(css3_off); }
+.sp-html5-on { @include icono-sprite(html5_on); }
+.sp-html5-off { @include icono-sprite(html5_off); }
+.sp-jquery-on { @include icono-sprite(jquery_on); }
+.sp-jquery-off { @include icono-sprite(jquery_off); }
+.sp-ps-on { @include icono-sprite(ps_on); }
+.sp-ps-off { @include icono-sprite(ps_off); }
+.sp-ruby-on { @include icono-sprite(ruby_on); }
+.sp-ruby-off { @include icono-sprite(ruby_off); }
+.sp-wp-on { @include icono-sprite(wp_on); }
+.sp-wp-off { @include icono-sprite(wp_off); }
+.sp-coffee-on { @include icono-sprite(coffee_on); }
+.sp-coffee-off { @include icono-sprite(coffee_off); }
+/* Small icons */
+.sp-briefcase { @include icono-sprite(briefcase); }
+.sp-diary { @include icono-sprite(diary); }
+.sp-schematic { @include icono-sprite(schematics); }
+.sp-clipboard { @include icono-sprite(clipboard); }
+/* Other images */
+.sp-blog-link { @include icono-sprite(blog_link); }
+.sp-blog-pencil { @include icono-sprite(blog_pencil); }
+.sp-profile { @include icono-sprite(profile); }
+.sp-what-i-do { @include icono-sprite(whatido); }
+.sp-what-i-love { @include icono-sprite(whatilove); }
+.sp-where-i-reside { @include icono-sprite(whereireside); }
+
+/* ============================= */
+/* ! Layout for tablet  */
+/* ============================= */
+@media only screen and (max-width: 1023px) {
+  body {
+
+  }
+}
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+  body {
+
+  }
+}
+
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+@import "_header.scss";
+@import "_footer.scss";
+@import "_styling.scss";
+@import "_1140.scss";
+@import "_font-awesome.scss";
+@import "_IE.scss";
