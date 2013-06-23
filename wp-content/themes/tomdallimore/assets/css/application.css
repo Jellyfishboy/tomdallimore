@@ -445,6 +445,24 @@ i {
   text-indent: -9999px;
 }
 
+/* line 61, ../src/sass/_styling.scss */
+.focus_content {
+  background: url("../img/textured_white.png");
+  height: 490px;
+  margin-top: 70px;
+}
+
+/* line 66, ../src/sass/_styling.scss */
+#content_divider {
+  height: 8px;
+  background: #1c1d21;
+  -webkit-box-shadow: 0px -1px 0px rgba(255, 255, 255, 0.08), inset 0px 1px 0px rgba(0, 0, 0, 0.41), 0px 1px 0px rgba(255, 255, 255, 0.03), inset 0px -1px 0px rgba(0, 0, 0, 0.3);
+  -ms-box-shadow: 0px -1px 0px rgba(255, 255, 255, 0.08), inset 0px 1px 0px rgba(0, 0, 0, 0.41), 0px 1px 0px rgba(255, 255, 255, 0.03), inset 0px -1px 0px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 0px -1px 0px rgba(255, 255, 255, 0.08), inset 0px 1px 0px rgba(0, 0, 0, 0.41), 0px 1px 0px rgba(255, 255, 255, 0.03), inset 0px -1px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px -1px 0px rgba(255, 255, 255, 0.08), inset 0px 1px 0px rgba(0, 0, 0, 0.41), 0px 1px 0px rgba(255, 255, 255, 0.03), inset 0px -1px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px -1px 0px rgba(255, 255, 255, 0.08), inset 0px 1px 0px rgba(0, 0, 0, 0.41), 0px 1px 0px rgba(255, 255, 255, 0.03), inset 0px -1px 0px rgba(0, 0, 0, 0.3);
+}
+
 /* line 1, ../src/sass/_1140.scss */
 .container {
   padding-left: 20px;

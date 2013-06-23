@@ -67,5 +67,3 @@
 			</div>			
 		</div>
     </header>
-    <section class="content">
-	    <div class="container">
