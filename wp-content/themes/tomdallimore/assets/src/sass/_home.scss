@@ -1,0 +1,56 @@
+#home {
+	.row {
+		&:first-child {
+			.fourcol {
+				&:first-child {
+					div {
+						@extend .sp-what-i-do;
+					}
+				}
+				&:nth-child(2) {
+					div {
+						@extend .sp-what-i-love;
+					}
+				}
+				&:last-child {
+					div {
+						@extend .sp-where-i-reside;
+					}
+				}
+				div {
+					height:140px;
+					width:140px;
+					margin:30px auto 0;
+				}
+				h1, p {
+					text-align: center; 
+				}
+				h1 {
+					color:$blue;
+				}
+			}
+		}
+		&:nth-child(2) {
+			.fourcol {
+				height: 60px;
+				position: relative;
+					h1 {
+						text-align: center;
+					}
+					span {
+						border-top: 1px solid #1C1D21;
+						border-bottom: 1px solid $gray;
+						width:134%;
+						display: block;
+						position: absolute;
+						top:29px;
+					}
+					&:last-child {
+						span {
+							left:-34%;
+						}	
+					}
+			}
+		}
+	}
+}

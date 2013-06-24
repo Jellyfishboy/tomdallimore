@@ -1,52 +1,57 @@
 footer {
-	background: rgba( 0,0,0,0.15 );
+	
 	border-top: 1px solid rgba( 255,255,255,0.05 );
 	@include box-shadow(inset 0px 1px 0px rgba( 0,0,0,0.25 ));
-	padding:20px 0 5px;
+	background:#28292e;
 	color:#B3B3B3;
+	height: 110px;
 	overflow:hidden;
-		p:last-child {
-			float:right;
-		}
-		p:first-child {
-			float:left;
-		}
-		span {
-			margin:0 0 5px;
-			padding:0;
-			display: block;
-				a {
-					height:35px;
-					width:35px;
-					margin-right:14px;
-					display: inline-block;
-						&:first-child {
-							@extend .sp-twitter-off;
-								&:hover {
-									@extend .sp-twitter-on;
+		.container {
+			background: rgba( 0,0,0,0.15 );
+			padding:20px 0 5px;
+				p:last-child {
+					float:right;
+				}
+				p:first-child {
+					float:left;
+				}
+				span {
+					margin:0 0 5px;
+					padding:0;
+					display: block;
+						a {
+							height:35px;
+							width:35px;
+							margin-right:14px;
+							display: inline-block;
+								&:first-child {
+									@extend .sp-twitter-off;
+										&:hover {
+											@extend .sp-twitter-on;
+										}
 								}
-						}
-						&:nth-child(2) {
-							@extend .sp-facebook-off;
-								&:hover {
-									@extend .sp-facebook-on;
+								&:nth-child(2) {
+									@extend .sp-facebook-off;
+										&:hover {
+											@extend .sp-facebook-on;
+										}
 								}
-						}
-						&:nth-child(3) {
-							@extend .sp-github-off;
-								&:hover {
-									@extend .sp-github-on;
+								&:nth-child(3) {
+									@extend .sp-github-off;
+										&:hover {
+											@extend .sp-github-on;
+										}
 								}
-						}
-						&:last-child {
-							@extend .sp-linked-off;
-								&:hover {
-									@extend .sp-linked-on;
+								&:last-child {
+									@extend .sp-linked-off;
+										&:hover {
+											@extend .sp-linked-on;
+										}
 								}
 						}
 				}
-		}
-		#cntdwn {
-			float: left;
+				#cntdwn {
+					float: left;
+				}
 		}
 }

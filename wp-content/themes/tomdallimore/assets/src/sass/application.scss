@@ -6,11 +6,13 @@ $icono-layout:horizontal;
 
 /* Global variables */
 $pink: #cc0066;
-$blue: #abd6db;
+$blue: #4CC4DB;
 $darkgray: #1a1a1a;
 $gray: #333333;
 $lightgray: #808080;
 $white:#E6E6E6;
+$light-blue: #abd6db;
+
 @font-face {
   font-family: "MuseoSans-300";
   src: url("../fonts/MuseoSans-300.otf");
@@ -53,14 +55,15 @@ body {
 	font-size: 1em;
 	line-height: 1.8;	
 	font-family: "MuseoSans-300", Helvetica, Arial, sans-serif;
-	text-shadow: 0.5px 0.5px 0 rgba(240, 240, 240, 1); 
     &.dark {
       background:#28292e;
       color:$white;
+      text-shadow: 0px 1px 0 rgba(0, 0, 0, 1);
     }
     &.light {
       background:#f3f4f8;
       color:$gray;
+      text-shadow: 0.5px 0.5px 0 rgba(240, 240, 240, 1); 
     }
 }
 .content {
@@ -142,3 +145,4 @@ body {
 @import "_1140.scss";
 @import "_font-awesome.scss";
 @import "_IE.scss";
+@import "_home.scss";

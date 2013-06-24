@@ -1,7 +1,7 @@
 /* Sprite settings */
 /* line 322, icono/*.png */
-.icono-sprite, .sp-facebook-on, footer span a:nth-child(2):hover, .sp-facebook-off, footer span a:nth-child(2), .sp-twitter-on, footer span a:first-child:hover, .sp-twitter-off, footer span a:first-child, .sp-google-on, .sp-google-off, .sp-linked-on, footer span a:last-child:hover, .sp-linked-off, footer span a:last-child, .sp-github-on, footer span a:nth-child(3):hover, .sp-github-off, footer span a:nth-child(3), .sp-ai-on, .sp-ai-off, .sp-css3-on, .sp-css3-off, .sp-html5-on, .sp-html5-off, .sp-jquery-on, .sp-jquery-off, .sp-ps-on, .sp-ps-off, .sp-ruby-on, .sp-ruby-off, .sp-wp-on, .sp-wp-off, .sp-coffee-on, .sp-coffee-off, .sp-briefcase, .sp-diary, .sp-schematic, .sp-clipboard, .sp-blog-link, .sp-blog-pencil, .sp-profile, .sp-what-i-do, .sp-what-i-love, .sp-where-i-reside {
-  background: url('../img/icono-sf960973257.png') no-repeat;
+.icono-sprite, .sp-facebook-on, footer .container span a:nth-child(2):hover, .sp-facebook-off, footer .container span a:nth-child(2), .sp-twitter-on, footer .container span a:first-child:hover, .sp-twitter-off, footer .container span a:first-child, .sp-google-on, .sp-google-off, .sp-linked-on, footer .container span a:last-child:hover, .sp-linked-off, footer .container span a:last-child, .sp-github-on, footer .container span a:nth-child(3):hover, .sp-github-off, footer .container span a:nth-child(3), .sp-ai-on, .sp-ai-off, .sp-css3-on, .sp-css3-off, .sp-html5-on, .sp-html5-off, .sp-jquery-on, .sp-jquery-off, .sp-ps-on, .sp-ps-off, .sp-ruby-on, .sp-ruby-off, .sp-wp-on, .sp-wp-off, .sp-coffee-on, .sp-coffee-off, .sp-briefcase, .sp-diary, .sp-schematic, .sp-clipboard, .sp-blog-link, .sp-blog-pencil, .sp-profile, .sp-what-i-do, #home .row:first-child .fourcol:first-child div, .sp-what-i-love, #home .row:first-child .fourcol:nth-child(2) div, .sp-where-i-reside, #home .row:first-child .fourcol:last-child div {
+  background: url('../img/icono-s41c7a29c84.png') no-repeat;
 }
 
 /* Global variables */
@@ -38,33 +38,34 @@
 /* ============================== */
 /* ! Layout for desktop version   */
 /* ============================== */
-/* line 47, ../src/sass/application.scss */
+/* line 49, ../src/sass/application.scss */
 html {
   font-size: 100%;
   /* Set a 16px base size */
 }
 
-/* line 50, ../src/sass/application.scss */
+/* line 52, ../src/sass/application.scss */
 body {
   margin: 0 auto;
   font-size: 16px;
   font-size: 1em;
   line-height: 1.8;
   font-family: "MuseoSans-300", Helvetica, Arial, sans-serif;
-  text-shadow: 0.5px 0.5px 0 #f0f0f0;
 }
-/* line 57, ../src/sass/application.scss */
+/* line 58, ../src/sass/application.scss */
 body.dark {
   background: #28292e;
   color: #e6e6e6;
+  text-shadow: 0px 1px 0 black;
 }
-/* line 61, ../src/sass/application.scss */
+/* line 63, ../src/sass/application.scss */
 body.light {
   background: #f3f4f8;
   color: #333333;
+  text-shadow: 0.5px 0.5px 0 #f0f0f0;
 }
 
-/* line 66, ../src/sass/application.scss */
+/* line 69, ../src/sass/application.scss */
 .content {
   padding-bottom: 3em;
 }
@@ -73,186 +74,186 @@ body.light {
 /* ! Sprite declarations  */
 /* ============================= */
 /* Social */
-/* line 73, ../src/sass/application.scss */
-.sp-facebook-on, footer span a:nth-child(2):hover {
+/* line 76, ../src/sass/application.scss */
+.sp-facebook-on, footer .container span a:nth-child(2):hover {
   background-position: -642px 0;
 }
 
-/* line 74, ../src/sass/application.scss */
-.sp-facebook-off, footer span a:nth-child(2) {
+/* line 77, ../src/sass/application.scss */
+.sp-facebook-off, footer .container span a:nth-child(2) {
   background-position: -607px 0;
 }
 
-/* line 75, ../src/sass/application.scss */
-.sp-twitter-on, footer span a:first-child:hover {
+/* line 78, ../src/sass/application.scss */
+.sp-twitter-on, footer .container span a:first-child:hover {
   background-position: -1467px 0;
 }
 
-/* line 76, ../src/sass/application.scss */
-.sp-twitter-off, footer span a:first-child {
+/* line 79, ../src/sass/application.scss */
+.sp-twitter-off, footer .container span a:first-child {
   background-position: -1432px 0;
 }
 
-/* line 77, ../src/sass/application.scss */
+/* line 80, ../src/sass/application.scss */
 .sp-google-on {
   background-position: -782px 0;
 }
 
-/* line 78, ../src/sass/application.scss */
+/* line 81, ../src/sass/application.scss */
 .sp-google-off {
   background-position: -747px 0;
 }
 
-/* line 79, ../src/sass/application.scss */
-.sp-linked-on, footer span a:last-child:hover {
+/* line 82, ../src/sass/application.scss */
+.sp-linked-on, footer .container span a:last-child:hover {
   background-position: -1064px 0;
 }
 
-/* line 80, ../src/sass/application.scss */
-.sp-linked-off, footer span a:last-child {
+/* line 83, ../src/sass/application.scss */
+.sp-linked-off, footer .container span a:last-child {
   background-position: -1029px 0;
 }
 
-/* line 81, ../src/sass/application.scss */
-.sp-github-on, footer span a:nth-child(3):hover {
+/* line 84, ../src/sass/application.scss */
+.sp-github-on, footer .container span a:nth-child(3):hover {
   background-position: -712px 0;
 }
 
-/* line 82, ../src/sass/application.scss */
-.sp-github-off, footer span a:nth-child(3) {
+/* line 85, ../src/sass/application.scss */
+.sp-github-off, footer .container span a:nth-child(3) {
   background-position: -677px 0;
 }
 
 /* Web tools */
-/* line 84, ../src/sass/application.scss */
+/* line 87, ../src/sass/application.scss */
 .sp-ai-on {
   background-position: -53px 0;
 }
 
-/* line 85, ../src/sass/application.scss */
+/* line 88, ../src/sass/application.scss */
 .sp-ai-off {
   background-position: 0 0;
 }
 
-/* line 86, ../src/sass/application.scss */
+/* line 89, ../src/sass/application.scss */
 .sp-css3-on {
   background-position: -514px 0;
 }
 
-/* line 87, ../src/sass/application.scss */
+/* line 90, ../src/sass/application.scss */
 .sp-css3-off {
   background-position: -461px 0;
 }
 
-/* line 88, ../src/sass/application.scss */
+/* line 91, ../src/sass/application.scss */
 .sp-html5-on {
   background-position: -870px 0;
 }
 
-/* line 89, ../src/sass/application.scss */
+/* line 92, ../src/sass/application.scss */
 .sp-html5-off {
   background-position: -817px 0;
 }
 
-/* line 90, ../src/sass/application.scss */
+/* line 93, ../src/sass/application.scss */
 .sp-jquery-on {
   background-position: -976px 0;
 }
 
-/* line 91, ../src/sass/application.scss */
+/* line 94, ../src/sass/application.scss */
 .sp-jquery-off {
   background-position: -923px 0;
 }
 
-/* line 92, ../src/sass/application.scss */
+/* line 95, ../src/sass/application.scss */
 .sp-ps-on {
   background-position: -1231px 0;
 }
 
-/* line 93, ../src/sass/application.scss */
+/* line 96, ../src/sass/application.scss */
 .sp-ps-off {
   background-position: -1178px 0;
 }
 
-/* line 94, ../src/sass/application.scss */
+/* line 97, ../src/sass/application.scss */
 .sp-ruby-on {
   background-position: -1337px 0;
 }
 
-/* line 95, ../src/sass/application.scss */
+/* line 98, ../src/sass/application.scss */
 .sp-ruby-off {
   background-position: -1284px 0;
 }
 
-/* line 96, ../src/sass/application.scss */
+/* line 99, ../src/sass/application.scss */
 .sp-wp-on {
   background-position: -1975px 0;
 }
 
-/* line 97, ../src/sass/application.scss */
+/* line 100, ../src/sass/application.scss */
 .sp-wp-off {
   background-position: -1922px 0;
 }
 
-/* line 98, ../src/sass/application.scss */
+/* line 101, ../src/sass/application.scss */
 .sp-coffee-on {
   background-position: -408px 0;
 }
 
-/* line 99, ../src/sass/application.scss */
+/* line 102, ../src/sass/application.scss */
 .sp-coffee-off {
   background-position: -355px 0;
 }
 
 /* Small icons */
-/* line 101, ../src/sass/application.scss */
+/* line 104, ../src/sass/application.scss */
 .sp-briefcase {
   background-position: -266px 0;
 }
 
-/* line 102, ../src/sass/application.scss */
+/* line 105, ../src/sass/application.scss */
 .sp-diary {
   background-position: -567px 0;
 }
 
-/* line 103, ../src/sass/application.scss */
+/* line 106, ../src/sass/application.scss */
 .sp-schematic {
   background-position: -1390px 0;
 }
 
-/* line 104, ../src/sass/application.scss */
+/* line 107, ../src/sass/application.scss */
 .sp-clipboard {
   background-position: -313px 0;
 }
 
 /* Other images */
-/* line 106, ../src/sass/application.scss */
+/* line 109, ../src/sass/application.scss */
 .sp-blog-link {
   background-position: -106px 0;
 }
 
-/* line 107, ../src/sass/application.scss */
+/* line 110, ../src/sass/application.scss */
 .sp-blog-pencil {
   background-position: -186px 0;
 }
 
-/* line 108, ../src/sass/application.scss */
+/* line 111, ../src/sass/application.scss */
 .sp-profile {
   background-position: -1099px 0;
 }
 
-/* line 109, ../src/sass/application.scss */
-.sp-what-i-do {
+/* line 112, ../src/sass/application.scss */
+.sp-what-i-do, #home .row:first-child .fourcol:first-child div {
   background-position: -1502px 0;
 }
 
-/* line 110, ../src/sass/application.scss */
-.sp-what-i-love {
+/* line 113, ../src/sass/application.scss */
+.sp-what-i-love, #home .row:first-child .fourcol:nth-child(2) div {
   background-position: -1642px 0;
 }
 
-/* line 111, ../src/sass/application.scss */
-.sp-where-i-reside {
+/* line 114, ../src/sass/application.scss */
+.sp-where-i-reside, #home .row:first-child .fourcol:last-child div {
   background-position: -1782px 0;
 }
 
@@ -307,27 +308,38 @@ header:after {
 }
 /* line 37, ../src/sass/_header.scss */
 header nav {
-  margin-top: 9.5%;
+  margin-top: 6.4%;
+  position: relative;
+  z-index: 1000;
 }
-/* line 39, ../src/sass/_header.scss */
+/* line 41, ../src/sass/_header.scss */
 header nav ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
-/* line 43, ../src/sass/_header.scss */
+/* line 45, ../src/sass/_header.scss */
 header nav ul li {
   display: inline-block;
   margin-left: 50px;
   font-size: 18px;
-  font-family: "MuseoSlab-700", Helvetica, Arial, sans-serif !important;
 }
-/* line 48, ../src/sass/_header.scss */
+/* line 49, ../src/sass/_header.scss */
 header nav ul li:first-child {
   margin: 0;
 }
+/* line 52, ../src/sass/_header.scss */
+header nav ul li a {
+  font-family: "MuseoSlab-700", Helvetica, Arial, sans-serif !important;
+  color: #fff;
+  text-shadow: 0px 1px 0 black;
+}
+/* line 58, ../src/sass/_header.scss */
+header nav ul li.current_page_item a {
+  color: #4cc4db;
+}
 
-/* line 55, ../src/sass/_header.scss */
+/* line 66, ../src/sass/_header.scss */
 .blog {
   margin-top: 70px;
   border-top: 6px solid rgba(0, 0, 0, 0.1);
@@ -338,38 +350,43 @@ header nav ul li:first-child {
 
 /* line 1, ../src/sass/_footer.scss */
 footer {
-  background: rgba(0, 0, 0, 0.15);
   border-top: 1px solid rgba(255, 255, 255, 0.05);
   -webkit-box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.25);
   box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.25);
-  padding: 20px 0 5px;
+  background: #28292e;
   color: #B3B3B3;
+  height: 110px;
   overflow: hidden;
 }
-/* line 8, ../src/sass/_footer.scss */
-footer p:last-child {
+/* line 9, ../src/sass/_footer.scss */
+footer .container {
+  background: rgba(0, 0, 0, 0.15);
+  padding: 20px 0 5px;
+}
+/* line 12, ../src/sass/_footer.scss */
+footer .container p:last-child {
   float: right;
 }
-/* line 11, ../src/sass/_footer.scss */
-footer p:first-child {
+/* line 15, ../src/sass/_footer.scss */
+footer .container p:first-child {
   float: left;
 }
-/* line 14, ../src/sass/_footer.scss */
-footer span {
+/* line 18, ../src/sass/_footer.scss */
+footer .container span {
   margin: 0 0 5px;
   padding: 0;
   display: block;
 }
-/* line 18, ../src/sass/_footer.scss */
-footer span a {
+/* line 22, ../src/sass/_footer.scss */
+footer .container span a {
   height: 35px;
   width: 35px;
   margin-right: 14px;
   display: inline-block;
 }
-/* line 49, ../src/sass/_footer.scss */
-footer #cntdwn {
+/* line 53, ../src/sass/_footer.scss */
+footer .container #cntdwn {
   float: left;
 }
 
@@ -387,7 +404,7 @@ footer #cntdwn {
 
 /* line 9, ../src/sass/_styling.scss */
 a {
-  color: #abd6db;
+  color: #4cc4db;
   font-family: "MuseoSans-300Italic", Helvetica, Arial, sans-serif;
   text-decoration: none;
 }
@@ -399,9 +416,9 @@ p {
 
 /* line 17, ../src/sass/_styling.scss */
 h1 {
-  font-size: 3em;
+  font-size: 1.5em;
   color: #fff;
-  font-family: "MuseoSlab-700", Helvetica, Arial, sans-serif;
+  font-family: "MuseoSlab-500", Helvetica, Arial, sans-serif;
   text-shadow: 0px 1px 0 #000;
 }
 
@@ -2244,4 +2261,41 @@ ul.icons li [class*=" icon-"] {
 /* line 41, ../src/sass/_IE.scss */
 .ie .elevencol {
   width: 91.35%;
+}
+
+/* line 20, ../src/sass/_home.scss */
+#home .row:first-child .fourcol div {
+  height: 140px;
+  width: 140px;
+  margin: 30px auto 0;
+}
+/* line 25, ../src/sass/_home.scss */
+#home .row:first-child .fourcol h1, #home .row:first-child .fourcol p {
+  text-align: center;
+}
+/* line 28, ../src/sass/_home.scss */
+#home .row:first-child .fourcol h1 {
+  color: #4cc4db;
+}
+/* line 34, ../src/sass/_home.scss */
+#home .row:nth-child(2) .fourcol {
+  height: 60px;
+  position: relative;
+}
+/* line 37, ../src/sass/_home.scss */
+#home .row:nth-child(2) .fourcol h1 {
+  text-align: center;
+}
+/* line 40, ../src/sass/_home.scss */
+#home .row:nth-child(2) .fourcol span {
+  border-top: 1px solid #1C1D21;
+  border-bottom: 1px solid #333333;
+  width: 134%;
+  display: block;
+  position: absolute;
+  top: 29px;
+}
+/* line 49, ../src/sass/_home.scss */
+#home .row:nth-child(2) .fourcol:last-child span {
+  left: -34%;
 }
