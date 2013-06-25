@@ -13,19 +13,22 @@ a {
 }
 p {
 	font-size:0.9em;
+	margin:0 0 10px;
 }
 h1 {
 	font-size:1.5em;
 	color:#fff;
 	font-family: "MuseoSlab-500", Helvetica, Arial, sans-serif;
 	text-shadow: 1px 1px 0 #000;
+	margin: 10px 0;
+	line-height: 40px;
+	text-rendering: optimizelegibility;
 }
 h2 {
-	color:$darkgray;
-	font-size:1.35em;
-	font-family: "MuseoSlab-500", Helvetica, Arial, sans-serif;
-	text-indent:25px;
-	text-shadow: 1px 1px 0 rgba(240, 240, 240, 1); 
+	color:$blue;
+	font-size:1.1em;
+	margin:0;
+	line-height: 25px;
 }
 h3 {
 	margin:25px 0 10px !important;

@@ -89,13 +89,13 @@
         }
         .sixcol {
             position: relative;
-            height:215px;
+            height:250px;
             margin-top:20px;
                 &:first-child {
                     .divider {
                         border-right: 1px solid #1C1D21;
                         border-left: 1px solid $gray;
-                        height:215px;
+                        height:250px;
                         position: absolute;
                         width:0.5px;
                         top:0px;
@@ -103,11 +103,23 @@
                     }
                     div {
                         overflow: hidden;
-                            h2, p {
-                                float: left;
-                            }
+                        margin-bottom:10px;
                             span {
-                                float: right;
+                                    &:first-child {
+                                        float:left;
+                                        width: 370px;
+                                            p {
+                                                line-height: 1.5em;
+                                            }
+                                    }
+                                    &:last-child {
+                                        float: right;
+                                        color:$blue;
+                                        margin-right:30px;
+                                            i {
+                                                margin:0 10px;
+                                            }
+                                    }
                             }
                     }
                 }

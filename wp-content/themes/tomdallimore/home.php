@@ -60,8 +60,34 @@ Template Name: HomeTemp
                 <h1>Github repos</h1>
                 <span class="divider"></span>
                 <div>
-                    <h2>Sngtrkr</h2>
-                    <p>The official SNGTRKR.com repo.</p>
+                    <span>
+                        <h2>Sngtrkr</h2>
+                        <p>The official SNGTRKR.com repo.</p>
+                    </span>
+                    <span>
+                        <i class="icon-star"></i>
+                        3
+                        <i class="icon-code-fork"></i>
+                        0
+                    </span>
+                </div>
+                <div>
+                    <span>
+                        <h2>tomdallimore</h2>
+                        <p>Official Tom Dallimore portfolio &amp; blog.</p>
+                    </span>
+                    <span>
+                        <i class="icon-star"></i>
+                        3
+                        <i class="icon-code-fork"></i>
+                        0
+                    </span>
+                </div>
+                <div>
+                    <span>
+                        <h2>depot</h2>
+                        <p>Ecommerce content management system built with Ruby on Rails.</p>
+                    </span>
                     <span>
                         <i class="icon-star"></i>
                         3

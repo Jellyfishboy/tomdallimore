@@ -428,26 +428,29 @@ a {
 /* line 14, ../src/sass/_styling.scss */
 p {
   font-size: 0.9em;
+  margin: 0 0 10px;
 }
 
-/* line 17, ../src/sass/_styling.scss */
+/* line 18, ../src/sass/_styling.scss */
 h1 {
   font-size: 1.5em;
   color: #fff;
   font-family: "MuseoSlab-500", Helvetica, Arial, sans-serif;
   text-shadow: 1px 1px 0 #000;
+  margin: 10px 0;
+  line-height: 40px;
+  text-rendering: optimizelegibility;
 }
 
-/* line 23, ../src/sass/_styling.scss */
+/* line 27, ../src/sass/_styling.scss */
 h2 {
-  color: #1a1a1a;
-  font-size: 1.35em;
-  font-family: "MuseoSlab-500", Helvetica, Arial, sans-serif;
-  text-indent: 25px;
-  text-shadow: 1px 1px 0 #f0f0f0;
+  color: #4cc4db;
+  font-size: 1.1em;
+  margin: 0;
+  line-height: 25px;
 }
 
-/* line 30, ../src/sass/_styling.scss */
+/* line 33, ../src/sass/_styling.scss */
 h3 {
   margin: 25px 0 10px !important;
   font-size: 1.56em;
@@ -456,20 +459,20 @@ h3 {
   text-shadow: 0px 1px 0 #000;
 }
 
-/* line 37, ../src/sass/_styling.scss */
+/* line 40, ../src/sass/_styling.scss */
 i {
   color: #b3b3b3;
   text-shadow: 0.5px 0.5px 0 #f0f0f0;
 }
 
-/* line 41, ../src/sass/_styling.scss */
+/* line 44, ../src/sass/_styling.scss */
 .inputError {
   border-color: #b94a48 !important;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) !important;
   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) !important;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) !important;
 }
-/* line 44, ../src/sass/_styling.scss */
+/* line 47, ../src/sass/_styling.scss */
 .inputError:focus {
   border-color: #953b39 !important;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392 !important;
@@ -477,32 +480,32 @@ i {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392 !important;
 }
 
-/* line 49, ../src/sass/_styling.scss */
+/* line 52, ../src/sass/_styling.scss */
 .error {
   font-size: 0.8em;
   color: #b94a48;
 }
 
-/* line 53, ../src/sass/_styling.scss */
+/* line 56, ../src/sass/_styling.scss */
 .fourcol {
   position: relative;
 }
 
-/* line 56, ../src/sass/_styling.scss */
+/* line 59, ../src/sass/_styling.scss */
 #main_header {
   line-height: 0px;
   margin: 0;
   text-indent: -9999px;
 }
 
-/* line 61, ../src/sass/_styling.scss */
+/* line 64, ../src/sass/_styling.scss */
 .focus_content {
   background: url("../img/textured_white.png");
   height: 490px;
   margin-top: 70px;
 }
 
-/* line 66, ../src/sass/_styling.scss */
+/* line 69, ../src/sass/_styling.scss */
 #content_divider {
   height: 8px;
   background: #1c1d21;
@@ -3065,14 +3068,14 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
 /* line 90, ../src/sass/_home.scss */
 #home .row .sixcol {
   position: relative;
-  height: 215px;
+  height: 250px;
   margin-top: 20px;
 }
 /* line 95, ../src/sass/_home.scss */
 #home .row .sixcol:first-child .divider {
   border-right: 1px solid #1C1D21;
   border-left: 1px solid #333333;
-  height: 215px;
+  height: 250px;
   position: absolute;
   width: 0.5px;
   top: 0px;
@@ -3081,27 +3084,39 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
 /* line 104, ../src/sass/_home.scss */
 #home .row .sixcol:first-child div {
   overflow: hidden;
+  margin-bottom: 10px;
 }
-/* line 106, ../src/sass/_home.scss */
-#home .row .sixcol:first-child div h2, #home .row .sixcol:first-child div p {
+/* line 108, ../src/sass/_home.scss */
+#home .row .sixcol:first-child div span:first-child {
   float: left;
+  width: 370px;
 }
-/* line 109, ../src/sass/_home.scss */
-#home .row .sixcol:first-child div span {
+/* line 111, ../src/sass/_home.scss */
+#home .row .sixcol:first-child div span:first-child p {
+  line-height: 1.5em;
+}
+/* line 115, ../src/sass/_home.scss */
+#home .row .sixcol:first-child div span:last-child {
   float: right;
+  color: #4cc4db;
+  margin-right: 30px;
 }
-/* line 114, ../src/sass/_home.scss */
+/* line 119, ../src/sass/_home.scss */
+#home .row .sixcol:first-child div span:last-child i {
+  margin: 0 10px;
+}
+/* line 126, ../src/sass/_home.scss */
 #home .row .sixcol i {
   color: #fff;
   display: inline-block;
   font-size: 1.6em;
   margin-right: 15px;
 }
-/* line 119, ../src/sass/_home.scss */
+/* line 131, ../src/sass/_home.scss */
 #home .row .sixcol i.icon-github {
   font-size: 1.7em;
 }
-/* line 123, ../src/sass/_home.scss */
+/* line 135, ../src/sass/_home.scss */
 #home .row .sixcol h1 {
   display: inline-block;
   margin: 0 0 10px;
