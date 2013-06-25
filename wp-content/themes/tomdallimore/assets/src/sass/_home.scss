@@ -52,5 +52,56 @@
 					}
 			}
 		}
+        &:nth-child(3) {
+            .fourcol {
+                &:first-child {
+                    div {
+                        background-color: #C7B299;
+                    }
+                }
+                &:nth-child(2) {
+                    div {
+                        background-color: #F15A24;
+
+                    }
+                }
+                &:last-child {
+                    div {
+                        background-color: #22B573;
+                    }
+                }
+                div {
+                    margin-top:15px;
+                    @include border-radius(7px);
+                    @include box-shadow(0 0 2px #000);
+                    width:100%;
+                    height: 150px;
+                }
+            }
+        }
+        .twelvecol {
+            div {
+                margin-top:44px;
+                border-top: 1px solid #1C1D21;
+                border-bottom: 1px solid $gray;
+                width:100%;
+            }
+        }
+        .sixcol {
+            position: relative;
+            height:215px;
+            margin-top:20px;
+                &:first-child {
+                    div {
+                        border-right: 1px solid #1C1D21;
+                        border-left: 1px solid $gray;
+                        height:215px;
+                        position: absolute;
+                        width:0.5px;
+                        top:0px;
+                        right:0px;
+                    }
+                }
+        }
 	}
 }

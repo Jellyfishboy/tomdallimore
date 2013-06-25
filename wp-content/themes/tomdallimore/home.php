@@ -13,7 +13,7 @@ Template Name: HomeTemp
     	<div class="row">
     		<div class="fourcol">
     			<div></div>
-    			<h1>What I love</h1>
+    			<h1>What I do</h1>
     			<p>Armed with the latest technologies and best practises in the industry, I can turn your designs into web reality. I specialise in Ruby on Rails for web applications and HAML, SASS with Compass and Coffeescript for front-end development.</p>
     		</div>
     		<div class="fourcol">
@@ -38,6 +38,32 @@ Template Name: HomeTemp
                 <span></span>
             </div>
         </div>
-
+        <div class="row">
+            <div class="fourcol">
+                <div></div>
+            </div>
+            <div class="fourcol">
+                <div></div>
+            </div>
+            <div class="fourcol last">
+                <div></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="twelvecol">
+                <div></div>
+            </div>
+        </div>    
+        <div class="row">
+            <div class="sixcol">
+                <i class="icon-github"></i>
+                <h1>Github repos</h1>
+                <div></div>
+            </div>
+            <div class="sixcol last">
+                <i class="icon-twitter"></i>
+                <h1>Latest tweets</h1>
+            </div>
+        </div>
 
 <?php get_footer('no-sidebar'); ?>
