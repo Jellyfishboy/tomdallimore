@@ -58,7 +58,17 @@ Template Name: HomeTemp
             <div class="sixcol">
                 <i class="icon-github"></i>
                 <h1>Github repos</h1>
-                <div></div>
+                <span class="divider"></span>
+                <div>
+                    <h2>Sngtrkr</h2>
+                    <p>The official SNGTRKR.com repo.</p>
+                    <span>
+                        <i class="icon-star"></i>
+                        3
+                        <i class="icon-code-fork"></i>
+                        0
+                    </span>
+                </div>
             </div>
             <div class="sixcol last">
                 <i class="icon-twitter"></i>

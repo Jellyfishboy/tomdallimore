@@ -92,7 +92,7 @@
             height:215px;
             margin-top:20px;
                 &:first-child {
-                    div {
+                    .divider {
                         border-right: 1px solid #1C1D21;
                         border-left: 1px solid $gray;
                         height:215px;
@@ -100,6 +100,15 @@
                         width:0.5px;
                         top:0px;
                         right:0px;
+                    }
+                    div {
+                        overflow: hidden;
+                            h2, p {
+                                float: left;
+                            }
+                            span {
+                                float: right;
+                            }
                     }
                 }
                 i {
