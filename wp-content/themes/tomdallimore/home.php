@@ -78,7 +78,7 @@ Template Name: HomeTemp
                     </span>
                     <span>
                         <i class="icon-star"></i>
-                        3
+                        0
                         <i class="icon-code-fork"></i>
                         0
                     </span>
@@ -90,7 +90,7 @@ Template Name: HomeTemp
                     </span>
                     <span>
                         <i class="icon-star"></i>
-                        3
+                        0
                         <i class="icon-code-fork"></i>
                         0
                     </span>
