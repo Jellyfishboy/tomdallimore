@@ -2362,3 +2362,19 @@ ul.icons li [class*=" icon-"] {
   top: 0px;
   right: 0px;
 }
+/* line 105, ../src/sass/_home.scss */
+#home .row .sixcol i {
+  color: #fff;
+  display: inline-block;
+  font-size: 1.6em;
+  margin-right: 15px;
+}
+/* line 110, ../src/sass/_home.scss */
+#home .row .sixcol i.icon-github {
+  font-size: 1.7em;
+}
+/* line 114, ../src/sass/_home.scss */
+#home .row .sixcol h1 {
+  display: inline-block;
+  margin: 0 0 10px;
+}
