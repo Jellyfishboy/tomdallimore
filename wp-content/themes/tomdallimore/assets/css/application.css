@@ -314,21 +314,20 @@ header nav {
 }
 /* line 41, ../src/sass/_header.scss */
 header nav ul {
-  list-style-type: none;
   padding: 0;
   margin: 0;
 }
-/* line 45, ../src/sass/_header.scss */
+/* line 44, ../src/sass/_header.scss */
 header nav ul li {
   display: inline-block;
   margin-left: 50px;
   font-size: 18px;
 }
-/* line 49, ../src/sass/_header.scss */
+/* line 48, ../src/sass/_header.scss */
 header nav ul li:first-child {
   margin: 0;
 }
-/* line 52, ../src/sass/_header.scss */
+/* line 51, ../src/sass/_header.scss */
 header nav ul li a {
   font-family: "MuseoSlab-700", Helvetica, Arial, sans-serif !important;
   color: #fff;
@@ -346,16 +345,16 @@ header nav ul li a {
   -o-transition-timing-function: ease-in;
   transition-timing-function: ease-in;
 }
-/* line 59, ../src/sass/_header.scss */
+/* line 58, ../src/sass/_header.scss */
 header nav ul li a:hover {
   color: #4cc4db;
 }
-/* line 64, ../src/sass/_header.scss */
+/* line 63, ../src/sass/_header.scss */
 header nav ul li.current_page_item a {
   color: #4cc4db;
 }
 
-/* line 72, ../src/sass/_header.scss */
+/* line 71, ../src/sass/_header.scss */
 .blog {
   margin-top: 70px;
   border-top: 6px solid rgba(0, 0, 0, 0.1);
@@ -432,6 +431,11 @@ p {
 }
 
 /* line 18, ../src/sass/_styling.scss */
+ul {
+  list-style-type: none;
+}
+
+/* line 21, ../src/sass/_styling.scss */
 h1 {
   font-size: 1.5em;
   color: #fff;
@@ -442,7 +446,7 @@ h1 {
   text-rendering: optimizelegibility;
 }
 
-/* line 27, ../src/sass/_styling.scss */
+/* line 30, ../src/sass/_styling.scss */
 h2 {
   color: #4cc4db;
   font-size: 1.1em;
@@ -450,7 +454,7 @@ h2 {
   line-height: 25px;
 }
 
-/* line 33, ../src/sass/_styling.scss */
+/* line 36, ../src/sass/_styling.scss */
 h3 {
   margin: 25px 0 10px !important;
   font-size: 1.56em;
@@ -459,20 +463,20 @@ h3 {
   text-shadow: 0px 1px 0 #000;
 }
 
-/* line 40, ../src/sass/_styling.scss */
+/* line 43, ../src/sass/_styling.scss */
 i {
   color: #b3b3b3;
   text-shadow: 0.5px 0.5px 0 #f0f0f0;
 }
 
-/* line 44, ../src/sass/_styling.scss */
+/* line 47, ../src/sass/_styling.scss */
 .inputError {
   border-color: #b94a48 !important;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) !important;
   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) !important;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) !important;
 }
-/* line 47, ../src/sass/_styling.scss */
+/* line 50, ../src/sass/_styling.scss */
 .inputError:focus {
   border-color: #953b39 !important;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392 !important;
@@ -480,32 +484,32 @@ i {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392 !important;
 }
 
-/* line 52, ../src/sass/_styling.scss */
+/* line 55, ../src/sass/_styling.scss */
 .error {
   font-size: 0.8em;
   color: #b94a48;
 }
 
-/* line 56, ../src/sass/_styling.scss */
+/* line 59, ../src/sass/_styling.scss */
 .fourcol {
   position: relative;
 }
 
-/* line 59, ../src/sass/_styling.scss */
+/* line 62, ../src/sass/_styling.scss */
 #main_header {
   line-height: 0px;
   margin: 0;
   text-indent: -9999px;
 }
 
-/* line 64, ../src/sass/_styling.scss */
+/* line 67, ../src/sass/_styling.scss */
 .focus_content {
   background: url("../img/textured_white.png");
   height: 490px;
   margin-top: 70px;
 }
 
-/* line 69, ../src/sass/_styling.scss */
+/* line 72, ../src/sass/_styling.scss */
 #content_divider {
   height: 8px;
   background: #1c1d21;
@@ -3099,25 +3103,45 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
 #home .row .sixcol:first-child div span:last-child {
   float: right;
   color: #4cc4db;
-  margin-right: 30px;
+  margin: 12px 30px 0 0;
 }
 /* line 119, ../src/sass/_home.scss */
 #home .row .sixcol:first-child div span:last-child i {
-  margin: 0 10px;
+  margin: 0 10px 0 17px;
+  position: relative;
+  top: 3px;
+  font-size: 1.5em;
 }
-/* line 126, ../src/sass/_home.scss */
+/* line 125, ../src/sass/_home.scss */
+#home .row .sixcol:first-child div span:last-child p {
+  margin: 0;
+  display: inline-block;
+  font-weight: bold;
+}
+/* line 131, ../src/sass/_home.scss */
+#home .row .sixcol:first-child div span h2 {
+  font-family: "MuseoSans-300", Helvetica, Arial, sans-serif;
+}
+/* line 138, ../src/sass/_home.scss */
+#home .row .sixcol:last-child ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 141, ../src/sass/_home.scss */
+#home .row .sixcol:last-child ul li {
+  margin-bottom: 12px;
+}
+/* line 146, ../src/sass/_home.scss */
 #home .row .sixcol i {
   color: #fff;
   display: inline-block;
-  font-size: 1.6em;
+  font-size: 2.3em;
   margin-right: 15px;
 }
-/* line 131, ../src/sass/_home.scss */
-#home .row .sixcol i.icon-github {
-  font-size: 1.7em;
-}
-/* line 135, ../src/sass/_home.scss */
+/* line 152, ../src/sass/_home.scss */
 #home .row .sixcol h1 {
   display: inline-block;
   margin: 0 0 10px;
+  position: relative;
+  top: -4px;
 }

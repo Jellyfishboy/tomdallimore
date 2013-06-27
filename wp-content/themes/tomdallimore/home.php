@@ -61,44 +61,38 @@ Template Name: HomeTemp
                 <span class="divider"></span>
                 <div>
                     <span>
-                        <h2>Sngtrkr</h2>
+                        <a href="https://github.com/SNGTRKR/sngtrkr" target="_blank"><h2>Sngtrkr</h2></a>
                         <p>The official SNGTRKR.com repo.</p>
                     </span>
                     <span>
-                        <i class="icon-star"></i>
-                        3
-                        <i class="icon-code-fork"></i>
-                        0
+                        <i class="icon-star"></i><p>3</p><i class="icon-code-fork"></i><p>0</p>
                     </span>
                 </div>
                 <div>
                     <span>
-                        <h2>tomdallimore</h2>
+                        <a href="https://github.com/Jellyfishboy/tomdallimore" target="_blank"><h2>tomdallimore</h2></a>
                         <p>Official Tom Dallimore portfolio &amp; blog.</p>
                     </span>
                     <span>
-                        <i class="icon-star"></i>
-                        0
-                        <i class="icon-code-fork"></i>
-                        0
+                        <i class="icon-star"></i><p>0</p><i class="icon-code-fork"></i><p>0</p>
                     </span>
                 </div>
                 <div>
                     <span>
-                        <h2>depot</h2>
-                        <p>Ecommerce content management system built with Ruby on Rails.</p>
+                        <a href="https://github.com/Jellyfishboy/depot" target="_blank"><h2>depot</h2></a>
+                        <p>Ecommerce CMS built with Ruby on Rails.</p>
                     </span>
                     <span>
-                        <i class="icon-star"></i>
-                        0
-                        <i class="icon-code-fork"></i>
-                        0
+                        <i class="icon-star"></i><p>0</p><i class="icon-code-fork"></i><p>0</p>
                     </span>
                 </div>
             </div>
             <div class="sixcol last">
                 <i class="icon-twitter"></i>
                 <h1>Latest tweets</h1>
+                <ul>
+                    <?php include 'twitter.php'; ?>
+                </ul>
             </div>
         </div>
 
