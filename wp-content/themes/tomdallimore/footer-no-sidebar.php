@@ -7,7 +7,7 @@
 				<a href="http://www.twitter.com/billy_dallimore" alt="Twitter" target="_blank"></a>
 				<a href="http://www.facebook.com/ruckusmedia" alt="Facebook" target="_blank"></a>
 				<a href="http://www.github.com/jellyfishboy" alt="Github" target="_blank"></a>
-				<a href="http://uk.linkedin.com/in/ruckusmedia" alt="LinkedIn" target="_blank"></a>
+				<a href="http://uk.linkedin.com/in/tomdallimore" alt="LinkedIn" target="_blank"></a>
 			</span>	
 		</div>
 		<div class="row">

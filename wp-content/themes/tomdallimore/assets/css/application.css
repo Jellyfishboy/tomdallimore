@@ -3203,3 +3203,23 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
   width: 100px;
   margin: 20px 18px 0 0;
 }
+
+/* line 2, ../src/sass/_work.scss */
+#work .row {
+  padding: 35px 0;
+  border-bottom: 1px solid #1C1D21;
+  border-top: 1px solid #333333;
+}
+/* line 6, ../src/sass/_work.scss */
+#work .row:first-child {
+  border-top: none;
+}
+/* line 9, ../src/sass/_work.scss */
+#work .row:last-child {
+  padding: 35px 0 0;
+  border-bottom: none;
+}
+/* line 13, ../src/sass/_work.scss */
+#work .row h1 {
+  margin: 0 0 10px;
+}
