@@ -79,8 +79,8 @@ Template Name: HomeTemp
                 </div>
                 <div>
                     <span>
-                        <a href="https://github.com/Jellyfishboy/depot" target="_blank"><h2>depot</h2></a>
-                        <p>Ecommerce CMS built with Ruby on Rails.</p>
+                        <a href="https://github.com/Jellyfishboy/depot" target="_blank"><h2>gimson_robotics</h2></a>
+                        <p>Online e-commerce CMS for Gimson Robotics.</p>
                     </span>
                     <span>
                         <i class="icon-star"></i><p>0</p><i class="icon-code-fork"></i><p>0</p>
