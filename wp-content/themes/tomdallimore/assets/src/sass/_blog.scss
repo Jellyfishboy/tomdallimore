@@ -1,0 +1,14 @@
+#blog {
+    
+        h2 {
+            text-indent:-999px;
+            height:80px;
+            width:80px;
+                &.article {
+                    @extend .sp-blog-pencil;
+                }
+                &.link {
+                    @extend .sp-blog-link;
+                }
+        }
+}

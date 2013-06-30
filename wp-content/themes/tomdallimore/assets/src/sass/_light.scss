@@ -1,0 +1,16 @@
+&.light {
+  background:#f3f4f8;
+  color:$gray;
+  text-shadow: 0.5px 0.5px 0 rgba(240, 240, 240, 1); 
+    h1 {
+      color:$gray;
+      text-shadow: 1px 1px 0 rgba(240, 240, 240, 1);
+      font-family: "MuseoSlab-300", Helvetica, Arial, sans-serif;
+    }
+    #content_divider {
+        margin:71px 0 35px;
+        background: #f4f4f4;
+        border-top: 6px solid rgba( 0,0,0,0.1 );
+        @include box-shadow(0px -1px 1px rgba( 0,0,0,0.3 ), inset 0px 1px 0px rgba( 0,0,0,0.2 ), inset 0px 2px 0px rgba( 255,255,255,0.8 ));
+    }
+}

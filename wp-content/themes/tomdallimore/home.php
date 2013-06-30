@@ -4,7 +4,7 @@ Template Name: HomeTemp
 */ 
 ?>
 <?php get_header(); ?>
-<div id="focus_content">
+<div id="home_focus" class="focus_content">
 
 </div>
 <div id="content_divider"></div>

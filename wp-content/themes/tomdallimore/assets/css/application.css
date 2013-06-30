@@ -1,6 +1,6 @@
 /* Sprite settings */
 /* line 322, icono/*.png */
-.icono-sprite, .sp-facebook-on, footer .container span a:nth-child(2):hover, .sp-facebook-off, footer .container span a:nth-child(2), .sp-twitter-on, footer .container span a:first-child:hover, .sp-twitter-off, footer .container span a:first-child, .sp-google-on, .sp-google-off, .sp-linked-on, footer .container span a:last-child:hover, .sp-linked-off, footer .container span a:last-child, .sp-github-on, footer .container span a:nth-child(3):hover, .sp-github-off, footer .container span a:nth-child(3), .sp-ai-on, .sp-ai-off, .sp-css3-on, .sp-css3-off, .sp-html5-on, .sp-html5-off, .sp-jquery-on, .sp-jquery-off, .sp-ps-on, .sp-ps-off, .sp-ruby-on, .sp-ruby-off, .sp-wp-on, .sp-wp-off, .sp-coffee-on, .sp-coffee-off, .sp-briefcase, .sp-diary, .sp-schematic, .sp-clipboard, .sp-blog-link, .sp-blog-pencil, .sp-profile, .sp-what-i-do, #home .row:first-child .fourcol:first-child div, .sp-what-i-love, #home .row:first-child .fourcol:nth-child(2) div, .sp-where-i-reside, #home .row:first-child .fourcol:last-child div {
+.icono-sprite, .sp-facebook-on, .sp-facebook-off, footer .container span a:nth-child(2), .sp-twitter-on, .sp-twitter-off, footer .container span a:first-child, .sp-google-on, .sp-google-off, .sp-linked-on, .sp-linked-off, footer .container span a:last-child, .sp-github-on, .sp-github-off, footer .container span a:nth-child(3), .sp-ai-on, .sp-ai-off, .sp-css3-on, .sp-css3-off, .sp-html5-on, .sp-html5-off, .sp-jquery-on, .sp-jquery-off, .sp-ps-on, .sp-ps-off, .sp-ruby-on, .sp-ruby-off, .sp-wp-on, .sp-wp-off, .sp-coffee-on, .sp-coffee-off, .sp-briefcase, .sp-diary, .sp-schematic, .sp-clipboard, .sp-blog-link, #blog h2.link, .sp-blog-pencil, #blog h2.article, .sp-profile, .sp-what-i-do, #home .row:first-child .fourcol:first-child div, .sp-what-i-love, #home .row:first-child .fourcol:nth-child(2) div, .sp-where-i-reside, #home .row:first-child .fourcol:last-child div {
   background: url('../img/icono-s41c7a29c84.png') no-repeat;
 }
 
@@ -52,20 +52,54 @@ body {
   line-height: 1.8;
   font-family: "MuseoSans-300", Helvetica, Arial, sans-serif;
 }
-/* line 58, ../src/sass/application.scss */
-body.dark {
-  background: #28292e;
-  color: #e6e6e6;
-  text-shadow: 0px 1px 0 black;
-}
-/* line 63, ../src/sass/application.scss */
+/* line 1, ../src/sass/_light.scss */
 body.light {
   background: #f3f4f8;
   color: #333333;
   text-shadow: 0.5px 0.5px 0 #f0f0f0;
 }
+/* line 5, ../src/sass/_light.scss */
+body.light h1 {
+  color: #333333;
+  text-shadow: 1px 1px 0 #f0f0f0;
+  font-family: "MuseoSlab-300", Helvetica, Arial, sans-serif;
+}
+/* line 10, ../src/sass/_light.scss */
+body.light #content_divider {
+  margin: 71px 0 35px;
+  background: #f4f4f4;
+  border-top: 6px solid rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.3), inset 0px 1px 0px rgba(0, 0, 0, 0.2), inset 0px 2px 0px rgba(255, 255, 255, 0.8);
+  -moz-box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.3), inset 0px 1px 0px rgba(0, 0, 0, 0.2), inset 0px 2px 0px rgba(255, 255, 255, 0.8);
+  box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.3), inset 0px 1px 0px rgba(0, 0, 0, 0.2), inset 0px 2px 0px rgba(255, 255, 255, 0.8);
+  box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.3), inset 0px 1px 0px rgba(0, 0, 0, 0.2), inset 0px 2px 0px rgba(255, 255, 255, 0.8);
+  -moz-box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.3), inset 0px 1px 0px rgba(0, 0, 0, 0.2), inset 0px 2px 0px rgba(255, 255, 255, 0.8);
+  -ms-box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.3), inset 0px 1px 0px rgba(0, 0, 0, 0.2), inset 0px 2px 0px rgba(255, 255, 255, 0.8);
+  -o-box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.3), inset 0px 1px 0px rgba(0, 0, 0, 0.2), inset 0px 2px 0px rgba(255, 255, 255, 0.8);
+  -webkit-box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.3), inset 0px 1px 0px rgba(0, 0, 0, 0.2), inset 0px 2px 0px rgba(255, 255, 255, 0.8);
+}
+/* line 1, ../src/sass/_dark.scss */
+body.dark {
+  background: #28292e;
+  color: #e6e6e6;
+  text-shadow: 0px 1px 0 black;
+}
+/* line 5, ../src/sass/_dark.scss */
+body.dark h1 {
+  color: #fff;
+  text-shadow: 1px 1px 0 #000;
+  font-family: "MuseoSlab-500", Helvetica, Arial, sans-serif;
+}
+/* line 10, ../src/sass/_dark.scss */
+body.dark #content_divider {
+  height: 8px;
+  background: #1c1d21;
+  -webkit-box-shadow: 0px -1px 0px rgba(255, 255, 255, 0.08), inset 0px 1px 0px rgba(0, 0, 0, 0.41), 0px 1px 0px rgba(255, 255, 255, 0.03), inset 0px -1px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px -1px 0px rgba(255, 255, 255, 0.08), inset 0px 1px 0px rgba(0, 0, 0, 0.41), 0px 1px 0px rgba(255, 255, 255, 0.03), inset 0px -1px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px -1px 0px rgba(255, 255, 255, 0.08), inset 0px 1px 0px rgba(0, 0, 0, 0.41), 0px 1px 0px rgba(255, 255, 255, 0.03), inset 0px -1px 0px rgba(0, 0, 0, 0.3);
+}
 
-/* line 69, ../src/sass/application.scss */
+/* line 63, ../src/sass/application.scss */
 .content {
   padding-bottom: 3em;
 }
@@ -74,185 +108,185 @@ body.light {
 /* ! Sprite declarations  */
 /* ============================= */
 /* Social */
-/* line 76, ../src/sass/application.scss */
+/* line 70, ../src/sass/application.scss */
 .sp-facebook-on, footer .container span a:nth-child(2):hover {
   background-position: -642px 0;
 }
 
-/* line 77, ../src/sass/application.scss */
+/* line 71, ../src/sass/application.scss */
 .sp-facebook-off, footer .container span a:nth-child(2) {
   background-position: -607px 0;
 }
 
-/* line 78, ../src/sass/application.scss */
+/* line 72, ../src/sass/application.scss */
 .sp-twitter-on, footer .container span a:first-child:hover {
   background-position: -1467px 0;
 }
 
-/* line 79, ../src/sass/application.scss */
+/* line 73, ../src/sass/application.scss */
 .sp-twitter-off, footer .container span a:first-child {
   background-position: -1432px 0;
 }
 
-/* line 80, ../src/sass/application.scss */
+/* line 74, ../src/sass/application.scss */
 .sp-google-on {
   background-position: -782px 0;
 }
 
-/* line 81, ../src/sass/application.scss */
+/* line 75, ../src/sass/application.scss */
 .sp-google-off {
   background-position: -747px 0;
 }
 
-/* line 82, ../src/sass/application.scss */
+/* line 76, ../src/sass/application.scss */
 .sp-linked-on, footer .container span a:last-child:hover {
   background-position: -1064px 0;
 }
 
-/* line 83, ../src/sass/application.scss */
+/* line 77, ../src/sass/application.scss */
 .sp-linked-off, footer .container span a:last-child {
   background-position: -1029px 0;
 }
 
-/* line 84, ../src/sass/application.scss */
+/* line 78, ../src/sass/application.scss */
 .sp-github-on, footer .container span a:nth-child(3):hover {
   background-position: -712px 0;
 }
 
-/* line 85, ../src/sass/application.scss */
+/* line 79, ../src/sass/application.scss */
 .sp-github-off, footer .container span a:nth-child(3) {
   background-position: -677px 0;
 }
 
 /* Web tools */
-/* line 87, ../src/sass/application.scss */
+/* line 81, ../src/sass/application.scss */
 .sp-ai-on {
   background-position: -53px 0;
 }
 
-/* line 88, ../src/sass/application.scss */
+/* line 82, ../src/sass/application.scss */
 .sp-ai-off {
   background-position: 0 0;
 }
 
-/* line 89, ../src/sass/application.scss */
+/* line 83, ../src/sass/application.scss */
 .sp-css3-on {
   background-position: -514px 0;
 }
 
-/* line 90, ../src/sass/application.scss */
+/* line 84, ../src/sass/application.scss */
 .sp-css3-off {
   background-position: -461px 0;
 }
 
-/* line 91, ../src/sass/application.scss */
+/* line 85, ../src/sass/application.scss */
 .sp-html5-on {
   background-position: -870px 0;
 }
 
-/* line 92, ../src/sass/application.scss */
+/* line 86, ../src/sass/application.scss */
 .sp-html5-off {
   background-position: -817px 0;
 }
 
-/* line 93, ../src/sass/application.scss */
+/* line 87, ../src/sass/application.scss */
 .sp-jquery-on {
   background-position: -976px 0;
 }
 
-/* line 94, ../src/sass/application.scss */
+/* line 88, ../src/sass/application.scss */
 .sp-jquery-off {
   background-position: -923px 0;
 }
 
-/* line 95, ../src/sass/application.scss */
+/* line 89, ../src/sass/application.scss */
 .sp-ps-on {
   background-position: -1231px 0;
 }
 
-/* line 96, ../src/sass/application.scss */
+/* line 90, ../src/sass/application.scss */
 .sp-ps-off {
   background-position: -1178px 0;
 }
 
-/* line 97, ../src/sass/application.scss */
+/* line 91, ../src/sass/application.scss */
 .sp-ruby-on {
   background-position: -1337px 0;
 }
 
-/* line 98, ../src/sass/application.scss */
+/* line 92, ../src/sass/application.scss */
 .sp-ruby-off {
   background-position: -1284px 0;
 }
 
-/* line 99, ../src/sass/application.scss */
+/* line 93, ../src/sass/application.scss */
 .sp-wp-on {
   background-position: -1975px 0;
 }
 
-/* line 100, ../src/sass/application.scss */
+/* line 94, ../src/sass/application.scss */
 .sp-wp-off {
   background-position: -1922px 0;
 }
 
-/* line 101, ../src/sass/application.scss */
+/* line 95, ../src/sass/application.scss */
 .sp-coffee-on {
   background-position: -408px 0;
 }
 
-/* line 102, ../src/sass/application.scss */
+/* line 96, ../src/sass/application.scss */
 .sp-coffee-off {
   background-position: -355px 0;
 }
 
 /* Small icons */
-/* line 104, ../src/sass/application.scss */
+/* line 98, ../src/sass/application.scss */
 .sp-briefcase {
   background-position: -266px 0;
 }
 
-/* line 105, ../src/sass/application.scss */
+/* line 99, ../src/sass/application.scss */
 .sp-diary {
   background-position: -567px 0;
 }
 
-/* line 106, ../src/sass/application.scss */
+/* line 100, ../src/sass/application.scss */
 .sp-schematic {
   background-position: -1390px 0;
 }
 
-/* line 107, ../src/sass/application.scss */
+/* line 101, ../src/sass/application.scss */
 .sp-clipboard {
   background-position: -313px 0;
 }
 
 /* Other images */
-/* line 109, ../src/sass/application.scss */
-.sp-blog-link {
+/* line 103, ../src/sass/application.scss */
+.sp-blog-link, #blog h2.link {
   background-position: -106px 0;
 }
 
-/* line 110, ../src/sass/application.scss */
-.sp-blog-pencil {
+/* line 104, ../src/sass/application.scss */
+.sp-blog-pencil, #blog h2.article {
   background-position: -186px 0;
 }
 
-/* line 111, ../src/sass/application.scss */
+/* line 105, ../src/sass/application.scss */
 .sp-profile {
   background-position: -1099px 0;
 }
 
-/* line 112, ../src/sass/application.scss */
+/* line 106, ../src/sass/application.scss */
 .sp-what-i-do, #home .row:first-child .fourcol:first-child div {
   background-position: -1502px 0;
 }
 
-/* line 113, ../src/sass/application.scss */
+/* line 107, ../src/sass/application.scss */
 .sp-what-i-love, #home .row:first-child .fourcol:nth-child(2) div {
   background-position: -1642px 0;
 }
 
-/* line 114, ../src/sass/application.scss */
+/* line 108, ../src/sass/application.scss */
 .sp-where-i-reside, #home .row:first-child .fourcol:last-child div {
   background-position: -1782px 0;
 }
@@ -438,15 +472,12 @@ ul {
 /* line 21, ../src/sass/_styling.scss */
 h1 {
   font-size: 1.5em;
-  color: #fff;
-  font-family: "MuseoSlab-500", Helvetica, Arial, sans-serif;
-  text-shadow: 1px 1px 0 #000;
   margin: 10px 0;
   line-height: 40px;
   text-rendering: optimizelegibility;
 }
 
-/* line 30, ../src/sass/_styling.scss */
+/* line 27, ../src/sass/_styling.scss */
 h2 {
   color: #4cc4db;
   font-size: 1.1em;
@@ -454,29 +485,20 @@ h2 {
   line-height: 25px;
 }
 
-/* line 36, ../src/sass/_styling.scss */
-h3 {
-  margin: 25px 0 10px !important;
-  font-size: 1.56em;
-  color: #fff;
-  font-family: "MuseoSlab-500", Helvetica, Arial, sans-serif;
-  text-shadow: 0px 1px 0 #000;
-}
-
-/* line 43, ../src/sass/_styling.scss */
+/* line 33, ../src/sass/_styling.scss */
 i {
   color: #b3b3b3;
   text-shadow: 0.5px 0.5px 0 #f0f0f0;
 }
 
-/* line 47, ../src/sass/_styling.scss */
+/* line 37, ../src/sass/_styling.scss */
 .inputError {
   border-color: #b94a48 !important;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) !important;
   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) !important;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) !important;
 }
-/* line 50, ../src/sass/_styling.scss */
+/* line 40, ../src/sass/_styling.scss */
 .inputError:focus {
   border-color: #953b39 !important;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392 !important;
@@ -484,38 +506,29 @@ i {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392 !important;
 }
 
-/* line 55, ../src/sass/_styling.scss */
+/* line 45, ../src/sass/_styling.scss */
 .error {
   font-size: 0.8em;
   color: #b94a48;
 }
 
-/* line 59, ../src/sass/_styling.scss */
+/* line 49, ../src/sass/_styling.scss */
 .fourcol {
   position: relative;
 }
 
-/* line 62, ../src/sass/_styling.scss */
+/* line 52, ../src/sass/_styling.scss */
 #main_header {
   line-height: 0px;
   margin: 0;
   text-indent: -9999px;
 }
 
-/* line 67, ../src/sass/_styling.scss */
-#focus_content {
+/* line 57, ../src/sass/_styling.scss */
+.focus_content {
   background: url("../img/textured_white.png");
   height: 490px;
   margin-top: 70px;
-}
-
-/* line 72, ../src/sass/_styling.scss */
-#content_divider {
-  height: 8px;
-  background: #1c1d21;
-  -webkit-box-shadow: 0px -1px 0px rgba(255, 255, 255, 0.08), inset 0px 1px 0px rgba(0, 0, 0, 0.41), 0px 1px 0px rgba(255, 255, 255, 0.03), inset 0px -1px 0px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 0px -1px 0px rgba(255, 255, 255, 0.08), inset 0px 1px 0px rgba(0, 0, 0, 0.41), 0px 1px 0px rgba(255, 255, 255, 0.03), inset 0px -1px 0px rgba(0, 0, 0, 0.3);
-  box-shadow: 0px -1px 0px rgba(255, 255, 255, 0.08), inset 0px 1px 0px rgba(0, 0, 0, 0.41), 0px 1px 0px rgba(255, 255, 255, 0.03), inset 0px -1px 0px rgba(0, 0, 0, 0.3);
 }
 
 /* line 1, ../src/sass/_1140.scss */
@@ -3081,7 +3094,7 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
   border-left: 1px solid #333333;
   height: 250px;
   position: absolute;
-  width: 0.5px;
+  width: 0.2px;
   top: 0px;
   right: 0px;
 }
@@ -3204,22 +3217,47 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
   margin: 20px 18px 0 0;
 }
 
-/* line 2, ../src/sass/_work.scss */
+/* line 3, ../src/sass/_work.scss */
 #work .row {
   padding: 35px 0;
   border-bottom: 1px solid #1C1D21;
   border-top: 1px solid #333333;
 }
-/* line 6, ../src/sass/_work.scss */
+/* line 7, ../src/sass/_work.scss */
 #work .row:first-child {
   border-top: none;
 }
-/* line 9, ../src/sass/_work.scss */
+/* line 10, ../src/sass/_work.scss */
 #work .row:last-child {
   padding: 35px 0 0;
   border-bottom: none;
 }
-/* line 13, ../src/sass/_work.scss */
+/* line 14, ../src/sass/_work.scss */
 #work .row h1 {
   margin: 0 0 10px;
+}
+/* line 18, ../src/sass/_work.scss */
+#work .row .eightcol div {
+  height: 350px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+/* line 28, ../src/sass/_work.scss */
+#work_focus img {
+  float: right;
+}
+/* line 31, ../src/sass/_work.scss */
+#work_focus h1, #work_focus p {
+  float: left;
+}
+
+/* line 3, ../src/sass/_blog.scss */
+#blog h2 {
+  text-indent: -999px;
+  height: 80px;
+  width: 80px;
 }

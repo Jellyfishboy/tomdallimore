@@ -4,7 +4,7 @@ Template Name: WorkTemp
 */ 
 ?>
 <?php get_header(); ?>
-<div id="focus_content">
+<div id="work_focus" class="focus_content">
 
 </div>
 <div id="content_divider"></div>
@@ -21,7 +21,7 @@ Template Name: WorkTemp
 				<div class="eightcol last">
 					<?php if (has_post_thumbnail( $post->ID ) ): ?>
 					<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>
-					<img src="<?php echo $image[0]; ?>"/>
+					<div style="background-image:url('<?php echo $image[0]; ?>');"></div>
 					<?php endif; ?>
 				</div>
 			</div>
