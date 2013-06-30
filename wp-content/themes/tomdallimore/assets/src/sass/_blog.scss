@@ -1,6 +1,9 @@
 #blog {
     article {
         margin-bottom:35px;
+            h1 {
+                display: inline-block;
+            }
             h2 {
                 text-indent:-999px;
                 height:80px;
