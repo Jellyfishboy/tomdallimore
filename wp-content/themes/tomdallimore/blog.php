@@ -8,6 +8,14 @@ Template Name: BlogTemp
 <section class="content">
     <div class="container" id="blog">
     	<div class="row">
+    		<div class="threecol last">
+    			<?php include (TEMPLATEPATH . '/searchform.php'); ?>
+    			<h3>Topics</h3>
+    			<?php $args = array( 'title_li' => __( '' )); ?>
+    			<ul>
+	    			<?php wp_list_categories( $args ); ?> 
+	    		</ul>
+    		</div>
 			<?php $wp_query = new WP_Query();
 			$wp_query->query('&showposts=5&cat=12,13,14'.'&paged='.$paged);
 			while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
@@ -27,7 +35,4 @@ Template Name: BlogTemp
 				</div>
 			</article>
 <?php endwhile;?>
-		<div class="threecol last">
-
-		</div>
 <?php get_footer('no-sidebar'); ?>

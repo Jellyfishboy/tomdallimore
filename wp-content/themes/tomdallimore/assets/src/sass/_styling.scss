@@ -24,14 +24,17 @@ h1 {
 	line-height: 40px;
 	text-rendering: optimizelegibility;
 }
-h2 {
+h2, h3 {
 	color:$blue;
 	font-size:1.1em;
 	margin:0;
 	line-height: 25px;
 }
+h3 {
+	font-family: "MuseoSlab-300", Helvetica, Arial, sans-serif;
+}
 i {
-	color:#b3b3b3;
+	color:$gray;
 	text-shadow: 0.5px 0.5px 0 rgba(240, 240, 240, 1); 
 }
 .inputError {
