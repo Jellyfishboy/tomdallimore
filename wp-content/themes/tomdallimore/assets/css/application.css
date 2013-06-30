@@ -1,6 +1,6 @@
 /* Sprite settings */
 /* line 322, icono/*.png */
-.icono-sprite, .sp-facebook-on, .sp-facebook-off, footer .container span a:nth-child(2), .sp-twitter-on, .sp-twitter-off, footer .container span a:first-child, .sp-google-on, .sp-google-off, .sp-linked-on, .sp-linked-off, footer .container span a:last-child, .sp-github-on, .sp-github-off, footer .container span a:nth-child(3), .sp-ai-on, .sp-ai-off, .sp-css3-on, .sp-css3-off, .sp-html5-on, .sp-html5-off, .sp-jquery-on, .sp-jquery-off, .sp-ps-on, .sp-ps-off, .sp-ruby-on, .sp-ruby-off, .sp-wp-on, .sp-wp-off, .sp-coffee-on, .sp-coffee-off, .sp-briefcase, .sp-diary, .sp-schematic, .sp-clipboard, .sp-blog-link, #blog h2.link, .sp-blog-pencil, #blog h2.article, .sp-profile, .sp-what-i-do, #home .row:first-child .fourcol:first-child div, .sp-what-i-love, #home .row:first-child .fourcol:nth-child(2) div, .sp-where-i-reside, #home .row:first-child .fourcol:last-child div {
+.icono-sprite, .sp-facebook-on, .sp-facebook-off, footer .container span a:nth-child(2), .sp-twitter-on, .sp-twitter-off, footer .container span a:first-child, .sp-google-on, .sp-google-off, .sp-linked-on, .sp-linked-off, footer .container span a:last-child, .sp-github-on, .sp-github-off, footer .container span a:nth-child(3), .sp-ai-on, .sp-ai-off, .sp-css3-on, .sp-css3-off, .sp-html5-on, .sp-html5-off, .sp-jquery-on, .sp-jquery-off, .sp-ps-on, .sp-ps-off, .sp-ruby-on, .sp-ruby-off, .sp-wp-on, .sp-wp-off, .sp-coffee-on, .sp-coffee-off, .sp-briefcase, .sp-diary, .sp-schematic, .sp-clipboard, .sp-blog-link, #blog article h2.link, .sp-blog-pencil, #blog article h2.article, .sp-profile, .sp-what-i-do, #home .row:first-child .fourcol:first-child div, .sp-what-i-love, #home .row:first-child .fourcol:nth-child(2) div, .sp-where-i-reside, #home .row:first-child .fourcol:last-child div {
   background: url('../img/icono-s41c7a29c84.png') no-repeat;
 }
 
@@ -72,11 +72,6 @@ body.light #content_divider {
   -webkit-box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.3), inset 0px 1px 0px rgba(0, 0, 0, 0.2), inset 0px 2px 0px rgba(255, 255, 255, 0.8);
   -moz-box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.3), inset 0px 1px 0px rgba(0, 0, 0, 0.2), inset 0px 2px 0px rgba(255, 255, 255, 0.8);
   box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.3), inset 0px 1px 0px rgba(0, 0, 0, 0.2), inset 0px 2px 0px rgba(255, 255, 255, 0.8);
-  box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.3), inset 0px 1px 0px rgba(0, 0, 0, 0.2), inset 0px 2px 0px rgba(255, 255, 255, 0.8);
-  -moz-box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.3), inset 0px 1px 0px rgba(0, 0, 0, 0.2), inset 0px 2px 0px rgba(255, 255, 255, 0.8);
-  -ms-box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.3), inset 0px 1px 0px rgba(0, 0, 0, 0.2), inset 0px 2px 0px rgba(255, 255, 255, 0.8);
-  -o-box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.3), inset 0px 1px 0px rgba(0, 0, 0, 0.2), inset 0px 2px 0px rgba(255, 255, 255, 0.8);
-  -webkit-box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.3), inset 0px 1px 0px rgba(0, 0, 0, 0.2), inset 0px 2px 0px rgba(255, 255, 255, 0.8);
 }
 /* line 1, ../src/sass/_dark.scss */
 body.dark {
@@ -262,12 +257,12 @@ body.dark #content_divider {
 
 /* Other images */
 /* line 103, ../src/sass/application.scss */
-.sp-blog-link, #blog h2.link {
+.sp-blog-link, #blog article h2.link {
   background-position: -106px 0;
 }
 
 /* line 104, ../src/sass/application.scss */
-.sp-blog-pencil, #blog h2.article {
+.sp-blog-pencil, #blog article h2.article {
   background-position: -186px 0;
 }
 
@@ -3255,9 +3250,45 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
   float: left;
 }
 
-/* line 3, ../src/sass/_blog.scss */
-#blog h2 {
+/* line 2, ../src/sass/_blog.scss */
+#blog article {
+  margin-bottom: 35px;
+}
+/* line 4, ../src/sass/_blog.scss */
+#blog article h2 {
   text-indent: -999px;
   height: 80px;
   width: 80px;
+  margin: 0 auto;
+}
+/* line 17, ../src/sass/_blog.scss */
+#blog article .tags a {
+  background-color: #e6e6e6;
+  padding: 7px 10px;
+  color: gray;
+  margin-right: 12px;
+  font-family: "MuseoSlab-500", Helvetica, Arial, sans-serif;
+  -webkit-transition-property: background-color, color;
+  -moz-transition-property: background-color, color;
+  -o-transition-property: background-color, color;
+  transition-property: background-color, color;
+  -webkit-transition-duration: 0.5s, 0.6s;
+  -moz-transition-duration: 0.5s, 0.6s;
+  -o-transition-duration: 0.5s, 0.6s;
+  transition-duration: 0.5s, 0.6s;
+  -webkit-transition-timing-function: linear, linear;
+  -moz-transition-timing-function: linear, linear;
+  -o-transition-timing-function: linear, linear;
+  transition-timing-function: linear, linear;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+/* line 28, ../src/sass/_blog.scss */
+#blog article .tags a:hover {
+  color: #fff;
+  background-color: #4cc4db;
+}
+/* line 34, ../src/sass/_blog.scss */
+#blog article:last-child {
+  margin-bottom: 0;
 }

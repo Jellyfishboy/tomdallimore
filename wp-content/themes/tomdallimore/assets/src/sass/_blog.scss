@@ -1,14 +1,38 @@
 #blog {
-    
-        h2 {
-            text-indent:-999px;
-            height:80px;
-            width:80px;
-                &.article {
-                    @extend .sp-blog-pencil;
+    article {
+        margin-bottom:35px;
+            h2 {
+                text-indent:-999px;
+                height:80px;
+                width:80px;
+                margin:0 auto;
+                    &.article {
+                        @extend .sp-blog-pencil;
+                    }
+                    &.link {
+                        @extend .sp-blog-link;
+                    }
+            }
+            .tags {
+                a {
+                    background-color: $white;
+                    padding:7px 10px;
+                    color: $lightgray;
+                    margin-right:12px;
+                    font-family: "MuseoSlab-500", Helvetica, Arial, sans-serif;
+                    @include transition-property(background-color, color);
+                    @include transition-duration(0.5s, 0.6s);
+                    @include transition-timing-function(linear, linear);
+                    text-transform: uppercase;
+                    font-size:0.8em;
+                        &:hover {
+                            color: #fff;
+                            background-color: $blue;
+                        }
                 }
-                &.link {
-                    @extend .sp-blog-link;
-                }
-        }
+            }
+            &:last-child {
+                margin-bottom: 0;
+            }
+    }
 }

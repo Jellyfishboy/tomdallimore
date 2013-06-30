@@ -15,10 +15,12 @@ Template Name: BlogTemp
 				<a href="<?php the_permalink() ?>"><h2 class="<?php $category = get_the_category(); echo $category[0]->slug; ?>"><?php $category = get_the_category(); echo $category[0]->cat_name; ?></h2></a>
 			</div>
 			<div class="eightcol">
-				<h1><?php the_title(); ?></h1>
+				<a href="<?php the_permalink() ?>"><h1><?php the_title(); ?></h1></a>
 				<p><?php the_excerpt(); ?></p>
 				<p><?php the_time('dS F Y') ?></p>
-				<?php $before = ''; the_tags($before, $separator, $after); ?>
+				<div class="tags">
+					<?php $before = ''; the_tags($before, $separator, $after); ?>
+				</div>
 			</div>
 		</article>
 <?php endwhile;?>
