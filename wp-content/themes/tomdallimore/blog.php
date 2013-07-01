@@ -6,7 +6,7 @@ Template Name: BlogTemp
 <?php get_header(); ?>
 <div id="content_divider"></div>
 <section class="content">
-    <div class="container" id="blog">
+    <div class="container blog_home" id="blog">
     	<div class="row">
     		<div class="threecol last">
     			<?php include (TEMPLATEPATH . '/searchform.php'); ?>
@@ -34,5 +34,6 @@ Template Name: BlogTemp
 					</div>
 				</div>
 			</article>
-<?php endwhile;?>
+			<?php endwhile;?>
+		</div>
 <?php get_footer('no-sidebar'); ?>

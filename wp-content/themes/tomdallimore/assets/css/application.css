@@ -3256,22 +3256,25 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
 
 /* line 2, ../src/sass/_blog.scss */
 #blog article {
-  margin-bottom: 35px;
   float: left;
 }
-/* line 5, ../src/sass/_blog.scss */
-#blog article h1 {
-  display: inline-block;
-}
-/* line 8, ../src/sass/_blog.scss */
+/* line 4, ../src/sass/_blog.scss */
 #blog article h2 {
   text-indent: -999px;
   height: 80px;
   width: 80px;
   margin: 0 auto;
 }
-/* line 21, ../src/sass/_blog.scss */
-#blog article .tags a {
+/* line 16, ../src/sass/_blog.scss */
+#blog article .tencol {
+  padding-bottom: 35px;
+}
+/* line 18, ../src/sass/_blog.scss */
+#blog article .tencol h1 {
+  display: inline-block;
+}
+/* line 22, ../src/sass/_blog.scss */
+#blog article .tencol .tags a {
   background-color: #e6e6e6;
   padding: 7px 10px;
   color: gray;
@@ -3281,35 +3284,31 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
   -moz-transition-property: background-color, color;
   -o-transition-property: background-color, color;
   transition-property: background-color, color;
-  -webkit-transition-duration: 0.5s, 0.6s;
-  -moz-transition-duration: 0.5s, 0.6s;
-  -o-transition-duration: 0.5s, 0.6s;
-  transition-duration: 0.5s, 0.6s;
-  -webkit-transition-timing-function: linear, linear;
-  -moz-transition-timing-function: linear, linear;
-  -o-transition-timing-function: linear, linear;
-  transition-timing-function: linear, linear;
+  -webkit-transition-duration: 0.5s, 0.4s;
+  -moz-transition-duration: 0.5s, 0.4s;
+  -o-transition-duration: 0.5s, 0.4s;
+  transition-duration: 0.5s, 0.4s;
+  -webkit-transition-timing-function: ease-in, ease-in;
+  -moz-transition-timing-function: ease-in, ease-in;
+  -o-transition-timing-function: ease-in, ease-in;
+  transition-timing-function: ease-in, ease-in;
   text-transform: uppercase;
   font-size: 0.8em;
 }
-/* line 32, ../src/sass/_blog.scss */
-#blog article .tags a:hover {
+/* line 33, ../src/sass/_blog.scss */
+#blog article .tencol .tags a:hover {
   color: #fff;
   background-color: #4cc4db;
 }
-/* line 38, ../src/sass/_blog.scss */
-#blog article:last-child {
-  margin-bottom: 0;
-}
-/* line 42, ../src/sass/_blog.scss */
+/* line 41, ../src/sass/_blog.scss */
 #blog .threecol {
   float: right;
 }
-/* line 44, ../src/sass/_blog.scss */
+/* line 43, ../src/sass/_blog.scss */
 #blog .threecol #searchform {
   position: relative;
 }
-/* line 46, ../src/sass/_blog.scss */
+/* line 45, ../src/sass/_blog.scss */
 #blog .threecol #searchform input[type=text] {
   background: #E6E6E6;
   border: none;
@@ -3337,23 +3336,165 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
   outline: none;
   width: 90%;
 }
-/* line 60, ../src/sass/_blog.scss */
+/* line 59, ../src/sass/_blog.scss */
 #blog .threecol #searchform i {
   position: absolute;
   top: 5px;
   right: 15px;
 }
-/* line 65, ../src/sass/_blog.scss */
+/* line 64, ../src/sass/_blog.scss */
 #blog .threecol #searchform input[type=submit] {
   display: none;
 }
-/* line 69, ../src/sass/_blog.scss */
+/* line 68, ../src/sass/_blog.scss */
 #blog .threecol h3 {
   margin-top: 15px;
   border-bottom: 1px solid #E6E6E6;
   padding-bottom: 5px;
 }
-/* line 74, ../src/sass/_blog.scss */
+/* line 73, ../src/sass/_blog.scss */
 #blog .threecol ul {
+  padding: 10px 0 0;
+  border-top: 1px solid #ffffff;
+  margin: 0 0 10px;
+}
+/* line 78, ../src/sass/_blog.scss */
+#blog .threecol ul li a {
+  font-family: "MuseoSans-300", Helvetica, Arial, sans-serif;
+  color: #333333;
+  font-size: 0.9em;
+}
+/* line 87, ../src/sass/_blog.scss */
+#blog section[role=navigation] .tencol {
+  border-top: 1px solid #FFFFFF;
+  border-bottom: 1px solid #E6E6E6;
+}
+/* line 90, ../src/sass/_blog.scss */
+#blog section[role=navigation] .tencol .pre_nex {
+  padding: 15px 0;
+  overflow: hidden;
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-in;
+  -moz-transition-timing-function: ease-in;
+  -o-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+}
+/* line 98, ../src/sass/_blog.scss */
+#blog section[role=navigation] .tencol .pre_nex a[rel="prev"] {
+  float: left;
+  padding-left: 20px;
+}
+/* line 101, ../src/sass/_blog.scss */
+#blog section[role=navigation] .tencol .pre_nex a[rel="prev"] i {
+  left: 0px;
+}
+/* line 105, ../src/sass/_blog.scss */
+#blog section[role=navigation] .tencol .pre_nex a[rel="next"] {
+  float: right;
+  text-align: right;
+  padding-right: 20px;
+}
+/* line 109, ../src/sass/_blog.scss */
+#blog section[role=navigation] .tencol .pre_nex a[rel="next"] i {
+  right: 0px;
+}
+/* line 113, ../src/sass/_blog.scss */
+#blog section[role=navigation] .tencol .pre_nex a {
+  width: 40%;
+}
+/* line 115, ../src/sass/_blog.scss */
+#blog section[role=navigation] .tencol .pre_nex a i {
+  font-size: 1.5em;
+  color: #333333;
+}
+/* line 119, ../src/sass/_blog.scss */
+#blog section[role=navigation] .tencol .pre_nex a div {
+  font-family: "MuseoSans-300", Helvetica, Arial, sans-serif !important;
+  color: #333333;
+}
+/* line 123, ../src/sass/_blog.scss */
+#blog section[role=navigation] .tencol .pre_nex a span {
+  font-family: "MuseoSlab-500", Helvetica, Arial, sans-serif;
+  color: #1a1a1a;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-in;
+  -moz-transition-timing-function: ease-in;
+  -o-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+}
+/* line 130, ../src/sass/_blog.scss */
+#blog section[role=navigation] .tencol .pre_nex a:hover > span {
+  color: #4cc4db !important;
+}
+/* line 134, ../src/sass/_blog.scss */
+#blog section[role=navigation] .tencol .pre_nex:hover {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+/* line 144, ../src/sass/_blog.scss */
+.blog_home article:last-child {
+  margin-bottom: 0;
+}
+
+/* line 151, ../src/sass/_blog.scss */
+.single_post article .tencol {
+  border-bottom: 1px solid #E6E6E6;
+}
+
+/* line 2, ../src/sass/_comments.scss */
+section[role=comments] h2 {
+  text-indent: 0;
+}
+/* line 5, ../src/sass/_comments.scss */
+section[role=comments] ul {
   padding: 0;
+  margin: 0 0 10px;
+  overflow: hidden;
+}
+/* line 9, ../src/sass/_comments.scss */
+section[role=comments] ul li {
+  overflow: hidden;
+}
+/* line 11, ../src/sass/_comments.scss */
+section[role=comments] ul li .comment-meta {
+  padding: 10px;
+  background-color: #E6E6E6;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  margin-bottom: 25px;
+}
+/* line 19, ../src/sass/_comments.scss */
+section[role=comments] ul li:first-child .tencol {
+  padding: 25px 0 0;
+  border-top: 1px solid #ffffff;
+}
+
+/* line 28, ../src/sass/_comments.scss */
+#commentform {
+  margin: 0;
+}
+/* line 30, ../src/sass/_comments.scss */
+#commentform .required {
+  margin-left: 5px;
 }

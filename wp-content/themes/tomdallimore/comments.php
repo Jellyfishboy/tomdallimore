@@ -19,10 +19,10 @@
 ?>
 
 <?php if ( have_comments() ) : ?>
-            <h2><?php
+<!--             <h2><?php
 			printf( _n( '1 response', '%1$s responses', get_comments_number() ),
 			number_format_i18n( get_comments_number() ), get_the_title() );
-			?></h2>
+			?></h2> -->
 
 <?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // Are there comments to navigate through? ?>
     <ul class="navigation">
@@ -35,9 +35,13 @@
     </ul>
 <?php endif; // check for comment navigation ?>
 
-<ol class="commentlist">
-    <?php wp_list_comments( array( 'callback' => 'post_comments' ) ); ?>
-</ol>
+<ul class="commentlist">
+    <li>
+        <div class="twocol"></div>
+        <div class="tencol last"></div>
+    </li>
+    <?php wp_list_comments('type=comment&callback=td_comment'); ?>
+</ul>
 
 <?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // Are there comments to navigate through? ?>			
     <ul class="navigation">
