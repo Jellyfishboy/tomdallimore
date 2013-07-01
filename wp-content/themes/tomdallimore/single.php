@@ -15,7 +15,7 @@
             <article class="ninecol">
                 <div class="row">
                     <div class="twocol">
-                        <a href="<?php the_permalink() ?>"><h2 class="<?php $category = get_the_category(); echo $category[0]->slug; ?>"><?php $category = get_the_category(); echo $category[0]->cat_name; ?></h2></a>
+                        <h2 class="<?php $category = get_the_category(); echo $category[0]->slug; ?>"><?php $category = get_the_category(); echo $category[0]->cat_name; ?></h2>
                     </div>
                     <div class="tencol last">
                         <h1><?php the_title(); ?></h1>
