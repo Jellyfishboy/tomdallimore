@@ -1,5 +1,5 @@
 #blog {
-    article {   
+    .ninecol {   
         float:left;       
             h2 {
                 text-indent:-999px;
@@ -151,5 +151,19 @@
         .tencol {
             border-bottom:1px solid #E6E6E6;
         }
+    }
+}
+.blog_search, .blog_category, .blog_tags {
+    .row {
+        article {
+            padding-top:30px;
+            border-top: 1px solid #FFFFFF;
+        }
+    }
+    #post_type {
+        margin:0;
+        padding:0 0 5px 2%;
+        width:100%;
+        border-bottom:1px solid #E6E6E6;
     }
 }

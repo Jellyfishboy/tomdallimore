@@ -1,6 +1,6 @@
 /* Sprite settings */
 /* line 322, icono/*.png */
-.icono-sprite, .sp-facebook-on, .sp-facebook-off, footer .container span a:nth-child(2), .sp-twitter-on, .sp-twitter-off, footer .container span a:first-child, .sp-google-on, .sp-google-off, .sp-linked-on, .sp-linked-off, footer .container span a:last-child, .sp-github-on, .sp-github-off, footer .container span a:nth-child(3), .sp-ai-on, .sp-ai-off, .sp-css3-on, .sp-css3-off, .sp-html5-on, .sp-html5-off, .sp-jquery-on, .sp-jquery-off, .sp-ps-on, .sp-ps-off, .sp-ruby-on, .sp-ruby-off, .sp-wp-on, .sp-wp-off, .sp-coffee-on, .sp-coffee-off, .sp-briefcase, .sp-diary, .sp-schematic, .sp-clipboard, .sp-blog-link, #blog article h2.link, .sp-blog-pencil, #blog article h2.article, .sp-profile, .sp-what-i-do, #home .row:first-child .fourcol:first-child div, .sp-what-i-love, #home .row:first-child .fourcol:nth-child(2) div, .sp-where-i-reside, #home .row:first-child .fourcol:last-child div {
+.icono-sprite, .sp-facebook-on, .sp-facebook-off, footer .container span a:nth-child(2), .sp-twitter-on, .sp-twitter-off, footer .container span a:first-child, .sp-google-on, .sp-google-off, .sp-linked-on, .sp-linked-off, footer .container span a:last-child, .sp-github-on, .sp-github-off, footer .container span a:nth-child(3), .sp-ai-on, .sp-ai-off, .sp-css3-on, .sp-css3-off, .sp-html5-on, .sp-html5-off, .sp-jquery-on, .sp-jquery-off, .sp-ps-on, .sp-ps-off, .sp-ruby-on, .sp-ruby-off, .sp-wp-on, .sp-wp-off, .sp-coffee-on, .sp-coffee-off, .sp-briefcase, .sp-diary, .sp-schematic, .sp-clipboard, .sp-blog-link, #blog .ninecol h2.link, .sp-blog-pencil, #blog .ninecol h2.article, .sp-profile, .sp-what-i-do, #home .row:first-child .fourcol:first-child div, .sp-what-i-love, #home .row:first-child .fourcol:nth-child(2) div, .sp-where-i-reside, #home .row:first-child .fourcol:last-child div {
   background: url('../img/icono-s41c7a29c84.png') no-repeat;
 }
 
@@ -257,12 +257,12 @@ body.dark #content_divider {
 
 /* Other images */
 /* line 103, ../src/sass/application.scss */
-.sp-blog-link, #blog article h2.link {
+.sp-blog-link, #blog .ninecol h2.link {
   background-position: -106px 0;
 }
 
 /* line 104, ../src/sass/application.scss */
-.sp-blog-pencil, #blog article h2.article {
+.sp-blog-pencil, #blog .ninecol h2.article {
   background-position: -186px 0;
 }
 
@@ -3255,26 +3255,26 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
 }
 
 /* line 2, ../src/sass/_blog.scss */
-#blog article {
+#blog .ninecol {
   float: left;
 }
 /* line 4, ../src/sass/_blog.scss */
-#blog article h2 {
+#blog .ninecol h2 {
   text-indent: -999px;
   height: 80px;
   width: 80px;
   margin: 0 auto;
 }
 /* line 16, ../src/sass/_blog.scss */
-#blog article .tencol {
+#blog .ninecol .tencol {
   padding-bottom: 35px;
 }
 /* line 18, ../src/sass/_blog.scss */
-#blog article .tencol h1 {
+#blog .ninecol .tencol h1 {
   display: inline-block;
 }
 /* line 22, ../src/sass/_blog.scss */
-#blog article .tencol .tags a {
+#blog .ninecol .tencol .tags a {
   background-color: #e6e6e6;
   padding: 7px 10px;
   color: gray;
@@ -3296,7 +3296,7 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
   font-size: 0.8em;
 }
 /* line 33, ../src/sass/_blog.scss */
-#blog article .tencol .tags a:hover {
+#blog .ninecol .tencol .tags a:hover {
   color: #fff;
   background-color: #4cc4db;
 }
@@ -3458,6 +3458,19 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
   border-bottom: 1px solid #E6E6E6;
 }
 
+/* line 158, ../src/sass/_blog.scss */
+.blog_search .row article, .blog_category .row article, .blog_tags .row article {
+  padding-top: 30px;
+  border-top: 1px solid #FFFFFF;
+}
+/* line 163, ../src/sass/_blog.scss */
+.blog_search #post_type, .blog_category #post_type, .blog_tags #post_type {
+  margin: 0;
+  padding: 0 0 5px 2%;
+  width: 100%;
+  border-bottom: 1px solid #E6E6E6;
+}
+
 /* line 2, ../src/sass/_comments.scss */
 section[role=comments] h2 {
   font-family: "MuseoSlab-300", Helvetica, Arial, sans-serif;
@@ -3486,7 +3499,7 @@ section[role=comments] ul li .comment-author img {
 }
 /* line 20, ../src/sass/_comments.scss */
 section[role=comments] ul li .comment-meta {
-  padding: 10px 15px;
+  padding: 20px 25px 15px;
   background-color: #E6E6E6;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
