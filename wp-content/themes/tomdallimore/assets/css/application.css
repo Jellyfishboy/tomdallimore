@@ -3460,21 +3460,33 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
 
 /* line 2, ../src/sass/_comments.scss */
 section[role=comments] h2 {
-  text-indent: 0;
+  font-family: "MuseoSlab-300", Helvetica, Arial, sans-serif;
+  color: #333333;
 }
-/* line 5, ../src/sass/_comments.scss */
+/* line 6, ../src/sass/_comments.scss */
 section[role=comments] ul {
   padding: 0;
   margin: 0 0 10px;
   overflow: hidden;
 }
-/* line 9, ../src/sass/_comments.scss */
+/* line 10, ../src/sass/_comments.scss */
 section[role=comments] ul li {
   overflow: hidden;
 }
-/* line 11, ../src/sass/_comments.scss */
+/* line 13, ../src/sass/_comments.scss */
+section[role=comments] ul li .comment-author img {
+  -webkit-border-radius: 5em;
+  -moz-border-radius: 5em;
+  border-radius: 5em;
+  display: block;
+  -webkit-box-shadow: 0 0 0 4px gray;
+  -moz-box-shadow: 0 0 0 4px gray;
+  box-shadow: 0 0 0 4px gray;
+  margin: 7px auto 0;
+}
+/* line 20, ../src/sass/_comments.scss */
 section[role=comments] ul li .comment-meta {
-  padding: 10px;
+  padding: 10px 15px;
   background-color: #E6E6E6;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -3483,18 +3495,75 @@ section[role=comments] ul li .comment-meta {
   -moz-border-radius: 4px;
   border-radius: 4px;
   margin-bottom: 25px;
+  position: relative;
+  width: 77%;
 }
-/* line 19, ../src/sass/_comments.scss */
+/* line 28, ../src/sass/_comments.scss */
+section[role=comments] ul li .comment-meta i {
+  color: #E6E6E6;
+  position: absolute;
+  top: 13px;
+  left: -10px;
+  font-size: 28px;
+}
+/* line 35, ../src/sass/_comments.scss */
+section[role=comments] ul li .comment-meta cite {
+  text-transform: capitalize;
+  display: block;
+}
+/* line 38, ../src/sass/_comments.scss */
+section[role=comments] ul li .comment-meta cite a {
+  font-family: "MuseoSlab-500", Helvetica, Arial, sans-serif !important;
+  font-style: normal;
+}
+/* line 43, ../src/sass/_comments.scss */
+section[role=comments] ul li .comment-meta time {
+  font-size: 0.8em;
+  padding-bottom: 10px;
+}
+/* line 49, ../src/sass/_comments.scss */
 section[role=comments] ul li:first-child .tencol {
   padding: 25px 0 0;
   border-top: 1px solid #ffffff;
 }
 
-/* line 28, ../src/sass/_comments.scss */
+/* line 58, ../src/sass/_comments.scss */
 #commentform {
   margin: 0;
 }
-/* line 30, ../src/sass/_comments.scss */
+/* line 60, ../src/sass/_comments.scss */
 #commentform .required {
   margin-left: 5px;
+}
+/* line 63, ../src/sass/_comments.scss */
+#commentform input[type=text], #commentform textarea {
+  background: #E6E6E6;
+  border: none;
+  -webkit-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.05), inset 1px 1px 2px rgba(153, 153, 153, 0.4);
+  -moz-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.05), inset 1px 1px 2px rgba(153, 153, 153, 0.4);
+  box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.05), inset 1px 1px 2px rgba(153, 153, 153, 0.4);
+  padding: 8px 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-transition-property: background;
+  -moz-transition-property: background;
+  -o-transition-property: background;
+  transition-property: background;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease;
+  -moz-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+  transition-timing-function: ease;
+  margin: 3px 0 5px 0;
+  display: block;
+  outline: none;
+  width: 90%;
+}
+/* line 77, ../src/sass/_comments.scss */
+#commentform textarea {
+  resize: none;
 }

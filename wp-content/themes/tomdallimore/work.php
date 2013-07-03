@@ -11,7 +11,7 @@ Template Name: WorkTemp
 <section class="content">
     <div class="container" id="work">
 			<?php $wp_query = new WP_Query();
-			$wp_query->query('&showposts=5&cat=3'.'&paged='.$paged);
+			$wp_query->query('&showposts=5&category_name=work'.'&paged='.$paged);
 			while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
 			<div class="row">
 				<div class="fourcol">

@@ -19,7 +19,7 @@
                     </div>
                     <div class="tencol last">
                         <h1><?php the_title(); ?></h1>
-                        <p><?php the_excerpt(); ?></p>
+                        <p><?php the_content(); ?></p>
                         <p><?php the_time('dS F Y') ?></p>
                         <div class="tags">
                             <?php $before = ''; the_tags($before, $separator, $after); ?>

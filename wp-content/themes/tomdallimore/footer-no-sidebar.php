@@ -25,7 +25,7 @@
 				    // // use server time
 				    // var dnow = new Date("<?php echo date('D M d G:i:s Y'); ?>");
 				</script>
-				<script type="text/javascript" src="<?php echo bloginfo('template_directory'); ?>/assets/js/countup.js"></script>
+				<!-- <script type="text/javascript" src="<?php echo bloginfo('template_directory'); ?>/assets/js/countup.js"></script> -->
 				<p>Copyright © 2013, Tom Dallimore. All rights reserved.</p>
 			</div>
 		</div>

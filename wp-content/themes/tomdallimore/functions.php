@@ -169,7 +169,7 @@ function td_comment($comment, $args, $depth) {
    <li <?php comment_class(); ?> id="li-comment-<?php comment_ID() ?>">
      <div id="comment-<?php comment_ID(); ?>">
       <div class="twocol comment-author vcard">
-         <?php echo get_avatar($comment,$size='48',$default='<path_to_url>' ); ?>
+         <?php echo get_avatar($comment,$size='75',$default='<path_to_url>' ); ?>
       </div>
       <?php if ($comment->comment_approved == '0') : ?>
          <em><?php _e('Your comment is awaiting moderation.') ?></em>
@@ -178,10 +178,11 @@ function td_comment($comment, $args, $depth) {
 
       <div class="tencol comment-meta commentmetadata last">
         <?php printf(__('<cite class="fn">%s</cite>'), get_comment_author_link()) ?>
-        <?php printf(__('%1$s at %2$s'), get_comment_date(),  get_comment_time()) ?>
+        <time><?php printf(__('%1$s at %2$s'), get_comment_date(),  get_comment_time()) ?></time>
         <?php edit_comment_link(__('(Edit)'),'  ','') ?>
         <?php comment_text() ?>
-    </div>
+        <i class="icon-caret-left"></i>
+      </div>
 
       
      </div>

@@ -17,7 +17,7 @@ Template Name: BlogTemp
 	    		</ul>
     		</div>
 			<?php $wp_query = new WP_Query();
-			$wp_query->query('&showposts=5&cat=12,13,14'.'&paged='.$paged);
+			$wp_query->query('&showposts=5&category_name=development,article,link'.'&paged='.$paged);
 			while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
 			<article class="ninecol">
 				<div class="row">

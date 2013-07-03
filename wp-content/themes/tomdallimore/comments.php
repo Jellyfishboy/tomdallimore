@@ -42,7 +42,10 @@
     </li>
     <?php wp_list_comments('type=comment&callback=td_comment'); ?>
 </ul>
-
+</div><!-- end of comments-->
+<div class="row">
+    <div class="twocol"></div>
+    <div class="tencol last">
 <?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // Are there comments to navigate through? ?>			
     <ul class="navigation">
         <li class="older">
@@ -71,3 +74,4 @@ $comment_args = array('title_reply' => 'Any thoughts?');
 my_comment_form($comment_args); ?>
 
 </div><!-- #comments -->
+</div><!-- end of comment form -->
