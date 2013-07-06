@@ -38,7 +38,7 @@ $s_query = get_search_query(); ?>
                 <?php endwhile;?>
             <?php else : ?>
                 <div class="ninecol">
-                    <p> Sorry, but nothing matched your search criteria. Please try again with some different keywords.</p>
+                    <p id="no_results">Sorry, but nothing matched your search criteria. Please try again with some different keywords.</p>
                 </div>
             <?php endif; ?>
         </div>

@@ -5,7 +5,7 @@ section[role=comments] {
 	}
 	ul {
 		padding:0;
-		margin:0 0 10px;
+		margin:0;
 		overflow: hidden;
 			li {
 				overflow: hidden;
@@ -35,6 +35,9 @@ section[role=comments] {
 							cite {
 								text-transform:capitalize;
 								display:block;
+								font-family: "MuseoSlab-500", Helvetica, Arial, sans-serif !important;
+								font-style: normal;
+								color:$blue;
 									a {
 										font-family: "MuseoSlab-500", Helvetica, Arial, sans-serif !important;
 										font-style: normal;

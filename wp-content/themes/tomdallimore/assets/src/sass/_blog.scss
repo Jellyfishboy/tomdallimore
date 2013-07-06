@@ -14,7 +14,6 @@
                     }
             }
             .tencol {
-                padding-bottom:35px;
                     h1 {
                         display: inline-block;
                     }
@@ -37,6 +36,11 @@
                         }
                     }
             }
+    }
+    article {
+        .tencol {
+            padding-bottom: 35px;
+        }
     }
     .threecol {
         float:right;

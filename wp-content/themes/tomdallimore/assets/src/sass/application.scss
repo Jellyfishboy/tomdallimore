@@ -26,6 +26,18 @@ $light-blue: #abd6db;
     url("../fonts/MuseoSans-300Italic.otf") format("opentype");
 }
 @font-face {
+  font-family: "MuseoSans_500";
+  src: url("../fonts/MuseoSans_500.otf");
+  src: local("?"),
+    url("../fonts/MuseoSans_500.otf") format("opentype");
+}
+@font-face {
+  font-family: "MuseoSans_700";
+  src: url("../fonts/MuseoSans_700.otf");
+  src: local("?"),
+    url("../fonts/MuseoSans_700.otf") format("opentype");
+}
+@font-face {
   font-family: "MuseoSlab-500";
   src: url("../fonts/Museo_Slab_500.otf");
   src: local("?"),
@@ -144,3 +156,4 @@ body {
 @import "work";
 @import "blog";
 @import "comments";
+@import "focus";

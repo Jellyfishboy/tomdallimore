@@ -1,0 +1,28 @@
+.focus_content {
+    background:url('../img/textured_white.png');
+    height:490px;
+    margin-top:70px;
+        h1 {
+            color:$gray !important;
+            text-shadow: 1px 1px 0 rgba(240, 240, 240, 1) !important;
+            font-family: "MuseoSans_500", Helvetica, Arial, sans-serif !important;
+            font-size:1.1em;
+            font-style: normal;
+            margin:10px 0 20px;
+        }
+        p {
+            color:$gray;
+            text-shadow: 0.5px 0.5px 0 rgba(240, 240, 240, 1); 
+        }
+}
+#about_focus {
+    padding-top:57px;
+    @include box-sizing(border-box);
+        span {
+            @extend .sp-diary;
+            width:40px;
+            height:37px;
+            float: left;
+            margin:10px 15px 0 0;
+        }
+}

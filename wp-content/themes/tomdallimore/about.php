@@ -6,16 +6,19 @@ Template Name: AboutTemp
 <?php get_header(); ?>
 <div id="about_focus" class="focus_content">
     <div class="row">
-        <div class="sixcol">
-            <div style="<?php echo bloginfo('template_directory'); ?>/assets/img/me.png"></div>
-            <!-- <img src="<?php echo bloginfo('template_directory'); ?>/assets/img/me.png"/> -->
+        <div class="onecol"></div>
+        <div class="fivecol">
+            <!-- <div style="<?php echo bloginfo('template_directory'); ?>/assets/img/me.png"></div> -->
+            <img src="<?php echo bloginfo('template_directory'); ?>/assets/img/me.png"/>
         </div>
-        <div class="sixcol last">
+        <div class="fivecol">
+            <span></span>
             <h1>Hi there, my name is Tom</h1>
             <p>I was born and raised in the infamous city known as Bristol. Since growing up within the industry of my father’s Graphic Design company, I have developed an unhealthy obsession to all things related to technology and the web.</p>
             <p>I decided to channel this passion by learning UI design and web development. Refining my skills over the course of six years, I have flourished into an ambitious, business driven individual.</p>
             <p>I have spent the past few years freelancing and contracting for some exciting companies including Dyson, Blak Pearl and Future PLC.</p>  
         </div>
+        <div class="onecol last"></div>
     </div>
 </div>
 <div id="content_divider"></div>
