@@ -7,11 +7,11 @@ Template Name: AboutTemp
 <div id="about_focus" class="focus_content">
     <div class="row">
         <div class="onecol"></div>
-        <div class="fivecol">
+        <div class="fourcol">
             <!-- <div style="<?php echo bloginfo('template_directory'); ?>/assets/img/me.png"></div> -->
             <img src="<?php echo bloginfo('template_directory'); ?>/assets/img/me.png"/>
         </div>
-        <div class="fivecol">
+        <div class="sixcol">
             <span></span>
             <h1>Hi there, my name is Tom</h1>
             <p>I was born and raised in the infamous city known as Bristol. Since growing up within the industry of my father’s Graphic Design company, I have developed an unhealthy obsession to all things related to technology and the web.</p>

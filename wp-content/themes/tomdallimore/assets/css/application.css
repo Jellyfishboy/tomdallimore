@@ -3627,5 +3627,9 @@ section[role=comments] ul li:first-child .tencol {
   width: 40px;
   height: 37px;
   float: left;
-  margin: 10px 15px 0 0;
+  margin: 11px 15px 0 0;
+}
+/* line 28, ../src/sass/_focus.scss */
+#about_focus img {
+  margin-top: -2%;
 }
