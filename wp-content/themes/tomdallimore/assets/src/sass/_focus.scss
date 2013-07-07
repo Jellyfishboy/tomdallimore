@@ -29,3 +29,11 @@
             margin-top:-2%;
         }
 }
+#work_focus {
+        span {
+            @extend .sp-schematic;
+            width:42px;
+            height:37px;
+            float:left;
+        }
+}
