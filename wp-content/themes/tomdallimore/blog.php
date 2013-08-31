@@ -8,7 +8,7 @@ Template Name: BlogTemp
 <section class="content">
     <div class="container blog_home" id="blog">
     	<div class="row">
-    		<div class="threecol last">
+    		<div class="threecol last sidebar_content" id="sidebar">
     			<?php include (TEMPLATEPATH . '/searchform.php'); ?>
     			<h3>Topics</h3>
     			<?php $args = array( 'title_li' => __( '' )); ?>
@@ -36,4 +36,14 @@ Template Name: BlogTemp
 			</article>
 			<?php endwhile;?>
 		</div>
+        <div class="row">
+            <div class="ninecol last" id="sidebar">
+                <?php include (TEMPLATEPATH . '/searchform.php'); ?>
+                <h3>Topics</h3>
+                <?php $args = array( 'title_li' => __( '' )); ?>
+                <ul>
+                    <?php wp_list_categories( $args ); ?> 
+                </ul>
+            </div>
+        </div>
 <?php get_footer('no-sidebar'); ?>

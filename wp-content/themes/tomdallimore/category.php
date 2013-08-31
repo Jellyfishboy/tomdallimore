@@ -5,7 +5,7 @@ $cate = single_cat_title('', false); ?>
 <section class="content">
     <div class="container blog_category" id="blog">
         <div class="row">
-            <div class="threecol last">
+            <div class="threecol last sidebar_content" id="sidebar">
                 <?php include (TEMPLATEPATH . '/searchform.php'); ?>
                 <h3>Topics</h3>
                 <?php $args = array( 'title_li' => __( '' )); ?>

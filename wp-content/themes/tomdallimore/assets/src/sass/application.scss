@@ -14,6 +14,12 @@ $white:#E6E6E6;
 $light-blue: #abd6db;
 
 @font-face {
+  font-family: "MuseoSans-100";
+  src: url("../fonts/MuseoSans-100.otf");
+  src: local("?"),
+    url("../fonts/MuseoSans-100.otf") format("opentype");
+}
+@font-face {
   font-family: "MuseoSans-300";
   src: url("../fonts/MuseoSans-300.otf");
   src: local("?"),
@@ -118,7 +124,14 @@ body {
 /* ============================= */
 @media only screen and (max-width: 1023px) {
   body {
-
+    .sidebar_content {
+      opacity:0 !important;
+    }
+    header {
+      nav {
+        margin-top: 27px;
+      }
+    }
   }
 }
 /* ============================= */
@@ -127,11 +140,45 @@ body {
 
 @media handheld, only screen and (max-width: 767px) {
   body {
-
+    #development_timer {
+      display: none;
+    }
+    header {
+      .container {
+        .row {
+          nav {
+            margin-top:24px;
+          }
+          .fourcol:first-child {
+            float:left;
+          }
+        }
+      }
+    }
   }
 }
-
-
+@media handheld, only screen and (max-width: 430px) {
+  body {
+    header {
+      h1 {
+        font-size: 1.5em;
+      }
+    }
+    footer {
+      .container {
+        .row:last-child {
+          .twelvecol {
+            padding:0;
+            font-size: 0.7em;
+          }
+        }
+        p:last-child { 
+          float:none !important;
+        }
+      }
+    }
+  }
+}
 /* ========================================== */
 /* ! Provide higher res assets for iPhone 4   */
 /* ========================================== */
@@ -151,3 +198,4 @@ body {
 @import "blog";
 @import "comments";
 @import "focus";
+@import "sidebar";

@@ -8,7 +8,8 @@ footer {
 	overflow:hidden;
 		.container {
 			background: rgba( 0,0,0,0.15 );
-			padding:20px 0 5px;
+			padding:20px 15px 5px;
+			@include box-sizing(border-box);
 				p:last-child {
 					float:right;
 				}

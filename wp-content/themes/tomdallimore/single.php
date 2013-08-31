@@ -4,7 +4,7 @@
     <div class="container single_post" id="blog">
 	<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
         <div class="row">
-            <div class="threecol last">
+            <div class="threecol last sidebar_content" id="sidebar">
                 <?php include (TEMPLATEPATH . '/searchform.php'); ?>
                 <h3>Topics</h3>
                 <?php $args = array( 'title_li' => __( '' )); ?>
