@@ -132,6 +132,13 @@ body {
         margin-top: 27px;
       }
     }
+    #about {
+      form {
+        input[type="submit"] {
+          margin:20px 1% 0 0;
+        }
+      }
+    }
   }
 }
 /* ============================= */
@@ -152,6 +159,30 @@ body {
           .fourcol:first-child {
             float:left;
           }
+        }
+      }
+    }
+    #about_focus {
+      img {
+        display:none;
+      }
+      .row {
+        padding:40px 0 80px;
+      }
+      span {
+        margin:2px 15px 0 0;
+      }
+    }
+    #about {
+      form {
+        textarea, input {
+          width:97%;
+        }
+        .sixcol, .twelvecol {
+          padding-left:0px;
+        }
+        input[type="submit"] {
+          margin:20px 3% 0 0;
         }
       }
     }

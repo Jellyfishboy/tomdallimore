@@ -310,35 +310,63 @@ body.dark #content_divider {
   body header nav {
     margin-top: 27px;
   }
+  /* line 137, ../src/sass/application.scss */
+  body #about form input[type="submit"] {
+    margin: 20px 1% 0 0;
+  }
 }
 /* ============================= */
 /* ! Layout for mobile version   */
 /* ============================= */
 @media handheld, only screen and (max-width: 767px) {
-  /* line 143, ../src/sass/application.scss */
+  /* line 150, ../src/sass/application.scss */
   body #development_timer {
     display: none;
   }
-  /* line 149, ../src/sass/application.scss */
+  /* line 156, ../src/sass/application.scss */
   body header .container .row nav {
     margin-top: 24px;
   }
-  /* line 152, ../src/sass/application.scss */
+  /* line 159, ../src/sass/application.scss */
   body header .container .row .fourcol:first-child {
     float: left;
   }
+  /* line 166, ../src/sass/application.scss */
+  body #about_focus img {
+    display: none;
+  }
+  /* line 169, ../src/sass/application.scss */
+  body #about_focus .row {
+    padding: 40px 0 80px;
+  }
+  /* line 172, ../src/sass/application.scss */
+  body #about_focus span {
+    margin: 2px 15px 0 0;
+  }
+  /* line 178, ../src/sass/application.scss */
+  body #about form textarea, body #about form input {
+    width: 97%;
+  }
+  /* line 181, ../src/sass/application.scss */
+  body #about form .sixcol, body #about form .twelvecol {
+    padding-left: 0px;
+  }
+  /* line 184, ../src/sass/application.scss */
+  body #about form input[type="submit"] {
+    margin: 20px 3% 0 0;
+  }
 }
 @media handheld, only screen and (max-width: 430px) {
-  /* line 163, ../src/sass/application.scss */
+  /* line 194, ../src/sass/application.scss */
   body header h1 {
     font-size: 1.5em;
   }
-  /* line 170, ../src/sass/application.scss */
+  /* line 201, ../src/sass/application.scss */
   body footer .container .row:last-child .twelvecol {
     padding: 0;
     font-size: 0.7em;
   }
-  /* line 175, ../src/sass/application.scss */
+  /* line 206, ../src/sass/application.scss */
   body footer .container p:last-child {
     float: none !important;
   }
@@ -435,7 +463,12 @@ header nav ul li.current_page_item a {
   color: #4cc4db;
 }
 /* line 71, ../src/sass/_header.scss */
-header h1 {
+header a {
+  z-index: 999;
+  position: relative;
+}
+/* line 74, ../src/sass/_header.scss */
+header a h1 {
   display: inline-block;
   text-shadow: 0px 1px 0 black !important;
   opacity: 0.8;
@@ -455,24 +488,23 @@ header h1 {
   font-size: 1.7em;
   margin-top: 15px;
 }
-/* line 81, ../src/sass/_header.scss */
-header h1:first-child {
+/* line 84, ../src/sass/_header.scss */
+header a h1:first-child {
   color: #f3f4f8;
   margin-right: 4px;
   font-family: "MuseoSans-500", Helvetica, Arial, sans-serif !important;
 }
-/* line 86, ../src/sass/_header.scss */
-header h1:last-child {
+/* line 89, ../src/sass/_header.scss */
+header a h1:last-child {
   color: #4cc4db;
   font-family: "MuseoSans-100", Helvetica, Arial, sans-serif !important;
-  margin-right: 4px;
 }
-/* line 91, ../src/sass/_header.scss */
-header h1:hover {
+/* line 94, ../src/sass/_header.scss */
+header a:hover h1 {
   opacity: 1;
 }
 
-/* line 96, ../src/sass/_header.scss */
+/* line 99, ../src/sass/_header.scss */
 .blog {
   margin-top: 70px;
   border-top: 6px solid rgba(0, 0, 0, 0.1);
@@ -631,7 +663,6 @@ i {
 .row {
   width: 100%;
   max-width: 1140px;
-  min-width: 755px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -3633,10 +3664,9 @@ section[role=comments] ul li:first-child .tencol {
 /* line 1, ../src/sass/_focus.scss */
 .focus_content {
   background: url("../img/textured_white.png");
-  height: 490px;
   margin-top: 70px;
 }
-/* line 5, ../src/sass/_focus.scss */
+/* line 4, ../src/sass/_focus.scss */
 .focus_content h1 {
   color: #333333 !important;
   text-shadow: 1px 1px 0 #f0f0f0 !important;
@@ -3645,32 +3675,48 @@ section[role=comments] ul li:first-child .tencol {
   font-style: normal;
   margin: 10px 0 20px;
 }
-/* line 13, ../src/sass/_focus.scss */
+/* line 12, ../src/sass/_focus.scss */
 .focus_content p {
   color: #333333;
   text-shadow: 0.5px 0.5px 0 #f0f0f0;
 }
+/* line 16, ../src/sass/_focus.scss */
+.focus_content .row {
+  padding: 65px 0;
+}
 
-/* line 18, ../src/sass/_focus.scss */
+/* line 20, ../src/sass/_focus.scss */
 #about_focus {
-  padding-top: 57px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 21, ../src/sass/_focus.scss */
+/* line 22, ../src/sass/_focus.scss */
 #about_focus span {
   width: 40px;
   height: 37px;
   float: left;
   margin: 11px 15px 0 0;
 }
-/* line 28, ../src/sass/_focus.scss */
+/* line 29, ../src/sass/_focus.scss */
 #about_focus img {
   margin-top: -2%;
+  opacity: 1;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-timing-function: ease-in;
+  -moz-transition-timing-function: ease-in;
+  -o-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
 }
 
-/* line 33, ../src/sass/_focus.scss */
+/* line 38, ../src/sass/_focus.scss */
 #work_focus span {
   width: 42px;
   height: 37px;

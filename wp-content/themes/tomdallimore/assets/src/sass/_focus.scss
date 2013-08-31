@@ -1,6 +1,5 @@
 .focus_content {
     background:url('../img/textured_white.png');
-    height:490px;
     margin-top:70px;
         h1 {
             color:$gray !important;
@@ -14,9 +13,11 @@
             color:$gray;
             text-shadow: 0.5px 0.5px 0 rgba(240, 240, 240, 1); 
         }
+        .row {
+            padding:65px 0;
+        }
 }
 #about_focus {
-    padding-top:57px;
     @include box-sizing(border-box);
         span {
             @extend .sp-diary;
@@ -27,6 +28,10 @@
         }
         img {
             margin-top:-2%;
+            opacity:1;
+            @include transition-property(opacity);
+            @include transition-duration(0.4s);
+            @include transition-timing-function(ease-in);
         }
 }
 #work_focus {

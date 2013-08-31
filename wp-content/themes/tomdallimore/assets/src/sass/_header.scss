@@ -68,27 +68,30 @@ header {
 					}
 				}
 		}
-		h1 {
-			display: inline-block;
-			text-shadow: 0px 1px 0 black !important;
-			opacity:0.8;
-			@include transition-property(opacity);
-			@include transition-duration(0.4s);
-			@include transition-timing-function(ease-in);
-			font-weight: normal;
-			font-size: 1.7em;
-			margin-top:15px;
-				&:first-child {
-					color:#f3f4f8;
-					margin-right: 4px;
-					font-family: "MuseoSans-500", Helvetica, Arial, sans-serif !important;
+		a {
+			z-index:999;
+			position: relative;
+				h1 {
+					display: inline-block;
+					text-shadow: 0px 1px 0 black !important;
+					opacity:0.8;
+					@include transition-property(opacity);
+					@include transition-duration(0.4s);
+					@include transition-timing-function(ease-in);
+					font-weight: normal;
+					font-size: 1.7em;
+					margin-top:15px;
+						&:first-child {
+							color:#f3f4f8;
+							margin-right: 4px;
+							font-family: "MuseoSans-500", Helvetica, Arial, sans-serif !important;
+						}
+						&:last-child {
+							color:$blue;
+							font-family: "MuseoSans-100", Helvetica, Arial, sans-serif !important;
+						}
 				}
-				&:last-child {
-					color:$blue;
-					font-family: "MuseoSans-100", Helvetica, Arial, sans-serif !important;
-					margin-right: 4px;
-				}
-				&:hover {
+				&:hover h1 {
 					opacity: 1;
 				}
 		}

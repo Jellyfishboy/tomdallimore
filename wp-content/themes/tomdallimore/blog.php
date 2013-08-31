@@ -36,7 +36,7 @@ Template Name: BlogTemp
 			</article>
 			<?php endwhile;?>
 		</div>
-        <div class="row">
+<!--         <div class="row">
             <div class="ninecol last" id="sidebar">
                 <?php include (TEMPLATEPATH . '/searchform.php'); ?>
                 <h3>Topics</h3>
@@ -45,5 +45,5 @@ Template Name: BlogTemp
                     <?php wp_list_categories( $args ); ?> 
                 </ul>
             </div>
-        </div>
+        </div> -->
 <?php get_footer('no-sidebar'); ?>
