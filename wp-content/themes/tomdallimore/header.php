@@ -50,25 +50,26 @@
 <!-- <?php if (is_page( array( 5, 7, 14 ))) { echo 'dark'; } else { echo 'light'; } ?>
     <?php if (is_page( array( 7, 72, 6 ))) { echo 'dark'; } else { echo 'light'; } ?> -->
 <body class="<?php if (is_page( array( 7, 72, 6 ))) { echo 'dark'; } else { echo 'light'; } ?>" id="top">
-    <header class="<?php if(is_front_page()) echo 'hero'; ?>" role="banner">
-    	<div class="container">
-    		<div class="row">
-    			<div class="fourcol">
-                    <a href="/">
-                        <h1>tom</h1> <h1>dallimore</h1>
-                    </a>
-    			</div>
-    			<div class="fourcol">
-    			</div>
-			    <div class="fourcol last">
-			    	<nav role="navigation" class="<?php
-    if(in_category('12')) echo 'post_highlight';
-    if(in_category('13')) echo 'post_highlight';
-    if(in_category('14')) echo 'post-highlight';
- ?>">
-			            <?php $args = array( 'menu' => 'mainnav', 'container' => false, 'menu_id' => false, 'menu_class' => false); wp_nav_menu($args); ?>
-			        </nav>
-			    </div>
-			</div>			
-		</div>
-    </header>
+    <div role="main">
+        <header class="<?php if(is_front_page()) echo 'hero'; ?>" role="banner">
+        	<div class="container">
+        		<div class="row">
+        			<div class="fourcol">
+                        <a href="/" title="Bristol based RoR &amp; Front-end Developer.">
+                            <h1>tom</h1> <h1>dallimore</h1>
+                        </a>
+        			</div>
+        			<div class="fourcol">
+        			</div>
+    			    <div class="fourcol last">
+    			    	<nav role="navigation" class="<?php
+        if(in_category('12')) echo 'post_highlight';
+        if(in_category('13')) echo 'post_highlight';
+        if(in_category('14')) echo 'post-highlight';
+     ?>">
+    			            <?php $args = array( 'menu' => 'mainnav', 'container' => false, 'menu_id' => false, 'menu_class' => false); wp_nav_menu($args); ?>
+    			        </nav>
+    			    </div>
+    			</div>			
+    		</div>
+        </header>

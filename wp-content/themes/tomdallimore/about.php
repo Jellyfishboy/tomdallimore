@@ -17,6 +17,7 @@ Template Name: AboutTemp
             <p>I was born and raised in the infamous city known as Bristol. Since growing up within the industry of my father’s Graphic Design company, I have developed an unhealthy obsession to all things related to technology and the web.</p>
             <p>I decided to channel this passion by learning UI design and web development. Refining my skills over the course of six years, I have flourished into an ambitious, business driven individual.</p>
             <p>I have spent the past few years freelancing and contracting for some exciting companies including Dyson, Blak Pearl and Future PLC.</p>  
+            <button type="button" href="http://www.tomdallimore.com/" class="btn btn-primary">View my CV</button>
         </div>
         <div class="onecol last"></div>
     </div>
@@ -50,7 +51,7 @@ Template Name: AboutTemp
 		    				<label>Message</label>
 		    				<textarea rows="10" tabindex="5"></textarea>
 		    			</div>
-		    			<input type="submit" value="Send" class="btn light"/>
+		    			<input type="submit" value="Send" class="btn btn-success"/>
 		    		</div>
     			</form>
     		</div>

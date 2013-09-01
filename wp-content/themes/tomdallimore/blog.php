@@ -4,7 +4,6 @@ Template Name: BlogTemp
 */ 
 ?>
 <?php get_header(); ?>
-<div id="content_divider"></div>
 <section class="content">
     <div class="container blog_home" id="blog">
     	<div class="row">

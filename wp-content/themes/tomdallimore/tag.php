@@ -1,7 +1,6 @@
 <?php get_header(); ?>
 <?php
 $tags = single_tag_title('', false); ?>
-<div id="content_divider"></div>
 <section class="content">
     <div class="container blog_tags" id="blog">
     	<div class="row">
@@ -13,8 +12,8 @@ $tags = single_tag_title('', false); ?>
 	    			<?php wp_list_categories( $args ); ?> 
 	    		</ul>
     		</div>
-            <div class="ninecol">
-                <h1 id="post_type">Tag: <?php echo $tags ?></h1>
+            <div class="ninecol type_header">
+                <h1>Tag: <?php echo $tags ?></h1>
             </div>
 			<?php $wp_query = new WP_Query();
 			$wp_query->query('&tag='.$tags.'&category_name=development,article,link');

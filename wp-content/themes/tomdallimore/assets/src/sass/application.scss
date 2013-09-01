@@ -67,10 +67,18 @@ body {
 	font-size: 1em;
 	line-height: 1.8;	
 	font-family: "MuseoSans-300", Helvetica, Arial, sans-serif;
-
   // Added the differing CSS themes.
   @import "light";
   @import "dark";
+}
+html, body {
+  margin:0;
+  padding:0;
+  height:100%;
+}
+div[role=main] {
+  min-height: 100%;
+  position: relative;
 }
 .content {
 	padding-bottom:3em;
@@ -124,9 +132,6 @@ body {
 /* ============================= */
 @media only screen and (max-width: 1023px) {
   body {
-    .sidebar_content {
-      opacity:0 !important;
-    }
     header {
       nav {
         margin-top: 27px;
@@ -139,6 +144,10 @@ body {
         }
       }
     }
+    #sidebar #searchform i {
+      top: 8px;
+      right: 11px;
+    }
   }
 }
 /* ============================= */
@@ -147,6 +156,9 @@ body {
 
 @media handheld, only screen and (max-width: 767px) {
   body {
+    .sidebar_content {
+      display:none;
+    }
     #development_timer {
       display: none;
     }
@@ -186,6 +198,13 @@ body {
         }
       }
     }
+    #blog {
+      .row {
+        .type_header {
+          width:89%;
+        }
+      }
+    }
   }
 }
 @media handheld, only screen and (max-width: 430px) {
@@ -205,6 +224,13 @@ body {
         }
         p:last-child { 
           float:none !important;
+        }
+      }
+    }
+    #blog {
+      .row {
+        .type_header {
+          width:88%;
         }
       }
     }
@@ -230,3 +256,4 @@ body {
 @import "comments";
 @import "focus";
 @import "sidebar";
+@import "buttons";

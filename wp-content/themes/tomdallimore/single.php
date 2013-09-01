@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-<div id="content_divider"></div>
 <section class="content">
     <div class="container single_post" id="blog">
 	<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>

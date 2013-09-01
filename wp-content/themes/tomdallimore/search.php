@@ -1,7 +1,6 @@
 <?php get_header(); ?>
 <?php
 $s_query = get_search_query(); ?>
-<div id="content_divider"></div>
 <section class="content">
     <div class="container blog_search" id="blog">
         <div class="row">

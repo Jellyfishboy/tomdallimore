@@ -1,7 +1,6 @@
 <?php get_header(); ?>
 <?php
 $cate = single_cat_title('', false); ?>
-<div id="content_divider"></div>
 <section class="content">
     <div class="container blog_category" id="blog">
         <div class="row">
@@ -13,7 +12,7 @@ $cate = single_cat_title('', false); ?>
                     <?php wp_list_categories( $args ); ?> 
                 </ul>
             </div>
-            <div class="ninecol">
+            <div class="ninecol type_header">
                 <h1 id="post_type">Category: <?php echo $cate ?></h1>
             </div>
             <?php $wp_query = new WP_Query();

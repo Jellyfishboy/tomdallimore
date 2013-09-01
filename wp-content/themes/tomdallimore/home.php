@@ -7,7 +7,6 @@ Template Name: HomeTemp
 <div id="home_focus" class="focus_content">
 
 </div>
-<div id="content_divider"></div>
 <section class="content">
     <div class="container" id="home">
     	<div class="row">
