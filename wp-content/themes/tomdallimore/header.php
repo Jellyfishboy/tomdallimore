@@ -67,7 +67,14 @@
         if(in_category('13')) echo 'post_highlight';
         if(in_category('14')) echo 'post-highlight';
      ?>">
-    			            <?php $args = array( 'menu' => 'mainnav', 'container' => false, 'menu_id' => false, 'menu_class' => false); wp_nav_menu($args); ?>
+    			            <ul id="menu-main_nav" class="">
+                                <li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page <?php if (is_page(8)) { echo 'current_page_item'; } ?> page-item-8 menu-item-80">
+                                    <a href="http://localhost:8888/" class="icomoon-notebook"></a>
+                                </li>
+                                <li id="menu-item-81" class="menu-item menu-item-type-post_type menu-item-object-page <?php if (is_page(6)) { echo 'current_page_item'; } ?> menu-item-81 page-item-6">
+                                    <a href="http://localhost:8888/about/" class="icomoon-user"></a>
+                                </li>
+                            </ul>
     			        </nav>
     			    </div>
     			</div>			
