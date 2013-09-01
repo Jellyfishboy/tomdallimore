@@ -78,53 +78,60 @@ if(isset($_POST['submitted'])) {
         <div class="onecol last"></div>
     </div>
 </div>
-<div id="content_divider"></div>
 <section class="content">
     <div class="container" id="about">
+        <?php if (have_posts()) : ?>
+        
+        <?php while (have_posts()) : the_post(); ?>
     	<div class="row">
     		<div class="fourcol">
     			<h1>Go on, be social</h1>
     			<p>Feel free to get in contact with any enquiries with the online form, subscribe on <a href="http://www.facebook.com" target="_blank">Facebook</a> or follow my witty remarks and ramblings on <a href="http://www.twitter.com/billy_dallimore" target="_blank">Twitter</a>.</p>
     		</div>
             <div class="eightcol last">
-                <form action="<?php the_permalink(); ?>" id="contactForm" method="post">
-                    <div class="row">
-                        <div class="sixcol">
-                            <label for="contactName">First name</label>
-                            <input type="text" tabindex="1" name="contactName" id="contactName" value="<?php if(isset($_POST['contactName'])) echo $_POST['contactName'];?>" class="requiredField <?php if($nameError != '') { ?>inputError<?php } ?>" />
-                                <?php if($nameError != '') { ?>
-                                    <span class="error"><?=$nameError;?></span> 
+                <?php if(isset($emailSent) && $emailSent == true) { ?>
+                    <h2>Thanks, <?=$name;?></h2>
+                    <p>Your enquiry was successfully sent. I will be in touch within 48 hours.</p>
+                <?php } else { ?>
+                    <form action="<?php the_permalink(); ?>" id="contactForm" method="post">
+                        <div class="row">
+                            <div class="sixcol">
+                                <label for="contactName">First name</label>
+                                <input type="text" tabindex="1" name="contactName" id="contactName" value="<?php if(isset($_POST['contactName'])) echo $_POST['contactName'];?>" class="requiredField <?php if($nameError != '') { ?>inputError<?php } ?>" />
+                                    <?php if($nameError != '') { ?>
+                                        <span class="error"><?=$nameError;?></span> 
+                                    <?php } ?>
+                                <label for="telephone">Telephone</label>
+                                <input type="text" tabindex="3" name="telephone" id="telephone" value="<?php if(isset($_POST['telephone'])) echo $_POST['telephone'];?>" />
+                            </div>
+                            <div class="sixcol last">
+                                <label for="lastName">Last name</label>
+                                <input type="text" tabindex="2" name="lastName" id="lastName" value="<?php if(isset($_POST['lastName'])) echo $_POST['lastName'];?>" class="requiredField <?php if($lastnameError != '') { ?>inputError<?php } ?>" />
+                                    <?php if($lastnameError != '') { ?>
+                                        <span class="error"><?=$lastnameError;?></span> 
+                                    <?php } ?>
+                                <label for="email">Email</label>
+                                <input type="text" tabindex="4" name="email" id="email" value="<?php if(isset($_POST['email']))  echo $_POST['email'];?>" class="requiredField email <?php if($emailError != '') { ?>inputError<?php } ?>" />
+                                <?php if($emailError != '') { ?>
+                                    <span class="error"><?=$emailError;?></span>
                                 <?php } ?>
-                            <label for="telephone">Telephone</label>
-                            <input type="text" tabindex="3" name="telephone" id="telephone" value="<?php if(isset($_POST['telephone'])) echo $_POST['telephone'];?>" />
+                            </div>
                         </div>
-                        <div class="sixcol last">
-                            <label for="lastName">Last name</label>
-                            <input type="text" tabindex="2" name="lastName" id="lastName" value="<?php if(isset($_POST['lastName'])) echo $_POST['lastName'];?>" class="requiredField <?php if($lastnameError != '') { ?>inputError<?php } ?>" />
-                                <?php if($lastnameError != '') { ?>
-                                    <span class="error"><?=$lastnameError;?></span> 
-                                <?php } ?>
-                            <label for="email">Email</label>
-                            <input type="text" tabindex="4" name="email" id="email" value="<?php if(isset($_POST['email']))  echo $_POST['email'];?>" class="requiredField email <?php if($emailError != '') { ?>inputError<?php } ?>" />
-                            <?php if($emailError != '') { ?>
-                                <span class="error"><?=$emailError;?></span>
-                            <?php } ?>
+                        <div class="row">
+                            <div class="twelvecol">
+                                <label for="commentsText">Message</label>
+                                    <textarea tabindex="5"name="comments" id="commentsText" rows="10" class="requiredField <?php if($commentError != '') { ?>inputError<?php } ?>"><?php if(isset($_POST['comments'])) { if(function_exists('stripslashes')) { echo stripslashes($_POST['comments']); } else { echo $_POST['comments']; } } ?></textarea>
+                                    <?php if($commentError != '') { ?>
+                                        <span class="error"><?=$commentError;?></span> 
+                                    <?php } ?>
+                            </div>
+                                <input type="hidden" name="submitted" id="submitted" value="true" />
+                                <input tabindex="6" type="submit" value="Send" class="btn btn-success">
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="twelvecol">
-                            <label for="commentsText">Message</label>
-                                <textarea tabindex="5"name="comments" id="commentsText" rows="10" class="requiredField <?php if($commentError != '') { ?>inputError<?php } ?>"><?php if(isset($_POST['comments'])) { if(function_exists('stripslashes')) { echo stripslashes($_POST['comments']); } else { echo $_POST['comments']; } } ?></textarea>
-                                <?php if($commentError != '') { ?>
-                                    <span class="error"><?=$commentError;?></span> 
-                                <?php } ?>
-                        </div>
-                            <input type="hidden" name="submitted" id="submitted" value="true" />
-                            <input tabindex="6" type="submit" value="Send" class="btn btn-success">
-                    </div>
-                </form>
+                    </form>
+                <?php } ?>
             </div>
     	</div>
-
-
+        <?php endwhile; ?>
+        <?php endif; ?>
 <?php get_footer('no-sidebar'); ?>

@@ -3361,6 +3361,10 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
   width: 100px;
   margin: 20px 18px 0 0;
 }
+/* line 38, ../src/sass/_about.scss */
+#about h2 {
+  margin-top: 35px;
+}
 
 /* line 3, ../src/sass/_work.scss */
 #work .row {
