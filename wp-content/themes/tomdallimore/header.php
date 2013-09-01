@@ -68,10 +68,10 @@
         if(in_category('14')) echo 'post-highlight';
      ?>">
     			            <ul id="menu-main_nav" class="">
-                                <li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page <?php if (is_page(8)) { echo 'current_page_item'; } ?> page-item-8 menu-item-80">
+                                <li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page <?php if (is_page(5)) { echo 'current_page_item'; } ?> page-item-5 menu-item-80">
                                     <a href="/" class="icomoon-notebook"></a>
                                 </li>
-                                <li id="menu-item-81" class="menu-item menu-item-type-post_type menu-item-object-page <?php if (is_page(6)) { echo 'current_page_item'; } ?> menu-item-81 page-item-6">
+                                <li id="menu-item-81" class="menu-item menu-item-type-post_type menu-item-object-page <?php if (is_page(7)) { echo 'current_page_item'; } ?> menu-item-81 page-item-7">
                                     <a href="/about/" class="icomoon-user"></a>
                                 </li>
                             </ul>
