@@ -5,7 +5,7 @@ set :repository, 'git@github.com:Jellyfishboy/tomdallimore.git'
 set :scm_verbose, true
 set :domain, '146.185.130.90'
 set :deploy_to, '/var/www/tomdallimore/'
-set :branch, 'blog'
+set :branch, 'master'
 
 server domain, :app, :web, :db, :primary => true
 
@@ -22,10 +22,10 @@ set :use_sudo, false
 default_run_options[:pty] = true
 
 
-namespace :wordpress do
-    desc "Setup symlinks for a wordpress project"
-    task :create_symlinks, :roles => :app do
-        run "ln -nfs #{shared_path}/uploads #{release_path}/wp-content/uploads"
-    end
-end
-after "deploy:create_symlink", "wordpress:create_symlinks"
+# namespace :wordpress do
+#     desc "Setup symlinks for a wordpress project"
+#     task :create_symlinks, :roles => :app do
+#         run "ln -nfs #{shared_path}/uploads #{release_path}/wp-content/uploads"
+#     end
+# end
+# after "deploy:create_symlink", "wordpress:create_symlinks"
