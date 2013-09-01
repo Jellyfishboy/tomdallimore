@@ -22,10 +22,10 @@ set :use_sudo, false
 default_run_options[:pty] = true
 
 
-# namespace :wordpress do
-#     desc "Setup symlinks for a wordpress project"
-#     task :create_symlinks, :roles => :app do
-#         run "ln -nfs #{shared_path}/uploads #{release_path}/wp-content/uploads"
-#     end
-# end
-# after "deploy:create_symlink", "wordpress:create_symlinks"
+namespace :wordpress do
+    desc "Setup symlinks for a wordpress project"
+    task :create_symlinks, :roles => :app do
+        run "ln -nfs #{shared_path}/uploads #{release_path}/wp-content/uploads"
+    end
+end
+after "deploy:create_symlink", "wordpress:create_symlinks"
