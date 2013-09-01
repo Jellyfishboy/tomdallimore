@@ -416,7 +416,7 @@ header:after {
 }
 /* line 37, ../src/sass/_header.scss */
 header nav {
-  margin-top: 20px;
+  margin-top: 19px;
   position: relative;
   z-index: 1000;
   float: right;
@@ -429,8 +429,8 @@ header nav ul {
 /* line 45, ../src/sass/_header.scss */
 header nav ul li {
   display: inline-block;
-  margin-left: 50px;
-  font-size: 18px;
+  margin-left: 30px;
+  font-size: 22px;
 }
 /* line 49, ../src/sass/_header.scss */
 header nav ul li:first-child {
@@ -438,36 +438,37 @@ header nav ul li:first-child {
 }
 /* line 52, ../src/sass/_header.scss */
 header nav ul li a {
-  font-family: "MuseoSlab-700", Helvetica, Arial, sans-serif !important;
   color: #fff;
   text-shadow: 0px 1px 0 black;
-  -webkit-transition-property: color;
-  -moz-transition-property: color;
-  -o-transition-property: color;
-  transition-property: color;
-  -webkit-transition-duration: 0.4s;
-  -moz-transition-duration: 0.4s;
-  -o-transition-duration: 0.4s;
-  transition-duration: 0.4s;
-  -webkit-transition-timing-function: ease-in;
-  -moz-transition-timing-function: ease-in;
-  -o-transition-timing-function: ease-in;
-  transition-timing-function: ease-in;
+  -webkit-transition-property: color, opacity;
+  -moz-transition-property: color, opacity;
+  -o-transition-property: color, opacity;
+  transition-property: color, opacity;
+  -webkit-transition-duration: 0.4s, 0.4s;
+  -moz-transition-duration: 0.4s, 0.4s;
+  -o-transition-duration: 0.4s, 0.4s;
+  transition-duration: 0.4s, 0.4s;
+  -webkit-transition-timing-function: ease-in, ease-in;
+  -moz-transition-timing-function: ease-in, ease-in;
+  -o-transition-timing-function: ease-in, ease-in;
+  transition-timing-function: ease-in, ease-in;
+  opacity: 0.9;
 }
 /* line 59, ../src/sass/_header.scss */
 header nav ul li a:hover {
-  color: #4cc4db;
+  opacity: 1;
 }
 /* line 64, ../src/sass/_header.scss */
 header nav ul li.current_page_item a {
   color: #4cc4db;
+  opacity: 1;
 }
-/* line 71, ../src/sass/_header.scss */
+/* line 72, ../src/sass/_header.scss */
 header a {
   z-index: 999;
   position: relative;
 }
-/* line 74, ../src/sass/_header.scss */
+/* line 75, ../src/sass/_header.scss */
 header a h1 {
   display: inline-block;
   text-shadow: 0px 1px 0 black !important;
@@ -488,23 +489,23 @@ header a h1 {
   font-size: 1.7em;
   margin-top: 15px;
 }
-/* line 84, ../src/sass/_header.scss */
+/* line 85, ../src/sass/_header.scss */
 header a h1:first-child {
   color: #f3f4f8;
   margin-right: 4px;
   font-family: "MuseoSans-500", Helvetica, Arial, sans-serif !important;
 }
-/* line 89, ../src/sass/_header.scss */
+/* line 90, ../src/sass/_header.scss */
 header a h1:last-child {
   color: #4cc4db;
   font-family: "MuseoSans-100", Helvetica, Arial, sans-serif !important;
 }
-/* line 94, ../src/sass/_header.scss */
+/* line 95, ../src/sass/_header.scss */
 header a:hover h1 {
   opacity: 1;
 }
 
-/* line 99, ../src/sass/_header.scss */
+/* line 100, ../src/sass/_header.scss */
 .blog {
   margin-top: 70px;
   border-top: 6px solid rgba(0, 0, 0, 0.1);
