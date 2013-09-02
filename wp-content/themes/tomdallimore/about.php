@@ -73,7 +73,7 @@ if(isset($_POST['submitted'])) {
             <p>I was born and raised in the infamous city known as Bristol. Since growing up within the industry of my father’s Graphic Design company, I have developed an unhealthy obsession to all things related to technology and the web.</p>
             <p>I decided to channel this passion by learning UI design and web development. Refining my skills over the course of six years, I have flourished into an ambitious business-driven individual.</p>
             <p>I have spent the past few years freelancing and contracting for some exciting companies including Dyson, Blak Pearl and Future PLC.</p>  
-            <button type="button" href="http://www.tomdallimore.com/" class="btn btn-primary">View my CV</button>
+            <button type="button" href="/wp-content/uploads/2013/09/cv_aug_20132.pdf" class="btn btn-primary">View my CV</button>
         </div>
         <div class="onecol last"></div>
     </div>
