@@ -33,6 +33,10 @@
             @include transition-duration(0.4s);
             @include transition-timing-function(ease-in);
         }
+        a {
+            font-family: "MuseoSans-300", Helvetica, Arial, sans-serif !important;
+            text-shadow: 0 0 0 #fff;
+        }
 }
 #work_focus {
         span {

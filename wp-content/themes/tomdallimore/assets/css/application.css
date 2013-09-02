@@ -3740,8 +3740,13 @@ section[role=comments] ul li:first-child .tencol {
   -o-transition-timing-function: ease-in;
   transition-timing-function: ease-in;
 }
+/* line 36, ../src/sass/_focus.scss */
+#about_focus a {
+  font-family: "MuseoSans-300", Helvetica, Arial, sans-serif !important;
+  text-shadow: 0 0 0 #fff;
+}
 
-/* line 38, ../src/sass/_focus.scss */
+/* line 42, ../src/sass/_focus.scss */
 #work_focus span {
   width: 42px;
   height: 37px;
