@@ -27,5 +27,16 @@ namespace :wordpress do
     task :create_symlinks, :roles => :app do
         run "ln -nfs #{shared_path}/uploads #{release_path}/wp-content/uploads"
     end
+    desc "Copy production config file across"
+    task :production_config, :roles => :app do 
+        run "cp /var/www/wpconfig/tomdallimore/wp-config-production.php /var/www/tomdallimore/current"
+    end
+    desc "Set sitemap file permissions"
+    task :sitemap_permissions, :roles => :app do
+        run "chmod 666 /var/www/tomdallimore/current/sitemap.xml"
+        run "chmod 666 /var/www/tomdallimore/current/sitemap.xml.gz"
+    end
 end
 after "deploy:create_symlink", "wordpress:create_symlinks"
+after "wordpress:create_symlinks", "wordpress:production_config"
+after "wordpress:production_config", "wordpress:sitemap_permissions"
