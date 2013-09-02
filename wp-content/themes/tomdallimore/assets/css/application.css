@@ -441,7 +441,7 @@ header:after {
 }
 /* line 37, ../src/sass/_header.scss */
 header nav {
-  margin-top: 19px;
+  margin-top: 24px;
   position: relative;
   z-index: 1000;
   float: right;
