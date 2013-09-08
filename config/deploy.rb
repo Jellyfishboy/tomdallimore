@@ -21,7 +21,7 @@ set :use_sudo, false
 #paths
 set :asset_path, "assets"
 set :theme_path, "wp-content/themes/tomdallimore"
-set :sass_path, "src/sass"
+set :sass_path, "src"
 
 # additional settings
 default_run_options[:pty] = true
