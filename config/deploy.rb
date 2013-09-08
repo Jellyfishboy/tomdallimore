@@ -37,6 +37,7 @@ namespace :wordpress do
     desc "Setup symlinks for a wordpress project"
     task :create_symlinks, :roles => :app do
         run "ln -nfs #{shared_path}/uploads #{release_path}/wp-content/uploads"
+        run "ln -nfs #{shared_path}/plugins #{release_path}/wp-content/plugins"
     end
     desc "Copy production config file across"
     task :production_config, :roles => :app do 
@@ -48,7 +49,7 @@ namespace :wordpress do
         run "chmod 666 /var/www/tomdallimore/current/sitemap.xml.gz"
     end
 end
-after "deplo:create_symlink", "wordpress:compile_sass"
+after "deploy:create_symlink", "wordpress:compile_sass"
 after "wordpress:compile_sass", "wordpress:create_symlinks"
 after "wordpress:create_symlinks", "wordpress:production_config"
 after "wordpress:production_config", "wordpress:sitemap_permissions"
