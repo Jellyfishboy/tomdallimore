@@ -3,4 +3,6 @@ $(document).ready ->
   $("img").each ->
     $(this).removeAttr "width"
     $(this).removeAttr "height"
-    $("#twitter_div a").attr "target", "_blank"
+  $("#twitter_div a").attr "target", "_blank"
+
+  $('#blog .tencol a').attr 'target', '_blank'
