@@ -14,14 +14,14 @@
 				<div class="twelvecol">
 					<div id="development_timer">
 						<p>Time spent designing and developing since 2006: </p>
-						<script language="JavaScript">
+						<script>
 						    TargetDate = "01/01/2006 6:00 AM GMT+0100";
 						    BackColor = "";
 						    ForeColor = "#B3B3B3";
 						    CountActive = true;
 						    CountStepper = +1;
 						    LeadingZero = true;
-						    DisplayFormat = "%%H%% Hours, %%M%% Minutes, %%S%% Seconds.";
+						    DisplayFormat = "%%D%% Days, %%M%% Minutes, %%S%% Seconds.";
 						    FinishMessage = "It is finally here!";
 						    // use server time
 						    var dnow = new Date("<?php echo date('D M d G:i:s Y'); ?>");

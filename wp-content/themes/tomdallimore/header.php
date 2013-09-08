@@ -5,7 +5,7 @@
 <!--[if IE 8 ]>    <html lang="en" class="ie ie8"> <![endif]--> 
 <!--[if IE 9 ]>    <html lang="en" class="ie ie9"> <![endif]--> 
 <!--[if (gt IE 9)|!(IE)]><!--> <html l<?php language_attributes(); ?>> <!--<![endif]-->
-<head>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# tomdallimore: http://ogp.me/ns/fb/tomdallimore#">
 <title><?php
 	global $page, $paged;
 	wp_title( '|', true, 'right' );
@@ -17,6 +17,31 @@
 			echo ' | ' . sprintf( __( 'Page %s' ), max( $paged, $page ) );
 	?>
 </title>
+<!-- Open graph meta data -->
+<meta property="fb:app_id" content="342151029254103"/>
+<meta property="og:url" content="<?php
+global $wp;
+$current_url = add_query_arg( $wp->query_string, '', home_url( $wp->request ) );
+echo $current_url;
+?>"/>
+<meta property="og:title" content="<?php
+    global $page, $paged;
+    wp_title( '|', true, 'right' );
+        bloginfo( 'name' );
+        $site_description = get_bloginfo( 'description', 'display' );
+        if ( $site_description && ( is_home() || is_front_page() ) )
+            echo " | $site_description";
+        if ( $paged >= 2 || $page >= 2 )
+            echo ' | ' . sprintf( __( 'Page %s' ), max( $paged, $page ) );
+    ?>"/>
+<meta property="og:description" content="<?php if ( is_single() ) {
+    single_post_title('', true); 
+    } else {
+    bloginfo('name'); echo " - "; bloginfo('description');
+    }
+?>"/>
+<meta property="og:image" content="http://www.tomdallimore.com/wp-content/themes/tomdallimore/favicon.png"/>
+<meta property="og:type" content="tomdallimore:website"/>
 <meta name="description" content="<?php if ( is_single() ) {
 	single_post_title('', true); 
 	} else {
