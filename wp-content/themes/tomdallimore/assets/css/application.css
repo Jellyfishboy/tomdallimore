@@ -376,22 +376,26 @@ div[role=main] {
   body #blog .row .type_header {
     width: 89%;
   }
+  /* line 206, ../src/sass/application.scss */
+  body #blog .row .ninecol {
+    float: none;
+  }
 }
 @media handheld, only screen and (max-width: 430px) {
-  /* line 213, ../src/sass/application.scss */
+  /* line 216, ../src/sass/application.scss */
   body header h1 {
     font-size: 1.5em;
   }
-  /* line 220, ../src/sass/application.scss */
+  /* line 223, ../src/sass/application.scss */
   body footer .container .row:last-child .twelvecol {
     padding: 0;
     font-size: 0.7em;
   }
-  /* line 225, ../src/sass/application.scss */
+  /* line 228, ../src/sass/application.scss */
   body footer .container p:last-child {
     float: none !important;
   }
-  /* line 232, ../src/sass/application.scss */
+  /* line 235, ../src/sass/application.scss */
   body #blog .row .type_header {
     width: 88%;
   }
