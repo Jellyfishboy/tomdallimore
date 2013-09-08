@@ -6,7 +6,7 @@
       return $(this).removeAttr("height");
     });
     $("#twitter_div a").attr("target", "_blank");
-    return $('#blog .tencol a').attr('target', '_blank');
+    return $('#blog .tencol p a').attr('target', '_blank');
   });
 
 }).call(this);
