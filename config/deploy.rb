@@ -47,8 +47,13 @@ namespace :wordpress do
         run "chmod 666 /var/www/tomdallimore/current/sitemap.xml"
         run "chmod 666 /var/www/tomdallimore/current/sitemap.xml.gz"
     end
+    desc "Set root folder permissions to www-data"
+    task :root_permissions, :roles => :app do
+        run "chown -R www-data:www-data /var/www/tomdallimore"
+    end
 end
 after "deploy:create_symlink", "wordpress:compile_sass"
 after "wordpress:compile_sass", "wordpress:create_symlinks"
 after "wordpress:create_symlinks", "wordpress:production_config"
 after "wordpress:production_config", "wordpress:sitemap_permissions"
+after "wordpress:sitemap_permissions", "wordpress:root_permissions"
