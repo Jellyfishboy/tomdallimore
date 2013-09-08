@@ -30,7 +30,7 @@ namespace :wordpress do
     desc "Compile Sass/Compass"
         task :compile_sass, :roles => :app do
             #compile and upload sass files
-            run_locally( "cd #{theme_path}/#{asset_path}/#{sass_path}; compass compile" )
+            run_locally( "cd #{theme_path}/#{asset_path}; compass compile" )
             upload( "#{theme_path}/#{asset_path}/css", "#{release_path}/#{theme_path}/#{asset_path}/css" )
     end
     desc "Setup symlinks for a wordpress project"
