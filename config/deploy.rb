@@ -18,11 +18,22 @@ set :deploy_via, :remote_cache
 set :copy_exclude, [".git", ".DS_Store", ".gitignore", ".gitmodules"]
 set :use_sudo, false
 
+#paths
+set :asset_path, "assets"
+set :theme_path, "wp-content/themes/tomdallimore"
+set :sass_path, "src/sass"
+
 # additional settings
 default_run_options[:pty] = true
 
 
 namespace :wordpress do
+    desc "Compile Sass/Compass"
+        task :compile_sass, :roles => :app do
+            #compile and upload sass files
+            run_locally( "cd #{theme_path}/#{asset_path}/#{sass_path}; compass compile" )
+            upload( "#{theme_path}/#{asset_path}/css", "#{release_path}/#{theme_path}/#{asset_path}/css" )
+    end
     desc "Setup symlinks for a wordpress project"
     task :create_symlinks, :roles => :app do
         run "ln -nfs #{shared_path}/uploads #{release_path}/wp-content/uploads"
@@ -37,6 +48,7 @@ namespace :wordpress do
         run "chmod 666 /var/www/tomdallimore/current/sitemap.xml.gz"
     end
 end
-after "deploy:create_symlink", "wordpress:create_symlinks"
+after "deplo:create_symlink", "wordpress:compile_sass"
+after "wordpress:compile_sass", "wordpress:create_symlinks"
 after "wordpress:create_symlinks", "wordpress:production_config"
 after "wordpress:production_config", "wordpress:sitemap_permissions"
