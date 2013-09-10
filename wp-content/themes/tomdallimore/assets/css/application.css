@@ -3429,9 +3429,9 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
 /* line 21, ../src/sass/_blog.scss */
 #blog .ninecol .tencol .tags a {
   background-color: #e6e6e6;
-  padding: 7px 10px;
+  padding: 3px 10px;
   color: gray;
-  margin-right: 12px;
+  margin: 0 12px 11px 0;
   font-family: "MuseoSlab-500", Helvetica, Arial, sans-serif;
   -webkit-transition-property: background-color, color;
   -moz-transition-property: background-color, color;
@@ -3447,26 +3447,27 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
   transition-timing-function: ease-in, ease-in;
   text-transform: uppercase;
   font-size: 0.8em;
+  display: inline-block;
 }
-/* line 32, ../src/sass/_blog.scss */
+/* line 33, ../src/sass/_blog.scss */
 #blog .ninecol .tencol .tags a:hover {
   color: #fff;
   background-color: #4cc4db;
 }
-/* line 41, ../src/sass/_blog.scss */
+/* line 42, ../src/sass/_blog.scss */
 #blog article .tencol {
   padding-bottom: 35px;
 }
-/* line 45, ../src/sass/_blog.scss */
+/* line 46, ../src/sass/_blog.scss */
 #blog .sidebar_content {
   float: right;
 }
-/* line 49, ../src/sass/_blog.scss */
+/* line 50, ../src/sass/_blog.scss */
 #blog section[role=navigation] .tencol {
   border-top: 1px solid #FFFFFF;
   border-bottom: 1px solid #E6E6E6;
 }
-/* line 52, ../src/sass/_blog.scss */
+/* line 53, ../src/sass/_blog.scss */
 #blog section[role=navigation] .tencol .pre_nex {
   padding: 15px 0;
   overflow: hidden;
@@ -3485,40 +3486,40 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
   -o-transition-timing-function: ease-in;
   transition-timing-function: ease-in;
 }
-/* line 60, ../src/sass/_blog.scss */
+/* line 61, ../src/sass/_blog.scss */
 #blog section[role=navigation] .tencol .pre_nex a[rel="prev"] {
   float: left;
   padding-left: 20px;
 }
-/* line 63, ../src/sass/_blog.scss */
+/* line 64, ../src/sass/_blog.scss */
 #blog section[role=navigation] .tencol .pre_nex a[rel="prev"] i {
   left: 0px;
 }
-/* line 67, ../src/sass/_blog.scss */
+/* line 68, ../src/sass/_blog.scss */
 #blog section[role=navigation] .tencol .pre_nex a[rel="next"] {
   float: right;
   text-align: right;
   padding-right: 20px;
 }
-/* line 71, ../src/sass/_blog.scss */
+/* line 72, ../src/sass/_blog.scss */
 #blog section[role=navigation] .tencol .pre_nex a[rel="next"] i {
   right: 0px;
 }
-/* line 75, ../src/sass/_blog.scss */
+/* line 76, ../src/sass/_blog.scss */
 #blog section[role=navigation] .tencol .pre_nex a {
   width: 40%;
 }
-/* line 77, ../src/sass/_blog.scss */
+/* line 78, ../src/sass/_blog.scss */
 #blog section[role=navigation] .tencol .pre_nex a i {
   font-size: 1.5em;
   color: #333333;
 }
-/* line 81, ../src/sass/_blog.scss */
+/* line 82, ../src/sass/_blog.scss */
 #blog section[role=navigation] .tencol .pre_nex a div {
   font-family: "MuseoSans-300", Helvetica, Arial, sans-serif !important;
   color: #333333;
 }
-/* line 85, ../src/sass/_blog.scss */
+/* line 86, ../src/sass/_blog.scss */
 #blog section[role=navigation] .tencol .pre_nex a span {
   font-family: "MuseoSlab-500", Helvetica, Arial, sans-serif;
   color: #1a1a1a;
@@ -3535,31 +3536,31 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
   -o-transition-timing-function: ease-in;
   transition-timing-function: ease-in;
 }
-/* line 92, ../src/sass/_blog.scss */
+/* line 93, ../src/sass/_blog.scss */
 #blog section[role=navigation] .tencol .pre_nex a:hover > span {
   color: #4cc4db !important;
 }
-/* line 96, ../src/sass/_blog.scss */
+/* line 97, ../src/sass/_blog.scss */
 #blog section[role=navigation] .tencol .pre_nex:hover {
   opacity: 1;
   filter: alpha(opacity=100);
 }
 
-/* line 106, ../src/sass/_blog.scss */
+/* line 107, ../src/sass/_blog.scss */
 .blog_home article:last-child {
   margin-bottom: 0;
 }
 
-/* line 113, ../src/sass/_blog.scss */
+/* line 114, ../src/sass/_blog.scss */
 .single_post article .tencol {
   border-bottom: 1px solid #E6E6E6;
 }
 
-/* line 120, ../src/sass/_blog.scss */
+/* line 121, ../src/sass/_blog.scss */
 .blog_search .row article, .blog_category .row article, .blog_tags .row article {
   padding-top: 30px;
 }
-/* line 125, ../src/sass/_blog.scss */
+/* line 126, ../src/sass/_blog.scss */
 .blog_search .type_header h1, .blog_category .type_header h1, .blog_tags .type_header h1 {
   margin: 0;
   padding: 0 0 5px 2%;
@@ -3567,7 +3568,7 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
   border-bottom: 1px solid #E6E6E6;
   position: relative;
 }
-/* line 131, ../src/sass/_blog.scss */
+/* line 132, ../src/sass/_blog.scss */
 .blog_search .type_header h1:after, .blog_category .type_header h1:after, .blog_tags .type_header h1:after {
   content: '';
   position: absolute;
