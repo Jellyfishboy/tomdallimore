@@ -2,9 +2,9 @@
 <section class="content">
     <div class="container">
         <div class="row">
-            <div class="twocol"></div>
-            <div class="eightcol">
-                <img src="<?php echo bloginfo('template_directory'); ?>/assets/img/angry-cat.png" />
+            <div class="threecol"></div>
+            <div class="sixcol">
+                <img src="<?php echo bloginfo('template_directory'); ?>/assets/img/angry-cat.jpg" />
             </div>
-            <div class="twocol last"></div>
+            <div class="threecol last"></div>
 <?php get_footer('no-sidebar'); ?>
