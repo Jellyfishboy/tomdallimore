@@ -145,5 +145,12 @@ function td_comment($comment, $args, $depth) {
         //     $avatar_defaults[$myavatar] = "Batman";  
         //     return $avatar_defaults;  
         // }  
+        add_filter('new_royalslider_skins', 'new_royalslider_add_custom_skin', 10, 2);
+        function new_royalslider_add_custom_skin($skins) {
+              $skins['tomd'] = array(
+                   'label' => 'The custom skin',
+                   'path' => get_stylesheet_directory_uri() . '/assets/css/slider/tomd.css'  // get_stylesheet_directory_uri returns path to your theme folder
+              );
+              return $skins;
+        }
 ?>
-

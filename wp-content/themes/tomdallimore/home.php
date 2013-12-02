@@ -5,7 +5,7 @@ Template Name: HomeTemp
 ?>
 <?php get_header(); ?>
 <div id="home_focus" class="focus_content">
-
+<?php echo get_new_royalslider(1); ?>
 </div>
 <section class="content">
     <div class="container" id="home">
@@ -78,8 +78,8 @@ Template Name: HomeTemp
                 </div>
                 <div>
                     <span>
-                        <a href="https://github.com/Jellyfishboy/depot" target="_blank"><h2>gimson_robotics</h2></a>
-                        <p>Online e-commerce CMS for Gimson Robotics.</p>
+                        <a href="https://github.com/Jellyfishboy/slideatron" target="_blank"><h2>slideatron</h2></a>
+                        <p>HTML5/JS animation project.</p>
                     </span>
                     <span>
                         <i class="icon-star"></i><p>0</p><i class="icon-code-fork"></i><p>0</p>
@@ -90,7 +90,7 @@ Template Name: HomeTemp
                 <i class="icon-twitter"></i>
                 <h1>Latest tweets</h1>
                 <ul>
-                    <?php include 'twitter.php'; ?>
+                    <!-- include 'twitter.php'; PHP -->
                 </ul>
             </div>
         </div>

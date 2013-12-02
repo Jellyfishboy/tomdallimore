@@ -26,7 +26,7 @@ $s_query = get_search_query(); ?>
                         </div>
                         <div class="tencol last">
                             <a href="<?php the_permalink() ?>"><h1><?php the_title(); ?></h1></a>
-                            <p><?php the_excerpt(); ?></p>
+                            <p><?php the_content(); ?></p>
                             <p><?php the_time('dS F Y') ?></p>
                             <div class="tags">
                                 <?php $before = ''; the_tags($before, $separator, $after); ?>

@@ -1,6 +1,6 @@
 /* Sprite settings */
 /* line 322, icono/*.png */
-.icono-sprite, .sp-facebook-on, .sp-facebook-off, footer .container span a:nth-child(2), .sp-twitter-on, .sp-twitter-off, footer .container span a:first-child, .sp-google-on, .sp-google-off, .sp-linked-on, .sp-linked-off, footer .container span a:last-child, .sp-github-on, .sp-github-off, footer .container span a:nth-child(3), .sp-ai-on, .sp-ai-off, .sp-css3-on, .sp-css3-off, .sp-html5-on, .sp-html5-off, .sp-jquery-on, .sp-jquery-off, .sp-ps-on, .sp-ps-off, .sp-ruby-on, .sp-ruby-off, .sp-wp-on, .sp-wp-off, .sp-coffee-on, .sp-coffee-off, .sp-briefcase, .sp-diary, #about_focus span, .sp-schematic, #work_focus span, .sp-clipboard, .sp-blog-link, #blog .ninecol h2.link, .sp-blog-pencil, #blog .ninecol h2.article, .sp-profile, .sp-what-i-do, #home .row:first-child .fourcol:first-child div, .sp-what-i-love, #home .row:first-child .fourcol:nth-child(2) div, .sp-where-i-reside, #home .row:first-child .fourcol:last-child div {
+.icono-sprite, .sp-facebook-on, footer .container span a:nth-child(2):hover, .sp-facebook-off, footer .container span a:nth-child(2), .sp-twitter-on, footer .container span a:first-child:hover, .sp-twitter-off, footer .container span a:first-child, .sp-google-on, .sp-google-off, .sp-linked-on, footer .container span a:last-child:hover, .sp-linked-off, footer .container span a:last-child, .sp-github-on, footer .container span a:nth-child(3):hover, .sp-github-off, footer .container span a:nth-child(3), .sp-ai-on, .sp-ai-off, .sp-css3-on, .sp-css3-off, .sp-html5-on, .sp-html5-off, .sp-jquery-on, .sp-jquery-off, .sp-ps-on, .sp-ps-off, .sp-ruby-on, .sp-ruby-off, .sp-wp-on, .sp-wp-off, .sp-coffee-on, .sp-coffee-off, .sp-briefcase, .sp-diary, #about_focus span, .sp-schematic, #work_focus span, .sp-clipboard, .sp-blog-link, #blog .ninecol h2.link, .sp-blog-pencil, #blog .ninecol h2.article, .sp-profile, .sp-what-i-do, #home .row:first-child .fourcol:first-child div, .sp-what-i-love, #home .row:first-child .fourcol:nth-child(2) div, .sp-where-i-reside, #home .row:first-child .fourcol:last-child div {
   background: url('../img/icono-s41c7a29c84.png') no-repeat;
 }
 
@@ -3259,7 +3259,6 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
 /* line 108, ../src/sass/_home.scss */
 #home .row .sixcol:first-child div span:first-child {
   float: left;
-  width: 370px;
 }
 /* line 111, ../src/sass/_home.scss */
 #home .row .sixcol:first-child div span:first-child p {

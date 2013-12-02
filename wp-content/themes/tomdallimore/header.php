@@ -64,13 +64,14 @@ echo $current_url;
     <link rel="stylesheet" href="<?php echo bloginfo('template_directory'); ?>/assets/css/icomoon.css" />
 	<!--<link rel="stylesheet" href="<?php echo bloginfo('template_directory'); ?>/assets/css/bootstrap.css" /> -->
 <!-- Stylesheets -->
-<!-- Load scripts quick smart -->
+	
+    <?php wp_deregister_script('jquery');wp_head(); ?>
+<!-- Javascripts -->
 	<script src="<?php echo bloginfo('template_directory'); ?>/assets/js/modernizr-2.6.2.js"></script>     
     <!--[if (lt IE 9) & (!IEMobile)]>
-		<script src="<?php echo bloginfo('template_directory'); ?>/assets/scripts/selectivizr-min.js"></script>
-	<![endif]-->
-<!-- Load scripts quick smart -->
-	<?php wp_deregister_script('jquery');wp_head(); ?>
+        <script src="<?php echo bloginfo('template_directory'); ?>/assets/js/selectivizr-min.js"></script>
+    <![endif]-->
+<!-- Javascripts -->
 </head>
 <!-- <?php if (is_page( array( 5, 7, 14 ))) { echo 'dark'; } else { echo 'light'; } ?>
     <?php if (is_page( array( 7, 72, 6 ))) { echo 'dark'; } else { echo 'light'; } ?> -->
