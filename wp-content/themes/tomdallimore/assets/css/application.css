@@ -1,7 +1,7 @@
 /* Sprite settings */
-/* line 322, icono/*.png */
-.icono-sprite, .sp-facebook-on, footer .container span a:nth-child(2):hover, .sp-facebook-off, footer .container span a:nth-child(2), .sp-twitter-on, footer .container span a:first-child:hover, .sp-twitter-off, footer .container span a:first-child, .sp-google-on, .sp-google-off, .sp-linked-on, footer .container span a:last-child:hover, .sp-linked-off, footer .container span a:last-child, .sp-github-on, footer .container span a:nth-child(3):hover, .sp-github-off, footer .container span a:nth-child(3), .sp-ai-on, .sp-ai-off, .sp-css3-on, .sp-css3-off, .sp-html5-on, .sp-html5-off, .sp-jquery-on, .sp-jquery-off, .sp-ps-on, .sp-ps-off, .sp-ruby-on, .sp-ruby-off, .sp-wp-on, .sp-wp-off, .sp-coffee-on, .sp-coffee-off, .sp-briefcase, .sp-diary, #about_focus span, .sp-schematic, #work_focus span, .sp-clipboard, .sp-blog-link, #blog .ninecol h2.link, .sp-blog-pencil, #blog .ninecol h2.article, .sp-profile, .sp-what-i-do, #home .row:first-child .fourcol:first-child div, .sp-what-i-love, #home .row:first-child .fourcol:nth-child(2) div, .sp-where-i-reside, #home .row:first-child .fourcol:last-child div {
-  background: url('../img/icono-s41c7a29c84.png') no-repeat;
+/* line 338, icono/*.png */
+.icono-sprite, .sp-facebook-on, footer .container span a:nth-child(2):hover, .sp-facebook-off, footer .container span a:nth-child(2), .sp-twitter-on, footer .container span a:first-child:hover, .sp-twitter-off, footer .container span a:first-child, .sp-google-on, .sp-google-off, .sp-linked-on, footer .container span a:nth-child(4):hover, .sp-linked-off, footer .container span a:nth-child(4), .sp-github-on, footer .container span a:nth-child(3):hover, .sp-github-off, footer .container span a:nth-child(3), .sp-stackoverflow-off, footer .container span a:last-child, .sp-stackoverflow-on, footer .container span a:last-child:hover, .sp-ai-on, .sp-ai-off, .sp-css3-on, .sp-css3-off, .sp-html5-on, .sp-html5-off, .sp-jquery-on, .sp-jquery-off, .sp-ps-on, .sp-ps-off, .sp-ruby-on, .sp-ruby-off, .sp-wp-on, .sp-wp-off, .sp-coffee-on, .sp-coffee-off, .sp-briefcase, .sp-diary, #about_focus span, .sp-schematic, #work_focus span, .sp-clipboard, .sp-blog-link, #blog .ninecol h2.link, .sp-blog-pencil, #blog .ninecol h2.article, .sp-profile, .sp-what-i-do, #home .row:first-child .fourcol:first-child div, .sp-what-i-love, #home .row:first-child .fourcol:nth-child(2) div, .sp-where-i-reside, #home .row:first-child .fourcol:last-child div {
+  background: url('../img/icono-scf84cd182d.png') no-repeat;
 }
 
 /* Global variables */
@@ -139,12 +139,12 @@ div[role=main] {
 
 /* line 92, ../src/sass/application.scss */
 .sp-twitter-on, footer .container span a:first-child:hover {
-  background-position: -1467px 0;
+  background-position: -1537px 0;
 }
 
 /* line 93, ../src/sass/application.scss */
 .sp-twitter-off, footer .container span a:first-child {
-  background-position: -1432px 0;
+  background-position: -1502px 0;
 }
 
 /* line 94, ../src/sass/application.scss */
@@ -158,12 +158,12 @@ div[role=main] {
 }
 
 /* line 96, ../src/sass/application.scss */
-.sp-linked-on, footer .container span a:last-child:hover {
+.sp-linked-on, footer .container span a:nth-child(4):hover {
   background-position: -1064px 0;
 }
 
 /* line 97, ../src/sass/application.scss */
-.sp-linked-off, footer .container span a:last-child {
+.sp-linked-off, footer .container span a:nth-child(4) {
   background-position: -1029px 0;
 }
 
@@ -177,152 +177,162 @@ div[role=main] {
   background-position: -677px 0;
 }
 
-/* Web tools */
+/* line 100, ../src/sass/application.scss */
+.sp-stackoverflow-off, footer .container span a:last-child {
+  background-position: -1432px 0;
+}
+
 /* line 101, ../src/sass/application.scss */
+.sp-stackoverflow-on, footer .container span a:last-child:hover {
+  background-position: -1467px 0;
+}
+
+/* Web tools */
+/* line 104, ../src/sass/application.scss */
 .sp-ai-on {
   background-position: -53px 0;
 }
 
-/* line 102, ../src/sass/application.scss */
+/* line 105, ../src/sass/application.scss */
 .sp-ai-off {
   background-position: 0 0;
 }
 
-/* line 103, ../src/sass/application.scss */
+/* line 106, ../src/sass/application.scss */
 .sp-css3-on {
   background-position: -514px 0;
 }
 
-/* line 104, ../src/sass/application.scss */
+/* line 107, ../src/sass/application.scss */
 .sp-css3-off {
   background-position: -461px 0;
 }
 
-/* line 105, ../src/sass/application.scss */
+/* line 108, ../src/sass/application.scss */
 .sp-html5-on {
   background-position: -870px 0;
 }
 
-/* line 106, ../src/sass/application.scss */
+/* line 109, ../src/sass/application.scss */
 .sp-html5-off {
   background-position: -817px 0;
 }
 
-/* line 107, ../src/sass/application.scss */
+/* line 110, ../src/sass/application.scss */
 .sp-jquery-on {
   background-position: -976px 0;
 }
 
-/* line 108, ../src/sass/application.scss */
+/* line 111, ../src/sass/application.scss */
 .sp-jquery-off {
   background-position: -923px 0;
 }
 
-/* line 109, ../src/sass/application.scss */
+/* line 112, ../src/sass/application.scss */
 .sp-ps-on {
   background-position: -1231px 0;
 }
 
-/* line 110, ../src/sass/application.scss */
+/* line 113, ../src/sass/application.scss */
 .sp-ps-off {
   background-position: -1178px 0;
 }
 
-/* line 111, ../src/sass/application.scss */
+/* line 114, ../src/sass/application.scss */
 .sp-ruby-on {
   background-position: -1337px 0;
 }
 
-/* line 112, ../src/sass/application.scss */
+/* line 115, ../src/sass/application.scss */
 .sp-ruby-off {
   background-position: -1284px 0;
 }
 
-/* line 113, ../src/sass/application.scss */
+/* line 116, ../src/sass/application.scss */
 .sp-wp-on {
-  background-position: -1975px 0;
+  background-position: -2045px 0;
 }
 
-/* line 114, ../src/sass/application.scss */
+/* line 117, ../src/sass/application.scss */
 .sp-wp-off {
-  background-position: -1922px 0;
+  background-position: -1992px 0;
 }
 
-/* line 115, ../src/sass/application.scss */
+/* line 118, ../src/sass/application.scss */
 .sp-coffee-on {
   background-position: -408px 0;
 }
 
-/* line 116, ../src/sass/application.scss */
+/* line 119, ../src/sass/application.scss */
 .sp-coffee-off {
   background-position: -355px 0;
 }
 
 /* Small icons */
-/* line 118, ../src/sass/application.scss */
+/* line 121, ../src/sass/application.scss */
 .sp-briefcase {
   background-position: -266px 0;
 }
 
-/* line 119, ../src/sass/application.scss */
+/* line 122, ../src/sass/application.scss */
 .sp-diary, #about_focus span {
   background-position: -567px 0;
 }
 
-/* line 120, ../src/sass/application.scss */
+/* line 123, ../src/sass/application.scss */
 .sp-schematic, #work_focus span {
   background-position: -1390px 0;
 }
 
-/* line 121, ../src/sass/application.scss */
+/* line 124, ../src/sass/application.scss */
 .sp-clipboard {
   background-position: -313px 0;
 }
 
 /* Other images */
-/* line 123, ../src/sass/application.scss */
+/* line 126, ../src/sass/application.scss */
 .sp-blog-link, #blog .ninecol h2.link {
   background-position: -106px 0;
 }
 
-/* line 124, ../src/sass/application.scss */
+/* line 127, ../src/sass/application.scss */
 .sp-blog-pencil, #blog .ninecol h2.article {
   background-position: -186px 0;
 }
 
-/* line 125, ../src/sass/application.scss */
+/* line 128, ../src/sass/application.scss */
 .sp-profile {
   background-position: -1099px 0;
 }
 
-/* line 126, ../src/sass/application.scss */
+/* line 129, ../src/sass/application.scss */
 .sp-what-i-do, #home .row:first-child .fourcol:first-child div {
-  background-position: -1502px 0;
+  background-position: -1572px 0;
 }
 
-/* line 127, ../src/sass/application.scss */
+/* line 130, ../src/sass/application.scss */
 .sp-what-i-love, #home .row:first-child .fourcol:nth-child(2) div {
-  background-position: -1642px 0;
+  background-position: -1712px 0;
 }
 
-/* line 128, ../src/sass/application.scss */
+/* line 131, ../src/sass/application.scss */
 .sp-where-i-reside, #home .row:first-child .fourcol:last-child div {
-  background-position: -1782px 0;
+  background-position: -1852px 0;
 }
 
 /* ============================= */
 /* ! Layout for tablet  */
 /* ============================= */
 @media only screen and (max-width: 1023px) {
-  /* line 136, ../src/sass/application.scss */
+  /* line 139, ../src/sass/application.scss */
   body header nav {
     margin-top: 27px;
   }
-  /* line 142, ../src/sass/application.scss */
+  /* line 145, ../src/sass/application.scss */
   body #about form input[type="submit"] {
     margin: 20px 1% 0 0;
   }
-  /* line 147, ../src/sass/application.scss */
+  /* line 150, ../src/sass/application.scss */
   body #sidebar #searchform i {
     top: 8px;
     right: 11px;
@@ -332,70 +342,70 @@ div[role=main] {
 /* ! Layout for mobile version   */
 /* ============================= */
 @media handheld, only screen and (max-width: 767px) {
-  /* line 159, ../src/sass/application.scss */
+  /* line 162, ../src/sass/application.scss */
   body .sidebar_content {
     display: none;
   }
-  /* line 162, ../src/sass/application.scss */
+  /* line 165, ../src/sass/application.scss */
   body #development_timer {
     display: none;
   }
-  /* line 168, ../src/sass/application.scss */
+  /* line 171, ../src/sass/application.scss */
   body header .container .row nav {
     margin-top: 24px;
   }
-  /* line 171, ../src/sass/application.scss */
+  /* line 174, ../src/sass/application.scss */
   body header .container .row .fourcol:first-child {
     float: left;
   }
-  /* line 178, ../src/sass/application.scss */
+  /* line 181, ../src/sass/application.scss */
   body #about_focus img {
     display: none;
   }
-  /* line 181, ../src/sass/application.scss */
+  /* line 184, ../src/sass/application.scss */
   body #about_focus .row {
     padding: 40px 0 80px;
   }
-  /* line 184, ../src/sass/application.scss */
+  /* line 187, ../src/sass/application.scss */
   body #about_focus span {
     margin: 2px 15px 0 0;
   }
-  /* line 190, ../src/sass/application.scss */
+  /* line 193, ../src/sass/application.scss */
   body #about form textarea, body #about form input {
     width: 97%;
   }
-  /* line 193, ../src/sass/application.scss */
+  /* line 196, ../src/sass/application.scss */
   body #about form .sixcol, body #about form .twelvecol {
     padding-left: 0px;
   }
-  /* line 196, ../src/sass/application.scss */
+  /* line 199, ../src/sass/application.scss */
   body #about form input[type="submit"] {
     margin: 20px 3% 0 0;
   }
-  /* line 203, ../src/sass/application.scss */
+  /* line 206, ../src/sass/application.scss */
   body #blog .row .type_header {
     width: 89%;
   }
-  /* line 206, ../src/sass/application.scss */
+  /* line 209, ../src/sass/application.scss */
   body #blog .row .ninecol {
     float: none;
   }
 }
 @media handheld, only screen and (max-width: 430px) {
-  /* line 216, ../src/sass/application.scss */
+  /* line 219, ../src/sass/application.scss */
   body header h1 {
     font-size: 1.5em;
   }
-  /* line 223, ../src/sass/application.scss */
+  /* line 226, ../src/sass/application.scss */
   body footer .container .row:last-child .twelvecol {
     padding: 0;
     font-size: 0.7em;
   }
-  /* line 228, ../src/sass/application.scss */
+  /* line 231, ../src/sass/application.scss */
   body footer .container p:last-child {
     float: none !important;
   }
-  /* line 235, ../src/sass/application.scss */
+  /* line 238, ../src/sass/application.scss */
   body #blog .row .type_header {
     width: 88%;
   }
@@ -582,7 +592,7 @@ footer .container span a {
   margin-right: 14px;
   display: inline-block;
 }
-/* line 52, ../src/sass/_footer.scss */
+/* line 58, ../src/sass/_footer.scss */
 footer .container #cntdwn {
   float: left;
   font-size: 0.9em;

@@ -78,8 +78,8 @@ Template Name: HomeTemp
                 </div>
                 <div>
                     <span>
-                        <a href="https://github.com/Jellyfishboy/slideatron" target="_blank"><h2>slideatron</h2></a>
-                        <p>HTML5/JS animation project.</p>
+                        <a href="https://github.com/Jellyfishboy/pretty_sub_nav" target="_blank"><h2>pretty_sub_nav</h2></a>
+                        <p>Bespoke sub navigation created for the Dyson web family.</p>
                     </span>
                     <span>
                         <i class="icon-star"></i><p>0</p><i class="icon-code-fork"></i><p>0</p>

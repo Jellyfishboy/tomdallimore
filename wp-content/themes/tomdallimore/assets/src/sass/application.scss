@@ -97,6 +97,9 @@ div[role=main] {
 .sp-linked-off { @include icono-sprite(linked_off); }
 .sp-github-on { @include icono-sprite(github_on); }
 .sp-github-off { @include icono-sprite(github_off); }
+.sp-stackoverflow-off { @include icono-sprite(stack_off); }
+.sp-stackoverflow-on { @include icono-sprite(stack_on);}
+// .sp-test-on { @include icono-sprite(test);}
 /* Web tools */
 .sp-ai-on { @include icono-sprite(ai_on); }
 .sp-ai-off { @include icono-sprite(ai_off); }

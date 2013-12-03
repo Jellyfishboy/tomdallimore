@@ -8,6 +8,7 @@
 					<a href="http://www.facebook.com/tomdallimoredev" alt="Facebook" target="_blank"></a>
 					<a href="http://www.github.com/jellyfishboy" alt="Github" target="_blank"></a>
 					<a href="http://uk.linkedin.com/in/tomdallimore" alt="LinkedIn" target="_blank"></a>
+					<a href="http://stackoverflow.com/users/1459787/jellyfishboy" alt="StackOverflow" target="_blank"></a>
 				</span>	
 			</div>
 			<div class="row">

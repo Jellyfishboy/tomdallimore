@@ -41,10 +41,16 @@ footer {
 											@extend .sp-github-on;
 										}
 								}
-								&:last-child {
+								&:nth-child(4) {
 									@extend .sp-linked-off;
 										&:hover {
 											@extend .sp-linked-on;
+										}
+								}
+								&:last-child {
+									@extend .sp-stackoverflow-off;
+										&:hover {
+											@extend .sp-stackoverflow-on;			
 										}
 								}
 						}
