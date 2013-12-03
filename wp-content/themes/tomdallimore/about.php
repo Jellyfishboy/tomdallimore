@@ -86,7 +86,7 @@ if(isset($_POST['submitted'])) {
     	<div class="row">
     		<div class="fourcol">
     			<h1>Go on, be social</h1>
-    			<p>Feel free to get in contact with any enquiries with the online form, subscribe on <a href="http://www.facebook.com/tomdallimoredev" target="_blank">Facebook</a> or follow my witty remarks and ramblings on <a href="http://www.twitter.com/billy_dallimore" target="_blank">Twitter</a>.</p>
+    			<p>Feel free to get in contact with any enquiries with the online form, like on <a href="http://www.facebook.com/tomdallimoredev" target="_blank">Facebook</a> or follow my witty remarks and ramblings on <a href="http://www.twitter.com/billy_dallimore" target="_blank">Twitter</a>.</p>
     		</div>
             <div class="eightcol last">
                 <?php if(isset($emailSent) && $emailSent == true) { ?>
