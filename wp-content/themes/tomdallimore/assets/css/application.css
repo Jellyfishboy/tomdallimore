@@ -3304,16 +3304,24 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
 }
 /* line 141, ../src/sass/_home.scss */
 #home .row .sixcol:last-child ul li {
-  margin-bottom: 12px;
+  margin-bottom: 10px;
+  font-size: 0.9em;
+  line-height: 1.5em;
 }
 /* line 146, ../src/sass/_home.scss */
+#home .row .sixcol:last-child ul li span {
+  display: block;
+  color: #808080;
+  font-size: 0.8em;
+}
+/* line 154, ../src/sass/_home.scss */
 #home .row .sixcol i {
   color: #fff;
   display: inline-block;
   font-size: 2.3em;
   margin-right: 15px;
 }
-/* line 152, ../src/sass/_home.scss */
+/* line 160, ../src/sass/_home.scss */
 #home .row .sixcol h1 {
   display: inline-block;
   margin: 0 0 10px;

@@ -90,7 +90,7 @@ Template Name: HomeTemp
                 <i class="icon-twitter"></i>
                 <h1>Latest tweets</h1>
                 <ul>
-                    <!-- include 'twitter.php'; PHP -->
+                    <?php include 'twitter.php'; ?>
                 </ul>
             </div>
         </div>

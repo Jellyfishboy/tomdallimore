@@ -139,7 +139,15 @@
                         margin:0;
                         padding: 0;
                             li {
-                                margin-bottom: 12px;
+                                margin-bottom: 10px;
+                                font-size: 0.9em;
+                                line-height: 1.5em;
+  
+                                    span {
+                                        display: block;
+                                        color:#808080;
+                                        font-size:0.8em;
+                                    }
                             }
                     }
                 }
