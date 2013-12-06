@@ -151,6 +151,15 @@ div[role=main] {
       top: 8px;
       right: 11px;
     }
+    #home {
+      .sixcol:first-child {
+        div {
+          span:last-child {
+            display: none;
+          }
+        }
+      }
+    }
   }
 }
 /* ============================= */
@@ -175,6 +184,21 @@ div[role=main] {
             float:left;
           }
         }
+      }
+    }
+    #home {
+      .sixcol {
+        height:100% !important;
+          &:first-child {
+            .hori_divider {
+              border-bottom: 1px solid #333333;
+            }
+          }
+          &:last-child {
+            .hori_divider {
+              border-top: 1px solid #1C1D21;
+            }
+          }
       }
     }
     #about_focus {

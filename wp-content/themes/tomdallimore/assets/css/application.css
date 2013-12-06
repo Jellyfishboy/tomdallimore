@@ -337,75 +337,91 @@ div[role=main] {
     top: 8px;
     right: 11px;
   }
+  /* line 157, ../src/sass/application.scss */
+  body #home .sixcol:first-child div span:last-child {
+    display: none;
+  }
 }
 /* ============================= */
 /* ! Layout for mobile version   */
 /* ============================= */
 @media handheld, only screen and (max-width: 767px) {
-  /* line 162, ../src/sass/application.scss */
+  /* line 171, ../src/sass/application.scss */
   body .sidebar_content {
     display: none;
   }
-  /* line 165, ../src/sass/application.scss */
+  /* line 174, ../src/sass/application.scss */
   body #development_timer {
     display: none;
   }
-  /* line 171, ../src/sass/application.scss */
+  /* line 180, ../src/sass/application.scss */
   body header .container .row nav {
     margin-top: 24px;
   }
-  /* line 174, ../src/sass/application.scss */
+  /* line 183, ../src/sass/application.scss */
   body header .container .row .fourcol:first-child {
     float: left;
   }
-  /* line 181, ../src/sass/application.scss */
+  /* line 190, ../src/sass/application.scss */
+  body #home .sixcol {
+    height: 100% !important;
+  }
+  /* line 193, ../src/sass/application.scss */
+  body #home .sixcol:first-child .hori_divider {
+    border-bottom: 1px solid #333333;
+  }
+  /* line 198, ../src/sass/application.scss */
+  body #home .sixcol:last-child .hori_divider {
+    border-top: 1px solid #1C1D21;
+  }
+  /* line 205, ../src/sass/application.scss */
   body #about_focus img {
     display: none;
   }
-  /* line 184, ../src/sass/application.scss */
+  /* line 208, ../src/sass/application.scss */
   body #about_focus .row {
     padding: 40px 0 80px;
   }
-  /* line 187, ../src/sass/application.scss */
+  /* line 211, ../src/sass/application.scss */
   body #about_focus span {
     margin: 2px 15px 0 0;
   }
-  /* line 193, ../src/sass/application.scss */
+  /* line 217, ../src/sass/application.scss */
   body #about form textarea, body #about form input {
     width: 97%;
   }
-  /* line 196, ../src/sass/application.scss */
+  /* line 220, ../src/sass/application.scss */
   body #about form .sixcol, body #about form .twelvecol {
     padding-left: 0px;
   }
-  /* line 199, ../src/sass/application.scss */
+  /* line 223, ../src/sass/application.scss */
   body #about form input[type="submit"] {
     margin: 20px 3% 0 0;
   }
-  /* line 206, ../src/sass/application.scss */
+  /* line 230, ../src/sass/application.scss */
   body #blog .row .type_header {
     width: 89%;
   }
-  /* line 209, ../src/sass/application.scss */
+  /* line 233, ../src/sass/application.scss */
   body #blog .row .ninecol {
     float: none;
   }
 }
 @media handheld, only screen and (max-width: 430px) {
-  /* line 219, ../src/sass/application.scss */
+  /* line 243, ../src/sass/application.scss */
   body header h1 {
     font-size: 1.5em;
   }
-  /* line 226, ../src/sass/application.scss */
+  /* line 250, ../src/sass/application.scss */
   body footer .container .row:last-child .twelvecol {
     padding: 0;
     font-size: 0.7em;
   }
-  /* line 231, ../src/sass/application.scss */
+  /* line 255, ../src/sass/application.scss */
   body footer .container p:last-child {
     float: none !important;
   }
-  /* line 238, ../src/sass/application.scss */
+  /* line 262, ../src/sass/application.scss */
   body #blog .row .type_header {
     width: 88%;
   }

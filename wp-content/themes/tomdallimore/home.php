@@ -79,7 +79,7 @@ Template Name: HomeTemp
                 <div>
                     <span>
                         <a href="https://github.com/Jellyfishboy/pretty_sub_nav" target="_blank"><h2>pretty_sub_nav</h2></a>
-                        <p>Bespoke sub navigation created for the Dyson web family.</p>
+                        <p>Bespoke sub navigation created for the Dyson.</p>
                     </span>
                     <span>
                         <i class="icon-star"></i><p>0</p><i class="icon-code-fork"></i><p>0</p>
