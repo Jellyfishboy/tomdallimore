@@ -1,63 +1,63 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://localhost:8888/wp-content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- generator="wordpress/3.7.1" -->
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://192.168.1.82/wp-content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- generator="wordpress/3.7.1" -->
 <!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="3.4" -->
-<!-- generated-on="December 2, 2013 10:40 pm" -->
+<!-- generated-on="December 8, 2013 6:05 pm" -->
 <!-- Debug: Total comment count: 6 -->
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
-		<loc>http://localhost:8888/</loc>
+		<loc>http://192.168.1.82/</loc>
 		<lastmod>2013-12-02T22:39:24+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
 	</url>
 <!-- Debug: Start Postings -->
-<!-- Debug: Priority report of postID 24: Comments: 3 of 6 = 0.5 points -->
+<!-- Debug: Priority report of postID 52: Comments: 3 of 6 = 0.5 points -->
 	<url>
-		<loc>http://localhost:8888/blog/my-return-to-the-web/</loc>
-		<lastmod>2013-12-02T21:18:12+00:00</lastmod>
+		<loc>http://192.168.1.82/blog/introducing-web-2-0/</loc>
+		<lastmod>2013-12-08T18:05:23+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 <!-- Debug: Priority report of postID 58: Comments: 0 of 6 = 0 points -->
 	<url>
-		<loc>http://localhost:8888/blog/link/</loc>
-		<lastmod>2013-12-02T21:15:56+00:00</lastmod>
+		<loc>http://192.168.1.82/blog/link/</loc>
+		<lastmod>2013-12-08T17:50:57+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
+<!-- Debug: Priority report of postID 24: Comments: 3 of 6 = 0.5 points -->
 	<url>
-		<loc>http://localhost:8888/about/</loc>
-		<lastmod>2013-09-01T22:16:49+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-<!-- Debug: Priority report of postID 52: Comments: 3 of 6 = 0.5 points -->
-	<url>
-		<loc>http://localhost:8888/blog/introducing-web-2-0/</loc>
-		<lastmod>2013-03-26T22:03:39+00:00</lastmod>
+		<loc>http://192.168.1.82/blog/my-return-to-the-web/</loc>
+		<lastmod>2013-12-02T21:18:12+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://localhost:8888/blog/</loc>
+		<loc>http://192.168.1.82/about/</loc>
+		<lastmod>2013-09-01T22:16:49+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://192.168.1.82/blog/</loc>
 		<lastmod>2013-03-26T17:24:20+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 <!-- Debug: Priority report of postID 20: Comments: 0 of 6 = 0 points -->
 	<url>
-		<loc>http://localhost:8888/blog/work/</loc>
+		<loc>http://192.168.1.82/blog/work/</loc>
 		<lastmod>2013-03-26T12:29:09+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 <!-- Debug: Priority report of postID 29: Comments: 0 of 6 = 0 points -->
 	<url>
-		<loc>http://localhost:8888/blog/tarzan-furniture/</loc>
+		<loc>http://192.168.1.82/blog/tarzan-furniture/</loc>
 		<lastmod>2013-03-26T12:26:55+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 	<url>
-		<loc>http://localhost:8888/work/</loc>
+		<loc>http://192.168.1.82/work/</loc>
 		<lastmod>2013-03-26T11:59:48+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>

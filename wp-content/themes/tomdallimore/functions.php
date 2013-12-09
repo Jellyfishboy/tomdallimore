@@ -18,7 +18,7 @@ function improved_trim_excerpt($text) { // Fakes an excerpt if needed
     $text = str_replace('\]\]\>', ']]&gt;', $text);
     $text = preg_replace('@<script[^>]*?>.*?</script>@si', '', $text);
     $text = strip_tags($text, '<p>');
-    $excerpt_length = 100;
+    $excerpt_length = 150;
     $words = explode(' ', $text, $excerpt_length + 1);
     if (count($words)> $excerpt_length) {
       array_pop($words);
@@ -132,6 +132,7 @@ function td_comment($comment, $args, $depth) {
         <?php edit_comment_link(__('(Edit)'),'  ','') ?>
         <?php comment_text() ?>
         <i class="icon-caret-left"></i>
+        <i class="icon-caret-up"></i>
       </div>
 
       
@@ -149,7 +150,7 @@ function td_comment($comment, $args, $depth) {
         function new_royalslider_add_custom_skin($skins) {
               $skins['tomd'] = array(
                    'label' => 'The custom skin',
-                   'path' => get_stylesheet_directory_uri() . '/assets/css/slider/tomd.css'  // get_stylesheet_directory_uri returns path to your theme folder
+                   'path' => get_stylesheet_directory_uri() . '/assets/css/tomd.css'  // get_stylesheet_directory_uri returns path to your theme folder
               );
               return $skins;
         }

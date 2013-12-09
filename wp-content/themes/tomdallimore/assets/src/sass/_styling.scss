@@ -60,3 +60,20 @@ i {
 #no_results {
 	margin:30px 0 0 2%	;
 }
+.hori_divider {
+	display: none;
+		div {
+			margin-bottom:14px;
+		    border-top: 1px solid #1C1D21;
+		    border-bottom: 1px solid $gray;
+		    width:100%;
+		}
+}
+/* Custom slider styles */
+.rsContent a span {
+    @extend .sp-clipboard;
+    width:42px;
+    height:40px;
+    position: absolute;
+    top:-7px;
+}

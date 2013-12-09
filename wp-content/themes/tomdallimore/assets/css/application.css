@@ -1,7 +1,7 @@
 /* Sprite settings */
-/* line 338, icono/*.png */
-.icono-sprite, .sp-facebook-on, footer .container span a:nth-child(2):hover, .sp-facebook-off, footer .container span a:nth-child(2), .sp-twitter-on, footer .container span a:first-child:hover, .sp-twitter-off, footer .container span a:first-child, .sp-google-on, .sp-google-off, .sp-linked-on, footer .container span a:nth-child(4):hover, .sp-linked-off, footer .container span a:nth-child(4), .sp-github-on, footer .container span a:nth-child(3):hover, .sp-github-off, footer .container span a:nth-child(3), .sp-stackoverflow-off, footer .container span a:last-child, .sp-stackoverflow-on, footer .container span a:last-child:hover, .sp-ai-on, .sp-ai-off, .sp-css3-on, .sp-css3-off, .sp-html5-on, .sp-html5-off, .sp-jquery-on, .sp-jquery-off, .sp-ps-on, .sp-ps-off, .sp-ruby-on, .sp-ruby-off, .sp-wp-on, .sp-wp-off, .sp-coffee-on, .sp-coffee-off, .sp-briefcase, .sp-diary, #about_focus span, .sp-schematic, #work_focus span, .sp-clipboard, .sp-blog-link, #blog .ninecol h2.link, .sp-blog-pencil, #blog .ninecol h2.article, .sp-profile, .sp-what-i-do, #home .row:first-child .fourcol:first-child div, .sp-what-i-love, #home .row:first-child .fourcol:nth-child(2) div, .sp-where-i-reside, #home .row:first-child .fourcol:last-child div {
-  background: url('../img/icono-scf84cd182d.png') no-repeat;
+/* line 322, icono/*.png */
+.icono-sprite, .sp-facebook-on, footer .container span a:nth-child(2):hover, .sp-facebook-off, footer .container span a:nth-child(2), .sp-twitter-on, footer .container span a:first-child:hover, .sp-twitter-off, footer .container span a:first-child, .sp-linked-on, footer .container span a:nth-child(4):hover, .sp-linked-off, footer .container span a:nth-child(4), .sp-github-on, footer .container span a:nth-child(3):hover, .sp-github-off, footer .container span a:nth-child(3), .sp-stackoverflow-off, footer .container span a:last-child, .sp-stackoverflow-on, footer .container span a:last-child:hover, .sp-ai-on, .sp-ai-off, .sp-css3-on, .sp-css3-off, .sp-html5-on, .sp-html5-off, .sp-jquery-on, .sp-jquery-off, .sp-ps-on, .sp-ps-off, .sp-ruby-on, .sp-ruby-off, .sp-wp-on, .sp-wp-off, .sp-coffee-on, .sp-coffee-off, .sp-briefcase, .sp-diary, #about_focus span, .sp-schematic, #work_focus span, .sp-clipboard, .rsContent a span, .sp-blog-link, #blog .ninecol h2.link, .sp-blog-pencil, #blog .ninecol h2.article, .sp-profile, .sp-what-i-do, #home .row:first-child .fourcol:first-child div, .sp-what-i-love, #home .row:first-child .fourcol:nth-child(2) div, .sp-where-i-reside, #home .row:first-child .fourcol:last-child div {
+  background: url('../img/icono-sbfdcbbeafa.png') no-repeat;
 }
 
 /* Global variables */
@@ -139,205 +139,205 @@ div[role=main] {
 
 /* line 92, ../src/sass/application.scss */
 .sp-twitter-on, footer .container span a:first-child:hover {
-  background-position: -1537px 0;
+  background-position: -1467px 0;
 }
 
 /* line 93, ../src/sass/application.scss */
 .sp-twitter-off, footer .container span a:first-child {
-  background-position: -1502px 0;
+  background-position: -1432px 0;
 }
 
 /* line 94, ../src/sass/application.scss */
-.sp-google-on {
-  background-position: -782px 0;
+.sp-linked-on, footer .container span a:nth-child(4):hover {
+  background-position: -994px 0;
 }
 
 /* line 95, ../src/sass/application.scss */
-.sp-google-off {
-  background-position: -747px 0;
+.sp-linked-off, footer .container span a:nth-child(4) {
+  background-position: -959px 0;
 }
 
 /* line 96, ../src/sass/application.scss */
-.sp-linked-on, footer .container span a:nth-child(4):hover {
-  background-position: -1064px 0;
-}
-
-/* line 97, ../src/sass/application.scss */
-.sp-linked-off, footer .container span a:nth-child(4) {
-  background-position: -1029px 0;
-}
-
-/* line 98, ../src/sass/application.scss */
 .sp-github-on, footer .container span a:nth-child(3):hover {
   background-position: -712px 0;
 }
 
-/* line 99, ../src/sass/application.scss */
+/* line 97, ../src/sass/application.scss */
 .sp-github-off, footer .container span a:nth-child(3) {
   background-position: -677px 0;
 }
 
-/* line 100, ../src/sass/application.scss */
+/* line 98, ../src/sass/application.scss */
 .sp-stackoverflow-off, footer .container span a:last-child {
-  background-position: -1432px 0;
+  background-position: -1362px 0;
 }
 
-/* line 101, ../src/sass/application.scss */
+/* line 99, ../src/sass/application.scss */
 .sp-stackoverflow-on, footer .container span a:last-child:hover {
-  background-position: -1467px 0;
+  background-position: -1397px 0;
 }
 
 /* Web tools */
-/* line 104, ../src/sass/application.scss */
+/* line 102, ../src/sass/application.scss */
 .sp-ai-on {
   background-position: -53px 0;
 }
 
-/* line 105, ../src/sass/application.scss */
+/* line 103, ../src/sass/application.scss */
 .sp-ai-off {
   background-position: 0 0;
 }
 
-/* line 106, ../src/sass/application.scss */
+/* line 104, ../src/sass/application.scss */
 .sp-css3-on {
   background-position: -514px 0;
 }
 
-/* line 107, ../src/sass/application.scss */
+/* line 105, ../src/sass/application.scss */
 .sp-css3-off {
   background-position: -461px 0;
 }
 
-/* line 108, ../src/sass/application.scss */
+/* line 106, ../src/sass/application.scss */
 .sp-html5-on {
-  background-position: -870px 0;
+  background-position: -800px 0;
+}
+
+/* line 107, ../src/sass/application.scss */
+.sp-html5-off {
+  background-position: -747px 0;
+}
+
+/* line 108, ../src/sass/application.scss */
+.sp-jquery-on {
+  background-position: -906px 0;
 }
 
 /* line 109, ../src/sass/application.scss */
-.sp-html5-off {
-  background-position: -817px 0;
+.sp-jquery-off {
+  background-position: -853px 0;
 }
 
 /* line 110, ../src/sass/application.scss */
-.sp-jquery-on {
-  background-position: -976px 0;
+.sp-ps-on {
+  background-position: -1161px 0;
 }
 
 /* line 111, ../src/sass/application.scss */
-.sp-jquery-off {
-  background-position: -923px 0;
+.sp-ps-off {
+  background-position: -1108px 0;
 }
 
 /* line 112, ../src/sass/application.scss */
-.sp-ps-on {
-  background-position: -1231px 0;
+.sp-ruby-on {
+  background-position: -1267px 0;
 }
 
 /* line 113, ../src/sass/application.scss */
-.sp-ps-off {
-  background-position: -1178px 0;
+.sp-ruby-off {
+  background-position: -1214px 0;
 }
 
 /* line 114, ../src/sass/application.scss */
-.sp-ruby-on {
-  background-position: -1337px 0;
+.sp-wp-on {
+  background-position: -1975px 0;
 }
 
 /* line 115, ../src/sass/application.scss */
-.sp-ruby-off {
-  background-position: -1284px 0;
+.sp-wp-off {
+  background-position: -1922px 0;
 }
 
 /* line 116, ../src/sass/application.scss */
-.sp-wp-on {
-  background-position: -2045px 0;
-}
-
-/* line 117, ../src/sass/application.scss */
-.sp-wp-off {
-  background-position: -1992px 0;
-}
-
-/* line 118, ../src/sass/application.scss */
 .sp-coffee-on {
   background-position: -408px 0;
 }
 
-/* line 119, ../src/sass/application.scss */
+/* line 117, ../src/sass/application.scss */
 .sp-coffee-off {
   background-position: -355px 0;
 }
 
 /* Small icons */
-/* line 121, ../src/sass/application.scss */
+/* line 119, ../src/sass/application.scss */
 .sp-briefcase {
   background-position: -266px 0;
 }
 
-/* line 122, ../src/sass/application.scss */
+/* line 120, ../src/sass/application.scss */
 .sp-diary, #about_focus span {
   background-position: -567px 0;
 }
 
-/* line 123, ../src/sass/application.scss */
+/* line 121, ../src/sass/application.scss */
 .sp-schematic, #work_focus span {
-  background-position: -1390px 0;
+  background-position: -1320px 0;
 }
 
-/* line 124, ../src/sass/application.scss */
-.sp-clipboard {
+/* line 122, ../src/sass/application.scss */
+.sp-clipboard, .rsContent a span {
   background-position: -313px 0;
 }
 
 /* Other images */
-/* line 126, ../src/sass/application.scss */
+/* line 124, ../src/sass/application.scss */
 .sp-blog-link, #blog .ninecol h2.link {
   background-position: -106px 0;
 }
 
-/* line 127, ../src/sass/application.scss */
+/* line 125, ../src/sass/application.scss */
 .sp-blog-pencil, #blog .ninecol h2.article {
   background-position: -186px 0;
 }
 
-/* line 128, ../src/sass/application.scss */
+/* line 126, ../src/sass/application.scss */
 .sp-profile {
-  background-position: -1099px 0;
+  background-position: -1029px 0;
+}
+
+/* line 127, ../src/sass/application.scss */
+.sp-what-i-do, #home .row:first-child .fourcol:first-child div {
+  background-position: -1502px 0;
+}
+
+/* line 128, ../src/sass/application.scss */
+.sp-what-i-love, #home .row:first-child .fourcol:nth-child(2) div {
+  background-position: -1642px 0;
 }
 
 /* line 129, ../src/sass/application.scss */
-.sp-what-i-do, #home .row:first-child .fourcol:first-child div {
-  background-position: -1572px 0;
-}
-
-/* line 130, ../src/sass/application.scss */
-.sp-what-i-love, #home .row:first-child .fourcol:nth-child(2) div {
-  background-position: -1712px 0;
-}
-
-/* line 131, ../src/sass/application.scss */
 .sp-where-i-reside, #home .row:first-child .fourcol:last-child div {
-  background-position: -1852px 0;
+  background-position: -1782px 0;
 }
 
+@media only screen and (max-width: 1100px) {
+  /* line 135, ../src/sass/application.scss */
+  body #home .row:nth-child(2) .fourcol:last-child span {
+    left: -31%;
+  }
+  /* line 138, ../src/sass/application.scss */
+  body #home .row:nth-child(2) .fourcol span {
+    width: 131%;
+  }
+}
 /* ============================= */
 /* ! Layout for tablet  */
 /* ============================= */
 @media only screen and (max-width: 1023px) {
-  /* line 139, ../src/sass/application.scss */
+  /* line 151, ../src/sass/application.scss */
   body header nav {
     margin-top: 27px;
   }
-  /* line 145, ../src/sass/application.scss */
+  /* line 157, ../src/sass/application.scss */
   body #about form input[type="submit"] {
     margin: 20px 1% 0 0;
   }
-  /* line 150, ../src/sass/application.scss */
+  /* line 162, ../src/sass/application.scss */
   body #sidebar #searchform i {
     top: 8px;
     right: 11px;
   }
-  /* line 157, ../src/sass/application.scss */
+  /* line 169, ../src/sass/application.scss */
   body #home .sixcol:first-child div span:last-child {
     display: none;
   }
@@ -346,89 +346,217 @@ div[role=main] {
 /* ! Layout for mobile version   */
 /* ============================= */
 @media handheld, only screen and (max-width: 767px) {
-  /* line 171, ../src/sass/application.scss */
+  /* line 182, ../src/sass/application.scss */
+  body {
+    line-height: 1.8em !important;
+  }
+  /* line 184, ../src/sass/application.scss */
   body .sidebar_content {
     display: none;
   }
-  /* line 174, ../src/sass/application.scss */
+  /* line 187, ../src/sass/application.scss */
   body #development_timer {
     display: none;
   }
-  /* line 180, ../src/sass/application.scss */
+  /* line 193, ../src/sass/application.scss */
   body header .container .row nav {
     margin-top: 24px;
   }
-  /* line 183, ../src/sass/application.scss */
+  /* line 196, ../src/sass/application.scss */
   body header .container .row .fourcol:first-child {
     float: left;
   }
-  /* line 190, ../src/sass/application.scss */
+  /* line 203, ../src/sass/application.scss */
+  body #home .row:first-child .fourcol div {
+    margin: 40px auto 0;
+  }
+  /* line 206, ../src/sass/application.scss */
   body #home .sixcol {
     height: 100% !important;
   }
-  /* line 193, ../src/sass/application.scss */
+  /* line 209, ../src/sass/application.scss */
   body #home .sixcol:first-child .hori_divider {
     border-bottom: 1px solid #333333;
   }
-  /* line 198, ../src/sass/application.scss */
+  /* line 212, ../src/sass/application.scss */
+  body #home .sixcol:first-child .divider {
+    display: none;
+  }
+  /* line 217, ../src/sass/application.scss */
   body #home .sixcol:last-child .hori_divider {
     border-top: 1px solid #1C1D21;
   }
-  /* line 205, ../src/sass/application.scss */
+  /* line 220, ../src/sass/application.scss */
+  body #home .sixcol:last-child li {
+    margin-bottom: 10px !important;
+  }
+  /* line 226, ../src/sass/application.scss */
+  body #home .row:nth-child(2) span {
+    position: relative !important;
+    width: 100% !important;
+  }
+  /* line 230, ../src/sass/application.scss */
+  body #home .row:nth-child(2) .fourcol:last-child span {
+    left: 0%;
+  }
+  /* line 233, ../src/sass/application.scss */
+  body #home .row:nth-child(2) .fourcol:nth-child(2) {
+    height: 40px;
+  }
+  /* line 235, ../src/sass/application.scss */
+  body #home .row:nth-child(2) .fourcol:nth-child(2) h1 {
+    margin: 5px 0 8px;
+  }
+  /* line 242, ../src/sass/application.scss */
   body #about_focus img {
     display: none;
   }
-  /* line 208, ../src/sass/application.scss */
+  /* line 245, ../src/sass/application.scss */
   body #about_focus .row {
     padding: 40px 0 80px;
   }
-  /* line 211, ../src/sass/application.scss */
+  /* line 248, ../src/sass/application.scss */
   body #about_focus span {
     margin: 2px 15px 0 0;
   }
-  /* line 217, ../src/sass/application.scss */
+  /* line 254, ../src/sass/application.scss */
   body #about form textarea, body #about form input {
     width: 97%;
   }
-  /* line 220, ../src/sass/application.scss */
+  /* line 257, ../src/sass/application.scss */
   body #about form .sixcol, body #about form .twelvecol {
     padding-left: 0px;
   }
-  /* line 223, ../src/sass/application.scss */
+  /* line 260, ../src/sass/application.scss */
   body #about form input[type="submit"] {
     margin: 20px 3% 0 0;
   }
-  /* line 230, ../src/sass/application.scss */
+  /* line 267, ../src/sass/application.scss */
   body #blog .row .type_header {
     width: 89%;
   }
-  /* line 233, ../src/sass/application.scss */
+  /* line 270, ../src/sass/application.scss */
   body #blog .row .ninecol {
     float: none;
   }
+  /* line 272, ../src/sass/application.scss */
+  body #blog .row .ninecol .tencol h1 {
+    width: 100%;
+  }
+  /* line 278, ../src/sass/application.scss */
+  body #blog .comments .comment-meta {
+    width: 100%;
+    margin: 25px 0 30px;
+  }
+  /* line 283, ../src/sass/application.scss */
+  body #blog .comments i.icon-caret-left {
+    display: none;
+  }
+  /* line 286, ../src/sass/application.scss */
+  body #blog .comments i.icon-caret-up {
+    top: -23px;
+    left: 48.3%;
+    font-size: 35px;
+    display: block;
+  }
+  /* line 295, ../src/sass/application.scss */
+  body #blog section[role=navigation] .tencol .pre_nex a {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  /* line 303, ../src/sass/application.scss */
+  body footer .container .row:last-child .twelvecol {
+    overflow: hidden;
+    padding: 0;
+  }
+  /* line 309, ../src/sass/application.scss */
+  body .hori_divider {
+    display: block;
+  }
 }
 @media handheld, only screen and (max-width: 430px) {
-  /* line 243, ../src/sass/application.scss */
-  body header h1 {
-    font-size: 1.5em;
+  /* line 315, ../src/sass/application.scss */
+  body {
+    line-height: 1.5em !important;
   }
-  /* line 250, ../src/sass/application.scss */
+  /* line 318, ../src/sass/application.scss */
+  body header h1 {
+    font-size: 1.5em !important;
+  }
+  /* line 325, ../src/sass/application.scss */
   body footer .container .row:last-child .twelvecol {
     padding: 0;
     font-size: 0.7em;
   }
-  /* line 255, ../src/sass/application.scss */
+  /* line 330, ../src/sass/application.scss */
   body footer .container p:last-child {
     float: none !important;
   }
-  /* line 262, ../src/sass/application.scss */
+  /* line 337, ../src/sass/application.scss */
   body #blog .row .type_header {
     width: 88%;
   }
 }
 /* ========================================== */
-/* ! Provide higher res assets for iPhone 4   */
+/* ! Provide higher res assets  */
 /* ========================================== */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+  /* line 355, ../src/sass/application.scss */
+  body #home .row:first-child .fourcol:first-child div {
+    background: url("../img/retina/whatido.png");
+    background-size: 140px 140px;
+  }
+  /* line 361, ../src/sass/application.scss */
+  body #home .row:first-child .fourcol:nth-child(2) div {
+    background: url("../img/retina/whatilove.png");
+    background-size: 140px 140px;
+  }
+  /* line 367, ../src/sass/application.scss */
+  body #home .row:first-child .fourcol:last-child div {
+    background: url("../img/retina/whereireside.png");
+    background-size: 140px 140px;
+  }
+  /* line 378, ../src/sass/application.scss */
+  body footer .container span a:first-child {
+    background: url("../img/retina/twitter_off.png");
+    background-size: 35px 35px;
+  }
+  /* line 381, ../src/sass/application.scss */
+  body footer .container span a:first-child:hover {
+    background: url("../img/retina/twitter_on.png");
+    background-size: 35px 35px;
+  }
+  /* line 386, ../src/sass/application.scss */
+  body footer .container span a:nth-child(2) {
+    background: url("../img/retina/facebook_off.png");
+    background-size: 35px 35px;
+  }
+  /* line 389, ../src/sass/application.scss */
+  body footer .container span a:nth-child(2):hover {
+    background: url("../img/retina/facebook_on.png");
+    background-size: 35px 35px;
+  }
+  /* line 394, ../src/sass/application.scss */
+  body footer .container span a:nth-child(3) {
+    background: url("../img/retina/github_off.png");
+    background-size: 35px 35px;
+  }
+  /* line 397, ../src/sass/application.scss */
+  body footer .container span a:nth-child(3):hover {
+    background: url("../img/retina/github_on.png");
+    background-size: 35px 35px;
+  }
+  /* line 402, ../src/sass/application.scss */
+  body footer .container span a:nth-child(4) {
+    background: url("../img/retina/linked_off.png");
+    background-size: 35px 35px;
+  }
+  /* line 405, ../src/sass/application.scss */
+  body footer .container span a:nth-child(4):hover {
+    background: url("../img/retina/linked_on.png");
+    background-size: 35px 35px;
+  }
+}
 /* line 1, ../src/sass/_header.scss */
 header {
   background: #2f2f2f;
@@ -709,6 +837,27 @@ i {
 /* line 60, ../src/sass/_styling.scss */
 #no_results {
   margin: 30px 0 0 2%;
+}
+
+/* line 63, ../src/sass/_styling.scss */
+.hori_divider {
+  display: none;
+}
+/* line 65, ../src/sass/_styling.scss */
+.hori_divider div {
+  margin-bottom: 14px;
+  border-top: 1px solid #1C1D21;
+  border-bottom: 1px solid #333333;
+  width: 100%;
+}
+
+/* Custom slider styles */
+/* line 73, ../src/sass/_styling.scss */
+.rsContent a span {
+  width: 42px;
+  height: 40px;
+  position: absolute;
+  top: -7px;
 }
 
 /* line 1, ../src/sass/_1140.scss */
@@ -3273,7 +3422,7 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
   border-left: 1px solid #333333;
   height: 250px;
   position: absolute;
-  width: 0.2px;
+  width: 0px;
   top: 0px;
   right: 0px;
 }
@@ -3320,7 +3469,7 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
 }
 /* line 141, ../src/sass/_home.scss */
 #home .row .sixcol:last-child ul li {
-  margin-bottom: 10px;
+  margin-bottom: 6px;
   font-size: 0.9em;
   line-height: 1.5em;
 }
@@ -3343,6 +3492,7 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
   margin: 0 0 10px;
   position: relative;
   top: -4px;
+  width: 200px;
 }
 
 /* line 2, ../src/sass/_about.scss */
@@ -3659,7 +3809,11 @@ section[role=comments] ul li .comment-meta i {
   left: -10px;
   font-size: 28px;
 }
-/* line 35, ../src/sass/_comments.scss */
+/* line 34, ../src/sass/_comments.scss */
+section[role=comments] ul li .comment-meta i.icon-caret-up {
+  display: none;
+}
+/* line 38, ../src/sass/_comments.scss */
 section[role=comments] ul li .comment-meta cite {
   text-transform: capitalize;
   display: block;
@@ -3667,31 +3821,31 @@ section[role=comments] ul li .comment-meta cite {
   font-style: normal;
   color: #4cc4db;
 }
-/* line 41, ../src/sass/_comments.scss */
+/* line 44, ../src/sass/_comments.scss */
 section[role=comments] ul li .comment-meta cite a {
   font-family: "MuseoSlab-500", Helvetica, Arial, sans-serif !important;
   font-style: normal;
 }
-/* line 46, ../src/sass/_comments.scss */
+/* line 49, ../src/sass/_comments.scss */
 section[role=comments] ul li .comment-meta time {
   font-size: 0.8em;
   padding-bottom: 10px;
 }
-/* line 52, ../src/sass/_comments.scss */
+/* line 55, ../src/sass/_comments.scss */
 section[role=comments] ul li:first-child .tencol {
   padding: 25px 0 0;
   border-top: 1px solid #ffffff;
 }
 
-/* line 61, ../src/sass/_comments.scss */
+/* line 64, ../src/sass/_comments.scss */
 #commentform {
   margin: 0;
 }
-/* line 63, ../src/sass/_comments.scss */
+/* line 66, ../src/sass/_comments.scss */
 #commentform .required {
   margin-left: 5px;
 }
-/* line 66, ../src/sass/_comments.scss */
+/* line 69, ../src/sass/_comments.scss */
 #commentform input[type=text], #commentform textarea {
   background: #E6E6E6;
   border: none;
@@ -3719,7 +3873,7 @@ section[role=comments] ul li:first-child .tencol {
   outline: none;
   width: 90%;
 }
-/* line 80, ../src/sass/_comments.scss */
+/* line 83, ../src/sass/_comments.scss */
 #commentform textarea {
   resize: none;
 }

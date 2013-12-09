@@ -13,7 +13,7 @@ Template Name: HomeTemp
     		<div class="fourcol">
     			<div></div>
     			<h1>What I do</h1>
-    			<p>Armed with the latest technologies and best practises in the industry, I can turn your designs into web reality. I specialise in Ruby on Rails for web applications and HAML, SASS with Compass and Coffeescript for front-end development.</p>
+    			<p>Armed with the latest technologies and best practises in the industry, I can turn your designs into web reality. I specialise in Ruby on Rails for web applications and HAML, SASS with Compass and Coffeescript for <br/>front-end development.</p>
     		</div>
     		<div class="fourcol">
     			<div></div>
@@ -23,7 +23,7 @@ Template Name: HomeTemp
     		<div class="fourcol last">
     			<div></div>
     			<h1>Where I reside</h1>
-    			<p>I work as a UX developer for Dyson in the somerset area, however I normally take residence in the lively city of Bristol. When I’m not hammering at the keyboard, I like to explore various music genres and catch some rays.</p>
+    			<p>I work as a web developer for Dyson in the somerset area, however I normally take residence in the lively city of Bristol. When I’m not hammering at the keyboard, I like to explore various music genres and <br/>catch some rays.</p>
     		</div>
     	</div>
         <div class="row">
@@ -85,6 +85,9 @@ Template Name: HomeTemp
                         <i class="icon-star"></i><p>0</p><i class="icon-code-fork"></i><p>0</p>
                     </span>
                 </div>
+            </div>
+            <div class="sixcol hori_divider">
+                <div></div>
             </div>
             <div class="sixcol last">
                 <i class="icon-twitter"></i>

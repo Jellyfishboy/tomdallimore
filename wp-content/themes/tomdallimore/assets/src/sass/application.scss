@@ -91,8 +91,6 @@ div[role=main] {
 .sp-facebook-off { @include icono-sprite(facebook_off); }
 .sp-twitter-on { @include icono-sprite(twitter_on); }
 .sp-twitter-off { @include icono-sprite(twitter_off); }
-.sp-google-on { @include icono-sprite(google_on); }
-.sp-google-off { @include icono-sprite(google_off); }
 .sp-linked-on { @include icono-sprite(linked_on); }
 .sp-linked-off { @include icono-sprite(linked_off); }
 .sp-github-on { @include icono-sprite(github_on); }
@@ -129,6 +127,20 @@ div[role=main] {
 .sp-what-i-do { @include icono-sprite(whatido); }
 .sp-what-i-love { @include icono-sprite(whatilove); }
 .sp-where-i-reside { @include icono-sprite(whereireside); }
+
+
+@media only screen and (max-width: 1100px) {
+  body {
+    #home .row:nth-child(2) .fourcol {
+      &:last-child span {
+        left:-31%;
+      }
+      span {
+        width:131%;
+      }
+    }
+  }
+}
 
 /* ============================= */
 /* ! Layout for tablet  */
@@ -168,6 +180,7 @@ div[role=main] {
 
 @media handheld, only screen and (max-width: 767px) {
   body {
+    line-height: 1.8em !important;
     .sidebar_content {
       display:none;
     }
@@ -187,18 +200,42 @@ div[role=main] {
       }
     }
     #home {
+      .row:first-child .fourcol div {
+        margin:40px auto 0;
+      }
       .sixcol {
         height:100% !important;
           &:first-child {
             .hori_divider {
               border-bottom: 1px solid #333333;
             }
+            .divider {
+              display: none;
+            }
           }
           &:last-child {
             .hori_divider {
               border-top: 1px solid #1C1D21;
             }
+            li {
+              margin-bottom: 10px !important;
+            }
           }
+      }
+      .row:nth-child(2) {
+        span {
+          position:relative !important;
+          width:100% !important;
+        }
+        .fourcol:last-child span {
+          left:0%;
+        }
+        .fourcol:nth-child(2) {
+          height:40px;
+            h1 {
+              margin:5px 0 8px;
+            }
+        }
       }
     }
     #about_focus {
@@ -232,16 +269,54 @@ div[role=main] {
         }
         .ninecol {
           float:none;
+            .tencol h1 {
+              width:100%;
+            }
         }
       }
+      .comments {
+        .comment-meta {
+          width:100%;
+          margin:25px 0 30px;
+        }
+        i {
+          &.icon-caret-left {
+            display: none;
+          }
+          &.icon-caret-up {
+            top: -23px;
+            left: 48.3%;
+            font-size: 35px;
+            display: block;
+          }
+        }
+      }
+      section[role=navigation] .tencol .pre_nex {
+        a {
+          padding-left:0px !important;
+          padding-right:0px !important;
+        }
+      }
+    }
+    footer {
+      .container .row:last-child {
+        .twelvecol {
+          overflow:hidden;
+          padding:0;
+        }
+      }
+    }
+    .hori_divider {
+      display:block;
     }
   }
 }
 @media handheld, only screen and (max-width: 430px) {
   body {
+    line-height: 1.5em !important;
     header {
       h1 {
-        font-size: 1.5em;
+        font-size: 1.5em !important;
       }
     }
     footer {
@@ -267,11 +342,74 @@ div[role=main] {
   }
 }
 /* ========================================== */
-/* ! Provide higher res assets for iPhone 4   */
+/* ! Provide higher res assets  */
 /* ========================================== */
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
-
+  body {
+    #home {
+      .row {
+        &:first-child {
+          .fourcol {
+            &:first-child {
+              div {
+                background:url('../img/retina/whatido.png');
+                background-size: 140px 140px;
+              }
+            }
+            &:nth-child(2) {
+              div {
+                background:url('../img/retina/whatilove.png');
+                background-size: 140px 140px;
+              }
+            }
+            &:last-child {
+              div {
+                background:url('../img/retina/whereireside.png');
+                background-size: 140px 140px;
+              }
+            }
+          }
+        }
+      }
+    }
+    footer .container span {
+      a {
+        &:first-child {
+          background:url('../img/retina/twitter_off.png');
+          background-size: 35px 35px;
+            &:hover {
+              background:url('../img/retina/twitter_on.png');
+              background-size: 35px 35px;
+            }
+        }
+        &:nth-child(2) {
+          background:url('../img/retina/facebook_off.png');
+          background-size: 35px 35px;
+            &:hover {
+              background:url('../img/retina/facebook_on.png');
+              background-size: 35px 35px;
+            }
+        }
+        &:nth-child(3) {
+          background:url('../img/retina/github_off.png');
+          background-size: 35px 35px;
+            &:hover {
+              background:url('../img/retina/github_on.png');
+              background-size: 35px 35px;
+            }
+        }
+        &:nth-child(4) {
+          background:url('../img/retina/linked_off.png');
+          background-size: 35px 35px;
+            &:hover {
+              background:url('../img/retina/linked_on.png');
+              background-size: 35px 35px;
+            }
+        }
+      }
+    }
+  }
 }
 @import "header";
 @import "footer";
