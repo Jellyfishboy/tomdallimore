@@ -323,6 +323,25 @@ div[role=main] {
         }
       }
     }
+    .royalSlider {
+      height:420px !important;
+        .rsOverflow {
+          height:420px !important;
+            .rsContent {
+              div {
+                margin-top: 12%;
+                  h2 {
+                    font-size: 1.2em;
+                  }
+                  img {
+                    margin:8% auto 0 auto;
+                    height:250px;
+                    width:250px;
+                  }
+              }
+            }
+        }
+    }
   }
 }
 /* ========================================== */

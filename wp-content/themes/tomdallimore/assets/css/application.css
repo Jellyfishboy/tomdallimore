@@ -532,92 +532,114 @@ div[role=main] {
   body #blog .row .type_header {
     width: 88%;
   }
+  /* line 326, ../src/sass/application.scss */
+  body .royalSlider {
+    height: 420px !important;
+  }
+  /* line 328, ../src/sass/application.scss */
+  body .royalSlider .rsOverflow {
+    height: 420px !important;
+  }
+  /* line 331, ../src/sass/application.scss */
+  body .royalSlider .rsOverflow .rsContent div {
+    margin-top: 12%;
+  }
+  /* line 333, ../src/sass/application.scss */
+  body .royalSlider .rsOverflow .rsContent div h2 {
+    font-size: 1.2em;
+  }
+  /* line 336, ../src/sass/application.scss */
+  body .royalSlider .rsOverflow .rsContent div img {
+    margin: 8% auto 0 auto;
+    height: 250px;
+    width: 250px;
+  }
 }
 /* ========================================== */
 /* ! Provide higher res assets  */
 /* ========================================== */
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
-  /* line 334, ../src/sass/application.scss */
+  /* line 353, ../src/sass/application.scss */
   body .rsContent a span {
     background: url("../img/retina/clipboard.png");
     background-size: 42px 40px;
   }
-  /* line 338, ../src/sass/application.scss */
+  /* line 357, ../src/sass/application.scss */
   body #about_focus span {
     background: url("../img/retina/diary.png");
     background-size: 40px 37px;
   }
-  /* line 347, ../src/sass/application.scss */
+  /* line 366, ../src/sass/application.scss */
   body #home .row:first-child .fourcol:first-child div {
     background: url("../img/retina/whatido.png");
     background-size: 140px 140px;
   }
-  /* line 353, ../src/sass/application.scss */
+  /* line 372, ../src/sass/application.scss */
   body #home .row:first-child .fourcol:nth-child(2) div {
     background: url("../img/retina/whatilove.png");
     background-size: 140px 140px;
   }
-  /* line 359, ../src/sass/application.scss */
+  /* line 378, ../src/sass/application.scss */
   body #home .row:first-child .fourcol:last-child div {
     background: url("../img/retina/whereireside.png");
     background-size: 140px 140px;
   }
-  /* line 370, ../src/sass/application.scss */
+  /* line 389, ../src/sass/application.scss */
   body footer .container span a:first-child {
     background: url("../img/retina/twitter_off.png");
     background-size: 35px 35px;
   }
-  /* line 373, ../src/sass/application.scss */
+  /* line 392, ../src/sass/application.scss */
   body footer .container span a:first-child:hover {
     background: url("../img/retina/twitter_on.png");
     background-size: 35px 35px;
   }
-  /* line 378, ../src/sass/application.scss */
+  /* line 397, ../src/sass/application.scss */
   body footer .container span a:nth-child(2) {
     background: url("../img/retina/facebook_off.png");
     background-size: 35px 35px;
   }
-  /* line 381, ../src/sass/application.scss */
+  /* line 400, ../src/sass/application.scss */
   body footer .container span a:nth-child(2):hover {
     background: url("../img/retina/facebook_on.png");
     background-size: 35px 35px;
   }
-  /* line 386, ../src/sass/application.scss */
+  /* line 405, ../src/sass/application.scss */
   body footer .container span a:nth-child(3) {
     background: url("../img/retina/github_off.png");
     background-size: 35px 35px;
   }
-  /* line 389, ../src/sass/application.scss */
+  /* line 408, ../src/sass/application.scss */
   body footer .container span a:nth-child(3):hover {
     background: url("../img/retina/github_on.png");
     background-size: 35px 35px;
   }
-  /* line 394, ../src/sass/application.scss */
+  /* line 413, ../src/sass/application.scss */
   body footer .container span a:nth-child(4) {
     background: url("../img/retina/linked_off.png");
     background-size: 35px 35px;
   }
-  /* line 397, ../src/sass/application.scss */
+  /* line 416, ../src/sass/application.scss */
   body footer .container span a:nth-child(4):hover {
     background: url("../img/retina/linked_on.png");
     background-size: 35px 35px;
   }
-  /* line 402, ../src/sass/application.scss */
+  /* line 421, ../src/sass/application.scss */
   body footer .container span a:last-child {
     background: url("../img/retina/so_off.png");
     background-size: 35px 35px;
   }
-  /* line 405, ../src/sass/application.scss */
+  /* line 424, ../src/sass/application.scss */
   body footer .container span a:last-child:hover {
     background: url("../img/retina/so_on.png");
     background-size: 35px 35px;
   }
-  /* line 413, ../src/sass/application.scss */
+  /* line 432, ../src/sass/application.scss */
   body #blog .article {
     background: url("../img/retina/blog_pencil.png") !important;
     background-size: 80px 80px !important;
   }
-  /* line 417, ../src/sass/application.scss */
+  /* line 436, ../src/sass/application.scss */
   body #blog .link {
     background: url("../img/retina/blog_link.png") !important;
     background-size: 80px 80px !important;
