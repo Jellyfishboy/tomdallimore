@@ -67,8 +67,9 @@
     background-color: #000;
     background-color: rgba(0,0,0,0.75);
     *background-color: #000;
-    
-    border-radius: 2px;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius: 50%;
 }
  .rsArrowIcn:hover {
     background-color: rgba(0,0,0,0.9);

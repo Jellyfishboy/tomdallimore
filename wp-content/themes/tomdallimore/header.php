@@ -60,16 +60,13 @@ echo $current_url;
 
 <!-- Stylesheets -->
 	<link rel="stylesheet" href="<?php echo bloginfo('template_directory'); ?>/assets/css/application.css" />
-	<link rel="stylesheet" href="<?php echo bloginfo('template_directory'); ?>/assets/css/animations.css" />
-    <link rel="stylesheet" href="<?php echo bloginfo('template_directory'); ?>/assets/css/icomoon.css" />
-	<!--<link rel="stylesheet" href="<?php echo bloginfo('template_directory'); ?>/assets/css/bootstrap.css" /> -->
 <!-- Stylesheets -->
 	
     <?php wp_deregister_script('jquery');wp_head(); ?>
 <!-- Javascripts -->
 	<script src="<?php echo bloginfo('template_directory'); ?>/assets/js/modernizr-2.6.2.js"></script>     
     <!--[if (lt IE 9) & (!IEMobile)]>
-        <script src="<?php echo bloginfo('template_directory'); ?>/assets/js/selectivizr-min.js"></script>
+        <script src="<?php echo bloginfo('template_directory'); ?>/assets/js/selectivizr.js"></script>
     <![endif]-->
 <!-- Javascripts -->
 </head>

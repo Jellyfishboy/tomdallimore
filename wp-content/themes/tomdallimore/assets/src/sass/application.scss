@@ -13,48 +13,7 @@ $lightgray: #808080;
 $white:#E6E6E6;
 $light-blue: #abd6db;
 
-@font-face {
-  font-family: "MuseoSans-100";
-  src: url("../fonts/MuseoSans-100.otf");
-  src: local("?"),
-    url("../fonts/MuseoSans-100.otf") format("opentype");
-}
-@font-face {
-  font-family: "MuseoSans-300";
-  src: url("../fonts/MuseoSans-300.otf");
-  src: local("?"),
-    url("../fonts/MuseoSans-300.otf") format("opentype");
-}
-@font-face {
-  font-family: "MuseoSans-300Italic";
-  src: url("../fonts/MuseoSans-300Italic.otf");
-  src: local("?"),
-    url("../fonts/MuseoSans-300Italic.otf") format("opentype");
-}
-@font-face {
-  font-family: "MuseoSans_500";
-  src: url("../fonts/MuseoSans_500.otf");
-  src: local("?"),
-    url("../fonts/MuseoSans_500.otf") format("opentype");
-}
-@font-face {
-  font-family: "MuseoSlab-500";
-  src: url("../fonts/Museo_Slab_500.otf");
-  src: local("?"),
-    url("../fonts/Museo_Slab_500.otf") format("opentype");
-}
-@font-face {
-  font-family: "MuseoSlab-500Italic";
-  src: url("../fonts/Museo_Slab_500italic.otf");
-  src: local("?"),
-    url("../fonts/MuseoSans_700.otf") format("opentype");
-}
-@font-face {
-  font-family: "MuseoSlab-700";
-  src: url("../fonts/Museo_Slab_700.otf");
-  src: local("?"),
-    url("../fonts/Museo_Slab_700.otf") format("opentype");
-}
+@import "fonts";
 /* ============================== */
 /* ! Layout for desktop version   */
 /* ============================== */
@@ -95,8 +54,8 @@ div[role=main] {
 .sp-linked-off { @include icono-sprite(linked_off); }
 .sp-github-on { @include icono-sprite(github_on); }
 .sp-github-off { @include icono-sprite(github_off); }
-.sp-stackoverflow-off { @include icono-sprite(stack_off); }
-.sp-stackoverflow-on { @include icono-sprite(stack_on);}
+.sp-stackoverflow-off { @include icono-sprite(so_off); }
+.sp-stackoverflow-on { @include icono-sprite(so_on);}
 // .sp-test-on { @include icono-sprite(test);}
 /* Web tools */
 .sp-ai-on { @include icono-sprite(ai_on); }
@@ -309,6 +268,31 @@ div[role=main] {
     .hori_divider {
       display:block;
     }
+    .rsContent {
+      div {
+        width:100%;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 7.5%;
+          p, span {
+            display: none;
+          }
+          h2 {
+            text-indent: 0;
+            font-size: 1.3em;
+          }
+      }
+      img {
+        margin:5% auto 0 auto;
+        height:275px;
+        width:275px;
+        display:block;
+      }
+      div, img {
+        position: relative;
+        float:none;
+      }
+    }
   }
 }
 @media handheld, only screen and (max-width: 430px) {
@@ -347,6 +331,14 @@ div[role=main] {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
   body {
+    .rsContent a span {
+      background: url('../img/retina/clipboard.png');
+      background-size: 42px 40px;
+    }
+    #about_focus span {
+      background:url('../img/retina/diary.png');
+      background-size:40px 37px;
+    }
     #home {
       .row {
         &:first-child {
@@ -407,6 +399,24 @@ div[role=main] {
               background-size: 35px 35px;
             }
         }
+        &:last-child {
+          background:url('../img/retina/so_off.png');
+          background-size: 35px 35px;
+            &:hover {
+              background:url('../img/retina/so_on.png');
+              background-size: 35px 35px;
+            }
+        }
+      }
+    }
+    #blog {
+      .article {
+        background:url('../img/retina/blog_pencil.png') !important;
+        background-size:80px 80px !important;
+      }
+      .link {
+        background:url('../img/retina/blog_link.png') !important;
+        background-size: 80px 80px !important;
       }
     }
   }
@@ -425,3 +435,5 @@ div[role=main] {
 @import "focus";
 @import "sidebar";
 @import "buttons";
+@import "animations.css";
+@import "icomoon.css";
