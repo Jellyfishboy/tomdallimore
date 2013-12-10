@@ -514,7 +514,7 @@ div[role=main] {
     width: 100%;
     text-align: center;
     margin-left: 0;
-    margin-top: 7.5%;
+    margin-top: 8%;
     position: relative;
     float: none;
   }
@@ -567,7 +567,7 @@ div[role=main] {
   }
   /* line 371, ../src/sass/application.scss */
   body .royalSlider .rsOverflow .rsContent div {
-    margin-top: 12%;
+    margin-top: 4%;
   }
   /* line 373, ../src/sass/application.scss */
   body .royalSlider .rsOverflow .rsContent div h2 {
@@ -586,8 +586,8 @@ div[role=main] {
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
   /* line 393, ../src/sass/application.scss */
   body .rsContent a span {
-    background: url("../img/retina/clipboard.png");
-    background-size: 42px 40px;
+    background: url("../img/retina/clipboard.png") !important;
+    background-size: 42px 40px !important;
   }
   /* line 397, ../src/sass/application.scss */
   body #about_focus span {

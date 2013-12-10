@@ -314,7 +314,7 @@ div[role=main] {
           width:100%;
           text-align: center;
           margin-left: 0;
-          margin-top: 7.5%;
+          margin-top: 8%;
           position: relative;
           float:none;
             p, span {
@@ -369,7 +369,7 @@ div[role=main] {
           height:420px !important;
             .rsContent {
               div {
-                margin-top: 12%;
+                margin-top: 4%;
                   h2 {
                     font-size: 1.2em;
                   }
@@ -391,8 +391,8 @@ div[role=main] {
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
   body {
     .rsContent a span {
-      background: url('../img/retina/clipboard.png');
-      background-size: 42px 40px;
+      background: url('../img/retina/clipboard.png') !important;
+      background-size: 42px 40px !important;
     }
     #about_focus span {
       background:url('../img/retina/diary.png');
