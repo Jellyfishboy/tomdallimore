@@ -1,24 +1,23 @@
-.rsContent img {
-    height: 350px;
-    float:right;
-    margin-top:4.5%;
-    margin-right: 10%;
-    width: 350px;
+.rsContent .infoBlock {
+    padding:0;
+    height:400px;
 }
-.rsContent div {
-    float:left;
-    margin-top:10%;
-    margin-left:10%;
-    width:45%;
+.rsContent .infoBlock img {
+    margin-top: 13%;
+}
+.rsContent .infoBlock .textContent {
+    margin-top:22%;
+    margin-left:5%;
     -webkit-text-size-adjust: none;
+    position: relative;
 }
-.rsContent div p {
+.rsContent .infoBlock .textContent p {
     margin:5% 0 10px;
 }
-.rsContent a {
+.rsContent .infoBlock .textContent a {
     font-family: "MuseoSans-300", Helvetica, Arial, sans-serif;
 }
-.rsContent h2 {
+.rsContent .infoBlock .textContent h2 {
     text-shadow: 0.5px 0.5px 0 #e4e4e4;
     color:#333333;
     font-size:1.2em;
