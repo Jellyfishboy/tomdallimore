@@ -4,11 +4,11 @@
 		<div class="container">
 			<div class="row">
 				<span>
-					<a href="http://www.twitter.com/billy_dallimore" alt="Twitter" target="_blank"></a>
-					<a href="http://www.facebook.com/tomdallimoredev" alt="Facebook" target="_blank"></a>
-					<a href="http://www.github.com/jellyfishboy" alt="Github" target="_blank"></a>
-					<a href="http://uk.linkedin.com/in/tomdallimore" alt="LinkedIn" target="_blank"></a>
-					<a href="http://stackoverflow.com/users/1459787/jellyfishboy" alt="StackOverflow" target="_blank"></a>
+					<a class="twitter_link" href="http://www.twitter.com/billy_dallimore" alt="Twitter" target="_blank" data-toggle="tooltip" data-placement="top" data-original-title="Twitter"></a>
+					<a class="facebook_link" href="http://www.facebook.com/tomdallimoredev" alt="Facebook" target="_blank" data-toggle="tooltip" data-placement="top" data-original-title="Facebook"></a>
+					<a class="github_link" href="http://www.github.com/jellyfishboy" alt="Github" target="_blank" data-toggle="tooltip" data-placement="top" data-original-title="Github"></a>
+					<a class="linkedin_link" href="http://uk.linkedin.com/in/tomdallimore" alt="LinkedIn" target="_blank" data-toggle="tooltip" data-placement="top" data-original-title="LinkedIn"></a>
+					<a class="stackoverflow_link" href="http://stackoverflow.com/users/1459787/jellyfishboy" alt="StackOverflow" target="_blank" data-toggle="tooltip" data-placement="top" data-original-title="StackOverflow"></a>
 				</span>	
 			</div>
 			<div class="row">
@@ -37,7 +37,8 @@
 </div>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 <script src="<?php echo bloginfo('template_directory'); ?>/assets/js/application.js"></script>
-<script src="http://192.168.1.82/wp-content/plugins/new-royalslider/lib/royalslider/jquery.royalslider.min.js"></script>
+<script src="<?php echo bloginfo('template_directory'); ?>/assets/js/bootstrap.min.js"></script>
+<script src="http://localhost:8888/wp-content/plugins/new-royalslider/lib/royalslider/jquery.royalslider.min.js"></script>
 <?php wp_footer(); ?>
 <?php if ( is_singular() ) wp_print_scripts( 'comment-reply' ); ?>
 </body>

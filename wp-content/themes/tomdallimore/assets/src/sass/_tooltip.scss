@@ -1,0 +1,115 @@
+/*!
+ * Bootstrap v3.0.3
+ *
+ * Copyright 2013 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+.tooltip {
+  position: fixed;
+  z-index: 3000;
+  display: block;
+  visibility: visible;
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: 0;
+  filter: alpha(opacity = 0);
+  &.in {
+    opacity: 0.9;
+    filter: alpha(opacity = 90);
+  }
+  &.top {
+    margin-top: -3px;
+    padding: 5px 0;
+  }
+  &.right {
+    margin-left: 3px;
+    padding: 0 5px;
+  }
+  &.bottom {
+    margin-top: 6px;
+    padding: 5px 0;
+  }
+  &.left {
+    margin-left: -3px;
+    padding: 0 5px;
+  }
+}
+
+.tooltip-inner {
+  max-width: 200px;
+  padding: 5px 10px;
+  color: #ffffff;
+  font-weight:bold;
+  font-style:normal;
+  text-align: center;
+  text-decoration: none;
+  background-color: #000000;
+  border-radius: 4px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.tooltip-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+
+.tooltip {
+  &.top .tooltip-arrow {
+    bottom: 0;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px 5px 0;
+    border-top-color: #000000;
+  }
+  &.top-left .tooltip-arrow {
+    bottom: 0;
+    left: 5px;
+    border-width: 5px 5px 0;
+    border-top-color: #000000;
+  }
+  &.top-right .tooltip-arrow {
+    bottom: 0;
+    right: 5px;
+    border-width: 5px 5px 0;
+    border-top-color: #000000;
+  }
+  &.right .tooltip-arrow {
+    top: 50%;
+    left: 0;
+    margin-top: -5px;
+    border-width: 5px 5px 5px 0;
+    border-right-color: #000000;
+  }
+  &.left .tooltip-arrow {
+    top: 50%;
+    right: 0;
+    margin-top: -5px;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #000000;
+  }
+  &.bottom .tooltip-arrow {
+    top: 0;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 0 5px 5px;
+    border-bottom-color: #000000;
+  }
+  &.bottom-left .tooltip-arrow {
+    top: 0;
+    left: 5px;
+    border-width: 0 5px 5px;
+    border-bottom-color: #000000;
+  }
+  &.bottom-right .tooltip-arrow {
+    top: 0;
+    right: 5px;
+    border-width: 0 5px 5px;
+    border-bottom-color: #000000;
+  }
+}

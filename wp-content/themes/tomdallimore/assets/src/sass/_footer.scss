@@ -23,31 +23,31 @@ footer {
 							width:35px;
 							margin-right:14px;
 							display: inline-block;
-								&:first-child {
+								&.twitter_link {
 									@extend .sp-twitter-off;
 										&:hover {
 											@extend .sp-twitter-on;
 										}
 								}
-								&:nth-child(2) {
+								&.facebook_link {
 									@extend .sp-facebook-off;
 										&:hover {
 											@extend .sp-facebook-on;
 										}
 								}
-								&:nth-child(3) {
+								&.github_link {
 									@extend .sp-github-off;
 										&:hover {
 											@extend .sp-github-on;
 										}
 								}
-								&:nth-child(4) {
+								&.linkedin_link {
 									@extend .sp-linked-off;
 										&:hover {
 											@extend .sp-linked-on;
 										}
 								}
-								&:last-child {
+								&.stackoverflow_link {
 									@extend .sp-stackoverflow-off;
 										&:hover {
 											@extend .sp-stackoverflow-on;			

@@ -6,3 +6,5 @@ $(document).ready ->
   $("#twitter_div a").attr "target", "_blank"
 
   $('#blog .tencol p a').attr 'target', '_blank'
+
+  $('[data-toggle=tooltip]').tooltip()

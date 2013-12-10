@@ -2,7 +2,7 @@
 @import url(icomoon.css);
 /* Sprite settings */
 /* line 322, icono/*.png */
-.icono-sprite, .sp-facebook-on, footer .container span a:nth-child(2):hover, .sp-facebook-off, footer .container span a:nth-child(2), .sp-twitter-on, footer .container span a:first-child:hover, .sp-twitter-off, footer .container span a:first-child, .sp-linked-on, footer .container span a:nth-child(4):hover, .sp-linked-off, footer .container span a:nth-child(4), .sp-github-on, footer .container span a:nth-child(3):hover, .sp-github-off, footer .container span a:nth-child(3), .sp-stackoverflow-off, footer .container span a:last-child, .sp-stackoverflow-on, footer .container span a:last-child:hover, .sp-ai-on, .sp-ai-off, .sp-css3-on, .sp-css3-off, .sp-html5-on, .sp-html5-off, .sp-jquery-on, .sp-jquery-off, .sp-ps-on, .sp-ps-off, .sp-ruby-on, .sp-ruby-off, .sp-wp-on, .sp-wp-off, .sp-coffee-on, .sp-coffee-off, .sp-briefcase, .sp-diary, #about_focus span, .sp-schematic, #work_focus span, .sp-clipboard, .rsContent .infoBlock .textContent a span, .sp-blog-link, #blog .ninecol h2.link, .sp-blog-pencil, #blog .ninecol h2.article, .sp-profile, .sp-what-i-do, #home .row:first-child .fourcol:first-child div, .sp-what-i-love, #home .row:first-child .fourcol:nth-child(2) div, .sp-where-i-reside, #home .row:first-child .fourcol:last-child div {
+.icono-sprite, .sp-facebook-on, footer .container span a.facebook_link:hover, .sp-facebook-off, footer .container span a.facebook_link, .sp-twitter-on, footer .container span a.twitter_link:hover, .sp-twitter-off, footer .container span a.twitter_link, .sp-linked-on, footer .container span a.linkedin_link:hover, .sp-linked-off, footer .container span a.linkedin_link, .sp-github-on, footer .container span a.github_link:hover, .sp-github-off, footer .container span a.github_link, .sp-stackoverflow-off, footer .container span a.stackoverflow_link, .sp-stackoverflow-on, footer .container span a.stackoverflow_link:hover, .sp-ai-on, .sp-ai-off, .sp-css3-on, .sp-css3-off, .sp-html5-on, .sp-html5-off, .sp-jquery-on, .sp-jquery-off, .sp-ps-on, .sp-ps-off, .sp-ruby-on, .sp-ruby-off, .sp-wp-on, .sp-wp-off, .sp-coffee-on, .sp-coffee-off, .sp-briefcase, .sp-diary, #about_focus span, .sp-schematic, #work_focus span, .sp-clipboard, .rsContent .infoBlock .textContent a span, .sp-blog-link, #blog .ninecol h2.link, .sp-blog-pencil, #blog .ninecol h2.article, .sp-profile, .sp-what-i-do, #home .row:first-child .fourcol:first-child div, .sp-what-i-love, #home .row:first-child .fourcol:nth-child(2) div, .sp-where-i-reside, #home .row:first-child .fourcol:last-child div {
   background: url('../img/icono-s4f356c5a37.png') no-repeat;
 }
 
@@ -136,52 +136,52 @@ div[role=main] {
 /* ============================= */
 /* Social */
 /* line 49, ../src/sass/application.scss */
-.sp-facebook-on, footer .container span a:nth-child(2):hover {
+.sp-facebook-on, footer .container span a.facebook_link:hover {
   background-position: -642px 0;
 }
 
 /* line 50, ../src/sass/application.scss */
-.sp-facebook-off, footer .container span a:nth-child(2) {
+.sp-facebook-off, footer .container span a.facebook_link {
   background-position: -607px 0;
 }
 
 /* line 51, ../src/sass/application.scss */
-.sp-twitter-on, footer .container span a:first-child:hover {
+.sp-twitter-on, footer .container span a.twitter_link:hover {
   background-position: -1467px 0;
 }
 
 /* line 52, ../src/sass/application.scss */
-.sp-twitter-off, footer .container span a:first-child {
+.sp-twitter-off, footer .container span a.twitter_link {
   background-position: -1432px 0;
 }
 
 /* line 53, ../src/sass/application.scss */
-.sp-linked-on, footer .container span a:nth-child(4):hover {
+.sp-linked-on, footer .container span a.linkedin_link:hover {
   background-position: -994px 0;
 }
 
 /* line 54, ../src/sass/application.scss */
-.sp-linked-off, footer .container span a:nth-child(4) {
+.sp-linked-off, footer .container span a.linkedin_link {
   background-position: -959px 0;
 }
 
 /* line 55, ../src/sass/application.scss */
-.sp-github-on, footer .container span a:nth-child(3):hover {
+.sp-github-on, footer .container span a.github_link:hover {
   background-position: -712px 0;
 }
 
 /* line 56, ../src/sass/application.scss */
-.sp-github-off, footer .container span a:nth-child(3) {
+.sp-github-off, footer .container span a.github_link {
   background-position: -677px 0;
 }
 
 /* line 57, ../src/sass/application.scss */
-.sp-stackoverflow-off, footer .container span a:last-child {
+.sp-stackoverflow-off, footer .container span a.stackoverflow_link {
   background-position: -1362px 0;
 }
 
 /* line 58, ../src/sass/application.scss */
-.sp-stackoverflow-on, footer .container span a:last-child:hover {
+.sp-stackoverflow-on, footer .container span a.stackoverflow_link:hover {
   background-position: -1397px 0;
 }
 
@@ -4557,4 +4557,134 @@ input[type="button"].btn-block {
   background-repeat: no-repeat;
   border-bottom: 1px solid #59822c;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff88c149', endColorstr='#ff699934', GradientType=0);
+}
+
+/*!
+ * Bootstrap v3.0.3
+ *
+ * Copyright 2013 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+/* line 10, ../src/sass/_tooltip.scss */
+.tooltip {
+  position: fixed;
+  z-index: 3000;
+  display: block;
+  visibility: visible;
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+/* line 19, ../src/sass/_tooltip.scss */
+.tooltip.in {
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+/* line 23, ../src/sass/_tooltip.scss */
+.tooltip.top {
+  margin-top: -3px;
+  padding: 5px 0;
+}
+/* line 27, ../src/sass/_tooltip.scss */
+.tooltip.right {
+  margin-left: 3px;
+  padding: 0 5px;
+}
+/* line 31, ../src/sass/_tooltip.scss */
+.tooltip.bottom {
+  margin-top: 6px;
+  padding: 5px 0;
+}
+/* line 35, ../src/sass/_tooltip.scss */
+.tooltip.left {
+  margin-left: -3px;
+  padding: 0 5px;
+}
+
+/* line 41, ../src/sass/_tooltip.scss */
+.tooltip-inner {
+  max-width: 200px;
+  padding: 5px 10px;
+  color: #ffffff;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  text-decoration: none;
+  background-color: #000000;
+  border-radius: 4px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* line 54, ../src/sass/_tooltip.scss */
+.tooltip-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+
+/* line 63, ../src/sass/_tooltip.scss */
+.tooltip.top .tooltip-arrow {
+  bottom: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px 5px 0;
+  border-top-color: #000000;
+}
+/* line 70, ../src/sass/_tooltip.scss */
+.tooltip.top-left .tooltip-arrow {
+  bottom: 0;
+  left: 5px;
+  border-width: 5px 5px 0;
+  border-top-color: #000000;
+}
+/* line 76, ../src/sass/_tooltip.scss */
+.tooltip.top-right .tooltip-arrow {
+  bottom: 0;
+  right: 5px;
+  border-width: 5px 5px 0;
+  border-top-color: #000000;
+}
+/* line 82, ../src/sass/_tooltip.scss */
+.tooltip.right .tooltip-arrow {
+  top: 50%;
+  left: 0;
+  margin-top: -5px;
+  border-width: 5px 5px 5px 0;
+  border-right-color: #000000;
+}
+/* line 89, ../src/sass/_tooltip.scss */
+.tooltip.left .tooltip-arrow {
+  top: 50%;
+  right: 0;
+  margin-top: -5px;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #000000;
+}
+/* line 96, ../src/sass/_tooltip.scss */
+.tooltip.bottom .tooltip-arrow {
+  top: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 0 5px 5px;
+  border-bottom-color: #000000;
+}
+/* line 103, ../src/sass/_tooltip.scss */
+.tooltip.bottom-left .tooltip-arrow {
+  top: 0;
+  left: 5px;
+  border-width: 0 5px 5px;
+  border-bottom-color: #000000;
+}
+/* line 109, ../src/sass/_tooltip.scss */
+.tooltip.bottom-right .tooltip-arrow {
+  top: 0;
+  right: 5px;
+  border-width: 0 5px 5px;
+  border-bottom-color: #000000;
 }
