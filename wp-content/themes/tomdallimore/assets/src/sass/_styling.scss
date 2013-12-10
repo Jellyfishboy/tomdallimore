@@ -76,3 +76,8 @@ i {
     position: absolute;
     top:-7px;
 }
+.rsArrowIcn {
+	@include transition-property(opacity);
+	@include transition-duration(0.4s);
+	@include transition-timing-function(linear);
+}
