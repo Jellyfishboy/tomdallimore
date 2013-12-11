@@ -10,7 +10,8 @@ Template Name: BlogTemp
     		<div class="threecol last sidebar_content" id="sidebar">
     			<?php include (TEMPLATEPATH . '/searchform.php'); ?>
     			<h3>Topics</h3>
-    			<?php $args = array( 'title_li' => __( '' )); ?>
+    			<?php $args = array( 'title_li' => __( '' ),
+                                     'exclude'  => __('slider')); ?>
     			<ul>
 	    			<?php wp_list_categories( $args ); ?> 
 	    		</ul>
