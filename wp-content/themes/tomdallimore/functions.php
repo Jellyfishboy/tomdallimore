@@ -150,7 +150,7 @@ function td_comment($comment, $args, $depth) {
         function new_royalslider_add_custom_skin($skins) {
               $skins['tomd'] = array(
                    'label' => 'The custom skin',
-                   'path' => get_stylesheet_directory_uri() . '/assets/css/tomd.css'  // get_stylesheet_directory_uri returns path to your theme folder
+                   'path' => get_bloginfo('template_directory') . '/assets/css/tomd.css'  // get_stylesheet_directory_uri returns path to your theme folder
               );
               return $skins;
         }

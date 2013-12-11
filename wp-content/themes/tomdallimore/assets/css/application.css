@@ -4593,7 +4593,7 @@ input[type="button"].btn-block {
  */
 /* line 10, ../src/sass/_tooltip.scss */
 .tooltip {
-  position: fixed;
+  position: absolute;
   z-index: 3000;
   display: block;
   visibility: visible;
