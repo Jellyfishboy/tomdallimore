@@ -55,27 +55,38 @@
         &:nth-child(3) {
             .fourcol {
                 &:first-child {
-                    div {
-                        background-color: #C7B299;
+                    .recent {
+                        background:url('../img/recent_1.jpg');
+                        background-position:top right;
+                        background-size:cover;
+                        background-repeat: no-repeat;
                     }
                 }
                 &:nth-child(2) {
-                    div {
+                    .recent {
                         background-color: #F15A24;
-
+                        background: url('../img/recent_2.jpg');
+                        background-size:cover;
+                        background-repeat: no-repeat;
+                        background-position: center;
                     }
                 }
                 &:last-child {
-                    div {
+                    .recent {
                         background-color: #22B573;
+                        background:url('../img/recent_3.jpg');
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: top left;
                     }
                 }
-                div {
+                .recent {
                     margin-top:15px;
                     @include border-radius(7px);
                     @include box-shadow(0 0 2px #000);
                     width:100%;
                     height: 150px;
+                    
                 }
             }
         }

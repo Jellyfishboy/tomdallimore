@@ -39,13 +39,17 @@ Template Name: HomeTemp
         </div>
         <div class="row">
             <div class="fourcol">
-                <div></div>
+                <a href="http://www.dyson.co.uk" target="_blank">
+                    <div data-toggle="tooltip" data-placement="bottom" data-original-title="Dyson UK" class="recent"></div>
+                </a>
             </div>
             <div class="fourcol">
-                <div></div>
+                <div data-toggle="tooltip" data-placement="bottom" data-original-title="Gimson Robotics" class="recent"></div>
             </div>
             <div class="fourcol last">
-                <div></div>
+                <a href="http://www.dyson.cn" target="_blank">
+                    <div data-toggle="tooltip" data-placement="bottom" data-original-title="Dyson CN" class="recent"></div>
+                </a>
             </div>
         </div>
         <div class="row">

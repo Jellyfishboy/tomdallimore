@@ -7,7 +7,9 @@
     });
     $("#twitter_div a").attr("target", "_blank");
     $('#blog .tencol p a').attr('target', '_blank');
-    return $('[data-toggle=tooltip]').tooltip();
+    if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+      return $('[data-toggle=tooltip]').tooltip();
+    }
   });
 
 }).call(this);

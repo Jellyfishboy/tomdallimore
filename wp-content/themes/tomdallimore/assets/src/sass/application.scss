@@ -236,6 +236,25 @@ div[role=main] {
             }
         }
       }
+      .row:nth-child(3) {
+        .fourcol {
+          &:first-child {
+              .recent {
+                margin-top:11px;
+              }
+          }
+          &:nth-child(2) {
+              .recent {
+                margin-top:25px;
+              }
+          }
+          &:last-child {
+              .recent {
+                margin-top: 25px;
+              }
+          }
+        }
+      }
     }
     #about_focus {
       img {

@@ -139,13 +139,13 @@ function td_comment($comment, $args, $depth) {
      </div>
 <?php
         }
-        // add_filter( 'avatar_defaults', 'newgravatar' );  
+        add_filter( 'avatar_defaults', 'newgravatar' );  
           
-        // function newgravatar ($avatar_defaults) {  
-        //     $myavatar = get_bloginfo('template_directory') . '/assets/img/batman_avatar.jpg';  
-        //     $avatar_defaults[$myavatar] = "Batman";  
-        //     return $avatar_defaults;  
-        // }  
+        function newgravatar ($avatar_defaults) {  
+            $myavatar = get_bloginfo('template_directory') . '/assets/img/batman_avatar.jpg';  
+            $avatar_defaults[$myavatar] = "Batman";  
+            return $avatar_defaults;  
+        }  
         add_filter('new_royalslider_skins', 'new_royalslider_add_custom_skin', 10, 2);
         function new_royalslider_add_custom_skin($skins) {
               $skins['tomd'] = array(
