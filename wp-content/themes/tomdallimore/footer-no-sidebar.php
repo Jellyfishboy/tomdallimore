@@ -38,7 +38,7 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 <script src="<?php echo bloginfo('template_directory'); ?>/assets/js/application.js"></script>
 <script src="<?php echo bloginfo('template_directory'); ?>/assets/js/bootstrap.min.js"></script>
-<script src="http://localhost:8888/wp-content/plugins/new-royalslider/lib/royalslider/jquery.royalslider.min.js"></script>
+<script src="http://tomdallimore.com/wp-content/plugins/new-royalslider/lib/royalslider/jquery.royalslider.min.js"></script>
 <?php wp_footer(); ?>
 <?php if ( is_singular() ) wp_print_scripts( 'comment-reply' ); ?>
 </body>
