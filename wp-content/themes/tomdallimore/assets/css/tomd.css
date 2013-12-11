@@ -1,5 +1,5 @@
 .rsContent .infoBlock {
-    padding:0;
+    padding:0 !important;
     height:400px;
 }
 .rsContent .infoBlock img {
@@ -22,12 +22,6 @@
     color:#333333;
     font-size:1.2em;
     text-indent: 58px;
-}
-.visibleNearbySimple .rsSlide img {
-    opacity: 0 !important;
-}
-.visibleNearbySimple .rsActiveSlide img {
-    opacity: 1 !important;
 }
 /***************
 *
