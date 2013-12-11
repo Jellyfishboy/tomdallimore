@@ -23,7 +23,7 @@ Template Name: HomeTemp
     		<div class="fourcol last">
     			<div></div>
     			<h1>Where I reside</h1>
-    			<p>I work as a web developer for Dyson in the somerset area, however I normally take residence in the lively city of Bristol. When I’m not hammering at the keyboard, I like to explore various music genres and <br/>catch some rays.</p>
+    			<p>I work as a web developer for Dyson in the Wiltshire area, however I normally take residence in the lively city of Bristol. When I’m not hammering at the keyboard, I like to explore various music genres and <br/>catch some rays.</p>
     		</div>
     	</div>
         <div class="row">
