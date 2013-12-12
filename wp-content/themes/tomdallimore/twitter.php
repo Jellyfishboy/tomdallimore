@@ -1,5 +1,5 @@
 <?php
-  $tweets = getTweets(3, billy_dallimore);
+  $tweets = getTweets('billy_dallimore', 3);
   foreach($tweets as $tweet){
 
       if($tweet['text']){
@@ -37,7 +37,7 @@
       } else {
           echo '
           <br /><br />
-          <a href="http://twitter.com/YOURUSERNAME" target="_blank">Click here to read YOURUSERNAME\'S Twitter feed</a>';
+          <a href="http://twitter.com/billy_dallimore" target="_blank">Click here to read billy_dallimore\'s Twitter feed</a>';
       }
   }
   function humanTiming ($time)
