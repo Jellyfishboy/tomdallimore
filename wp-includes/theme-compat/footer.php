@@ -21,6 +21,10 @@ _deprecated_file( sprintf( __( 'Theme without %1$s' ), basename(__FILE__) ), '3.
 	</p>
 </div>
 </div>
-<?php wp_footer(); ?>
+
+<!-- Gorgeous design by Michael Heilemann - http://binarybonsai.com/kubrick/ -->
+<?php /* "Just what do you think you're doing Dave?" */ ?>
+
+		<?php wp_footer(); ?>
 </body>
 </html>
