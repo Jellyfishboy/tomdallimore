@@ -23,8 +23,6 @@
                   '<a href="'.$link['url'].'" target="_blank">'.$link['url'].'</a>',
                   $the_tweet);
           }
-          // $the_tweet = preg_replace('/http:\/\/([a-z0-9_\.\-\+\&\!\#\~\/\,]+)/i', '<a href="http://$1" target="_blank">http://$1</a>', $the_tweet); //replace links
-          // $the_tweet = preg_replace('/@([a-z0-9_]+)/i', '<a href="http://twitter.com/$1" target="_blank">@$1</a>', $the_tweet ); //replace users
           echo $the_tweet;
           echo '<span>'.humanTiming(strtotime($tweet['created_at'])) . ' ago</span>';
           echo '</li>';
