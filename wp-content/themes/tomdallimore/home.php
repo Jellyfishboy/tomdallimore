@@ -68,7 +68,7 @@ Template Name: HomeTemp
                         <p>The official SNGTRKR.com repo.</p>
                     </span>
                     <span>
-                        <i class="icon-star"></i><p>3</p><i class="icon-code-fork"></i><p>0</p>
+                        <i class="icon-star"></i><p>3</p><i class="icon-code-fork"></i><p>1</p>
                     </span>
                 </div>
                 <div>
