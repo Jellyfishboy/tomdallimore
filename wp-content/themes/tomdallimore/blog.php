@@ -11,7 +11,7 @@ Template Name: BlogTemp
     			<?php include (TEMPLATEPATH . '/searchform.php'); ?>
     			<h3>Topics</h3>
     			<?php $args = array( 'title_li' => __( '' ),
-                                     'exclude'  => __('slider')); ?>
+                                     'exclude'  => '30,3'); ?>
     			<ul>
 	    			<?php wp_list_categories( $args ); ?> 
 	    		</ul>
