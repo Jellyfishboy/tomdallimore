@@ -373,8 +373,15 @@ div[role=main] {
       h1 {
         font-size: 1.3em !important;
       }
-      nav ul li {
-        font-size: 20px;
+      nav {
+        margin-top: 25px;
+          ul li {
+            font-size: 20px;
+            margin-left:20px;
+              &:first-child {
+                margin:0;
+              }
+          }
       }
     }
     footer {
