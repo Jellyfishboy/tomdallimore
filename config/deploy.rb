@@ -59,4 +59,9 @@ namespace :wordpress do
         run "chown -R www-data:www-data /var/www/tomdallimore"
     end
 end
-after "deploy:create_symlink", :wordpress
+after "deploy:create_symlink", "wordpress:compile_sass"
+after "wordpress:compile_sass", "wordpress:compile_coffee"
+after "wordpress:compile_coffee", "wordpress:create_symlinks"
+after "wordpress:create_symlinks", "wordpress:production_config"
+after "wordpress:production_config", "wordpress:sitemap_permissions"
+after "wordpress:sitemap_permissions", "wordpress:root_permissions"
