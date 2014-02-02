@@ -353,6 +353,17 @@ div[role=main] {
         }
       }
     }
+    #photography {
+      .row .tencol img {
+          margin:30px 0;
+          &:first-child {
+              margin-top:0px;
+          }
+          &:last-child {
+              margin-bottom: 0px;
+          }
+      }
+    }
   }
 }
 @media handheld, only screen and (max-width: 430px) {
@@ -360,7 +371,10 @@ div[role=main] {
     line-height: 1.5em !important;
     header {
       h1 {
-        font-size: 1.5em !important;
+        font-size: 1.3em !important;
+      }
+      nav ul li {
+        font-size: 20px;
       }
     }
     footer {
