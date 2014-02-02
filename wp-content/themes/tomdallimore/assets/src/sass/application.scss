@@ -29,6 +29,7 @@ body {
   // Added the differing CSS themes.
   @import "light";
   @import "dark";
+  @import "rough";
 }
 html, body {
   margin:0;
@@ -401,6 +402,17 @@ div[role=main] {
             }
         }
     }
+    #photography {
+      .row .tencol img {
+          margin:30px 0;
+          &:first-child {
+              margin-top:0px;
+          }
+          &:last-child {
+              margin-bottom: 0px;
+          }
+      }
+    }
   }
 }
 /* ========================================== */
@@ -514,6 +526,7 @@ div[role=main] {
 @import "sidebar";
 @import "buttons";
 @import "tooltip";
+@import "photography";
 @import "animations.css";
 @import "icomoon.css";
 @import "tomd.css";

@@ -1,0 +1,18 @@
+#photography {
+    .row .tencol img {
+        margin:50px 0;
+        display: inline-block;
+        line-height: 0;
+        position: relative;
+        @include box-shadow(0px 2px 5px rgba( 0,0,0,0.4 ));
+        &:first-child {
+            margin-top:0px;
+        }
+        &:last-child {
+            margin-bottom: 0px;
+        }
+    }
+    .row .tencol {
+        text-align: center;
+    }
+}

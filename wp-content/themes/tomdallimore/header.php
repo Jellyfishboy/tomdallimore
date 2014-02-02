@@ -70,9 +70,7 @@ echo $current_url;
     <![endif]-->
 <!-- Javascripts -->
 </head>
-<!-- <?php if (is_page( array( 5, 144, 14 ))) { echo 'dark'; } else { echo 'light'; } ?>
-    <?php if (is_page( array( 7, 72, 6 ))) { echo 'dark'; } else { echo 'light'; } ?> -->
-<body class="<?php if (is_page( array( 7, 144, 6, 72 ))) { echo 'dark'; } else { echo 'light'; } ?>" id="top">
+<body class="<?php if (is_page( array( 6, 72 ))) { echo 'dark'; } else if (is_page( array( 8 ))) { echo 'light'; } else { echo 'rough'; } ?>" id="top">
     <div role="main">
         <header class="<?php if(is_front_page()) echo 'hero'; ?>" role="banner">
         	<div class="container">

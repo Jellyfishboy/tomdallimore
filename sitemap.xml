@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://localhost:8888/wp-content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- generator="wordpress/3.7.1" -->
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://localhost:8888/wp-content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- generator="wordpress/3.8" -->
 <!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="3.4" -->
-<!-- generated-on="December 11, 2013 10:30 pm" -->
+<!-- generated-on="February 2, 2014 5:44 pm" -->
 <!-- Debug: Total comment count: 8 -->
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
 		<loc>http://localhost:8888/</loc>
@@ -9,6 +9,12 @@
 		<priority>1.0</priority>
 	</url>
 <!-- Debug: Start Postings -->
+	<url>
+		<loc>http://localhost:8888/photography/</loc>
+		<lastmod>2014-02-02T17:43:31+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
 <!-- Debug: Priority report of postID 24: Comments: 3 of 8 = 0.4 points -->
 	<url>
 		<loc>http://localhost:8888/blog/my-return-to-the-web/</loc>
