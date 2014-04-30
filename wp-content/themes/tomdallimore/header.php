@@ -70,7 +70,9 @@ echo $current_url;
     <![endif]-->
 <!-- Javascripts -->
 </head>
-<!-- development -->
+<!-- development osx -->
+<!-- <?php if (is_page( array( 5, 7, 14 ))) { echo 'dark'; } else if (is_page( array( 10 ))) { echo 'light'; } else { echo 'rough'; } ?> -->
+<!-- development windows -->
 <!-- <?php if (is_page( array( 5, 7, 14 ))) { echo 'dark'; } else if (is_page( array( 10 ))) { echo 'light'; } else { echo 'rough'; } ?> -->
 <!-- production -->
 <!-- <?php if (is_page( array( 6, 72 ))) { echo 'dark'; } else if (is_page( array( 8 ))) { echo 'light'; } else { echo 'rough'; } ?> -->
