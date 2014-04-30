@@ -7,7 +7,7 @@ $(document).ready ->
 
   $('#blog .tencol p a').attr 'target', '_blank'
 
-  url = "http://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&api_key=de431af3effdd4118063fe811a17ff86&photoset_id=72157640433123824+&per_page=15&format=json&nojsoncallback=1"
+  url = "http://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&api_key=8d0b4b96dcede3850ffb7409076c507e&photoset_id=72157640433123824+&per_page=15&format=json&nojsoncallback=1"
   
   $.getJSON url, (res) ->
     for photo in res.photoset.photo
