@@ -8,8 +8,8 @@ wp-content/themes/tomdallimore/assets/src/coffee/.DS_Store
 wp-content/themes/tomdallimore/assets/src/sass/.DS_Store
 
 wp-content/uploads
+wp-content/plugins
 
-wp-content/plugins/crayon-syntax-highlighter/
 wp-content/themes/tomdallimore/node_modules
 
 wp-content/themes/tomdallimore/assets/src/.sass-cache/
