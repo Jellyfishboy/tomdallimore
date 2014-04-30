@@ -24,6 +24,7 @@
             .fourcol {
                 ul {
                     padding:0;
+                    margin-bottom: 0;
                     li {
                         height:53px;
                         width:53px;
@@ -52,6 +53,9 @@
                             }
                             &.coffee {
                                 @extend .sp-coffee-on;
+                            }
+                            &.sitecore {
+                                @extend .sp-sitecore-on;
                             }
                             &:last-child {
                                 margin-right:0;
