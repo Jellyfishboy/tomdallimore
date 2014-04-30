@@ -1,0 +1,26 @@
+html {
+    font-size: 100%; /* Set a 16px base size */
+}
+body {
+    margin: 0 auto;
+    font-size: 16px;
+    font-size: 1em;
+    line-height: 1.8;   
+    font-family: "MuseoSans-300", Helvetica, Arial, sans-serif;
+  // Added the differing CSS themes.
+  @import "light";
+  @import "dark";
+  @import "rough";
+}
+html, body {
+  margin:0;
+  padding:0;
+  height:100%;
+}
+div[role=main] {
+  min-height: 100%;
+  position: relative;
+}
+.content {
+    padding-bottom:3em;
+}

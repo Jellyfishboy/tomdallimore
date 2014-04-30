@@ -1,0 +1,96 @@
+/* ========================================== */
+/* ! Provide higher res assets  */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    .rsContent a span {
+      background: url('../img/retina/clipboard.png') !important;
+      background-size: 42px 40px !important;
+    }
+    #about_focus span {
+      background:url('../img/retina/diary.png');
+      background-size:40px 37px;
+    }
+    #home {
+      .row {
+        &:first-child {
+          .fourcol {
+            &:first-child {
+              div {
+                background:url('../img/retina/whatido.png');
+                background-size: 140px 140px;
+              }
+            }
+            &:nth-child(2) {
+              div {
+                background:url('../img/retina/whatilove.png');
+                background-size: 140px 140px;
+              }
+            }
+            &:last-child {
+              div {
+                background:url('../img/retina/whereireside.png');
+                background-size: 140px 140px;
+              }
+            }
+          }
+        }
+      }
+    }
+    footer .container span {
+      a {
+        &:first-child {
+          background:url('../img/retina/twitter_off.png');
+          background-size: 35px 35px;
+            &:hover {
+              background:url('../img/retina/twitter_on.png');
+              background-size: 35px 35px;
+            }
+        }
+        &:nth-child(2) {
+          background:url('../img/retina/facebook_off.png');
+          background-size: 35px 35px;
+            &:hover {
+              background:url('../img/retina/facebook_on.png');
+              background-size: 35px 35px;
+            }
+        }
+        &:nth-child(3) {
+          background:url('../img/retina/github_off.png');
+          background-size: 35px 35px;
+            &:hover {
+              background:url('../img/retina/github_on.png');
+              background-size: 35px 35px;
+            }
+        }
+        &:nth-child(4) {
+          background:url('../img/retina/linked_off.png');
+          background-size: 35px 35px;
+            &:hover {
+              background:url('../img/retina/linked_on.png');
+              background-size: 35px 35px;
+            }
+        }
+        &:last-child {
+          background:url('../img/retina/so_off.png');
+          background-size: 35px 35px;
+            &:hover {
+              background:url('../img/retina/so_on.png');
+              background-size: 35px 35px;
+            }
+        }
+      }
+    }
+    #blog {
+      .article {
+        background:url('../img/retina/blog_pencil.png') !important;
+        background-size:80px 80px !important;
+      }
+      .link {
+        background:url('../img/retina/blog_link.png') !important;
+        background-size: 80px 80px !important;
+      }
+    }
+  }
+}

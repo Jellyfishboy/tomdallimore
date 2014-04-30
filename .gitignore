@@ -12,5 +12,5 @@ wp-content/uploads
 wp-content/plugins/crayon-syntax-highlighter/
 wp-content/themes/tomdallimore/node_modules
 
-wp-content/themes/tomdallimore/assets/src/.sass-cache
+wp-content/themes/tomdallimore/assets/src/.sass-cache/
 wp-content/themes/tomdallimore/.sass-cache

@@ -21,14 +21,16 @@ module.exports = function (grunt) {
             options: {
                 sassDir: 'assets/src/sass',
                 cssDir: 'assets/css',
-                outputStyle: 'compressed',
-                imagesDir: 'assets/img'
-
+                imagesDir: 'assets/img',
+                httpGeneratedImagesPath: '/wp-content/themes/tomdallimore/assets/img'
             },
-            dist: {},
+            dist: {
+                outputStyle: 'compressed'
+            },
             server: {
                 options: {
-                    debugInfo: true
+                    debugInfo: true,
+                    outputStyle: 'nested'
                 }
             }
         },
@@ -52,6 +54,10 @@ module.exports = function (grunt) {
             server: [
                 'coffee:server',
                 'compass:server'
+            ],
+            dist: [
+                'coffee:server',
+                'compass:dist'
             ]
         },
         clean: {

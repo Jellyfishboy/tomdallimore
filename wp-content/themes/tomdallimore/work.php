@@ -18,12 +18,22 @@ Template Name: WorkTemp
 <section class="content">
     <div class="container" id="work">
 			<?php $wp_query = new WP_Query();
-			$wp_query->query('&showposts=5&category_name=work'.'&paged='.$paged);
+			$wp_query->query('&category_name=work'.'&paged='.$paged);
 			while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
 			<div class="row">
 				<div class="fourcol">
 					<h1><?php the_title(); ?></h1>
 					<p><?php the_excerpt(); ?></p>
+					<ul>
+						<?php
+							$posttags = get_the_tags();
+							if ($posttags) {
+							  foreach($posttags as $tag) {
+							    echo '<li class="' . $tag->name . '" data-toggle="tooltip" data-placement="bottom" data-original-title="' . $tag->name . '"></li>'; 
+							  }
+							}
+						?>
+					</ul>
 				</div>
 				<div class="eightcol last">
 					<?php if (has_post_thumbnail( $post->ID ) ): ?>

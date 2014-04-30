@@ -1,0 +1,41 @@
+/* Social */
+.sp-facebook-on { @include icono-sprite(facebook_on); }
+.sp-facebook-off { @include icono-sprite(facebook_off); }
+.sp-twitter-on { @include icono-sprite(twitter_on); }
+.sp-twitter-off { @include icono-sprite(twitter_off); }
+.sp-linked-on { @include icono-sprite(linked_on); }
+.sp-linked-off { @include icono-sprite(linked_off); }
+.sp-github-on { @include icono-sprite(github_on); }
+.sp-github-off { @include icono-sprite(github_off); }
+.sp-stackoverflow-off { @include icono-sprite(so_off); }
+.sp-stackoverflow-on { @include icono-sprite(so_on);}
+// .sp-test-on { @include icono-sprite(test);}
+/* Web tools */
+.sp-ai-on { @include icono-sprite(ai_on); }
+.sp-ai-off { @include icono-sprite(ai_off); }
+.sp-css3-on { @include icono-sprite(css3_on); }
+.sp-css3-off { @include icono-sprite(css3_off); }
+.sp-html5-on { @include icono-sprite(html5_on); }
+.sp-html5-off { @include icono-sprite(html5_off); }
+.sp-jquery-on { @include icono-sprite(jquery_on); }
+.sp-jquery-off { @include icono-sprite(jquery_off); }
+.sp-ps-on { @include icono-sprite(ps_on); }
+.sp-ps-off { @include icono-sprite(ps_off); }
+.sp-ruby-on { @include icono-sprite(ruby_on); }
+.sp-ruby-off { @include icono-sprite(ruby_off); }
+.sp-wp-on { @include icono-sprite(wp_on); }
+.sp-wp-off { @include icono-sprite(wp_off); }
+.sp-coffee-on { @include icono-sprite(coffee_on); }
+.sp-coffee-off { @include icono-sprite(coffee_off); }
+/* Small icons */
+.sp-briefcase { @include icono-sprite(briefcase); }
+.sp-diary { @include icono-sprite(diary); }
+.sp-schematic { @include icono-sprite(schematics); }
+.sp-clipboard { @include icono-sprite(clipboard); }
+/* Other images */
+.sp-blog-link { @include icono-sprite(blog_link); }
+.sp-blog-pencil { @include icono-sprite(blog_pencil); }
+.sp-profile { @include icono-sprite(profile); }
+.sp-what-i-do { @include icono-sprite(whatido); }
+.sp-what-i-love { @include icono-sprite(whatilove); }
+.sp-where-i-reside { @include icono-sprite(whereireside); }

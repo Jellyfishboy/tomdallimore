@@ -70,10 +70,11 @@ echo $current_url;
     <![endif]-->
 <!-- Javascripts -->
 </head>
-<!-- <?php if (is_page( array( 5, 7 ))) { echo 'dark'; } else if (is_page( array( 10 ))) { echo 'light'; } else { echo 'rough'; } ?> -->
+<!-- development -->
+<!-- <?php if (is_page( array( 5, 7, 14 ))) { echo 'dark'; } else if (is_page( array( 10 ))) { echo 'light'; } else { echo 'rough'; } ?> -->
 <!-- production -->
 <!-- <?php if (is_page( array( 6, 72 ))) { echo 'dark'; } else if (is_page( array( 8 ))) { echo 'light'; } else { echo 'rough'; } ?> -->
-<body class="<?php if (is_page( array( 5, 7 ))) { echo 'dark'; } else if (is_page( array( 10 ))) { echo 'light'; } else { echo 'rough'; } ?>" id="top">
+<body class="<?php if (is_page( array( 5, 7, 14 ))) { echo 'dark'; } else if (is_page( array( 10 ))) { echo 'light'; } else { echo 'rough'; } ?>" id="top">
     <div role="main">
         <header class="<?php if(is_front_page()) echo 'hero'; ?>" role="banner">
         	<div class="container">
