@@ -12,22 +12,23 @@
 // .sp-test-on { @include icono-sprite(test);}
 /* Web tools */
 .sp-ai-on { @include icono-sprite(ai_on); }
-.sp-ai-off { @include icono-sprite(ai_off); }
 .sp-css3-on { @include icono-sprite(css3_on); }
-.sp-css3-off { @include icono-sprite(css3_off); }
 .sp-html5-on { @include icono-sprite(html5_on); }
-.sp-html5-off { @include icono-sprite(html5_off); }
 .sp-jquery-on { @include icono-sprite(jquery_on); }
-.sp-jquery-off { @include icono-sprite(jquery_off); }
 .sp-ps-on { @include icono-sprite(ps_on); }
-.sp-ps-off { @include icono-sprite(ps_off); }
 .sp-ruby-on { @include icono-sprite(ruby_on); }
-.sp-ruby-off { @include icono-sprite(ruby_off); }
 .sp-wp-on { @include icono-sprite(wp_on); }
-.sp-wp-off { @include icono-sprite(wp_off); }
 .sp-coffee-on { @include icono-sprite(coffee_on); }
-.sp-coffee-off { @include icono-sprite(coffee_off); }
 .sp-sitecore-on { @include icono-sprite(sitecore_on); }
+.sp-angularjs-on { @include icono-sprite(angularjs_on); }
+.sp-grunt-on { @include icono-sprite(grunt_on); }
+.sp-windows-on { @include icono-sprite(windows_on); }
+.sp-ubuntu-on { @include icono-sprite(ubuntu_on); }
+.sp-dotnet-on { @include icono-sprite(dotnet_on); }
+.sp-bower-on { @include icono-sprite(bower_on); }
+.sp-yeoman-on { @include icono-sprite(yeoman_on); }
+.sp-emberjs-on { @include icono-sprite(emberjs_on); }
+
 /* Small icons */
 .sp-briefcase { @include icono-sprite(briefcase); }
 .sp-diary { @include icono-sprite(diary); }

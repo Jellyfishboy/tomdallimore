@@ -57,6 +57,30 @@
                             &.sitecore {
                                 @extend .sp-sitecore-on;
                             }
+                            &.grunt {
+                                @extend .sp-grunt-on;
+                            }
+                            &.angularjs {
+                                @extend .sp-angularjs-on;
+                            }
+                            &.ubuntu {
+                                @extend .sp-ubuntu-on;
+                            }
+                            &.windows {
+                                @extend .sp-windows-on;
+                            }
+                            &.dotnet {
+                                @extend .sp-dotnet-on;
+                            }
+                            &.bower {
+                                @extend .sp-bower-on;
+                            }
+                            &.yeoman {
+                                @extend .sp-yeoman-on;
+                            }
+                            &.emberjs {
+                                @extend .sp-emberjs-on;
+                            }
                             &:last-child {
                                 margin-right:0;
                             }

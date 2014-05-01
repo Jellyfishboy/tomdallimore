@@ -44,5 +44,5 @@
 
     <?php endwhile; // end of the loop. ?>
 
-
+    
 <?php get_footer('no-sidebar'); ?>
