@@ -1,16 +1,12 @@
-wp-content/themes/.DS_Store
-wp-content/themes/tomdallimore/.DS_Store
-wp-content/themes/tomdallimore/assets/.DS_Store
-wp-content/themes/tomdallimore/assets/css/.DS_Store
-wp-content/themes/tomdallimore/assets/img/.DS_Store
-wp-content/themes/tomdallimore/assets/js/.DS_Store
-wp-content/themes/tomdallimore/assets/src/coffee/.DS_Store
-wp-content/themes/tomdallimore/assets/src/sass/.DS_Store
+.DS_Store
 
 wp-content/uploads
 wp-content/plugins
 
 wp-content/themes/tomdallimore/node_modules
 
-wp-content/themes/tomdallimore/assets/src/.sass-cache/
+wp-content/themes/tomdallimore/assets/src/.sass-cache
 wp-content/themes/tomdallimore/.sass-cache
+
+sitemap.xml
+sitemap.xml.gz
