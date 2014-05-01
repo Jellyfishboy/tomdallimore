@@ -7,15 +7,7 @@ Template Name: BlogTemp
 <section class="content">
     <div class="container blog_home" id="blog">
     	<div class="row">
-    		<div class="threecol last sidebar_content" id="sidebar">
-    			<?php include (TEMPLATEPATH . '/searchform.php'); ?>
-    			<h3>Topics</h3>
-    			<?php $args = array( 'title_li' => __( '' ),
-                                     'exclude'  => '30,3'); ?>
-    			<ul>
-	    			<?php wp_list_categories( $args ); ?> 
-	    		</ul>
-    		</div>
+    		<?php get_sidebar(); ?>
 			<?php $wp_query = new WP_Query();
 			$wp_query->query('&showposts=5&category_name=development,article,link'.'&paged='.$paged);
 			while ($wp_query->have_posts()) : $wp_query->the_post(); ?>

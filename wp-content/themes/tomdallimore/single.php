@@ -3,15 +3,7 @@
     <div class="container single_post" id="blog">
 	<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
         <div class="row">
-            <div class="threecol last sidebar_content" id="sidebar">
-                <?php include (TEMPLATEPATH . '/searchform.php'); ?>
-                <h3>Topics</h3>
-                <?php $args = array( 'title_li' => __( '' ),
-                                     'exclude'  => '30,3'); ?>
-                <ul>
-                    <?php wp_list_categories( $args ); ?> 
-                </ul>
-            </div>
+            <?php get_sidebar(); ?>
             <article class="ninecol">
                 <div class="row">
                     <div class="twocol">

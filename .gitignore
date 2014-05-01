@@ -1,7 +1,6 @@
 .DS_Store
 
 wp-content/uploads
-wp-content/plugins
 
 wp-content/themes/tomdallimore/node_modules
 
@@ -10,3 +9,9 @@ wp-content/themes/tomdallimore/.sass-cache
 
 sitemap.xml
 sitemap.xml.gz
+
+!wp-content/
+wp-content/*
+!/wp-content/plugins
+/wp-content/plugins/*
+!/wp-content/plugins/sqlite-integration
