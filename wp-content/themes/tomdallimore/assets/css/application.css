@@ -3474,8 +3474,11 @@ section[role=comments] ul {
   #about_focus a {
     font-family: "MuseoSans-300", Helvetica, Arial, sans-serif !important;
     text-shadow: 0 0 0 #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_focus\.scss}line{font-family:\0000340}}
+  #about_focus .btn {
+    width: 100px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_focus\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_focus\.scss}line{font-family:\0000345}}
 #work_focus span {
   width: 42px;
   height: 37px;
@@ -3552,26 +3555,25 @@ section[role=comments] ul {
   cursor: pointer;
   border: 1px solid transparent;
   border-radius: 4px;
-  width: 100px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   -o-user-select: none;
   user-select: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\0000321}}
 .btn:focus {
   outline: thin dotted #333;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\0000328}}
 .btn:hover,
 .btn:focus {
   color: #555555;
   text-decoration: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\0000334}}
 .btn:active,
 .btn.active {
   background-image: none;
@@ -3579,7 +3581,7 @@ section[role=comments] ul {
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\0000343}}
 .btn.disabled,
 .btn[disabled],
 fieldset[disabled] .btn {
@@ -3590,13 +3592,13 @@ fieldset[disabled] .btn {
   -webkit-box-shadow: none;
   box-shadow: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\0000352}}
 .btn-default {
   color: #555555;
   background-color: #ffffff;
   border-color: rgba(0, 0, 0, 0.1); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\0000362}}
 .btn-default:hover,
 .btn-default:focus,
 .btn-default:active,
@@ -3606,13 +3608,13 @@ fieldset[disabled] .btn {
   background-color: #ebebeb;
   border-color: rgba(0, 0, 0, 0.1); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\0000370}}
 .btn-default:active,
 .btn-default.active,
 .open .dropdown-toggle.btn-default {
   background-image: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\0000388}}
 .btn-default.disabled,
 .btn-default[disabled],
 fieldset[disabled] .btn-default,
@@ -3631,13 +3633,13 @@ fieldset[disabled] .btn-default.active {
   background-color: #ffffff;
   border-color: rgba(0, 0, 0, 0.1); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\0000393}}
 .btn-primary {
   color: #ffffff;
   background-color: #2fa4e7;
   border-color: #2fa4e7; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003104}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003103}}
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
@@ -3647,13 +3649,13 @@ fieldset[disabled] .btn-default.active {
   background-color: #1990d5;
   border-color: #1684c2; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003112}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003111}}
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   background-image: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003130}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003129}}
 .btn-primary.disabled,
 .btn-primary[disabled],
 fieldset[disabled] .btn-primary,
@@ -3672,13 +3674,13 @@ fieldset[disabled] .btn-primary.active {
   background-color: #2fa4e7;
   border-color: #2fa4e7; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003134}}
 .btn-warning {
   color: #ffffff;
   background-color: #dd5600;
   border-color: #dd5600; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003145}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003144}}
 .btn-warning:hover,
 .btn-warning:focus,
 .btn-warning:active,
@@ -3688,13 +3690,13 @@ fieldset[disabled] .btn-primary.active {
   background-color: #b44600;
   border-color: #a03e00; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003153}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003152}}
 .btn-warning:active,
 .btn-warning.active,
 .open .dropdown-toggle.btn-warning {
   background-image: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003171}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003170}}
 .btn-warning.disabled,
 .btn-warning[disabled],
 fieldset[disabled] .btn-warning,
@@ -3713,13 +3715,13 @@ fieldset[disabled] .btn-warning.active {
   background-color: #dd5600;
   border-color: #dd5600; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003176}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003175}}
 .btn-danger {
   color: #ffffff;
   background-color: #c71c22;
   border-color: #c71c22; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003186}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003185}}
 .btn-danger:hover,
 .btn-danger:focus,
 .btn-danger:active,
@@ -3729,13 +3731,13 @@ fieldset[disabled] .btn-warning.active {
   background-color: #a3171c;
   border-color: #911419; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003194}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003193}}
 .btn-danger:active,
 .btn-danger.active,
 .open .dropdown-toggle.btn-danger {
   background-image: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003212}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003211}}
 .btn-danger.disabled,
 .btn-danger[disabled],
 fieldset[disabled] .btn-danger,
@@ -3754,13 +3756,13 @@ fieldset[disabled] .btn-danger.active {
   background-color: #c71c22;
   border-color: #c71c22; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003217}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003216}}
 .btn-success {
   color: #ffffff;
   background-color: #73a839;
   border-color: #73a839; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003227}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003226}}
 .btn-success:hover,
 .btn-success:focus,
 .btn-success:active,
@@ -3770,13 +3772,13 @@ fieldset[disabled] .btn-danger.active {
   background-color: #5e8a2f;
   border-color: #547a29; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003235}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003234}}
 .btn-success:active,
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
   background-image: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003253}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003252}}
 .btn-success.disabled,
 .btn-success[disabled],
 fieldset[disabled] .btn-success,
@@ -3795,13 +3797,13 @@ fieldset[disabled] .btn-success.active {
   background-color: #73a839;
   border-color: #73a839; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003258}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003257}}
 .btn-info {
   color: #ffffff;
   background-color: #033c73;
   border-color: #033c73; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003268}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003267}}
 .btn-info:hover,
 .btn-info:focus,
 .btn-info:active,
@@ -3811,13 +3813,13 @@ fieldset[disabled] .btn-success.active {
   background-color: #02274b;
   border-color: #011d37; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003276}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003275}}
 .btn-info:active,
 .btn-info.active,
 .open .dropdown-toggle.btn-info {
   background-image: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003294}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003293}}
 .btn-info.disabled,
 .btn-info[disabled],
 fieldset[disabled] .btn-info,
@@ -3836,14 +3838,14 @@ fieldset[disabled] .btn-info.active {
   background-color: #033c73;
   border-color: #033c73; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003299}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003298}}
 .btn-link {
   font-weight: normal;
   color: #2fa4e7;
   cursor: pointer;
   border-radius: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003309}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003308}}
 .btn-link,
 .btn-link:active,
 .btn-link[disabled],
@@ -3852,21 +3854,21 @@ fieldset[disabled] .btn-link {
   -webkit-box-shadow: none;
   box-shadow: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003317}}
 .btn-link,
 .btn-link:hover,
 .btn-link:focus,
 .btn-link:active {
   border-color: transparent; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003322}}
 .btn-link:hover,
 .btn-link:focus {
   color: #157ab5;
   text-decoration: underline;
   background-color: transparent; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003331}}
 .btn-link[disabled]:hover,
 fieldset[disabled] .btn-link:hover,
 .btn-link[disabled]:focus,
@@ -3874,14 +3876,14 @@ fieldset[disabled] .btn-link:focus {
   color: #999999;
   text-decoration: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003336}}
 .btn-lg {
   padding: 14px 16px;
   font-size: 18px;
   line-height: 1.33;
   border-radius: 6px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003344}}
 .btn-sm,
 .btn-xs {
   padding: 5px 10px;
@@ -3889,28 +3891,28 @@ fieldset[disabled] .btn-link:focus {
   line-height: 1.5;
   border-radius: 3px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003351}}
 .btn-xs {
   padding: 1px 5px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003355}}
 .btn-block {
   display: block;
   width: 100%;
   padding-right: 0;
   padding-left: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003362}}
 .btn-block + .btn-block {
   margin-top: 5px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003368}}
 input[type="submit"].btn-block,
 input[type="reset"].btn-block,
 input[type="button"].btn-block {
   width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003372}}
 .btn-success {
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#88c149), color-stop(60%, #73a839), to(#699934));
   background-image: -webkit-linear-gradient(#88c149, #73a839 60%, #699934);
