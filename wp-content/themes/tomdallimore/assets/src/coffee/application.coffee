@@ -7,8 +7,11 @@ $(document).ready ->
 
   $('#blog .tencol p a').attr 'target', '_blank'
 
+  $('#dropdown ul').append '<li class="animated"><a href="#"><div class="icon-search"></div></a></li>'
+
   $('header #menu.mobile').click ->
     $('#dropdown').toggleClass 'active'
+    $(@).toggleClass 'active'
     interval = setInterval(->
       if $('#dropdown ul li:not(.fadeInDown)').size() is 0
         clearInterval interval

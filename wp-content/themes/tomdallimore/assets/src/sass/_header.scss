@@ -109,9 +109,15 @@ header {
 					cursor: pointer;
 					z-index: 1000;
 					position: relative;
+					@include transition-property(color);
+				    @include transition-duration(0.4s);
+				    @include transition-timing-function(ease-in);
 						&:hover {
 							@include opacity(1);
 						}
+				}
+				&.active i {
+					color:$blue;
 				}
 		}
 }
@@ -138,7 +144,7 @@ header {
 		ul {
 			padding:0;
 			margin: 0;
-			width: 246px;
+			width: 300px;
 			margin: 13px auto 0;
 			li {
 				display:inline-block;
@@ -158,6 +164,10 @@ header {
 						opacity:0.9;
 							&:hover {
 								opacity: 1;
+							}
+							.icon-search {
+								position: relative;
+								top: -3px;
 							}
 					}
 					&.current_page_item {

@@ -35,8 +35,8 @@
                     <div class="twocol"></div>
                     <div class="tencol last">
                         <div class="pre_nex">
-                            <?php previous_post_link('%link', '<i class="icon-chevron-left"></i><div>Previous post</div><span>%title</span>', FALSE, '3'); ?> 
-                            <?php next_post_link('%link', '<i class="icon-chevron-right"></i><div>Next post</div><span>%title</span>', FALSE, '3'); ?>
+                            <?php previous_post_link('%link', '<i class="icon-chevron-left"></i><div>Previous post</div><span>%title</span>', true, '3'); ?> 
+                            <?php next_post_link('%link', '<i class="icon-chevron-right"></i><div>Next post</div><span>%title</span>', true, '3'); ?>
                         </div>
                     </div>
                 </div>

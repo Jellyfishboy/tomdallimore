@@ -7,9 +7,11 @@
     });
     $("#twitter_div a").attr("target", "_blank");
     $('#blog .tencol p a').attr('target', '_blank');
+    $('#dropdown ul').append('<li class="animated"><a href="#"><div class="icon-search"></div></a></li>');
     $('header #menu.mobile').click(function() {
       var interval;
       $('#dropdown').toggleClass('active');
+      $(this).toggleClass('active');
       interval = setInterval(function() {
         if ($('#dropdown ul li:not(.fadeInDown)').size() === 0) {
           clearInterval(interval);
