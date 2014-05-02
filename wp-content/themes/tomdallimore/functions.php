@@ -119,7 +119,12 @@ function td_comment($comment, $args, $depth) {
    <li <?php comment_class(); ?> id="li-comment-<?php comment_ID() ?>">
      <div id="comment-<?php comment_ID(); ?>">
       <div class="twocol comment-author vcard">
-         <?php echo get_avatar($comment,$size='75',$default='<path_to_url>' ); ?>
+        <?php if ( get_avatar() ) {
+            echo get_avatar($comment,$size='75',$default='<path_to_url>' ); ?>
+        <?php } else { ?>
+            haha
+        <?php } ?> 
+        }
       </div>
       <?php if ($comment->comment_approved == '0') : ?>
          <em><?php _e('Your comment is awaiting moderation.') ?></em>
