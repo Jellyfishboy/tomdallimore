@@ -83,14 +83,20 @@ echo $current_url;
         			<div class="fourcol">
         			</div>
     			    <div class="fourcol last">
-    			    	<nav role="navigation" class="<?php
+    			    	<nav role="navigation" class="desktop <?php
         if(in_category('12')) echo 'post_highlight';
         if(in_category('13')) echo 'post_highlight';
         if(in_category('14')) echo 'post-highlight';
      ?>">
                             <?php $args = array( 'menu' => 'mainnav', 'container' => false, 'menu_id' => false, 'menu_class' => false); wp_nav_menu($args); ?>
     			        </nav>
+                        <div id="menu" class="mobile">
+                            <i class="icon-ellipsis-vertical"></i>
+                        </div>
     			    </div>
     			</div>			
     		</div>
         </header>
+        <div id="dropdown" class="mobile">
+        <?php $args = array( 'menu' => 'mainnav', 'container' => false, 'menu_id' => false, 'menu_class' => false); wp_nav_menu($args); ?>
+        </div>

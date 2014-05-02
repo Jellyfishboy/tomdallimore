@@ -101,6 +101,62 @@
                 }
         }
     }
+    .social {
+        text-align: center;
+        position: relative;
+        // @include opacity(0);
+        @include transition-property(opacity);
+        @include transition-duration(0.4s);
+        @include transition-timing-function(linear);
+            .icon-caret-up {
+                color:$white;
+                font-size: 1.6em;
+                position: absolute;
+                top: -17px;
+                left: 50px;
+                @include transition-property(color);
+                @include transition-duration(0.4s);
+                @include transition-timing-function(ease-in);
+                text-shadow: 0 0 0 rgba(0,0,0,0);
+            }
+            .links {
+                background-color:$white;
+                @include border-radius(5px);
+                text-align: center;
+                width:65px;
+                margin: 20px auto 0;
+                text-shadow: 0.5px 0.5px 0 #e4e4e4;
+                    a {
+                        display: block;
+                        padding:10px;
+                        vertical-align: middle;
+                        @include transition-property(background-color, color);
+                        @include transition-duration(0.4s, 0.3s);
+                        @include transition-timing-function(ease-in, ease-in);
+                        i {
+                            font-size:1.5em;
+                            color:#808080;
+                            position: relative;
+                            top: 3px;
+                        }
+                        &:first-child {
+                            @include border-top-right-radius(5px);
+                            @include border-top-left-radius(5px);
+                        }
+                        &:last-child {
+                            @include border-bottom-right-radius(5px);
+                            @include border-bottom-left-radius(5px);
+                        }
+                        &:hover {
+                            background-color: $blue;
+                                i {
+                                    color:#fff;
+                                    text-shadow: 0 0 0 rgba(0,0,0,0);
+                                }
+                        }
+                    }
+            }
+    }
 }
 .blog_home {
     article {

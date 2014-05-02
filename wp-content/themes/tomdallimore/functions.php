@@ -115,16 +115,17 @@ function my_comment_form( $args = array(), $post_id = null ) {
         <?php
 }
 function td_comment($comment, $args, $depth) {
-   $GLOBALS['comment'] = $comment; ?>
+   $comment = $GLOBALS['comment'];
+   $email = (string)$GLOBALS['comment']->comment_author_email; ?>
    <li <?php comment_class(); ?> id="li-comment-<?php comment_ID() ?>">
      <div id="comment-<?php comment_ID(); ?>">
       <div class="twocol comment-author vcard">
-        <?php if ( get_avatar() ) {
+        <?php if ( has_gravatar($email) ) {
             echo get_avatar($comment,$size='75',$default='<path_to_url>' ); ?>
         <?php } else { ?>
-            haha
+            <?php echo has_gravatar($GLOBALS['comment']->comment_author_email); ?>
+            <img src="<?php echo bloginfo('template_directory'); ?>/assets/img/gentleman_avatar.jpg" class="avatar photo">
         <?php } ?> 
-        }
       </div>
       <?php if ($comment->comment_approved == '0') : ?>
          <em><?php _e('Your comment is awaiting moderation.') ?></em>
@@ -143,14 +144,7 @@ function td_comment($comment, $args, $depth) {
       
      </div>
 <?php
-        }
-        add_filter( 'avatar_defaults', 'newgravatar' );  
-          
-        function newgravatar ($avatar_defaults) {  
-            $myavatar = get_bloginfo('template_directory') . '/assets/img/batman_avatar.jpg';  
-            $avatar_defaults[$myavatar] = "Batman";  
-            return $avatar_defaults;  
-        }  
+        } 
         add_filter('new_royalslider_skins', 'new_royalslider_add_custom_skin', 10, 2);
         function new_royalslider_add_custom_skin($skins) {
               $skins['tomd'] = array(
@@ -159,4 +153,17 @@ function td_comment($comment, $args, $depth) {
               );
               return $skins;
         }
+?>
+<?php
+
+    function has_gravatar($email_address) {
+        // Build the Gravatar URL by hasing the email address
+        $url = 'http://www.gravatar.com/avatar/' . md5( strtolower( trim ( $email_address ) ) ) . '?d=404';
+        // Now check the headers...
+        $headers = @get_headers( $url );
+
+        // If 200 is found, the user has a Gravatar; otherwise, they don't.
+        return preg_match( '|200|', $headers[0] ) ? true : false;
+    }
+
 ?>

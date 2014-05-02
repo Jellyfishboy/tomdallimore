@@ -74,6 +74,20 @@
     }
   }
 }
+@media only screen and (max-width: 844px) {
+  body {
+    .mobile {
+      display: block;
+    }
+    .desktop {
+      display: none;
+    }
+    header #menu i {
+      font-size: 2.5em;
+      margin-top: 22px;
+    }
+  }
+}
 @media only screen and (max-width: 825px) {
   body {
     .rsContent .infoBlock img {
@@ -81,6 +95,16 @@
     }
     .rsContent .infoBlock .textContent {
       margin-top: 36%;
+    }
+    .mobile {
+      display: block;
+    }
+    .desktop {
+      display: none;
+    }
+    header #menu i {
+      font-size: 2.5em;
+      margin-top: 22px;
     }
   }
 }
@@ -91,6 +115,12 @@
 @media handheld, only screen and (max-width: 767px) {
   body {
     line-height: 1.8em !important;
+    .mobile {
+      display: block;
+    }
+    .desktop {
+      display: none;
+    }
     .sidebar_content {
       display:none;
     }
@@ -106,6 +136,10 @@
           .fourcol:first-child {
             float:left;
           }
+        }
+        #menu i {
+          font-size: 2em;
+          margin-top: 20px;
         }
       }
     }
@@ -279,6 +313,12 @@
 @media handheld, only screen and (max-width: 430px) {
   body {
     line-height: 1.5em !important;
+    .mobile {
+      display: block;
+    }
+    .desktop {
+      display: none;
+    }
     header {
       h1 {
         font-size: 1.3em !important;

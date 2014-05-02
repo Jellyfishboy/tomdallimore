@@ -23,4 +23,16 @@ div[role=main] {
 }
 .content {
     padding-bottom:3em;
+    @include transition-property(padding-top);
+    @include transition-duration(0.4s);
+    @include transition-timing-function(linear);
+      &.active-mobile-menu {
+        padding-top:65px !important;
+      }
+}
+.mobile {
+  display: none;
+}
+.desktop {
+  display: block;
 }

@@ -7,6 +7,25 @@
     });
     $("#twitter_div a").attr("target", "_blank");
     $('#blog .tencol p a').attr('target', '_blank');
+    $('header #menu.mobile').click(function() {
+      var interval;
+      $('#dropdown').toggleClass('active');
+      interval = setInterval(function() {
+        if ($('#dropdown ul li:not(.fadeInDown)').size() === 0) {
+          clearInterval(interval);
+        } else {
+          $('#dropdown ul li:not(.fadeInDown)').first().addClass('fadeInDown');
+        }
+      }, 400);
+      if ($('#dropdown').hasClass('active')) {
+        return $('#dropdown ul li').removeClass('fadeInDown');
+      }
+    });
+    $('.social .links a:first-child').hover((function() {
+      return $(this).parent().parent().find('.icon-caret-up').css('color', '#4CC4DB');
+    }), function() {
+      return $(this).parent().parent().find('.icon-caret-up').css('color', '#E6E6E6');
+    });
     url = "http://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&api_key=8d0b4b96dcede3850ffb7409076c507e&photoset_id=72157640433123824+&per_page=15&format=json&nojsoncallback=1";
     $.getJSON(url, function(res) {
       var photo, _i, _len, _ref, _results;

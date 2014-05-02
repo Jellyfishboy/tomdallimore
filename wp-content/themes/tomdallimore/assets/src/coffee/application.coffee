@@ -7,6 +7,28 @@ $(document).ready ->
 
   $('#blog .tencol p a').attr 'target', '_blank'
 
+  $('header #menu.mobile').click ->
+    $('#dropdown').toggleClass 'active'
+    interval = setInterval(->
+      if $('#dropdown ul li:not(.fadeInDown)').size() is 0
+        clearInterval interval
+      else
+        $('#dropdown ul li:not(.fadeInDown)').first().addClass 'fadeInDown'
+      return
+    , 400)
+    if $('#dropdown').hasClass 'active'
+      $('#dropdown ul li').removeClass 'fadeInDown'
+    # $('.content').toggleClass 'active-mobile-menu'
+  # $('#blog .twocol h2').hover (->
+  #   $(@).parent().parent().find('.social').css 'opacity', '1'
+  # ), ->
+  #   $(@).parent().parent().find('.social').css 'opacity', '0'
+
+  $('.social .links a:first-child').hover (->
+    $(@).parent().parent().find('.icon-caret-up').css 'color', '#4CC4DB'
+  ), ->
+    $(@).parent().parent().find('.icon-caret-up').css 'color', '#E6E6E6'
+
   url = "http://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&api_key=8d0b4b96dcede3850ffb7409076c507e&photoset_id=72157640433123824+&per_page=15&format=json&nojsoncallback=1"
   
   $.getJSON url, (res) ->
