@@ -7,7 +7,6 @@
     });
     $("#twitter_div a").attr("target", "_blank");
     $('#blog .tencol p a').attr('target', '_blank');
-    $('#dropdown ul').append('<li class="animated"><a href="#"><div class="icon-search"></div></a></li>');
     $('header #menu.mobile').click(function() {
       var interval;
       $('#dropdown').toggleClass('active');
@@ -24,10 +23,11 @@
       }
     });
     $('.social .links a:first-child').hover((function() {
-      return $(this).parent().parent().find('.icon-caret-up').css('color', '#4CC4DB');
+      return $('.social').addClass('active');
     }), function() {
-      return $(this).parent().parent().find('.icon-caret-up').css('color', '#E6E6E6');
+      return $('.social').removeClass('active');
     });
+    $('.social .links a').tdSocialSharer();
     url = "http://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&api_key=8d0b4b96dcede3850ffb7409076c507e&photoset_id=72157640433123824+&per_page=15&format=json&nojsoncallback=1";
     $.getJSON(url, function(res) {
       var photo, _i, _len, _ref, _results;
@@ -43,5 +43,44 @@
       return $('[data-toggle=tooltip]').tooltip();
     }
   });
+
+  $.fn.tdSocialSharer = function(options) {
+    var settings;
+    settings = $.extend({
+      popUpWidth: 550,
+      popUpHeight: 450,
+      popUpTop: 100,
+      useCurrentLocation: false
+    }, options);
+    return this.each(function(index, value) {
+      return $(this).bind("click", function(evt) {
+        var height, left, sHeight, sWidth, social, socialImage, socialText, socialURL, top, url, useCurrentLoc, width;
+        evt.preventDefault();
+        social = $(this).data("social");
+        width = settings.popUpWidth;
+        height = settings.popUpHeight;
+        sHeight = screen.height;
+        sWidth = screen.width;
+        left = Math.round((sWidth / 2) - (width / 2));
+        top = settings.popUpTop;
+        url = void 0;
+        useCurrentLoc = settings.useCurrentLocation;
+        socialURL = (useCurrentLoc ? window.location : encodeURIComponent(social.url));
+        socialText = social.text;
+        socialImage = encodeURIComponent(social.image);
+        switch (social.type) {
+          case "facebook":
+            url = "http://www.facebook.com/sharer.php?u=" + socialURL + "&t=" + socialText;
+            break;
+          case "twitter":
+            url = "http://twitter.com/share?url=" + socialURL + "&text=" + socialText;
+            break;
+          case "plusone":
+            url = "https://plusone.google.com/_/+1/confirm?hl=en&url=" + socialURL;
+        }
+        return window.open(url, "", "left=" + left + " , top=" + top + ", width=" + width + ", height=" + height + ", personalbar=0, toolbar=0, scrollbars=1, resizable=1");
+      });
+    });
+  };
 
 }).call(this);

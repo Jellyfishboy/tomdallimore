@@ -129,7 +129,6 @@ function td_comment($comment, $args, $depth) {
       </div>
       <?php if ($comment->comment_approved == '0') : ?>
          <em><?php _e('Your comment is awaiting moderation.') ?></em>
-         <br />
       <?php endif; ?>
 
       <div class="tencol comment-meta commentmetadata last">

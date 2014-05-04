@@ -15,14 +15,7 @@ Template Name: BlogTemp
 				<div class="row">
 					<div class="twocol">
 						<a href="<?php the_permalink() ?>"><h2 class="<?php $category = get_the_category(); echo $category[0]->slug; ?>"><?php $category = get_the_category(); echo $category[0]->cat_name; ?></h2></a>
-						<div class="social">
-                            <i class="icon-caret-up"></i>
-                            <div class="links">
-                                <a href="#" target="_blank"><i class="icon-twitter"></i></a>
-                                <a href="#" target="_blank"><i class="icon-facebook"></i></a>
-                                <a href="#" target="_blank"><i class="icon-google-plus"></i></a>
-                            </div>
-                        </div>
+						<?php include (TEMPLATEPATH . '/socialtools.php'); ?>
 					</div>
 					<div class="tencol last">
 						<a href="<?php the_permalink() ?>"><h1><?php the_title(); ?></h1></a>

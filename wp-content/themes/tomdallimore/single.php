@@ -8,14 +8,7 @@
                 <div class="row">
                     <div class="twocol">
                         <h2 class="<?php $category = get_the_category(); echo $category[0]->slug; ?>"><?php $category = get_the_category(); echo $category[0]->cat_name; ?></h2>
-                        <div class="social">
-                            <i class="icon-caret-up"></i>
-                            <div class="links">
-                                <a href="#" target="_blank"><i class="icon-twitter"></i></a>
-                                <a href="#" target="_blank"><i class="icon-facebook"></i></a>
-                                <a href="#" target="_blank"><i class="icon-google-plus"></i></a>
-                            </div>
-                        </div>
+                        <?php include (TEMPLATEPATH . '/socialtools.php'); ?>
                     </div>
                     <div class="tencol last">
                         <h1><?php the_title(); ?></h1>

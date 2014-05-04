@@ -105,27 +105,12 @@
     .social {
         text-align: center;
         position: relative;
-        // @include opacity(0);
-        @include transition-property(opacity);
-        @include transition-duration(0.4s);
-        @include transition-timing-function(linear);
-            .icon-caret-up {
-                color:$white;
-                font-size: 1.6em;
-                position: absolute;
-                top: -17px;
-                left: 50px;
-                @include transition-property(color);
-                @include transition-duration(0.4s);
-                @include transition-timing-function(ease-in);
-                text-shadow: 0 0 0 rgba(0,0,0,0);
-            }
             .links {
                 background-color:$white;
                 @include border-radius(5px);
                 text-align: center;
                 width:65px;
-                margin: 20px auto 0;
+                margin: 0 auto;
                 text-shadow: 0.5px 0.5px 0 #e4e4e4;
                     a {
                         display: block;
@@ -156,6 +141,23 @@
                                 }
                         }
                     }
+            }
+            &:before {
+                content: '';
+                width: 0px;
+                height: 0px;
+                border-style: solid;
+                border-width: 0 8px 10px 8px;
+                border-color: transparent transparent $white transparent;
+                display: inline-block;
+                top: 10px;
+                position: relative;
+                @include transition-property(border-color);
+                @include transition-duration(0.3s);
+                @include transition-timing-function(ease-in);
+            }
+            &.active:before {
+                border-color: transparent transparent $blue transparent;
             }
     }
 }

@@ -92,5 +92,79 @@
         background-size: 80px 80px !important;
       }
     }
+    #work {
+      .fourcol {
+        ul li {
+          &.css3 {
+              background:url('../img/retina/css3_on.png');
+              background-size: 106px 106px;
+          }
+          &.html5 {
+              background:url('../img/retina/html5_on.png');
+              background-size: 106px 106px;
+          }
+          &.jquery {
+              background:url('../img/retina/jquery_on.png');
+              background-size: 106px 106px;
+          }
+          &.illustrator {
+              background:url('../img/retina/ai_on.png');
+              background-size: 106px 106px;
+          }
+          &.photoshop {
+              background:url('../img/retina/ps_on.png');
+              background-size: 106px 106px;
+          }
+          &.ruby {
+              background:url('../img/retina/ruby_on.png');
+              background-size: 106px 106px;
+          }
+          &.wordpress {
+              background:url('../img/retina/wp_on.png');
+              background-size: 106px 106px;
+          }
+          &.coffeescript {
+              background:url('../img/retina/coffee_on.png');
+              background-size: 106px 106px;
+          }
+          &.sitecore {
+              background:url('../img/retina/sitecore_on.png');
+              background-size: 106px 106px;
+          }
+          &.grunt {
+              background:url('../img/retina/grunt_on.png');
+              background-size: 106px 106px;
+          }
+          &.angularjs {
+              background:url('../img/retina/angularjs_on.png');
+              background-size: 106px 106px;
+          }
+          &.ubuntu {
+              background:url('../img/retina/ubuntu_on.png');
+              background-size: 106px 106px;
+          }
+          &.windows {
+              background:url('../img/retina/windows_on.png');
+              background-size: 106px 106px;
+          }
+          &.dotnet {
+              background:url('../img/retina/dotnet_on.png');
+              background-size: 106px 106px;
+          }
+          &.bower {
+              background:url('../img/retina/bower_on.png');
+              background-size: 106px 106px;
+          }
+          &.yeoman {
+              background:url('../img/retina/yeoman_on.png');
+              background-size: 106px 106px;
+          }
+          &.emberjs {
+              background:url('../img/retina/emberjs_on.png');
+              background-size: 106px 106px;
+          }
+        }
+      }
+    }
   }
 }

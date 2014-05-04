@@ -43,6 +43,15 @@
         }
       }
     }
+    .social {
+      margin: 7px 0 0;
+        &:before {
+          top:7px !important;
+            .links {
+              width:55px !important;
+            }
+        }
+    }
     #sidebar #searchform i {
       top: 8px;
       right: 11px;
@@ -116,30 +125,33 @@
   body {
     line-height: 1.8em !important;
     .social {
-      .links {
-        width:150px !important;
-        overflow: hidden;
-        a {
-          @include box-sizing(border-box);
-          width:50px;
-          float:left;
-            &:first-child {
-                -moz-border-radius-topright: 0px !important;
-                -webkit-border-top-right-radius: 0px !important;
-                border-top-right-radius: 0px !important;
-                @include border-top-left-radius(5px);
-                @include border-bottom-left-radius(5px);
-            }
-            &:last-child {
-                @include border-bottom-right-radius(5px);
-                @include border-top-right-radius(5px);
-                -moz-border-radius-bottomleft: 0px !important;
-                -webkit-border-bottom-left-radius: 0px !important;
-                border-bottom-left-radius: 0px !important;
-            }
+      margin:0 0 10px;
+        .links {
+          width:210px !important;
+          overflow: hidden;
+          a {
+            @include box-sizing(border-box);
+            width:70px;
+            float:left;
+              &:first-child {
+                  -moz-border-radius-topright: 0px !important;
+                  -webkit-border-top-right-radius: 0px !important;
+                  border-top-right-radius: 0px !important;
+                  @include border-top-left-radius(5px);
+                  @include border-bottom-left-radius(5px);
+              }
+              &:last-child {
+                  @include border-bottom-right-radius(5px);
+                  @include border-top-right-radius(5px);
+                  -moz-border-radius-bottomleft: 0px !important;
+                  -webkit-border-bottom-left-radius: 0px !important;
+                  border-bottom-left-radius: 0px !important;
+              }
+          }
         }
-      }
-
+        &:before {
+          top:10px !important;
+        }
     }
     .mobile {
       display: block;
@@ -340,8 +352,8 @@
   body {
     line-height: 1.5em !important;
     .social {
-      .icon-caret-up {
-        left:58%;
+      &:before {
+        top:8px !important;
       }
     }
     .mobile {

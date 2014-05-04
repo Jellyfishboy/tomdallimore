@@ -1,3 +1,4 @@
+/* STANDARD */
 /* Social */
 .sp-facebook-on { @include icono-sprite(facebook_on); }
 .sp-facebook-off { @include icono-sprite(facebook_off); }
@@ -9,7 +10,7 @@
 .sp-github-off { @include icono-sprite(github_off); }
 .sp-stackoverflow-off { @include icono-sprite(so_off); }
 .sp-stackoverflow-on { @include icono-sprite(so_on);}
-// .sp-test-on { @include icono-sprite(test);}
+
 /* Web tools */
 .sp-ai-on { @include icono-sprite(ai_on); }
 .sp-css3-on { @include icono-sprite(css3_on); }
@@ -20,15 +21,15 @@
 .sp-wp-on { @include icono-sprite(wp_on); }
 .sp-coffee-on { @include icono-sprite(coffee_on); }
 .sp-sitecore-on { @include icono-sprite(sitecore_on); }
-// .sp-angularjs-on { @include icono-sprite(angularjs_on); }
-// .sp-grunt-on { @include icono-sprite(grunt_on); }
-// .sp-windows-on { @include icono-sprite(windows_on); }
-// .sp-ubuntu-on { @include icono-sprite(ubuntu_on); }
-// .sp-dotnet-on { @include icono-sprite(dotnet_on); }
-// .sp-bower-on { @include icono-sprite(bower_on); }
-// .sp-yeoman-on { @include icono-sprite(yeoman_on); }
-// .sp-emberjs-on { @include icono-sprite(emberjs_on); }
-//
+.sp-angularjs-on { @include icono-sprite(angularjs_on); }
+.sp-grunt-on { @include icono-sprite(grunt_on); }
+.sp-windows-on { @include icono-sprite(windows_on); }
+.sp-ubuntu-on { @include icono-sprite(ubuntu_on); }
+.sp-dotnet-on { @include icono-sprite(dotnet_on); }
+.sp-bower-on { @include icono-sprite(bower_on); }
+.sp-yeoman-on { @include icono-sprite(yeoman_on); }
+.sp-emberjs-on { @include icono-sprite(emberjs_on); }
+
 
 /* Small icons */
 .sp-briefcase { @include icono-sprite(briefcase); }
