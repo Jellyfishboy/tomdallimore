@@ -325,9 +325,9 @@ div[role=main] {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_responsive\.scss}line{font-family:\0000348}}
     body .social:before {
       top: 7px !important; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_responsive\.scss}line{font-family:\0000350}}
-      body .social:before .links {
-        width: 55px !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_responsive\.scss}line{font-family:\0000351}}
+    body .social .links {
+      width: 55px !important; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_responsive\.scss}line{font-family:\0000355}}
   body #sidebar #searchform i {
     top: 8px;
