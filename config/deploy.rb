@@ -46,15 +46,15 @@ end
 namespace :assets do
     desc "Install Bower dependencies"
     task :bower, :roles => :app do
-      run "cd /home/gimsonrobotics/current && sudo bower install --allow-root"
+      run "cd /var/www/tomdallimore/current && sudo bower install --allow-root"
     end
     desc "Install node dependencies"
     task :node, :roles => :app do
-      run "cd /home/gimsonrobotics/current && npm install"
+      run "cd /var/www/tomdallimore/current && npm install"
     end
     desc "Compile assets with Grunt"
     task :compile, :roles => :app do
-        run "cd /home/gimsonrobotics/curent && grunt production"
+        run "cd /var/www/tomdallimore/curent && grunt production"
     end
 end
 
