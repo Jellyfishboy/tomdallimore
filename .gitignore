@@ -6,6 +6,7 @@ wp-content/themes/tomdallimore/node_modules
 
 wp-content/themes/tomdallimore/assets/src/.sass-cache
 wp-content/themes/tomdallimore/.sass-cache
+wp-content/themes/tomdallimore/assets/.sass-cache
 
 !wp-content/
 wp-content/*
