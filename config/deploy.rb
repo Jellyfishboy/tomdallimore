@@ -34,7 +34,7 @@ namespace :configure do
 end
 namespace :permissions do
     desc "Set sitemap file permissions"
-    task :sitemap_permissions, :roles => :app do
+    task :sitemap, :roles => :app do
         run "chmod 666 /var/www/tomdallimore/current/sitemap.xml"
         run "chmod 666 /var/www/tomdallimore/current/sitemap.xml.gz"
     end
@@ -53,7 +53,7 @@ namespace :assets do
       run "cd /home/gimsonrobotics/current && npm install"
     end
     desc "Compile assets with Grunt"
-    desc :compile, :roles => :app do
+    task :compile, :roles => :app do
         run "cd /home/gimsonrobotics/curent && grunt production"
     end
 end
