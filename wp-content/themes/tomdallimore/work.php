@@ -6,15 +6,30 @@ Template Name: WorkTemp
 <?php get_header(); ?>
 <div id="work_focus" class="focus_content">
 	<div class="row">
-		<img src="<?php echo bloginfo('template_directory'); ?>/assets/img/hero_work.png" />
-		<span></span>
-		<h1>SNGTRKR</h1>
-		<p>“Inspired by the passion and appreciation that we have for music and artists alike, we built SNGTRKR - a webapp to enable other music lovers to easily track artists, so that they never miss another music release.</p>
-		<p>We wanted to make it simple for you to find out when your favourite artists are releasing new content, by removing the hassle of looking through social media sites, subscribing to mailing lists, or repeatedly checking artists' websites.”</p>
-		<p>A new online music service founded by Tom Dallimore and Matt Bessey.</p>
+		<div class="sixcol screenshot">
+			<h1>SNGTRKR</h1>
+			<ul class="skills">
+				<li class="css3"></li>
+				<li class="html5"></li>
+				<li class="jquery"></li>
+			</ul>
+			<img src="<?php echo bloginfo('template_directory'); ?>/assets/img/hero_work.png" />
+		</div>
+		<div class="sixcol last">
+			<span></span>
+			<h1>SNGTRKR</h1>
+			<p>“Inspired by the passion and appreciation that we have for music and artists alike, we built SNGTRKR - a webapp to enable other music lovers to easily track artists, so that they never miss another music release.</p>
+			<p>We wanted to make it simple for you to find out when your favourite artists are releasing new content, by removing the hassle of looking through social media sites, subscribing to mailing lists, or repeatedly checking artists' websites.”</p>
+			<p>A new online music service founded by Tom Dallimore and Matt Bessey.</p>
+			<ul class="skills">
+				<li class="css3"></li>
+				<li class="html5"></li>
+				<li class="jquery"></li>
+			</ul>
+			<div class="btn btn-success">Visit website</div>
+		</div>
 	</div>
 </div>
-<div id="content_divider"></div>
 <section class="content">
     <div class="container" id="work">
 			<?php $wp_query = new WP_Query();
@@ -24,7 +39,7 @@ Template Name: WorkTemp
 				<div class="fourcol">
 					<h1><?php the_title(); ?></h1>
 					<p><?php the_excerpt(); ?></p>
-					<ul>
+					<ul class="skills">
 						<?php
 							$posttags = get_the_tags();
 							if ($posttags) {

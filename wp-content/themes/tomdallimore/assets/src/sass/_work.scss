@@ -21,79 +21,74 @@
                     background-size: 100%;
                 }
             }
-            .fourcol {
-                ul {
-                    padding:0;
-                    margin-bottom: 0;
-                    li {
-                        height:53px;
-                        width:53px;
-                        display: inline-block;
-                        margin-right: 9px;
-                            &.css3 {
-                                @extend .sp-css3-on;
-                            }
-                            &.html5 {
-                                @extend .sp-html5-on;
-                            }
-                            &.jquery {
-                                @extend .sp-jquery-on;
-                            }
-                            &.illustrator {
-                                @extend .sp-ai-on;
-                            }
-                            &.photoshop {
-                                @extend .sp-ps-on;
-                            }
-                            &.ruby {
-                                @extend .sp-ruby-on;
-                            }
-                            &.wordpress {
-                                @extend .sp-wp-on;
-                            }
-                            &.coffeescript {
-                                @extend .sp-coffee-on;
-                            }
-                            &.sitecore {
-                                @extend .sp-sitecore-on;
-                            }
-                            &.grunt {
-                                @extend .sp-grunt-on;
-                            }
-                            &.angularjs {
-                                @extend .sp-angularjs-on;
-                            }
-                            &.ubuntu {
-                                @extend .sp-ubuntu-on;
-                            }
-                            &.windows {
-                                @extend .sp-windows-on;
-                            }
-                            &.dotnet {
-                                @extend .sp-dotnet-on;
-                            }
-                            &.bower {
-                                @extend .sp-bower-on;
-                            }
-                            &.yeoman {
-                                @extend .sp-yeoman-on;
-                            }
-                            &.emberjs {
-                                @extend .sp-emberjs-on;
-                            }
-                            &:last-child {
-                                margin-right:0;
-                            }
-                    }
-                }
-            }
     }
 }
-#work_focus {
-    img {
-        float:right;
-    }
-    h1, p {
-        float:left;
+#work_focus + .content {
+    margin-top:-70px;
+    position: relative;
+    background-color: #28292e;
+}
+ul.skills {
+    padding:0;
+    margin-bottom: 0;
+    li {
+        height:53px;
+        width:53px;
+        display: inline-block;
+        margin-right: 9px;
+            &.css3 {
+                @extend .sp-css3-on;
+            }
+            &.html5 {
+                @extend .sp-html5-on;
+            }
+            &.jquery {
+                @extend .sp-jquery-on;
+            }
+            &.illustrator {
+                @extend .sp-ai-on;
+            }
+            &.photoshop {
+                @extend .sp-ps-on;
+            }
+            &.ruby {
+                @extend .sp-ruby-on;
+            }
+            &.wordpress {
+                @extend .sp-wp-on;
+            }
+            &.coffeescript {
+                @extend .sp-coffee-on;
+            }
+            &.sitecore {
+                @extend .sp-sitecore-on;
+            }
+            &.grunt {
+                @extend .sp-grunt-on;
+            }
+            &.angularjs {
+                @extend .sp-angularjs-on;
+            }
+            &.ubuntu {
+                @extend .sp-ubuntu-on;
+            }
+            &.windows {
+                @extend .sp-windows-on;
+            }
+            &.dotnet {
+                @extend .sp-dotnet-on;
+            }
+            &.bower {
+                @extend .sp-bower-on;
+            }
+            &.yeoman {
+                @extend .sp-yeoman-on;
+            }
+            &.emberjs {
+                @extend .sp-emberjs-on;
+            }
+            &:last-child {
+                margin-right:0;
+            }
     }
 }
