@@ -72,8 +72,8 @@ end
 
 after :deploy, "assets:sass"
 after "assets:sass", "assets:coffee"
-after "assets:coffeeg", "configure:symlinks"
+after "assets:coffee", "configure:symlinks"
 after "configure:symlinks", "configure:database"
 # after "configure:database", "permissions:sitemap"
 after "configure:database", "permissions:root"
-after "permission:root", "clean:sqlite"
+after "permissions:root", "clean:sqlite"

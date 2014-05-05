@@ -176,190 +176,190 @@ div[role=main] {
 
 /* STANDARD */
 /* Social */
-/* line 4, ../src/sass/_sprite.scss */
+/* line 3, ../src/sass/_sprite.scss */
 .sp-facebook-on, footer .container span a.facebook_link:hover {
   background-position: -695px 0;
 }
 
-/* line 5, ../src/sass/_sprite.scss */
+/* line 4, ../src/sass/_sprite.scss */
 .sp-facebook-off, footer .container span a.facebook_link {
   background-position: -660px 0;
 }
 
-/* line 6, ../src/sass/_sprite.scss */
+/* line 5, ../src/sass/_sprite.scss */
 .sp-twitter-on, footer .container span a.twitter_link:hover {
   background-position: -1414px 0;
 }
 
-/* line 7, ../src/sass/_sprite.scss */
+/* line 6, ../src/sass/_sprite.scss */
 .sp-twitter-off, footer .container span a.twitter_link {
   background-position: -1379px 0;
 }
 
-/* line 8, ../src/sass/_sprite.scss */
+/* line 7, ../src/sass/_sprite.scss */
 .sp-linked-on, footer .container span a.linkedin_link:hover {
   background-position: -994px 0;
 }
 
-/* line 9, ../src/sass/_sprite.scss */
+/* line 8, ../src/sass/_sprite.scss */
 .sp-linked-off, footer .container span a.linkedin_link {
   background-position: -959px 0;
 }
 
-/* line 10, ../src/sass/_sprite.scss */
+/* line 9, ../src/sass/_sprite.scss */
 .sp-github-on, footer .container span a.github_link:hover {
   background-position: -765px 0;
 }
 
-/* line 11, ../src/sass/_sprite.scss */
+/* line 10, ../src/sass/_sprite.scss */
 .sp-github-off, footer .container span a.github_link {
   background-position: -730px 0;
 }
 
-/* line 12, ../src/sass/_sprite.scss */
+/* line 11, ../src/sass/_sprite.scss */
 .sp-stackoverflow-off, footer .container span a.stackoverflow_link {
   background-position: -1309px 0;
 }
 
-/* line 13, ../src/sass/_sprite.scss */
+/* line 12, ../src/sass/_sprite.scss */
 .sp-stackoverflow-on, footer .container span a.stackoverflow_link:hover {
   background-position: -1344px 0;
 }
 
 /* Web tools */
-/* line 16, ../src/sass/_sprite.scss */
+/* line 15, ../src/sass/_sprite.scss */
 .sp-ai-on, #work .row .fourcol ul li.illustrator {
   background-position: 0 0;
 }
 
-/* line 17, ../src/sass/_sprite.scss */
+/* line 16, ../src/sass/_sprite.scss */
 .sp-css3-on, #work .row .fourcol ul li.css3 {
   background-position: -461px 0;
 }
 
-/* line 18, ../src/sass/_sprite.scss */
+/* line 17, ../src/sass/_sprite.scss */
 .sp-html5-on, #work .row .fourcol ul li.html5 {
   background-position: -853px 0;
 }
 
-/* line 19, ../src/sass/_sprite.scss */
+/* line 18, ../src/sass/_sprite.scss */
 .sp-jquery-on, #work .row .fourcol ul li.jquery {
   background-position: -906px 0;
 }
 
-/* line 20, ../src/sass/_sprite.scss */
+/* line 19, ../src/sass/_sprite.scss */
 .sp-ps-on, #work .row .fourcol ul li.photoshop {
   background-position: -1108px 0;
 }
 
-/* line 21, ../src/sass/_sprite.scss */
+/* line 20, ../src/sass/_sprite.scss */
 .sp-ruby-on, #work .row .fourcol ul li.ruby {
   background-position: -1161px 0;
 }
 
-/* line 22, ../src/sass/_sprite.scss */
+/* line 21, ../src/sass/_sprite.scss */
 .sp-wp-on, #work .row .fourcol ul li.wordpress {
   background-position: -1975px 0;
 }
 
-/* line 23, ../src/sass/_sprite.scss */
+/* line 22, ../src/sass/_sprite.scss */
 .sp-coffee-on, #work .row .fourcol ul li.coffeescript {
   background-position: -408px 0;
 }
 
-/* line 24, ../src/sass/_sprite.scss */
+/* line 23, ../src/sass/_sprite.scss */
 .sp-sitecore-on, #work .row .fourcol ul li.sitecore {
   background-position: -1256px 0;
 }
 
-/* line 25, ../src/sass/_sprite.scss */
+/* line 24, ../src/sass/_sprite.scss */
 .sp-angularjs-on, #work .row .fourcol ul li.angularjs {
   background-position: -53px 0;
 }
 
-/* line 26, ../src/sass/_sprite.scss */
+/* line 25, ../src/sass/_sprite.scss */
 .sp-grunt-on, #work .row .fourcol ul li.grunt {
   background-position: -800px 0;
 }
 
-/* line 27, ../src/sass/_sprite.scss */
+/* line 26, ../src/sass/_sprite.scss */
 .sp-windows-on, #work .row .fourcol ul li.windows {
   background-position: -1922px 0;
 }
 
-/* line 28, ../src/sass/_sprite.scss */
+/* line 27, ../src/sass/_sprite.scss */
 .sp-ubuntu-on, #work .row .fourcol ul li.ubuntu {
   background-position: -1449px 0;
 }
 
-/* line 29, ../src/sass/_sprite.scss */
+/* line 28, ../src/sass/_sprite.scss */
 .sp-dotnet-on, #work .row .fourcol ul li.dotnet {
   background-position: -554px 0;
 }
 
-/* line 30, ../src/sass/_sprite.scss */
+/* line 29, ../src/sass/_sprite.scss */
 .sp-bower-on, #work .row .fourcol ul li.bower {
   background-position: -266px 0;
 }
 
-/* line 31, ../src/sass/_sprite.scss */
+/* line 30, ../src/sass/_sprite.scss */
 .sp-yeoman-on, #work .row .fourcol ul li.yeoman {
   background-position: -2028px 0;
 }
 
-/* line 32, ../src/sass/_sprite.scss */
+/* line 31, ../src/sass/_sprite.scss */
 .sp-emberjs-on, #work .row .fourcol ul li.emberjs {
   background-position: -607px 0;
 }
 
 /* Small icons */
-/* line 36, ../src/sass/_sprite.scss */
+/* line 35, ../src/sass/_sprite.scss */
 .sp-briefcase {
   background-position: -319px 0;
 }
 
-/* line 37, ../src/sass/_sprite.scss */
+/* line 36, ../src/sass/_sprite.scss */
 .sp-diary, #about_focus span {
   background-position: -514px 0;
 }
 
-/* line 38, ../src/sass/_sprite.scss */
+/* line 37, ../src/sass/_sprite.scss */
 .sp-schematic, #work_focus span {
   background-position: -1214px 0;
 }
 
-/* line 39, ../src/sass/_sprite.scss */
+/* line 38, ../src/sass/_sprite.scss */
 .sp-clipboard, .rsContent .infoBlock .textContent a span {
   background-position: -366px 0;
 }
 
 /* Other images */
-/* line 41, ../src/sass/_sprite.scss */
+/* line 40, ../src/sass/_sprite.scss */
 .sp-blog-link, #blog .ninecol h2.link {
   background-position: -106px 0;
 }
 
-/* line 42, ../src/sass/_sprite.scss */
+/* line 41, ../src/sass/_sprite.scss */
 .sp-blog-pencil, #blog .ninecol h2.article {
   background-position: -186px 0;
 }
 
-/* line 43, ../src/sass/_sprite.scss */
+/* line 42, ../src/sass/_sprite.scss */
 .sp-profile {
   background-position: -1029px 0;
 }
 
-/* line 44, ../src/sass/_sprite.scss */
+/* line 43, ../src/sass/_sprite.scss */
 .sp-what-i-do, #home .row:first-child .fourcol:first-child div {
   background-position: -1502px 0;
 }
 
-/* line 45, ../src/sass/_sprite.scss */
+/* line 44, ../src/sass/_sprite.scss */
 .sp-what-i-love, #home .row:first-child .fourcol:nth-child(2) div {
   background-position: -1642px 0;
 }
 
-/* line 46, ../src/sass/_sprite.scss */
+/* line 45, ../src/sass/_sprite.scss */
 .sp-where-i-reside, #home .row:first-child .fourcol:last-child div {
   background-position: -1782px 0;
 }
