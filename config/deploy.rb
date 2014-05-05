@@ -33,11 +33,11 @@ namespace :configure do
     end
 end
 namespace :permissions do
-    desc "Set sitemap file permissions"
-    task :sitemap, :roles => :app do
-        run "chmod 666 /var/www/tomdallimore/current/sitemap.xml"
-        run "chmod 666 /var/www/tomdallimore/current/sitemap.xml.gz"
-    end
+    # desc "Set sitemap file permissions"
+    # task :sitemap, :roles => :app do
+    #     run "chmod 666 /var/www/tomdallimore/current/sitemap.xml"
+    #     run "chmod 666 /var/www/tomdallimore/current/sitemap.xml.gz"
+    # end
     desc "Set root folder permissions to www-data"
     task :root, :roles => :app do
         run "chown -R www-data:www-data /var/www/tomdallimore"
@@ -54,7 +54,7 @@ namespace :assets do
     end
     desc "Compile assets with Grunt"
     task :compile, :roles => :app do
-        run "cd /var/www/tomdallimore/curent/wp-content/themes/tomdallimore && grunt production"
+      run "cd /var/www/tomdallimore/current/wp-content/themes/tomdallimore && grunt production --force"
     end
 end
 
@@ -63,5 +63,5 @@ after "assets:node", "assets:bower"
 after "assets:bower", "assets:compile"
 after "assets:compile", "configure:symlinks"
 after "configure:symlinks", "configure:database"
-after "configure:database", "permissions:sitemap"
-after "permissions:sitemap", "permissions:root"
+# after "configure:database", "permissions:sitemap"
+after "configure:database", "permissions:root"
