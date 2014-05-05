@@ -46,15 +46,15 @@ end
 namespace :assets do
     desc "Install Bower dependencies"
     task :bower, :roles => :app do
-      run "cd /var/www/tomdallimore/current && sudo bower install --allow-root"
+      run "cd /var/www/tomdallimore/current/wp-content/themes/tomdallimore && sudo bower install --allow-root"
     end
     desc "Install node dependencies"
     task :node, :roles => :app do
-      run "cd /var/www/tomdallimore/current && npm install"
+      run "cd /var/www/tomdallimore/current/wp-content/themes/tomdallimore && npm install"
     end
     desc "Compile assets with Grunt"
     task :compile, :roles => :app do
-        run "cd /var/www/tomdallimore/curent && grunt production"
+        run "cd /var/www/tomdallimore/curent/wp-content/themes/tomdallimore && grunt production"
     end
 end
 
