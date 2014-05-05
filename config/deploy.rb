@@ -18,6 +18,13 @@ set :deploy_via, :remote_cache
 set :copy_exclude, [".git", ".DS_Store", ".gitignore", ".gitmodules"]
 set :use_sudo, false
 
+# Paths
+set :asset_path, "assets"
+set :theme_path, "wp-content/themes/tomdallimore"
+set :coffee_to_path, "js"
+set :coffee_dir, "src/coffee"
+set :js_file_name, "application.js"
+
 # additional settings
 default_run_options[:pty] = true
 
@@ -44,24 +51,22 @@ namespace :permissions do
     end
 end
 namespace :assets do
-    desc "Install Bower dependencies"
-    task :bower, :roles => :app do
-      run "cd /var/www/tomdallimore/current/wp-content/themes/tomdallimore && sudo bower install --allow-root"
+    desc "Compile Sass/Compass"
+        task :sass, :roles => :app do
+            #compile and upload sass files
+            run_locally( "cd #{theme_path}/#{asset_path}; compass compile" )
+            upload( "#{theme_path}/#{asset_path}/css", "#{release_path}/#{theme_path}/#{asset_path}/css" )
     end
-    desc "Install node dependencies"
-    task :node, :roles => :app do
-      run "cd /var/www/tomdallimore/current/wp-content/themes/tomdallimore && npm install"
-    end
-    desc "Compile assets with Grunt"
-    task :compile, :roles => :app do
-      run "cd /var/www/tomdallimore/current/wp-content/themes/tomdallimore && grunt production --force"
+    desc "Compile Coffeescript"
+        task :coffee, :roles => :app do
+            run_locally( "cd #{theme_path}/#{asset_path}; coffee -c -o #{coffee_to_path} -j #{js_file_name} #{coffee_dir}")
+            upload( "#{theme_path}/#{asset_path}/js", "#{release_path}/#{theme_path}/#{asset_path}/js" )
     end
 end
 
-after :deploy, "assets:node"
-after "assets:node", "assets:bower"
-after "assets:bower", "assets:compile"
-after "assets:compile", "configure:symlinks"
+after :deploy, "assets:sass"
+after "assets:sass", "assets:coffee"
+after "assets:coffee", "configure:symlinks"
 after "configure:symlinks", "configure:database"
 # after "configure:database", "permissions:sitemap"
 after "configure:database", "permissions:root"
