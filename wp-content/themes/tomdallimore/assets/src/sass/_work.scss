@@ -13,14 +13,6 @@
             h1 {
                 margin: 0 0 10px;
             }
-            .eightcol {
-                div {
-                    height:350px;
-                    @include border-radius(7px);
-                    background-repeat:no-repeat;
-                    background-size: 100%;
-                }
-            }
     }
 }
 #work_focus + .content {

@@ -91,7 +91,7 @@ echo $current_url;
                             <?php $args = array( 'menu' => 'mainnav', 'container' => false, 'menu_id' => false, 'menu_class' => false); wp_nav_menu($args); ?>
     			        </nav>
                         <div id="menu" class="mobile">
-                            <i class="icon-ellipsis-vertical"></i>
+                            <i class="icon-ellipsis"></i>
                         </div>
     			    </div>
     			</div>			

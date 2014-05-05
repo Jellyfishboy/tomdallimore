@@ -17,7 +17,16 @@
        -o-user-select: none;
           user-select: none;
 }
-
+.btn-large {
+  font-size:16px;
+}
+.btn i {
+  color:#fff;
+  text-shadow: 0 0 0 #fff;
+  margin-right:7px;
+  position: relative;
+  top:1px;
+} 
 .btn:focus {
   outline: thin dotted #333;
   outline: 5px auto -webkit-focus-ring-color;
@@ -252,6 +261,52 @@ fieldset[disabled] .btn-success:active,
 fieldset[disabled] .btn-success.active {
   background-color: #73a839;
   border-color: #73a839;
+}
+
+.btn-black {
+  color: #ffffff;
+  background-color: #363636;
+  border-color: #000000;
+}
+
+.btn-black i {
+  color:#ffffff;
+  text-shadow:0 0 0 rgba(0,0,0,0);
+}
+
+.btn-black:hover,
+.btn-black:focus,
+.btn-black:active,
+.btn-black.active,
+.open .dropdown-toggle.btn-black {
+  color: #ffffff;
+  background-color: #333333;
+  border-color: #000000;
+}
+
+.btn-black:active,
+.btn-black.active,
+.open .dropdown-toggle.btn-black {
+  background-image: none;
+}
+
+.btn-black.disabled,
+.btn-black[disabled],
+fieldset[disabled] .btn-black,
+.btn-black.disabled:hover,
+.btn-black[disabled]:hover,
+fieldset[disabled] .btn-black:hover,
+.btn-black.disabled:focus,
+.btn-black[disabled]:focus,
+fieldset[disabled] .btn-black:focus,
+.btn-black.disabled:active,
+.btn-black[disabled]:active,
+fieldset[disabled] .btn-black:active,
+.btn-black.disabled.active,
+.btn-black[disabled].active,
+fieldset[disabled] .btn-black.active {
+  background-color: #333333;
+  border-color: #000000;
 }
 
 .btn-info {

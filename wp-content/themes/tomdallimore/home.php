@@ -68,7 +68,7 @@ Template Name: HomeTemp
                         <p>Lightweight, easy to use e-commerce platform.</p>
                     </span>
                     <span>
-                        <i class="icon-star"></i><p>0</p><i class="icon-code-fork"></i><p>1</p>
+                        <i class="icon-star"></i><p>0</p><i class="icon-flow-branch"></i><p>1</p>
                     </span>
                 </div>
                 <div>
@@ -77,7 +77,7 @@ Template Name: HomeTemp
                         <p>Responsive administration template.</p>
                     </span>
                     <span>
-                        <i class="icon-star"></i><p>1</p><i class="icon-code-fork"></i><p>0</p>
+                        <i class="icon-star"></i><p>1</p><i class="icon-flow-branch"></i><p>0</p>
                     </span>
                 </div>
                 <div>
@@ -86,7 +86,7 @@ Template Name: HomeTemp
                         <p>SNGTRKR platform built using Rails 4 and Ember.js.</p>
                     </span>
                     <span>
-                        <i class="icon-star"></i><p>0</p><i class="icon-code-fork"></i><p>0</p>
+                        <i class="icon-star"></i><p>0</p><i class="icon-flow-branch"></i><p>0</p>
                     </span>
                 </div>
             </div>

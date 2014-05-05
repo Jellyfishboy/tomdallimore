@@ -81,13 +81,6 @@
     .rsContent .infoBlock .textContent {
       margin-top: 35%;
     }
-    #work_focus {
-      .sixcol.last {
-          p:not(:nth-child(3)) {
-            display: none;
-          }
-      }
-    }
   }
 }
 @media only screen and (max-width: 844px) {
@@ -147,6 +140,14 @@
           }
       }
     }
+    #work {
+      .row {
+          padding:20px 0;
+            ul.skills {
+              margin-bottom:15px;
+            }
+        }
+    }
     .social {
       margin:0 0 10px;
         .links {
@@ -200,7 +201,7 @@
         }
         #menu i {
           font-size: 2em;
-          margin-top: 20px;
+          margin-top: 19px;
         }
       }
     }

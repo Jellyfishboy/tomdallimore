@@ -37,9 +37,6 @@
             font-family: "MuseoSans-300", Helvetica, Arial, sans-serif !important;
             text-shadow: 0 0 0 #fff;
         }
-        .btn {
-            width:100px;
-        }
 }
 #work_focus {
     overflow:hidden;
@@ -64,6 +61,10 @@
                 .btn {
                     text-shadow: rgb(255, 255, 255) 0px 0px 0px;
                     margin-top: 10px;
+                    font-family: "MuseoSans-300", Helvetica, Arial, sans-serif;
+                        &.btn-success {
+                            margin-right:5px;
+                        }
                 }
             }
             .screenshot {
