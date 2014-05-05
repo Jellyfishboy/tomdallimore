@@ -63,10 +63,17 @@ namespace :assets do
             upload( "#{theme_path}/#{asset_path}/js", "#{release_path}/#{theme_path}/#{asset_path}/js" )
     end
 end
+namespace :clean do
+    desc "Remove sQlite database file"
+    task :sqlite, :roles => :app do
+        run "rm /var/www/tomdallimore/current/wp-content/db.php"
+    end
+end
 
 after :deploy, "assets:sass"
 after "assets:sass", "assets:coffee"
-after "assets:coffee", "configure:symlinks"
+after "assets:coffeeg", "configure:symlinks"
 after "configure:symlinks", "configure:database"
 # after "configure:database", "permissions:sitemap"
 after "configure:database", "permissions:root"
+after "permission:root", "clean:sqlite"
