@@ -62,6 +62,10 @@ namespace :assets do
             run_locally( "cd #{theme_path}/#{asset_path}; coffee -c -o #{coffee_to_path} -j #{js_file_name} #{coffee_dir}")
             upload( "#{theme_path}/#{asset_path}/js", "#{release_path}/#{theme_path}/#{asset_path}/js" )
     end
+    desc "Upload sprite"
+    task :sprite, :roles => :app do
+        upload( "#{theme_path}/#{asset_path}/img/icono*.png", "#{release_path}/#{theme_path}/#{asset_path}/img" )
+    end
 end
 namespace :clean do
     desc "Remove sQlite database file"
