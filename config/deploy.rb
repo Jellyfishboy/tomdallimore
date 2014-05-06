@@ -44,27 +44,27 @@ namespace :permissions do
     # end
     desc "Set root folder permissions to www-data"
     task :root, :roles => :app do
-        run "chown -R www-data:www-data /var/www/tomdallimore"
+        run "chown -R www-data:www-data #{application_dir}"
     end
 end
 namespace :assets do
     desc "Install Bower dependencies"
     task :bower, :roles => :app do
-      run "cd /var/www/tomdallimore/current/wp-content/themes/tomdallimore && sudo bower install --allow-root"
+      run "cd #{application_dir}/current/wp-content/themes/tomdallimore && sudo bower install --allow-root"
     end
     desc "Install node dependencies"
     task :node, :roles => :app do
-      run "cd /var/www/tomdallimore/current/wp-content/themes/tomdallimore && npm install"
+      run "cd #{application_dir}/current/wp-content/themes/tomdallimore && npm install"
     end
     desc "Compile assets with Grunt"
     task :compile, :roles => :app do
-      run "cd /var/www/tomdallimore/current/wp-content/themes/tomdallimore && grunt production --force"
+      run "cd #{application_dir}/current/wp-content/themes/tomdallimore && grunt production --force"
     end
 end
 namespace :clean do
     desc "Remove sQlite database configuration"
     task :sqlite, :roles => :app do
-        run "rm /var/www/tomdallimore/current/wp-content/db.php"
+        run "rm #{application_dir}/current/wp-content/db.php"
     end
 end
 after :deploy, "assets:node"
