@@ -65,6 +65,9 @@
         }
       }
     }
+    #work_focus .row h1:before {
+      vertical-align: -34%;
+    }
     .rsContent .infoBlock img {
       margin-top: 22%;
     }
@@ -137,6 +140,12 @@
             h1, ul.skills {
               display: block !important;
             }
+            .btn {
+              display: inline-block;
+            }
+          }
+          h1:before {
+            vertical-align: -32%;
           }
       }
     }
