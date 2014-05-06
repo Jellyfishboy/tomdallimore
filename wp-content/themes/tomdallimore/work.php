@@ -21,14 +21,16 @@ Template Name: WorkTemp
 						}
 					?>
 				</ul>
-				<?php if (has_post_thumbnail( $post->ID ) ): ?>
-					<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>
-					<img src="<?php echo $image[0]; ?>" />
-				<?php endif; ?>
+				<a href="http://soca.tomdallimore.com" target="_blank">
+					<?php if (has_post_thumbnail( $post->ID ) ): ?>
+						<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>
+						<img src="<?php echo $image[0]; ?>" />
+					<?php endif; ?>
+				</a>
 			</div>
 			<div class="sixcol last">
 				<span></span>
-				<h1><?php the_title(); ?></h1>
+				<a href="http://soca.tomdallimore.com" target="_blank"><h1><?php the_title(); ?></h1></a>
 				<p><?php the_excerpt(); ?></p>
 				<ul class="skills">
 					<?php
