@@ -44,10 +44,12 @@ Template Name: HomeTemp
                 </a>
             </div>
             <div class="fourcol">
-                <div data-toggle="tooltip" data-placement="bottom" data-original-title="Gimson Robotics" class="recent"></div>
+                <a href="http://soca.tomdallimore.com" target="_blank">
+                    <div data-toggle="tooltip" data-placement="bottom" data-original-title="Gimson Robotics" class="recent"></div>
+                </a>
             </div>
             <div class="fourcol last">
-                <a href="http://www.dyson.cn" target="_blank">
+                <a href="http://content.dyson.de/costcal/" target="_blank">
                     <div data-toggle="tooltip" data-placement="bottom" data-original-title="Dyson CN" class="recent"></div>
                 </a>
             </div>
