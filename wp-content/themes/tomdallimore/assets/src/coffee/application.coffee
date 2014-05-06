@@ -4,6 +4,8 @@ $(document).ready ->
     $(this).removeAttr "width"
     $(this).removeAttr "height"
 
+  $('[data-toggle=tooltip]').tooltip()
+
   # Add target blank atttributes to links in blog posts
   $("#twitter_div a").attr "target", "_blank"
   $('#blog .tencol p a').attr 'target', '_blank'
@@ -38,8 +40,8 @@ $(document).ready ->
         $('#photography .row .tencol').append '<img src="http://farm'+photo.farm+'.staticflickr.com/'+photo.server+'/'+photo.id+'_'+photo.secret+'_b.jpg"/>'
 
   # Utilise tooltips on desktop only
-  unless /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
-      $('[data-toggle=tooltip]').tooltip()
+  # unless /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
+  
 
 # Function for creating the social share popups
 $.fn.tdSocialSharer = (options) ->

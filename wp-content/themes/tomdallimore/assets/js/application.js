@@ -5,6 +5,7 @@
       $(this).removeAttr("width");
       return $(this).removeAttr("height");
     });
+    $('[data-toggle=tooltip]').tooltip();
     $("#twitter_div a").attr("target", "_blank");
     $('#blog .tencol p a').attr('target', '_blank');
     $('header #menu.mobile').click(function() {
@@ -29,7 +30,7 @@
     });
     $('.social .links a').tdSocialSharer();
     url = "http://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&api_key=8d0b4b96dcede3850ffb7409076c507e&photoset_id=72157640433123824+&per_page=15&format=json&nojsoncallback=1";
-    $.getJSON(url, function(res) {
+    return $.getJSON(url, function(res) {
       var photo, _i, _len, _ref, _results;
       _ref = res.photoset.photo;
       _results = [];
@@ -39,9 +40,6 @@
       }
       return _results;
     });
-    if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-      return $('[data-toggle=tooltip]').tooltip();
-    }
   });
 
   $.fn.tdSocialSharer = function(options) {

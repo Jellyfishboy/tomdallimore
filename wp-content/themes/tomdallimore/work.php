@@ -55,7 +55,7 @@ Template Name: WorkTemp
 			<div class="row">
 				<div class="fourcol">
 					<h1><?php the_title(); ?></h1>
-					<p><?php the_excerpt(); ?></p>
+					<p><?php the_content(); ?></p>
 					<ul class="skills">
 						<?php
 							$posttags = get_the_tags();
