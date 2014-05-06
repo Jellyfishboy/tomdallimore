@@ -34,8 +34,8 @@
 /* Small icons */
 .sp-briefcase { @include icono-sprite(briefcase); }
 .sp-diary { @include icono-sprite(diary); }
-.sp-schematic { @include icono-sprite(schematics); }
 .sp-clipboard { @include icono-sprite(clipboard); }
+
 /* Other images */
 .sp-blog-link { @include icono-sprite(blog_link); }
 .sp-blog-pencil { @include icono-sprite(blog_pencil); }
