@@ -33,7 +33,7 @@ namespace :configure do
     end
     desc "Copy production config file across"
     task :database, :roles => :app do 
-        run "cp /var/www/wpconfig/tomdallimore/wp-config-production.php /var/www/tomdallimore/current"
+        run "cp /var/www/wpconfig/tomdallimore/wp-config-production.php {application_dir}/current"
     end
 end
 namespace :permissions do
