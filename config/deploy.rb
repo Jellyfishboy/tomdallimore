@@ -33,7 +33,7 @@ namespace :configure do
     end
     desc "Copy production config file across"
     task :database, :roles => :app do 
-        run "cp /var/www/wpconfig/tomdallimore/wp-config-production.php {application_dir}/current"
+        run "cp /var/www/wpconfig/tomdallimore/wp-config-production.php #{current_path}"
     end
 end
 namespace :permissions do
@@ -44,27 +44,27 @@ namespace :permissions do
     # end
     desc "Set root folder permissions to www-data"
     task :root, :roles => :app do
-        run "chown -R www-data:www-data #{application_dir}"
+        run "chown -R www-data:www-data #{current_path}"
     end
 end
 namespace :assets do
     desc "Install Bower dependencies"
     task :bower, :roles => :app do
-      run "cd #{application_dir}/current/wp-content/themes/tomdallimore && sudo bower install --allow-root"
+      run "cd #{current_path}/wp-content/themes/tomdallimore && sudo bower install --allow-root"
     end
     desc "Install node dependencies"
     task :node, :roles => :app do
-      run "cd #{application_dir}/current/wp-content/themes/tomdallimore && npm install"
+      run "cd #{current_path}/wp-content/themes/tomdallimore && npm install"
     end
     desc "Compile assets with Grunt"
     task :compile, :roles => :app do
-      run "cd #{application_dir}/current/wp-content/themes/tomdallimore && grunt production --force"
+      run "cd #{current_path}/wp-content/themes/tomdallimore && grunt production --force"
     end
 end
 namespace :clean do
     desc "Remove sQlite database configuration"
     task :sqlite, :roles => :app do
-        run "rm #{application_dir}/current/wp-content/db.php"
+        run "rm #{current_path}/wp-content/db.php"
     end
 end
 after :deploy, "assets:node"
