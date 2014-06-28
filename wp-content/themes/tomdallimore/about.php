@@ -97,7 +97,7 @@ if(isset($_POST['submitted'])) {
                             <div class="sixcol">
                                 <label for="contactName">First name</label>
                                 <input type="text" tabindex="1" name="contactName" id="contactName" value="<?php if(isset($_POST['contactName'])) echo $_POST['contactName'];?>" class="requiredField <?php if($nameError != '') { ?>inputError<?php } ?>" />
-                                    <?php if($nameError != '') { ?>
+                                    <?php if(!isset($nameError) && $nameError != '') { ?>
                                         <span class="error"><?=$nameError;?></span> 
                                     <?php } ?>
                                 <label for="telephone">Telephone</label>
