@@ -35,7 +35,6 @@
 		</div>
 	</footer>
 </div>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 <script src="<?php echo bloginfo('template_directory'); ?>/assets/js/application.js"></script>
 <script src="<?php echo bloginfo('template_directory'); ?>/assets/js/bootstrap.min.js"></script>
 <script src="http://tomdallimore.com/wp-content/plugins/new-royalslider/lib/royalslider/jquery.royalslider.min.js"></script>

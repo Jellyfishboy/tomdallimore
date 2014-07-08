@@ -62,7 +62,7 @@ echo $current_url;
 	<link rel="stylesheet" href="<?php echo bloginfo('template_directory'); ?>/assets/css/application.css" />
 <!-- Stylesheets -->
 	
-    <?php wp_deregister_script('jquery');wp_head(); ?>
+    <?php wp_head(); ?>
 <!-- Javascripts -->
 	<script src="<?php echo bloginfo('template_directory'); ?>/assets/js/modernizr-2.6.2.js"></script>     
     <!--[if (lt IE 9) & (!IEMobile)]>
