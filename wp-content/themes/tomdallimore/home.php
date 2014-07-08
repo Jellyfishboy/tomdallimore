@@ -99,7 +99,7 @@ Template Name: HomeTemp
                 <i class="icon-twitter"></i>
                 <h1>Latest tweets</h1>
                 <ul>
-                    <?php include 'twitter.php'; ?>
+                    <?php #include 'twitter.php'; ?>
                 </ul>
             </div>
         </div>
