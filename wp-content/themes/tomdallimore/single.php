@@ -15,7 +15,7 @@
                         <p><?php the_content(); ?></p>
                         <p><?php the_time('dS F Y') ?></p>
                         <div class="tags">
-                            <?php $before = ''; the_tags($before, $separator, $after); ?>
+                            <?php $before = '';$separator = '';$after = ''; the_tags($before, $separator, $after); ?>
                         </div>
                     </div>
                 </div>
