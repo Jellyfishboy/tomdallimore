@@ -9,7 +9,7 @@ Template Name: BlogTemp
     	<div class="row">
     		<?php get_sidebar(); ?>
 			<?php $wp_query = new WP_Query();
-			$wp_query->query('&showposts=5&category_name=article,link'.'&paged='.$paged);
+			$wp_query->query('&showposts=10&category_name=article,link'.'&paged='.$paged);
 			while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
 			<article class="ninecol">
 				<div class="row">
@@ -22,7 +22,7 @@ Template Name: BlogTemp
 						<p><?php the_content(); ?></p>
 						<p><?php the_time('dS F Y') ?></p>
 						<div class="tags">
-							<?php $before = ''; the_tags($before, $separator, $after); ?>
+							<?php $before = '';$separator = '';$after = ''; the_tags($before, $separator, $after); ?>
 						</div>
 					</div>
 				</div>

@@ -70,7 +70,7 @@ echo $current_url;
     <![endif]-->
 <!-- Javascripts -->
 </head>
-<body class="<?php if (is_page( array( 'Home', 'About', 'Portfolio' ))) { echo 'dark'; } else if (is_page( array( 'Photography' ))) { echo 'rough'; } else { echo 'light'; } ?>" id="top">
+<body class="<?php if (is_page( array( 'Home', 'About', 'Portfolio' ))) { echo 'dark'; } else if (is_page( array( 'Photography' ))) { echo 'rough'; } else { echo 'light'; } ?> <?php if ( is_single() ) { echo 'single-post'; } ?>" id="top">
     <div role="main">
         <header class="<?php if(is_front_page()) echo 'hero'; ?>" role="banner">
         	<div class="container">

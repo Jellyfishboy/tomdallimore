@@ -6,4 +6,4 @@ Official portfolio &amp; blog for Tom Dallimore with responsive design. Built wi
 
 http://www.tomdallimore.com
 
-Designed by [Tom Dallimore](http://www.tomdallimore.com) ([@billy_dallimore](http://twitter.com/billy_dallimore))
+Designed by [Tom Dallimore](http://www.tomdallimore.com) ([@tom_dallimore](http://twitter.com/tom_dallimore))
