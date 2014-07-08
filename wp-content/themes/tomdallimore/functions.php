@@ -164,5 +164,15 @@ function td_comment($comment, $args, $depth) {
         // If 200 is found, the user has a Gravatar; otherwise, they don't.
         return preg_match( '|200|', $headers[0] ) ? true : false;
     }
+    //Making jQuery Google API
+    function modify_jquery() {
+        if (!is_admin()) {
+            // comment out the next two lines to load the local copy of jQuery
+            wp_deregister_script('jquery');
+            wp_register_script('jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js', false, '1.8.1');
+            wp_enqueue_script('jquery');
+        }
+    }
+    add_action('init', 'modify_jquery');
 
 ?>
