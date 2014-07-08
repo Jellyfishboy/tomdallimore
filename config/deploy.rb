@@ -44,7 +44,7 @@ namespace :permissions do
     # end
     desc "Set root folder permissions to www-data"
     task :root, :roles => :app do
-        run "chown -R www-data:www-data #{current_path}"
+        run "chown -R www-data:www-data #{current_path}/."
     end
 end
 namespace :assets do

@@ -537,10 +537,10 @@ div[role=main] {
       width: 100%;
       margin: 25px 0 30px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_responsive\.scss}line{font-family:\00003316}}
-    body #blog .comments i.icon-caret-left {
+    body #blog .comments i.fa-caret-left {
       display: none; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_responsive\.scss}line{font-family:\00003319}}
-    body #blog .comments i.icon-caret-up {
+    body #blog .comments i.fa-caret-up {
       top: -23px;
       left: 48.3%;
       font-size: 35px;
@@ -1846,7 +1846,7 @@ section[role=comments] ul {
         font-size: 28px;
         text-shadow: 0 0 0 rgba(0, 0, 0, 0); }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_comments\.scss}line{font-family:\0000335}}
-        section[role=comments] ul li .comment-meta i.icon-caret-up {
+        section[role=comments] ul li .comment-meta i.fa-caret-up {
           display: none; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_comments\.scss}line{font-family:\0000339}}
       section[role=comments] ul li .comment-meta cite {
