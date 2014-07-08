@@ -4,7 +4,7 @@
 		<div class="container">
 			<div class="row">
 				<span>
-					<a class="twitter_link" href="http://www.twitter.com/billy_dallimore" alt="Twitter" target="_blank" data-toggle="tooltip" data-placement="top" data-original-title="Twitter"></a>
+					<a class="twitter_link" href="http://www.twitter.com/tom_dallimore" alt="Twitter" target="_blank" data-toggle="tooltip" data-placement="top" data-original-title="Twitter"></a>
 					<a class="facebook_link" href="http://www.facebook.com/tomdallimoredev" alt="Facebook" target="_blank" data-toggle="tooltip" data-placement="top" data-original-title="Facebook"></a>
 					<a class="github_link" href="http://www.github.com/jellyfishboy" alt="Github" target="_blank" data-toggle="tooltip" data-placement="top" data-original-title="Github"></a>
 					<a class="linkedin_link" href="http://uk.linkedin.com/in/tomdallimore" alt="LinkedIn" target="_blank" data-toggle="tooltip" data-placement="top" data-original-title="LinkedIn"></a>
