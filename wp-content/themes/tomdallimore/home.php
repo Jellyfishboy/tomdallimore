@@ -70,7 +70,7 @@ Template Name: HomeTemp
                         <p>Lightweight, easy to use e-commerce platform.</p>
                     </span>
                     <span>
-                        <i class="icon-star"></i><p>0</p><i class="icon-flow-branch"></i><p>1</p>
+                        <i class="icon-star"></i><p>6</p><i class="icon-flow-branch"></i><p>1</p>
                     </span>
                 </div>
                 <div>
@@ -84,8 +84,8 @@ Template Name: HomeTemp
                 </div>
                 <div>
                     <span>
-                        <a href="https://github.com/SNGTRKR/sngtrkr-ember" target="_blank"><h2>sngtrkr-ember</h2></a>
-                        <p>SNGTRKR platform built using Rails 4 and Ember.js.</p>
+                        <a href="https://github.com/Jellyfishboy/releasr" target="_blank"><h2>releasr</h2></a>
+                        <p>Simple release notes application, with a custom design.</p>
                     </span>
                     <span>
                         <i class="icon-star"></i><p>0</p><i class="icon-flow-branch"></i><p>0</p>

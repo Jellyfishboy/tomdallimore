@@ -136,8 +136,8 @@ function td_comment($comment, $args, $depth) {
         <time><?php printf(__('%1$s at %2$s'), get_comment_date(),  get_comment_time()) ?></time>
         <?php edit_comment_link(__('(Edit)'),'  ','') ?>
         <?php comment_text() ?>
-        <i class="icon-caret-left"></i>
-        <i class="icon-caret-up"></i>
+        <i class="fa-caret-left"></i>
+        <i class="fa-caret-up"></i>
       </div>
 
       
