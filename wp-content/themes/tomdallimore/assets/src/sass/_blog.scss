@@ -16,6 +16,9 @@
                     &.link {
                         @extend .sp-blog-link;
                     }
+                    &.travelling {
+                        @extend .sp-blog-travel;
+                    }
             }
             .tencol {
                     h1 {
