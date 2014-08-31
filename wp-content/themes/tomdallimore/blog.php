@@ -9,7 +9,7 @@ Template Name: BlogTemp
     	<div class="row">
     		<?php get_sidebar(); ?>
 			<?php $wp_query = new WP_Query();
-			$wp_query->query('&showposts=10&category_name=article,link'.'&paged='.$paged);
+			$wp_query->query('&showposts=10&category_name=article,link,travelling'.'&paged='.$paged);
 			while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
 			<article class="ninecol">
 				<div class="row">
