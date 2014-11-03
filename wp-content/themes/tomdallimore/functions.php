@@ -176,3 +176,25 @@ function td_comment($comment, $args, $depth) {
     add_action('init', 'modify_jquery');
 
 ?>
+<?php
+function wp_infinitepaginate(){ 
+    $loopFile               = $_POST['loop_file'];
+    $paged                  = $_POST['page_no'];
+    $posts_per_page         = get_option('posts_per_page');
+    $archive_category       = $_POST['archive_category'];
+    $search_query           = $_POST['search_query'];
+
+    if ($archive_category == null && $search_query == null) {
+        query_posts(array('paged' => $paged )); 
+    } elseif ($archive_category != null) {
+        query_posts(array('paged' => $paged, 'category' => $archive_category ));
+    } elseif ($search_query != null) {
+        query_posts(array('paged' => $paged, 's' => $search_query ));
+    }
+    get_template_part( $loopFile );
+
+    exit;
+}
+add_action('wp_ajax_infinite_scroll', 'wp_infinitepaginate');           // for logged in user
+add_action('wp_ajax_nopriv_infinite_scroll', 'wp_infinitepaginate');    // if user not logged in
+?>

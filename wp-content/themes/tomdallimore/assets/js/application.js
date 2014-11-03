@@ -40,6 +40,52 @@
       }
       return _results;
     });
+    var a_category, count, loadArticle, s_query, total;
+    count = 2;
+    total = $("article").data("pcount");
+    a_category = $("#sub_title").data("category");
+    s_query = $("#post_type").data("search");
+    $(window).scroll(function() {
+      if ($(window).scrollTop() === $(document).height() - $(window).height()) {
+        if (count > total) {
+          return false;
+        } else {
+          loadArticle(count, a_category, s_query);
+        }
+        return count++;
+      }
+    });
+    loadArticle = function(pageNumber, category, query) {
+      if ((category == null) && (query == null)) {
+        $.ajax({
+          url: "http://localhost:8888/wp-admin/admin-ajax.php",
+          type: "POST",
+          data: "action=infinite_scroll&page_no=" + pageNumber + "&loop_file=loop",
+          success: function(html) {
+            return $(".blog_loop").append(html);
+          }
+        });
+      } else if (category != null) {
+        $.ajax({
+          url: "http://localhost:8888/wp-admin/admin-ajax.php",
+          type: "POST",
+          data: "action=infinite_scroll&page_no=" + pageNumber + "&loop_file=loop&archive_category=" + year,
+          success: function(html) {
+            return $(".blog_loop").append(html);
+          }
+        });
+      } else if (query != null) {
+        $.ajax({
+          url: "http://localhost:8888/wp-admin/admin-ajax.php",
+          type: "POST",
+          data: "action=infinite_scroll&page_no=" + pageNumber + "&loop_file=loop&search_query=" + query,
+          success: function(html) {
+            return $(".blog_loop").append(html);
+          }
+        });
+      }
+      return false;
+    };
   });
 
   $.fn.tdSocialSharer = function(options) {
@@ -80,5 +126,4 @@
       });
     });
   };
-
 }).call(this);

@@ -3,10 +3,10 @@
 $s_query = get_search_query(); ?>
 <section class="content">
     <div class="container blog_search" id="blog">
-        <div class="row">
+        <div class="row blog_loop">
             <?php get_sidebar(); ?>
             <div class="ninecol type_header">
-                <h1 id="post_type">Search results for: <?php echo $s_query ?></h1>
+                <h1 id="post_type" data-search="<?php echo $s_query ?>">Search results for: <?php echo $s_query ?></h1>
             </div>
             <?php if ( have_posts() ) : ?>
                 <?php $wp_query = new WP_Query();
