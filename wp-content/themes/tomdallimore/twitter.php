@@ -1,5 +1,5 @@
 <?php
-  $tweets = getTweets('billy_dallimore', 3);
+  $tweets = getTweets('tom_dallimore', 3);
   foreach($tweets as $tweet){
 
       if($tweet['text']){

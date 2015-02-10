@@ -4,9 +4,10 @@
 @import url(tomd.css);
 @import url(royalslider.css);
 @import url(font-awesome.css);
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/icono\/\*\.png}line{font-family:\00003338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/icono\/\*\.png}line{font-family:\00003344}}
 .icono-sprite, .sp-facebook-on, footer .container span a.facebook_link:hover, .sp-facebook-off, footer .container span a.facebook_link, .sp-twitter-on, footer .container span a.twitter_link:hover, .sp-twitter-off, footer .container span a.twitter_link, .sp-linked-on, footer .container span a.linkedin_link:hover, .sp-linked-off, footer .container span a.linkedin_link, .sp-github-on, footer .container span a.github_link:hover, .sp-github-off, footer .container span a.github_link, .sp-stackoverflow-off, footer .container span a.stackoverflow_link, .sp-stackoverflow-on, footer .container span a.stackoverflow_link:hover, .sp-ai-on, ul.skills li.illustrator, .sp-css3-on, ul.skills li.css3, .sp-html5-on, ul.skills li.html5, .sp-jquery-on, ul.skills li.jquery, .sp-ps-on, ul.skills li.photoshop, .sp-ruby-on, ul.skills li.ruby, .sp-wp-on, ul.skills li.wordpress, .sp-coffee-on, ul.skills li.coffeescript, .sp-sitecore-on, ul.skills li.sitecore, .sp-angularjs-on, ul.skills li.angularjs, .sp-grunt-on, ul.skills li.grunt, .sp-windows-on, ul.skills li.windows, .sp-ubuntu-on, ul.skills li.ubuntu, .sp-dotnet-on, ul.skills li.dotnet, .sp-bower-on, ul.skills li.bower, .sp-yeoman-on, ul.skills li.yeoman, .sp-emberjs-on, ul.skills li.emberjs, .sp-briefcase, .sp-diary, #about_focus span, .sp-clipboard, .rsContent .infoBlock .textContent a span, .sp-blog-link, #blog .ninecol h2.link, .sp-blog-pencil, #blog .ninecol h2.article, .sp-blog-travel, #blog .ninecol h2.travelling, .sp-profile, .sp-what-i-do, #home .row:first-child .fourcol:first-child div, .sp-what-i-love, #home .row:first-child .fourcol:nth-child(2) div, .sp-where-i-reside, #home .row:first-child .fourcol:last-child div {
-  background: url('/wp-content/themes/tomdallimore/assets/img/icono-s530ef56866.png') no-repeat; }
+  background-image: url('/wp-content/themes/tomdallimore/assets/img/icono-s530ef56866.png');
+  background-repeat: no-repeat; }
 
 /* Global variables */
 @font-face {
@@ -15,42 +16,36 @@
   src: url("../fonts/museosans-100.eot?#iefix") format("embedded-opentype"), url("../fonts/museosans-100.woff") format("woff"), url("../fonts/museosans-100.ttf") format("truetype"), url("../fonts/museosans-100.svg#MuseoSans-100") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 @font-face {
   font-family: 'MuseoSans-300';
   src: url("../fonts/museosans-300.eot");
   src: url("../fonts/museosans-300.eot?#iefix") format("embedded-opentype"), url("../fonts/museosans-300.woff") format("woff"), url("../fonts/museosans-300.ttf") format("truetype"), url("../fonts/museosans-300.svg#MuseoSans-300") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 @font-face {
   font-family: 'MuseoSans-300Italic';
   src: url("../fonts/museosans-300italic.eot");
   src: url("../fonts/museosans-300italic.eot?#iefix") format("embedded-opentype"), url("../fonts/museosans-300italic.woff") format("woff"), url("../fonts/museosans-300italic.ttf") format("truetype"), url("../fonts/museosans-300italic.svg#MuseoSans-300Italic") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 @font-face {
   font-family: 'MuseoSans_500';
   src: url("../fonts/museosans_500.eot");
   src: url("../fonts/museosans_500.eot?#iefix") format("embedded-opentype"), url("../fonts/museosans_500.woff") format("woff"), url("../fonts/museosans_500.ttf") format("truetype"), url("../fonts/museosans_500.svg#MuseoSans_500") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 @font-face {
   font-family: 'MuseoSlab-300';
   src: url("../fonts/museo_slab_300.eot");
   src: url("../fonts/museo_slab_300.eot?#iefix") format("embedded-opentype"), url("../fonts/museo_slab_300.woff") format("woff"), url("../fonts/museo_slab_300.ttf") format("truetype"), url("../fonts/museo_slab_300.svg#MuseoSlab-300") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 @font-face {
   font-family: 'MuseoSlab-500';
   src: url("../fonts/museo_slab_500.eot");
   src: url("../fonts/museo_slab_500.eot?#iefix") format("embedded-opentype"), url("../fonts/museo_slab_500.woff") format("woff"), url("../fonts/museo_slab_500.ttf") format("truetype"), url("../fonts/museo_slab_500.svg#MuseoSlab-500") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_base\.scss}line{font-family:\000031}}
 html {
   font-size: 100%;
@@ -78,8 +73,8 @@ body {
       padding-top: 35px;
       margin-top: 70px;
       border-top: 6px solid rgba(0, 0, 0, 0.1);
-      -webkit-box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.3), inset 0px 1px 0px rgba(0, 0, 0, 0.2), inset 0px 2px 0px rgba(255, 255, 255, 0.8);
       -moz-box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.3), inset 0px 1px 0px rgba(0, 0, 0, 0.2), inset 0px 2px 0px rgba(255, 255, 255, 0.8);
+      -webkit-box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.3), inset 0px 1px 0px rgba(0, 0, 0, 0.2), inset 0px 2px 0px rgba(255, 255, 255, 0.8);
       box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.3), inset 0px 1px 0px rgba(0, 0, 0, 0.2), inset 0px 2px 0px rgba(255, 255, 255, 0.8); }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_light\.scss}line{font-family:\0000316}}
     body.light footer {
@@ -87,7 +82,7 @@ body {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_dark\.scss}line{font-family:\000031}}
   body.dark {
     background: #28292e;
-    color: #e6e6e6;
+    color: #E6E6E6;
     text-shadow: 0px 1px 0 black; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_dark\.scss}line{font-family:\000035}}
     body.dark h1 {
@@ -97,8 +92,8 @@ body {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_dark\.scss}line{font-family:\0000310}}
     body.dark .content {
       border-top: 8px solid #1c1d21;
-      -webkit-box-shadow: 0px -1px 0px rgba(255, 255, 255, 0.08), inset 0px 1px 0px rgba(0, 0, 0, 0.41), 0px 1px 0px rgba(255, 255, 255, 0.03), inset 0px -1px 0px rgba(0, 0, 0, 0.3);
       -moz-box-shadow: 0px -1px 0px rgba(255, 255, 255, 0.08), inset 0px 1px 0px rgba(0, 0, 0, 0.41), 0px 1px 0px rgba(255, 255, 255, 0.03), inset 0px -1px 0px rgba(0, 0, 0, 0.3);
+      -webkit-box-shadow: 0px -1px 0px rgba(255, 255, 255, 0.08), inset 0px 1px 0px rgba(0, 0, 0, 0.41), 0px 1px 0px rgba(255, 255, 255, 0.03), inset 0px -1px 0px rgba(0, 0, 0, 0.3);
       box-shadow: 0px -1px 0px rgba(255, 255, 255, 0.08), inset 0px 1px 0px rgba(0, 0, 0, 0.41), 0px 1px 0px rgba(255, 255, 255, 0.03), inset 0px -1px 0px rgba(0, 0, 0, 0.3); }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_rough\.scss}line{font-family:\000031}}
   body.rough {
@@ -126,17 +121,17 @@ div[role=main] {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_base\.scss}line{font-family:\0000324}}
 .content {
   padding-bottom: 3em;
-  -webkit-transition-property: padding-top;
   -moz-transition-property: padding-top;
   -o-transition-property: padding-top;
+  -webkit-transition-property: padding-top;
   transition-property: padding-top;
-  -webkit-transition-duration: 0.4s;
   -moz-transition-duration: 0.4s;
   -o-transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
-  -webkit-transition-timing-function: linear;
   -moz-transition-timing-function: linear;
   -o-transition-timing-function: linear;
+  -webkit-transition-timing-function: linear;
   transition-timing-function: linear; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_base\.scss}line{font-family:\0000329}}
   .content.active-mobile-menu {
@@ -417,8 +412,8 @@ div[role=main] {
         overflow: hidden; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_responsive\.scss}line{font-family:\00003164}}
         body .social .links a {
-          -webkit-box-sizing: border-box;
           -moz-box-sizing: border-box;
+          -webkit-box-sizing: border-box;
           box-sizing: border-box;
           width: 70px;
           float: left; }
@@ -729,7 +724,7 @@ div[role=main] {
   body #blog .link {
     background: url("../img/retina/blog_link.png") !important;
     background-size: 80px 80px !important; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_retina\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_retina\.scss}line{font-family:\0000399}}
   body #blog .travelling {
     background: url("../img/retina/blog_travel.png") !important;
     background-size: 80px 80px !important; }
@@ -809,8 +804,8 @@ header {
   background: -webkit-linear-gradient(top, #434343 0%, #2f2f2f 70%);
   background: -o-linear-gradient(top, #434343 0%, #2f2f2f 70%);
   background: -ms-linear-gradient(top, #434343 0%, #2f2f2f 70%);
-  background: linear-gradient(top, #434343 0%, #2f2f2f 70%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#434343', endColorstr='#2d2e34',GradientType=0 );
+  background: linear-gradient(to bottom, #434343 0%, #2f2f2f 70%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#434343', endColorstr='#2d2e34',GradientType=0 );
   height: 70px;
   width: 100%;
   position: fixed;
@@ -819,7 +814,7 @@ header {
   right: 0px;
   display: block;
   z-index: 997;
-  box-shadow: inset 0 -3px 2px rgba(0, 0, 0, 0.28), inset 0 -1px 0 #222222, 0 1px 3px rgba(0, 0, 0, 0.5); }
+  box-shadow: inset 0 -3px 2px rgba(0, 0, 0, 0.28), inset 0 -1px 0 #222, 0 1px 3px rgba(0, 0, 0, 0.5); }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_header\.scss}line{font-family:\0000319}}
   header:before {
     content: "";
@@ -861,17 +856,17 @@ header {
         header nav ul li a {
           color: #fff;
           text-shadow: 0px 1px 0 black;
-          -webkit-transition-property: color, opacity;
           -moz-transition-property: color, opacity;
           -o-transition-property: color, opacity;
+          -webkit-transition-property: color, opacity;
           transition-property: color, opacity;
-          -webkit-transition-duration: 0.4s, 0.4s;
           -moz-transition-duration: 0.4s, 0.4s;
           -o-transition-duration: 0.4s, 0.4s;
+          -webkit-transition-duration: 0.4s, 0.4s;
           transition-duration: 0.4s, 0.4s;
-          -webkit-transition-timing-function: ease-in, ease-in;
           -moz-transition-timing-function: ease-in, ease-in;
           -o-transition-timing-function: ease-in, ease-in;
+          -webkit-transition-timing-function: ease-in, ease-in;
           transition-timing-function: ease-in, ease-in;
           opacity: 0.9; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_header\.scss}line{font-family:\0000360}}
@@ -879,7 +874,7 @@ header {
             opacity: 1; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_header\.scss}line{font-family:\0000365}}
         header nav ul li.current_page_item a {
-          color: #4cc4db;
+          color: #4CC4DB;
           opacity: 1; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_header\.scss}line{font-family:\0000373}}
   header a {
@@ -890,17 +885,17 @@ header {
       display: inline-block;
       text-shadow: 0px 1px 0 black !important;
       opacity: 0.8;
-      -webkit-transition-property: opacity;
       -moz-transition-property: opacity;
       -o-transition-property: opacity;
+      -webkit-transition-property: opacity;
       transition-property: opacity;
-      -webkit-transition-duration: 0.4s;
       -moz-transition-duration: 0.4s;
       -o-transition-duration: 0.4s;
+      -webkit-transition-duration: 0.4s;
       transition-duration: 0.4s;
-      -webkit-transition-timing-function: ease-in;
       -moz-transition-timing-function: ease-in;
       -o-transition-timing-function: ease-in;
+      -webkit-transition-timing-function: ease-in;
       transition-timing-function: ease-in;
       font-weight: normal;
       font-size: 1.7em;
@@ -912,7 +907,7 @@ header {
         font-family: "MuseoSans-500", Helvetica, Arial, sans-serif !important; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_header\.scss}line{font-family:\0000391}}
       header a h1:last-child {
-        color: #4cc4db;
+        color: #4CC4DB;
         font-family: "MuseoSans-100", Helvetica, Arial, sans-serif !important; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_header\.scss}line{font-family:\0000396}}
     header a:hover h1 {
@@ -932,32 +927,32 @@ header {
       cursor: pointer;
       z-index: 1000;
       position: relative;
-      -webkit-transition-property: color;
       -moz-transition-property: color;
       -o-transition-property: color;
+      -webkit-transition-property: color;
       transition-property: color;
-      -webkit-transition-duration: 0.4s;
       -moz-transition-duration: 0.4s;
       -o-transition-duration: 0.4s;
+      -webkit-transition-duration: 0.4s;
       transition-duration: 0.4s;
-      -webkit-transition-timing-function: ease-in;
       -moz-transition-timing-function: ease-in;
       -o-transition-timing-function: ease-in;
+      -webkit-transition-timing-function: ease-in;
       transition-timing-function: ease-in; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_header\.scss}line{font-family:\00003115}}
       header #menu i:hover {
-        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+        filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
         opacity: 1; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_header\.scss}line{font-family:\00003119}}
     header #menu.active i {
-      color: #4cc4db; }
+      color: #4CC4DB; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_header\.scss}line{font-family:\00003124}}
 .blog {
   margin-top: 70px;
   border-top: 6px solid rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.3), inset 0px 1px 0px rgba(0, 0, 0, 0.2), inset 0px 2px 0px rgba(255, 255, 255, 0.8);
   -moz-box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.3), inset 0px 1px 0px rgba(0, 0, 0, 0.2), inset 0px 2px 0px rgba(255, 255, 255, 0.8);
+  -webkit-box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.3), inset 0px 1px 0px rgba(0, 0, 0, 0.2), inset 0px 2px 0px rgba(255, 255, 255, 0.8);
   box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.3), inset 0px 1px 0px rgba(0, 0, 0, 0.2), inset 0px 2px 0px rgba(255, 255, 255, 0.8); }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_header\.scss}line{font-family:\00003129}}
@@ -968,20 +963,20 @@ header {
   margin: 0;
   position: fixed;
   width: 100%;
-  -webkit-transition-property: margin-top;
   -moz-transition-property: margin-top;
   -o-transition-property: margin-top;
+  -webkit-transition-property: margin-top;
   transition-property: margin-top;
-  -webkit-transition-duration: 0.5s;
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
-  -webkit-transition-timing-function: linear;
   -moz-transition-timing-function: linear;
   -o-transition-timing-function: linear;
+  -webkit-transition-timing-function: linear;
   transition-timing-function: linear;
-  -webkit-box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.25);
   box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.25);
   z-index: 996; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_header\.scss}line{font-family:\00003141}}
@@ -1008,17 +1003,17 @@ header {
       #dropdown ul li a {
         color: #fff;
         text-shadow: 0px 1px 0 black;
-        -webkit-transition-property: color, opacity;
         -moz-transition-property: color, opacity;
         -o-transition-property: color, opacity;
+        -webkit-transition-property: color, opacity;
         transition-property: color, opacity;
-        -webkit-transition-duration: 0.4s, 0.4s;
         -moz-transition-duration: 0.4s, 0.4s;
         -o-transition-duration: 0.4s, 0.4s;
+        -webkit-transition-duration: 0.4s, 0.4s;
         transition-duration: 0.4s, 0.4s;
-        -webkit-transition-timing-function: ease-in, ease-in;
         -moz-transition-timing-function: ease-in, ease-in;
         -o-transition-timing-function: ease-in, ease-in;
+        -webkit-transition-timing-function: ease-in, ease-in;
         transition-timing-function: ease-in, ease-in;
         opacity: 0.9; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_header\.scss}line{font-family:\00003166}}
@@ -1030,7 +1025,7 @@ header {
           top: -3px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_header\.scss}line{font-family:\00003175}}
       #dropdown ul li.current_page_item a {
-        color: #4cc4db;
+        color: #4CC4DB;
         opacity: 1; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_header\.scss}line{font-family:\00003184}}
@@ -1040,8 +1035,8 @@ header {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_footer\.scss}line{font-family:\000031}}
 footer {
-  -webkit-box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.25);
   box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.25);
   background: #28292e;
   color: #B3B3B3;
@@ -1051,8 +1046,8 @@ footer {
   footer .container {
     background: rgba(0, 0, 0, 0.15);
     padding: 20px 15px 5px;
-    -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_footer\.scss}line{font-family:\0000311}}
     footer .container p:last-child {
@@ -1090,7 +1085,7 @@ footer {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_styling\.scss}line{font-family:\000039}}
 a {
-  color: #4cc4db;
+  color: #4CC4DB;
   font-family: "MuseoSans-300Italic", Helvetica, Arial, sans-serif;
   text-decoration: none; }
 
@@ -1112,7 +1107,7 @@ h1 {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_styling\.scss}line{font-family:\0000327}}
 h2, h3 {
-  color: #4cc4db;
+  color: #4CC4DB;
   font-size: 1.1em;
   margin: 0;
   line-height: 25px; }
@@ -1164,17 +1159,17 @@ i {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_styling\.scss}line{font-family:\0000371}}
 .rsArrowIcn {
-  -webkit-transition-property: opacity;
   -moz-transition-property: opacity;
   -o-transition-property: opacity;
+  -webkit-transition-property: opacity;
   transition-property: opacity;
-  -webkit-transition-duration: 0.4s;
   -moz-transition-duration: 0.4s;
   -o-transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
-  -webkit-transition-timing-function: linear;
   -moz-transition-timing-function: linear;
   -o-transition-timing-function: linear;
+  -webkit-transition-timing-function: linear;
   transition-timing-function: linear; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_1140\.scss}line{font-family:\000031}}
@@ -1340,7 +1335,7 @@ img {
   text-align: center; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_home\.scss}line{font-family:\0000328}}
 #home .row:first-child .fourcol h1 {
-  color: #4cc4db; }
+  color: #4CC4DB; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_home\.scss}line{font-family:\0000334}}
 #home .row:nth-child(2) .fourcol {
   height: 60px;
@@ -1382,14 +1377,12 @@ img {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_home\.scss}line{font-family:\0000383}}
 #home .row:nth-child(3) .fourcol .recent {
   margin-top: 15px;
-  -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
-  -ms-border-radius: 7px;
-  -o-border-radius: 7px;
+  -webkit-border-radius: 7px;
   border-radius: 7px;
-  -webkit-box-shadow: 0 0 2px black;
-  -moz-box-shadow: 0 0 2px black;
-  box-shadow: 0 0 2px black;
+  -moz-box-shadow: 0 0 2px #000;
+  -webkit-box-shadow: 0 0 2px #000;
+  box-shadow: 0 0 2px #000;
   width: 100%;
   height: 150px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_home\.scss}line{font-family:\0000394}}
@@ -1425,7 +1418,7 @@ img {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_home\.scss}line{font-family:\00003126}}
     #home .row .sixcol:first-child div span:last-child {
       float: right;
-      color: #4cc4db;
+      color: #4CC4DB;
       margin: 12px 30px 0 0; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_home\.scss}line{font-family:\00003130}}
       #home .row .sixcol:first-child div span:last-child i {
@@ -1477,29 +1470,27 @@ img {
   margin-top: 14px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_about\.scss}line{font-family:\000037}}
   #about form input[type=text], #about form textarea {
-    color: #4cc4db;
+    color: #4CC4DB;
     background: #1d1e21;
     border: none;
-    -webkit-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.05), inset 1px 1px 2px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.05), inset 1px 1px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.05), inset 1px 1px 2px rgba(0, 0, 0, 0.3);
     box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.05), inset 1px 1px 2px rgba(0, 0, 0, 0.3);
     padding: 8px 10px;
-    -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+    -webkit-border-radius: 5px;
     border-radius: 5px;
-    -webkit-transition-property: background;
     -moz-transition-property: background;
     -o-transition-property: background;
+    -webkit-transition-property: background;
     transition-property: background;
-    -webkit-transition-duration: 0.3s;
     -moz-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
-    -webkit-transition-timing-function: ease;
     -moz-transition-timing-function: ease;
     -o-transition-timing-function: ease;
+    -webkit-transition-timing-function: ease;
     transition-timing-function: ease;
     margin: 3px 0 5px 0;
     display: block;
@@ -1560,7 +1551,7 @@ ul.skills {
     ul.skills li:last-child {
       margin-right: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_blog\.scss}line{font-family:\000033}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_blog\.scss}line{font-family:\000032}}
 #blog.single_post .menu-item-17 {
   color: #000; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_blog\.scss}line{font-family:\000036}}
@@ -1585,22 +1576,22 @@ ul.skills {
     margin: 0 0 25px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_blog\.scss}line{font-family:\0000336}}
   #blog .ninecol .tencol .tags a {
-    background-color: #e6e6e6;
+    background-color: #E6E6E6;
     padding: 3px 10px;
-    color: gray;
+    color: #808080;
     margin: 0 12px 11px 0;
     font-family: "MuseoSlab-500", Helvetica, Arial, sans-serif;
-    -webkit-transition-property: background-color, color;
     -moz-transition-property: background-color, color;
     -o-transition-property: background-color, color;
+    -webkit-transition-property: background-color, color;
     transition-property: background-color, color;
-    -webkit-transition-duration: 0.5s, 0.4s;
     -moz-transition-duration: 0.5s, 0.4s;
     -o-transition-duration: 0.5s, 0.4s;
+    -webkit-transition-duration: 0.5s, 0.4s;
     transition-duration: 0.5s, 0.4s;
-    -webkit-transition-timing-function: ease-in, ease-in;
     -moz-transition-timing-function: ease-in, ease-in;
     -o-transition-timing-function: ease-in, ease-in;
+    -webkit-transition-timing-function: ease-in, ease-in;
     transition-timing-function: ease-in, ease-in;
     text-transform: uppercase;
     font-size: 0.8em;
@@ -1608,8 +1599,8 @@ ul.skills {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_blog\.scss}line{font-family:\0000348}}
     #blog .ninecol .tencol .tags a:hover {
       color: #fff;
-      background-color: #4cc4db;
-      text-shadow: 0 0 0 rgba(0, 0, 0, 0); }
+      background-color: #4CC4DB;
+      text-shadow: 0 0 0 transparent; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_blog\.scss}line{font-family:\0000358}}
 #blog article .tencol {
   padding-bottom: 35px; }
@@ -1626,17 +1617,17 @@ ul.skills {
     overflow: hidden;
     opacity: 0.3;
     filter: alpha(opacity=30);
-    -webkit-transition-property: opacity;
     -moz-transition-property: opacity;
     -o-transition-property: opacity;
+    -webkit-transition-property: opacity;
     transition-property: opacity;
-    -webkit-transition-duration: 0.5s;
     -moz-transition-duration: 0.5s;
     -o-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
     transition-duration: 0.5s;
-    -webkit-transition-timing-function: ease-in;
     -moz-transition-timing-function: ease-in;
     -o-transition-timing-function: ease-in;
+    -webkit-transition-timing-function: ease-in;
     transition-timing-function: ease-in; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_blog\.scss}line{font-family:\0000377}}
     #blog section[role=navigation] .tencol .pre_nex a[rel="prev"] {
@@ -1668,21 +1659,21 @@ ul.skills {
       #blog section[role=navigation] .tencol .pre_nex a span {
         font-family: "MuseoSlab-500", Helvetica, Arial, sans-serif;
         color: #1a1a1a;
-        -webkit-transition-property: color;
         -moz-transition-property: color;
         -o-transition-property: color;
+        -webkit-transition-property: color;
         transition-property: color;
-        -webkit-transition-duration: 0.5s;
         -moz-transition-duration: 0.5s;
         -o-transition-duration: 0.5s;
+        -webkit-transition-duration: 0.5s;
         transition-duration: 0.5s;
-        -webkit-transition-timing-function: ease-in;
         -moz-transition-timing-function: ease-in;
         -o-transition-timing-function: ease-in;
+        -webkit-transition-timing-function: ease-in;
         transition-timing-function: ease-in; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_blog\.scss}line{font-family:\00003109}}
       #blog section[role=navigation] .tencol .pre_nex a:hover > span {
-        color: #4cc4db !important; }
+        color: #4CC4DB !important; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_blog\.scss}line{font-family:\00003113}}
     #blog section[role=navigation] .tencol .pre_nex:hover {
       opacity: 1;
@@ -1693,11 +1684,9 @@ ul.skills {
   position: relative; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_blog\.scss}line{font-family:\00003123}}
   #blog .social .links {
-    background-color: #e6e6e6;
-    -webkit-border-radius: 5px;
+    background-color: #E6E6E6;
     -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+    -webkit-border-radius: 5px;
     border-radius: 5px;
     text-align: center;
     width: 65px;
@@ -1708,17 +1697,17 @@ ul.skills {
       display: block;
       padding: 10px;
       vertical-align: middle;
-      -webkit-transition-property: background-color, color;
       -moz-transition-property: background-color, color;
       -o-transition-property: background-color, color;
+      -webkit-transition-property: background-color, color;
       transition-property: background-color, color;
-      -webkit-transition-duration: 0.4s, 0.3s;
       -moz-transition-duration: 0.4s, 0.3s;
       -o-transition-duration: 0.4s, 0.3s;
+      -webkit-transition-duration: 0.4s, 0.3s;
       transition-duration: 0.4s, 0.3s;
-      -webkit-transition-timing-function: ease-in, ease-in;
       -moz-transition-timing-function: ease-in, ease-in;
       -o-transition-timing-function: ease-in, ease-in;
+      -webkit-transition-timing-function: ease-in, ease-in;
       transition-timing-function: ease-in, ease-in; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_blog\.scss}line{font-family:\00003137}}
       #blog .social .links a i {
@@ -1744,14 +1733,14 @@ ul.skills {
         border-bottom-left-radius: 5px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_blog\.scss}line{font-family:\00003151}}
       #blog .social .links a:hover {
-        background-color: #4cc4db; }
+        background-color: #4CC4DB; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_blog\.scss}line{font-family:\00003153}}
         #blog .social .links a:hover i {
           color: #fff;
-          text-shadow: 0 0 0 rgba(0, 0, 0, 0); }
+          text-shadow: 0 0 0 transparent; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_blog\.scss}line{font-family:\00003158}}
         #blog .social .links a:hover ~ .social:before {
-          border-color: transparent transparent #4cc4db transparent; }
+          border-color: transparent transparent #4CC4DB transparent; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_blog\.scss}line{font-family:\00003164}}
   #blog .social:before {
     content: '';
@@ -1759,25 +1748,25 @@ ul.skills {
     height: 0px;
     border-style: solid;
     border-width: 0 8px 10px 8px;
-    border-color: transparent transparent #e6e6e6 transparent;
+    border-color: transparent transparent #E6E6E6 transparent;
     display: inline-block;
     top: 10px;
     position: relative;
-    -webkit-transition-property: border-color;
     -moz-transition-property: border-color;
     -o-transition-property: border-color;
+    -webkit-transition-property: border-color;
     transition-property: border-color;
-    -webkit-transition-duration: 0.3s;
     -moz-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
-    -webkit-transition-timing-function: ease-in;
     -moz-transition-timing-function: ease-in;
     -o-transition-timing-function: ease-in;
+    -webkit-transition-timing-function: ease-in;
     transition-timing-function: ease-in; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_blog\.scss}line{font-family:\00003178}}
   #blog .social.active:before {
-    border-color: transparent transparent #4cc4db transparent; }
+    border-color: transparent transparent #4CC4DB transparent; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_blog\.scss}line{font-family:\00003185}}
 .blog_home article:last-child {
@@ -1820,27 +1809,23 @@ section[role=comments] ul {
     overflow: hidden; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_comments\.scss}line{font-family:\0000313}}
     section[role=comments] ul li .comment-author img {
-      -webkit-border-radius: 5em;
       -moz-border-radius: 5em;
-      -ms-border-radius: 5em;
-      -o-border-radius: 5em;
+      -webkit-border-radius: 5em;
       border-radius: 5em;
       display: block;
-      -webkit-box-shadow: 0 0 0 4px gray;
-      -moz-box-shadow: 0 0 0 4px gray;
-      box-shadow: 0 0 0 4px gray;
+      -moz-box-shadow: 0 0 0 4px #808080;
+      -webkit-box-shadow: 0 0 0 4px #808080;
+      box-shadow: 0 0 0 4px #808080;
       margin: 7px auto 0; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_comments\.scss}line{font-family:\0000320}}
     section[role=comments] ul li .comment-meta {
       padding: 20px 25px 15px;
       background-color: #E6E6E6;
-      -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
       box-sizing: border-box;
-      -webkit-border-radius: 4px;
       -moz-border-radius: 4px;
-      -ms-border-radius: 4px;
-      -o-border-radius: 4px;
+      -webkit-border-radius: 4px;
       border-radius: 4px;
       margin-bottom: 25px;
       position: relative;
@@ -1852,7 +1837,7 @@ section[role=comments] ul {
         top: 13px;
         left: -10px;
         font-size: 28px;
-        text-shadow: 0 0 0 rgba(0, 0, 0, 0); }
+        text-shadow: 0 0 0 transparent; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_comments\.scss}line{font-family:\0000335}}
         section[role=comments] ul li .comment-meta i.fa-caret-up {
           display: none; }
@@ -1862,7 +1847,7 @@ section[role=comments] ul {
         display: block;
         font-family: "MuseoSlab-500", Helvetica, Arial, sans-serif !important;
         font-style: normal;
-        color: #4cc4db; }
+        color: #4CC4DB; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_comments\.scss}line{font-family:\0000345}}
         section[role=comments] ul li .comment-meta cite a {
           font-family: "MuseoSlab-500", Helvetica, Arial, sans-serif !important;
@@ -1891,26 +1876,24 @@ section[role=comments] ul {
   #commentform input[type=text], #commentform textarea {
     background: #E6E6E6;
     border: none;
-    -webkit-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.05), inset 1px 1px 2px rgba(153, 153, 153, 0.4);
     -moz-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.05), inset 1px 1px 2px rgba(153, 153, 153, 0.4);
+    -webkit-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.05), inset 1px 1px 2px rgba(153, 153, 153, 0.4);
     box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.05), inset 1px 1px 2px rgba(153, 153, 153, 0.4);
     padding: 8px 10px;
-    -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+    -webkit-border-radius: 5px;
     border-radius: 5px;
-    -webkit-transition-property: background;
     -moz-transition-property: background;
     -o-transition-property: background;
+    -webkit-transition-property: background;
     transition-property: background;
-    -webkit-transition-duration: 0.3s;
     -moz-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
-    -webkit-transition-timing-function: ease;
     -moz-transition-timing-function: ease;
     -o-transition-timing-function: ease;
+    -webkit-transition-timing-function: ease;
     transition-timing-function: ease;
     margin: 3px 0 5px 0;
     display: block;
@@ -1942,8 +1925,8 @@ section[role=comments] ul {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_focus\.scss}line{font-family:\0000320}}
 #about_focus {
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_focus\.scss}line{font-family:\0000322}}
   #about_focus span {
@@ -1955,17 +1938,17 @@ section[role=comments] ul {
   #about_focus img {
     margin-top: -2%;
     opacity: 1;
-    -webkit-transition-property: opacity;
     -moz-transition-property: opacity;
     -o-transition-property: opacity;
+    -webkit-transition-property: opacity;
     transition-property: opacity;
-    -webkit-transition-duration: 0.4s;
     -moz-transition-duration: 0.4s;
     -o-transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
-    -webkit-transition-timing-function: ease-in;
     -moz-transition-timing-function: ease-in;
     -o-transition-timing-function: ease-in;
+    -webkit-transition-timing-function: ease-in;
     transition-timing-function: ease-in; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_focus\.scss}line{font-family:\0000336}}
   #about_focus a {
@@ -2040,33 +2023,31 @@ section[role=comments] ul {
   #sidebar #searchform input[type=text] {
     background: #E6E6E6;
     border: none;
-    -webkit-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.05), inset 1px 1px 2px rgba(153, 153, 153, 0.4);
     -moz-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.05), inset 1px 1px 2px rgba(153, 153, 153, 0.4);
+    -webkit-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.05), inset 1px 1px 2px rgba(153, 153, 153, 0.4);
     box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.05), inset 1px 1px 2px rgba(153, 153, 153, 0.4);
     padding: 8px 10px;
-    -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+    -webkit-border-radius: 5px;
     border-radius: 5px;
-    -webkit-transition-property: background;
     -moz-transition-property: background;
     -o-transition-property: background;
+    -webkit-transition-property: background;
     transition-property: background;
-    -webkit-transition-duration: 0.3s;
     -moz-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
-    -webkit-transition-timing-function: ease;
     -moz-transition-timing-function: ease;
     -o-transition-timing-function: ease;
+    -webkit-transition-timing-function: ease;
     transition-timing-function: ease;
     margin: 3px 0 5px 0;
     display: block;
     outline: none;
     width: 100%;
-    -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_sidebar\.scss}line{font-family:\0000319}}
   #sidebar #searchform i {
@@ -2130,13 +2111,13 @@ section[role=comments] ul {
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\0000336}}
 .btn:hover,
 .btn:focus {
   color: #555555;
   text-decoration: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\0000342}}
 .btn:active,
 .btn.active {
   background-image: none;
@@ -2144,7 +2125,7 @@ section[role=comments] ul {
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\0000350}}
 .btn.disabled,
 .btn[disabled],
 fieldset[disabled] .btn {
@@ -2161,7 +2142,7 @@ fieldset[disabled] .btn {
   background-color: #ffffff;
   border-color: rgba(0, 0, 0, 0.1); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\0000367}}
 .btn-default:hover,
 .btn-default:focus,
 .btn-default:active,
@@ -2171,13 +2152,13 @@ fieldset[disabled] .btn {
   background-color: #ebebeb;
   border-color: rgba(0, 0, 0, 0.1); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\0000379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\0000377}}
 .btn-default:active,
 .btn-default.active,
 .open .dropdown-toggle.btn-default {
   background-image: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\0000383}}
 .btn-default.disabled,
 .btn-default[disabled],
 fieldset[disabled] .btn-default,
@@ -2202,7 +2183,7 @@ fieldset[disabled] .btn-default.active {
   background-color: #2fa4e7;
   border-color: #2fa4e7; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003112}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003108}}
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
@@ -2212,13 +2193,13 @@ fieldset[disabled] .btn-default.active {
   background-color: #1990d5;
   border-color: #1684c2; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003120}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003118}}
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   background-image: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003138}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003124}}
 .btn-primary.disabled,
 .btn-primary[disabled],
 fieldset[disabled] .btn-primary,
@@ -2243,7 +2224,7 @@ fieldset[disabled] .btn-primary.active {
   background-color: #dd5600;
   border-color: #dd5600; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003153}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003149}}
 .btn-warning:hover,
 .btn-warning:focus,
 .btn-warning:active,
@@ -2253,13 +2234,13 @@ fieldset[disabled] .btn-primary.active {
   background-color: #b44600;
   border-color: #a03e00; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003161}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003159}}
 .btn-warning:active,
 .btn-warning.active,
 .open .dropdown-toggle.btn-warning {
   background-image: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003179}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003165}}
 .btn-warning.disabled,
 .btn-warning[disabled],
 fieldset[disabled] .btn-warning,
@@ -2284,7 +2265,7 @@ fieldset[disabled] .btn-warning.active {
   background-color: #c71c22;
   border-color: #c71c22; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003194}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003190}}
 .btn-danger:hover,
 .btn-danger:focus,
 .btn-danger:active,
@@ -2294,13 +2275,13 @@ fieldset[disabled] .btn-warning.active {
   background-color: #a3171c;
   border-color: #911419; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003202}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003200}}
 .btn-danger:active,
 .btn-danger.active,
 .open .dropdown-toggle.btn-danger {
   background-image: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003220}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003206}}
 .btn-danger.disabled,
 .btn-danger[disabled],
 fieldset[disabled] .btn-danger,
@@ -2325,7 +2306,7 @@ fieldset[disabled] .btn-danger.active {
   background-color: #73a839;
   border-color: #73a839; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003235}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003231}}
 .btn-success:hover,
 .btn-success:focus,
 .btn-success:active,
@@ -2335,13 +2316,13 @@ fieldset[disabled] .btn-danger.active {
   background-color: #5e8a2f;
   border-color: #547a29; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003243}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003241}}
 .btn-success:active,
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
   background-image: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003261}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003247}}
 .btn-success.disabled,
 .btn-success[disabled],
 fieldset[disabled] .btn-success,
@@ -2369,9 +2350,9 @@ fieldset[disabled] .btn-success.active {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003272}}
 .btn-black i {
   color: #ffffff;
-  text-shadow: 0 0 0 rgba(0, 0, 0, 0); }
+  text-shadow: 0 0 0 transparent; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003281}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003277}}
 .btn-black:hover,
 .btn-black:focus,
 .btn-black:active,
@@ -2381,13 +2362,13 @@ fieldset[disabled] .btn-success.active {
   background-color: #333333;
   border-color: #000000; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003289}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003287}}
 .btn-black:active,
 .btn-black.active,
 .open .dropdown-toggle.btn-black {
   background-image: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003307}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003293}}
 .btn-black.disabled,
 .btn-black[disabled],
 fieldset[disabled] .btn-black,
@@ -2412,7 +2393,7 @@ fieldset[disabled] .btn-black.active {
   background-color: #033c73;
   border-color: #033c73; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003318}}
 .btn-info:hover,
 .btn-info:focus,
 .btn-info:active,
@@ -2422,13 +2403,13 @@ fieldset[disabled] .btn-black.active {
   background-color: #02274b;
   border-color: #011d37; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003328}}
 .btn-info:active,
 .btn-info.active,
 .open .dropdown-toggle.btn-info {
   background-image: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003334}}
 .btn-info.disabled,
 .btn-info[disabled],
 fieldset[disabled] .btn-info,
@@ -2454,7 +2435,7 @@ fieldset[disabled] .btn-info.active {
   cursor: pointer;
   border-radius: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003360}}
 .btn-link,
 .btn-link:active,
 .btn-link[disabled],
@@ -2463,21 +2444,21 @@ fieldset[disabled] .btn-link {
   -webkit-box-shadow: none;
   box-shadow: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003369}}
 .btn-link,
 .btn-link:hover,
 .btn-link:focus,
 .btn-link:active {
   border-color: transparent; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003376}}
 .btn-link:hover,
 .btn-link:focus {
   color: #157ab5;
   text-decoration: underline;
   background-color: transparent; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003383}}
 .btn-link[disabled]:hover,
 fieldset[disabled] .btn-link:hover,
 .btn-link[disabled]:focus,
@@ -2492,7 +2473,7 @@ fieldset[disabled] .btn-link:focus {
   line-height: 1.33;
   border-radius: 6px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003398}}
 .btn-sm,
 .btn-xs {
   padding: 5px 10px;
@@ -2515,7 +2496,7 @@ fieldset[disabled] .btn-link:focus {
 .btn-block + .btn-block {
   margin-top: 5px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003423}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_buttons\.scss}line{font-family:\00003421}}
 input[type="submit"].btn-block,
 input[type="reset"].btn-block,
 input[type="button"].btn-block {
@@ -2651,8 +2632,8 @@ input[type="button"].btn-block {
   display: inline-block;
   line-height: 0;
   position: relative;
-  -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4); }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_photography\.scss}line{font-family:\000038}}
   #photography .row .tencol img:first-child {

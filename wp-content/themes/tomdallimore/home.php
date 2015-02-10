@@ -70,7 +70,7 @@ Template Name: HomeTemp
                         <p>Lightweight, easy to use e-commerce platform.</p>
                     </span>
                     <span>
-                        <i class="icon-star"></i><p>14</p><i class="icon-flow-branch"></i><p>3</p>
+                        <i class="icon-star"></i><p>21</p><i class="icon-flow-branch"></i><p>3</p>
                     </span>
                 </div>
                 <div>
@@ -79,7 +79,7 @@ Template Name: HomeTemp
                         <p>Responsive administration template.</p>
                     </span>
                     <span>
-                        <i class="icon-star"></i><p>1</p><i class="icon-flow-branch"></i><p>0</p>
+                        <i class="icon-star"></i><p>3</p><i class="icon-flow-branch"></i><p>0</p>
                     </span>
                 </div>
                 <div>
@@ -99,7 +99,7 @@ Template Name: HomeTemp
                 <i class="icon-twitter"></i>
                 <h1>Latest tweets</h1>
                 <ul>
-                    <?php #include 'twitter.php'; ?>
+                    <?php include 'twitter.php'; ?>
                 </ul>
             </div>
         </div>
