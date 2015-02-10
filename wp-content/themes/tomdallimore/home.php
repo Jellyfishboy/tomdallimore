@@ -13,7 +13,7 @@ Template Name: HomeTemp
     		<div class="fourcol">
     			<div></div>
     			<h1>What I do</h1>
-    			<p>Armed with the latest technologies and best practises in the industry, I can turn your designs into web reality. I specialise in Ruby on Rails for web applications and HAML, SASS with Compass and Coffeescript for <br/>front-end development.</p>
+    			<p>Armed with the latest technologies and best practises in the industry, I can turn your designs into web reality. I specialise in Ruby on Rails for web applications and HAML, SASS with Compass and Coffeescript for front-end development.</p>
     		</div>
     		<div class="fourcol">
     			<div></div>
@@ -23,7 +23,7 @@ Template Name: HomeTemp
     		<div class="fourcol last">
     			<div></div>
     			<h1>Where I reside</h1>
-    			<p>I work as a web developer for Dyson in the Wiltshire area, however I normally take residence in the lively city of Bristol. When I’m not hammering at the keyboard, I like to explore various music genres and <br/>catch some rays.</p>
+    			<p>I'm currently travelling, exploring and living in SEA; working as a freelance Ruby engineer for some exciting companies including Give4Sure, Cancer Research UK and Equinix.</p>
     		</div>
     	</div>
         <div class="row">
