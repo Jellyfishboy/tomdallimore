@@ -12,7 +12,7 @@ $s_query = get_search_query(); ?>
                 <?php $wp_query = new WP_Query();
                 $wp_query->query('&s='.$s_query.'&category_name=development,article,link');
                 while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
-                <article class="ninecol">
+                <article class="ninecol page-count" data-pcount="<?php echo $wp_query->max_num_pages; ?>">
                     <div class="row">
                         <div class="twocol">
                             <a href="<?php the_permalink() ?>"><h2 class="<?php $category = get_the_category(); echo $category[0]->slug; ?>"><?php $category = get_the_category(); echo $category[0]->cat_name; ?></h2></a>

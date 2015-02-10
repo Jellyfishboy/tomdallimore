@@ -48,11 +48,11 @@ Template Name: WorkTemp
 	<?php endwhile;?>
 </div>
 <section class="content">
-    <div class="container" id="work">
+    <div class="container blog_loop" id="work" data-work="true">
 			<?php $wp_query = new WP_Query();
-			$wp_query->query('&category_name=work'.'&paged='.$paged);
+			$wp_query->query('&category_name=work');
 			while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
-			<div class="row">
+			<div class="row page-count" data-pcount="<?php echo $wp_query->max_num_pages; ?>">
 				<div class="fourcol">
 					<h1><?php the_title(); ?></h1>
 					<p><?php the_content(); ?></p>

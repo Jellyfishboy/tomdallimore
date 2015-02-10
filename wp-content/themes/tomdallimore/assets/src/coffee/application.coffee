@@ -41,6 +41,49 @@ $(document).ready ->
 
   # Utilise tooltips on desktop only
   # unless /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
+  count = 2
+  total = $(".page-count").data "pcount"
+  s_query = $("#post_type").data "search"
+  a_category = $("#post_type").data "category"
+  a_work = $("#work").data "work"
+  $(window).scroll ->
+    if $(window).scrollTop() is $(document).height() - $(window).height()
+      if count > total
+        return false
+      else
+        loadArticle count, s_query, a_category, a_work
+      count++
+  # Remove img width and height from http://wpwizard.net/jquery/remove-img-height-and-width-with-jquery/  
+  loadArticle = (pageNumber, query, category, work) ->
+    if not query? and not category? and not work?
+      $.ajax
+        url: "http://localhost:8888/wp-admin/admin-ajax.php"
+        type: "POST"
+        data: "action=infinite_scroll&page_no=" + pageNumber + "&loop_file=loop_blog"
+        success: (html) ->
+          $(".blog_loop").append html # This will be the div where our content will be loaded
+    else if category?
+      $.ajax
+        url: "http://localhost:8888/wp-admin/admin-ajax.php"
+        type: "POST"
+        data: "action=infinite_scroll&page_no=" + pageNumber + "&loop_file=loop_blog&archive_category=" + category
+        success: (html) ->
+          $(".blog_loop").append html # This will be the div where our content will be loaded
+    else if query?
+      $.ajax
+        url: "http://localhost:8888/wp-admin/admin-ajax.php"
+        type: "POST"
+        data: "action=infinite_scroll&page_no=" + pageNumber + "&loop_file=loop_blog&search_query=" + query
+        success: (html) ->
+          $(".blog_loop").append html # This will be the div where our content will be loaded
+    else if work?
+      $.ajax
+        url: "http://localhost:8888/wp-admin/admin-ajax.php"
+        type: "POST"
+        data: "action=infinite_scroll&page_no=" + pageNumber + "&loop_file=loop_work&archive_work=work"
+        success: (html) ->
+          $(".blog_loop").append html # This will be the div where our content will be loaded
+    false
   
 
 # Function for creating the social share popups

@@ -183,13 +183,16 @@ function wp_infinitepaginate(){
     $posts_per_page         = get_option('posts_per_page');
     $archive_category       = $_POST['archive_category'];
     $search_query           = $_POST['search_query'];
+    $archive_work           = $_POST['archive_work'];
 
-    if ($archive_category == null && $search_query == null) {
-        query_posts(array('paged' => $paged )); 
+    if ($archive_category == null && $search_query == null && $archive_work == null) {
+        query_posts(array('paged' => $paged, 'category_name' => 'article,link' )); 
     } elseif ($archive_category != null) {
-        query_posts(array('paged' => $paged, 'category' => $archive_category ));
+        query_posts(array('paged' => $paged, 'category_name' => $archive_category ));
     } elseif ($search_query != null) {
-        query_posts(array('paged' => $paged, 's' => $search_query ));
+        query_posts(array('paged' => $paged, 's' => $search_query, 'category_name' => 'article,link' ));
+    } elseif ($archive_work != null) {
+        query_posts(array('paged' => $paged, 'category_name' => 'work' ));
     }
     get_template_part( $loopFile );
 
