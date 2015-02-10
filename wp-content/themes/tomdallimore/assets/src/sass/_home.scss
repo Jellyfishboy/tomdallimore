@@ -1,4 +1,11 @@
 #home {
+    #clients
+    {
+        .threecol
+        {
+            text-align: center;
+        }
+    }
 	.row {
 		&:first-child {
 			.fourcol {
@@ -92,7 +99,7 @@
         }
         .twelvecol {
             div {
-                margin-top:44px;
+                margin-top:22px;
                 border-top: 1px solid #1C1D21;
                 border-bottom: 1px solid $gray;
                 width:100%;

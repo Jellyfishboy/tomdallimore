@@ -31,27 +31,24 @@ Template Name: HomeTemp
                 <span></span>
             </div>
             <div class="fourcol">
-                <h1>Recent work</h1>
+                <h1>Clients</h1>
             </div>
             <div class="fourcol last">
                 <span></span>
             </div>
         </div>
-        <div class="row">
-            <div class="fourcol">
-                <a href="http://www.dyson.co.uk" target="_blank">
-                    <div data-toggle="tooltip" data-placement="bottom" data-original-title="Dyson UK" class="recent"></div>
-                </a>
+        <div class="row" id="clients">
+            <div class="threecol">
+                <img src="<?php echo bloginfo('template_directory'); ?>/assets/img/clients/cruk.png"/>
             </div>
-            <div class="fourcol">
-                <a href="http://soca.tomdallimore.com" target="_blank">
-                    <div data-toggle="tooltip" data-placement="bottom" data-original-title="Gimson Robotics" class="recent"></div>
-                </a>
+            <div class="threecol">
+                <img src="<?php echo bloginfo('template_directory'); ?>/assets/img/clients/fplc.png"/>
             </div>
-            <div class="fourcol last">
-                <a href="http://content.dyson.de/costcal/" target="_blank">
-                    <div data-toggle="tooltip" data-placement="bottom" data-original-title="Dyson CN" class="recent"></div>
-                </a>
+            <div class="threecol">
+                <img src="<?php echo bloginfo('template_directory'); ?>/assets/img/clients/dyson.png"/>
+            </div>
+            <div class="threecol last">
+                <img src="<?php echo bloginfo('template_directory'); ?>/assets/img/clients/equinix.png"/>
             </div>
         </div>
         <div class="row">
