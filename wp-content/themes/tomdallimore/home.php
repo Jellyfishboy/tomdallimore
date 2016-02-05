@@ -26,7 +26,44 @@ Template Name: HomeTemp
     			<p>I'm currently travelling, exploring and living in SEA; working as a freelance Ruby engineer for some exciting companies including Give4Sure, Cancer Research UK and Equinix.</p>
     		</div>
     	</div>
-        <div class="row">
+        <div class="row custom-header">
+            <div class="fourcol">
+                <span></span>
+            </div>
+            <div class="fourcol">
+                <h1>Projects</h1>
+            </div>
+            <div class="fourcol last">
+                <span></span>
+            </div>
+        </div>
+        <div class="row" id="projects">
+            <div class="fourcol">
+                <a href="http://www.trado.io" target="_blank">
+                    <span></span>
+                </a>
+                <a href="http://www.trado.io" target="_blank">
+                    <h3>Trado - E-Commerce platform</h3>
+                </a>
+            </div>
+            <div class="fourcol">
+                <a href="http://redlight.tomdallimore.com" target="_blank">
+                    <span></span>
+                </a>
+                <a href="http://redlight.tomdallimore.com" target="_blank">
+                    <h3>Redlight - Store template</h3>
+                </a>
+            </div>
+            <div class="fourcol last">
+                <a href="http://soca.tomdallimore.com" target="_blank">
+                    <span></span>
+                </a>
+                <a href="http://soca.tomdallimore.com" target="_blank">
+                    <h3>Soca - Admin template</h3>
+                </a>
+            </div>
+        </div>
+        <div class="row custom-header">
             <div class="fourcol">
                 <span></span>
             </div>

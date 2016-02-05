@@ -6,4 +6,9 @@
     <ul>
         <?php wp_list_categories( $args ); ?> 
     </ul>
+    <h3>Coming soon</h3>
+    <a href="http://www.trado.io" target="_blank">
+        <img src="<?php echo bloginfo('template_directory'); ?>/assets/img/cropped-small.png" />
+    </a>
+    <p>Trado is a lightweight, easy to use e-commerce platform designed for sole traders and SME businesses.</p>
 </div>
