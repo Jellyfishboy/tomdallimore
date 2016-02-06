@@ -104,7 +104,7 @@ Template Name: HomeTemp
                         <p>Lightweight, easy to use e-commerce platform.</p>
                     </span>
                     <span>
-                        <i class="icon-star"></i><p>21</p><i class="icon-flow-branch"></i><p>3</p>
+                        <i class="icon-star"></i><p>42</p><i class="icon-flow-branch"></i><p>7</p>
                     </span>
                 </div>
                 <div>
@@ -118,8 +118,8 @@ Template Name: HomeTemp
                 </div>
                 <div>
                     <span>
-                        <a href="https://github.com/Jellyfishboy/releasr" target="_blank"><h2>releasr</h2></a>
-                        <p>Simple release notes application, with a custom design.</p>
+                        <a href="https://github.com/Jellyfishboy/redlight" target="_blank"><h2>redlight</h2></a>
+                        <p>Responsive store template.</p>
                     </span>
                     <span>
                         <i class="icon-star"></i><p>0</p><i class="icon-flow-branch"></i><p>0</p>
