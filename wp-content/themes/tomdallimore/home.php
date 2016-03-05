@@ -39,26 +39,26 @@ Template Name: HomeTemp
         </div>
         <div class="row" id="projects">
             <div class="fourcol">
-                <a href="http://www.trado.io" target="_blank">
+                <a href="http://www.trado.io/?utm_source=tomdallimore&utm_medium=website&utm_content=homepage-project&utm_campaign=trado" target="_blank">
                     <span></span>
                 </a>
-                <a href="http://www.trado.io" target="_blank">
+                <a href="http://www.trado.io/?utm_source=tomdallimore&utm_medium=website&utm_content=homepage-project&utm_campaign=trado" target="_blank">
                     <h3>Trado - E-Commerce platform</h3>
                 </a>
             </div>
             <div class="fourcol">
-                <a href="http://redlight.tomdallimore.com" target="_blank">
+                <a href="http://redlight.tomdallimore.com/?utm_source=tomdallimore&utm_medium=website&utm_content=homepage-project&utm_campaign=redlight" target="_blank">
                     <span></span>
                 </a>
-                <a href="http://redlight.tomdallimore.com" target="_blank">
+                <a href="http://redlight.tomdallimore.com/?utm_source=tomdallimore&utm_medium=website&utm_content=homepage-project&utm_campaign=redlight" target="_blank">
                     <h3>Redlight - Store template</h3>
                 </a>
             </div>
             <div class="fourcol last">
-                <a href="http://soca.tomdallimore.com" target="_blank">
+                <a href="http://soca.tomdallimore.com/?utm_source=tomdallimore&utm_medium=website&utm_content=homepage-project&utm_campaign=soca" target="_blank">
                     <span></span>
                 </a>
-                <a href="http://soca.tomdallimore.com" target="_blank">
+                <a href="http://soca.tomdallimore.com/?utm_source=tomdallimore&utm_medium=website&utm_content=homepage-project&utm_campaign=soca" target="_blank">
                     <h3>Soca - Admin template</h3>
                 </a>
             </div>
@@ -104,7 +104,7 @@ Template Name: HomeTemp
                         <p>Lightweight, easy to use e-commerce platform.</p>
                     </span>
                     <span>
-                        <i class="icon-star"></i><p>42</p><i class="icon-flow-branch"></i><p>7</p>
+                        <i class="icon-star"></i><p>44</p><i class="icon-flow-branch"></i><p>8</p>
                     </span>
                 </div>
                 <div>
