@@ -122,7 +122,7 @@ Template Name: HomeTemp
                         <p>Responsive store template.</p>
                     </span>
                     <span>
-                        <i class="icon-star"></i><p>0</p><i class="icon-flow-branch"></i><p>0</p>
+                        <i class="icon-star"></i><p>6</p><i class="icon-flow-branch"></i><p>1</p>
                     </span>
                 </div>
             </div>
