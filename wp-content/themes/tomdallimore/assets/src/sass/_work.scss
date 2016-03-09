@@ -18,6 +18,14 @@
                 margin: 0 0 10px;
             }
     }
+
+    a.btn
+    {
+        text-shadow: 0 0 0 #000;
+        font-family: "MuseoSans-300", Helvetica, Arial, sans-serif;
+        margin-right: 7px;
+        margin-bottom: 15px;
+    }
 }
 #work_focus + .content {
     margin-top:-70px;
@@ -26,7 +34,6 @@
 }
 ul.skills {
     padding:0;
-    margin-bottom: 0;
     li {
         height:53px;
         width:53px;

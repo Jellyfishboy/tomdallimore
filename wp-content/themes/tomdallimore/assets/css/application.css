@@ -1556,24 +1556,29 @@ img {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/Projects\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_work\.scss}line{font-family:\0000317}}
     #work .row h1 {
       margin: 0 0 10px; }
-
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/Projects\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_work\.scss}line{font-family:\0000322}}
+  #work a.btn {
+    text-shadow: 0 0 0 #000;
+    font-family: "MuseoSans-300", Helvetica, Arial, sans-serif;
+    margin-right: 7px;
+    margin-bottom: 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/Projects\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_work\.scss}line{font-family:\0000330}}
 #work_focus + .content {
   margin-top: -70px;
   position: relative;
   background-color: #28292e; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/Projects\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_work\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/Projects\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_work\.scss}line{font-family:\0000335}}
 ul.skills {
-  padding: 0;
-  margin-bottom: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/Projects\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_work\.scss}line{font-family:\0000330}}
+  padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/Projects\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_work\.scss}line{font-family:\0000337}}
   ul.skills li {
     height: 53px;
     width: 53px;
     display: inline-block;
     margin-right: 9px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/Projects\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_work\.scss}line{font-family:\0000386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tomdallimore\/Projects\/tomdallimore\/wp-content\/themes\/tomdallimore\/assets\/src\/sass\/_work\.scss}line{font-family:\0000393}}
     ul.skills li:last-child {
       margin-right: 0; }
 

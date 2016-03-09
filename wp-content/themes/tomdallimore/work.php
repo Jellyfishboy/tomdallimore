@@ -23,6 +23,23 @@ Template Name: WorkTemp
 							}
 						?>
 					</ul>
+					<?php 
+						$website_url = get_post_meta($post->ID, 'website_url', true);
+						$github_url = get_post_meta($post->ID, 'github_url', true);
+						$demo_url = get_post_meta($post->ID, 'demo_url', true);
+					?>
+					<?php if (!$website_url == '') {
+						echo '<a href="'. $website_url . '" target="_blank" class="btn btn-success">Website</a>';
+					}
+					?>
+					<?php if (!$github_url == '') {
+						echo '<a href="'. $github_url . '" target="_blank" class="btn btn-default">Github</a>';
+					}
+					?>
+					<?php if (!$demo_url == '') {
+						echo '<a href="'. $demo_url . '" target="_blank" class="btn btn-primary">Demo</a>';
+					}
+					?>
 				</div>
 				<div class="eightcol last">
 
