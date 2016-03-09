@@ -48,7 +48,7 @@ if(isset($_POST['submitted'])) {
         //If there is no error, send the email
         if(!isset($hasError)) {
 
-            $emailTo = 'tom.alan.dallimore@googlemail.com';
+            $emailTo = 'me@tomdallimore.com';
             $subject = 'Enquiry from '.$name.' '.$lastname;
             $body = "Name: $name $lastname \n\nTelephone: $telephone \n\nEmail: $email \n\nMessage:\n $comments";
             $headers = 'From: '.$name.' '.$lastname.' <'.$email.'>' . "\r\n" . 'Reply-To: ' . $email;
@@ -69,10 +69,9 @@ if(isset($_POST['submitted'])) {
         <div class="sixcol">
             <span></span>
             <h1>Hi there, my name is Tom</h1>
-            <p>I was born and raised in the renowned city of Bristol. Since growing up within the industry of my father’s Graphic Design company, I have developed an unhealthy obsession to all things related to technology and the web.</p>
-            <p>I decided to channel this passion by learning UI design and web development. Refining my skills over the course of six years, I have flourished into an ambitious business-driven individual.</p>
-            <p>I have spent the past few years freelancing and contracting for some exciting companies including Dyson, Blak Pearl and Future PLC.</p>  
-            <a href="http://tomdallimore.com/wp-content/uploads/2014/01/base.pdf" target="_blank" class="btn btn-success btn-large"><i class="icon-file-pdf"></i>Résumé</a>
+            <p>I was born and raised in the renowned city of Bristol. Since growing up within the industry of my father’s Graphic Design company, I have developed a professional career focused around Ruby on Rails and front-end development.</p>
+            <p>My primary specialisation is e-commerce software development, whereby I have supported and grown client companies while also building custom, open source projects such as the <a href="http://trado.io/?utm_source=tomdallimore&utm_medium=website&utm_content=about&utm_campaign=trado" target="_blank">Trado</a> e-commerce platform and <a href="http://redlight.tomdallimore.com/?utm_source=tomdallimore&utm_medium=website&utm_content=about&utm_campaign=redlight" target="_blank">Redlight</a>, an e-commerce HTML template.</p>
+            <p>I now currently live in South East Asia, working as a remote freelance developer. In the past I have worked for some exciting companies such as Dyson, Cancer Research UK, Give4Sure and Future PLC.</p>
         </div>
         <div class="onecol last"></div>
     </div>
