@@ -49,15 +49,26 @@ echo $current_url;
             echo ' | ' . sprintf( __( 'Page %s' ), max( $paged, $page ) );
     ?>"/>
 <meta property="og:description" content="<?php if ( is_single() ) {
-    single_post_title('', true); 
+    echo get_post_meta($post->ID, 'meta_description', true);
     } else {
     bloginfo('name'); echo " - "; bloginfo('description');
     }
 ?>"/>
-<meta property="og:image" content="http://www.tomdallimore.com/wp-content/themes/tomdallimore/favicon.png"/>
+<meta property="og:image" content="<?php if ( is_single() ) {
+    echo get_post_meta($post->ID, 'meta_image_url', true);
+} else {
+    echo 'http://www.tomdallimore.com/wp-content/themes/tomdallimore/favicon.png';
+}
+?>"/>
 <meta property="og:type" content="tomdallimore:website"/>
+<link rel="image_src" href="<?php if ( is_single() ) {
+    echo get_post_meta($post->ID, 'meta_image_url', true);
+} else {
+    echo 'http://www.tomdallimore.com/wp-content/themes/tomdallimore/favicon.png';
+}
+?>" / >
 <meta name="description" content="<?php if ( is_single() ) {
-	single_post_title('', true); 
+	echo get_post_meta($post->ID, 'meta_description', true);
 	} else {
 	bloginfo('name'); echo " - "; bloginfo('description');
 	}
