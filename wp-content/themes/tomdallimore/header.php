@@ -60,7 +60,11 @@ echo $current_url;
     echo 'http://www.tomdallimore.com/wp-content/themes/tomdallimore/favicon.png';
 }
 ?>"/>
-<meta property="og:type" content="tomdallimore:website"/>
+<meta property="og:type" content="<?php if ( is_single() ) {
+    echo'article';
+} else {
+    echo 'website';
+} ?>"/>
 <link rel="image_src" href="<?php if ( is_single() ) {
     echo get_post_meta($post->ID, 'meta_image_url', true);
 } else {
