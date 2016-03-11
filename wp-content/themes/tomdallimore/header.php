@@ -46,8 +46,14 @@ echo ''. $current_url . '/'; ?>"/>
         if ( $paged >= 2 || $page >= 2 )
             echo ' | ' . sprintf( __( 'Page %s' ), max( $paged, $page ) );
     ?>"/>
+<?php $meta_image_url = echo get_post_meta($post->ID, 'meta_image_url', true); ?>
 <meta property="og:description" content="<?php echo get_post_meta($post->ID, 'meta_description', true); ?>"/>
-<meta property="og:image" content="<?php echo get_post_meta($post->ID, 'meta_image_url', true); ?>"/>
+<meta property="og:image" content="<?php if ( $image_url == '' ) {
+    echo 'http://www.tomdallimore.com/wp-content/themes/tomdallimore/favicon.png';
+} else {
+    echo $meta_image_url;
+}
+?>"/>
 <meta property="og:image:width" content="1200"/>
 <meta property="og:image:height" content="628"/>
 <meta property="og:image:type" content="image/png"/>
@@ -56,7 +62,12 @@ echo ''. $current_url . '/'; ?>"/>
 } else {
     echo 'website';
 } ?>"/>
-<link rel="image_src" href="<?php echo get_post_meta($post->ID, 'meta_image_url', true); ?>" / >
+<link rel="image_src" href="<?php if ( $meta_image_url == '' ) {
+    echo 'http://www.tomdallimore.com/wp-content/themes/tomdallimore/favicon.png';
+} else {
+    echo $meta_image_url;
+}
+?>" / >
 <meta name="description" content="<?php echo get_post_meta($post->ID, 'meta_description', true); ?>" />
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
