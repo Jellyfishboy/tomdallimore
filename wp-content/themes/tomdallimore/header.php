@@ -46,18 +46,8 @@ echo ''. $current_url . '/'; ?>"/>
         if ( $paged >= 2 || $page >= 2 )
             echo ' | ' . sprintf( __( 'Page %s' ), max( $paged, $page ) );
     ?>"/>
-<meta property="og:description" content="<?php if ( is_single() ) {
-    echo get_post_meta($post->ID, 'meta_description', true);
-    } else {
-    bloginfo('name'); echo " - "; bloginfo('description');
-    }
-?>"/>
-<meta property="og:image" content="<?php if ( is_single() ) {
-    echo get_post_meta($post->ID, 'meta_image_url', true);
-} else {
-    echo 'http://www.tomdallimore.com/wp-content/themes/tomdallimore/favicon.png';
-}
-?>"/>
+<meta property="og:description" content="<?php echo get_post_meta($post->ID, 'meta_description', true); ?>"/>
+<meta property="og:image" content="<?php echo get_post_meta($post->ID, 'meta_image_url', true); ?>"/>
 <meta property="og:image:width" content="1200"/>
 <meta property="og:image:height" content="628"/>
 <meta property="og:image:type" content="image/png"/>
@@ -66,18 +56,8 @@ echo ''. $current_url . '/'; ?>"/>
 } else {
     echo 'website';
 } ?>"/>
-<link rel="image_src" href="<?php if ( is_single() ) {
-    echo get_post_meta($post->ID, 'meta_image_url', true);
-} else {
-    echo 'http://www.tomdallimore.com/wp-content/themes/tomdallimore/favicon.png';
-}
-?>" / >
-<meta name="description" content="<?php if ( is_single() ) {
-	echo get_post_meta($post->ID, 'meta_description', true);
-	} else {
-	bloginfo('name'); echo " - "; bloginfo('description');
-	}
-?>" />
+<link rel="image_src" href="<?php echo get_post_meta($post->ID, 'meta_image_url', true); ?>" / >
+<meta name="description" content="<?php echo get_post_meta($post->ID, 'meta_description', true); ?>" />
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="chrome=1">
