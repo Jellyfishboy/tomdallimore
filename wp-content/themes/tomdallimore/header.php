@@ -33,11 +33,9 @@ src="https://www.facebook.com/tr?id=498341413692005&ev=PageView&noscript=1"
 <!-- End Facebook Pixel Code -->
 <!-- Open graph meta data -->
 <meta property="fb:app_id" content="342151029254103"/>
-<meta property="og:url" content="<?php
-global $wp;
-$current_url = add_query_arg( $wp->query_string, '', home_url( $wp->request ) );
-echo $current_url;
-?>"/>
+<meta property="og:url" content="<?php global $wp;
+$current_url = add_query_arg( null, null, home_url( $wp->request ) );
+echo ''. $current_url . '/'; ?>"/>
 <meta property="og:title" content="<?php
     global $page, $paged;
     wp_title( '|', true, 'right' );
@@ -60,6 +58,9 @@ echo $current_url;
     echo 'http://www.tomdallimore.com/wp-content/themes/tomdallimore/favicon.png';
 }
 ?>"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="628"/>
+<meta property="og:image:type" content="image/png"/>
 <meta property="og:type" content="<?php if ( is_single() ) {
     echo'article';
 } else {
