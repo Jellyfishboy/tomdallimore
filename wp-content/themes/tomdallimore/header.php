@@ -32,9 +32,9 @@ echo ''. $current_url . '/'; ?>"/>
         if ( $paged >= 2 || $page >= 2 )
             echo ' | ' . sprintf( __( 'Page %s' ), max( $paged, $page ) );
     ?>"/>
-<?php $meta_image_url = echo get_post_meta($post->ID, 'meta_image_url', true); ?>
+<?php $meta_image_url = get_post_meta($post->ID, 'meta_image_url', true); ?>
 <meta property="og:description" content="<?php echo get_post_meta($post->ID, 'meta_description', true); ?>"/>
-<meta property="og:image" content="<?php if ( $image_url == '' ) {
+<meta property="og:image" content="<?php if ( $meta_image_url == '' ) {
     echo 'http://www.tomdallimore.com/wp-content/themes/tomdallimore/favicon.png';
 } else {
     echo $meta_image_url;
