@@ -104,7 +104,7 @@ Template Name: HomeTemp
                         <p>Lightweight, easy to use e-commerce platform.</p>
                     </span>
                     <span>
-                        <i class="icon-star"></i><p>44</p><i class="icon-flow-branch"></i><p>8</p>
+                        <i class="icon-star"></i><p>57</p><i class="icon-flow-branch"></i><p>16</p>
                     </span>
                 </div>
                 <div>
@@ -113,7 +113,7 @@ Template Name: HomeTemp
                         <p>Responsive administration template.</p>
                     </span>
                     <span>
-                        <i class="icon-star"></i><p>3</p><i class="icon-flow-branch"></i><p>0</p>
+                        <i class="icon-star"></i><p>8</p><i class="icon-flow-branch"></i><p>2</p>
                     </span>
                 </div>
                 <div>
@@ -122,7 +122,7 @@ Template Name: HomeTemp
                         <p>Responsive store template.</p>
                     </span>
                     <span>
-                        <i class="icon-star"></i><p>6</p><i class="icon-flow-branch"></i><p>1</p>
+                        <i class="icon-star"></i><p>8</p><i class="icon-flow-branch"></i><p>2</p>
                     </span>
                 </div>
             </div>
