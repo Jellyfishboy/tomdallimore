@@ -104,7 +104,7 @@ Template Name: HomeTemp
                         <p>Lightweight, easy to use e-commerce platform.</p>
                     </span>
                     <span>
-                        <i class="icon-star"></i><p>57</p><i class="icon-flow-branch"></i><p>16</p>
+                        <i class="icon-star"></i><p>70</p><i class="icon-flow-branch"></i><p>16</p>
                     </span>
                 </div>
                 <div>
